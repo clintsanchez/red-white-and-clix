@@ -1,0 +1,36 @@
+{
+  "source": "https://www.irs.gov/pub/irs-soi/eo_in.csv",
+  "retrieved": "2026-09-21",
+  "matches": [
+    {
+      "EIN": "414723161",
+      "NAME": "RED WHITE AND CLIX INC",
+      "ICO": "% WESLEY ROBERTSON",
+      "STREET": "6148 SHALE CRESCENT DR",
+      "CITY": "W LAFAYETTE",
+      "STATE": "IN",
+      "ZIP": "47906-8949",
+      "GROUP": "0000",
+      "SUBSECTION": "03",
+      "AFFILIATION": "3",
+      "CLASSIFICATION": "1000",
+      "RULING": "202603",
+      "DEDUCTIBILITY": "1",
+      "FOUNDATION": "15",
+      "ACTIVITY": "000000000",
+      "ORGANIZATION": "1",
+      "STATUS": "01",
+      "TAX_PERIOD": "",
+      "ASSET_CD": "0",
+      "INCOME_CD": "0",
+      "FILING_REQ_CD": "02",
+      "PF_FILING_REQ_CD": "0",
+      "ACCT_PD": "03",
+      "ASSET_AMT": "",
+      "INCOME_AMT": "",
+      "REVENUE_AMT": "",
+      "NTEE_CD": "V30",
+      "SORT_NAME": ""
+    }
+  ]
+}

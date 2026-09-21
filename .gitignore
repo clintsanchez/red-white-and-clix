@@ -1,0 +1,9 @@
+.env
+CREDENTIALS.local.md
+.DS_Store
+__pycache__/
+*.pyc
+build/*.html
+
+# The private onboarding repository intentionally retains memory/*.json.
+# Never add live credentials or local secret files to memory/.

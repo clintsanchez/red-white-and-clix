@@ -1,0 +1,681 @@
+{
+  "form": {
+    "id": "wY44EqOdMz1HbS7O910c",
+    "name": "BSC Onboarding Survey",
+    "kind": "survey",
+    "submission_id": "6aa9f35e9dab4493d91c8e1c"
+  },
+  "contact": {
+    "first_name": "Wesley",
+    "last_name": "Robertson",
+    "full_name": "Wesley Robertson",
+    "email": "redwhiteandclix@gmail.com",
+    "phone": "+15742659585",
+    "company": "Red White and Clix",
+    "website": "https://www.redwhiteandclix.org",
+    "tags": [
+      "onboarding-survey-completed",
+      "form-completed",
+      "status-contacted"
+    ],
+    "contact_id": "TGwjKOcOvCWWCnmObL4o",
+    "source": "Direct traffic",
+    "created_at": "2026-09-16T01:39:42.118Z"
+  },
+  "answers": [
+    {
+      "label": "First Name",
+      "key": "first_name",
+      "value": "Wesley",
+      "display": "Wesley",
+      "field_id": "first_name"
+    },
+    {
+      "label": "Last Name",
+      "key": "last_name",
+      "value": "Robertson",
+      "display": "Robertson",
+      "field_id": "last_name"
+    },
+    {
+      "label": "Email",
+      "key": "email",
+      "value": "redwhiteandclix@gmail.com",
+      "display": "redwhiteandclix@gmail.com",
+      "field_id": "email"
+    },
+    {
+      "label": "Phone",
+      "key": "phone",
+      "value": "+15742659585",
+      "display": "+15742659585",
+      "field_id": "phone"
+    },
+    {
+      "label": "What platform is your website built on?",
+      "key": "what_platform_is_your_website_built_on",
+      "value": "Squarespace",
+      "display": "Squarespace",
+      "field_id": "cRGM0H6kZJQ0UiQnSmMl"
+    },
+    {
+      "label": "Who is your hosting provider?",
+      "key": "who_is_your_hosting_provider",
+      "value": "[REDACTED — see CREDENTIALS.local.md]",
+      "display": "[REDACTED — see CREDENTIALS.local.md]",
+      "field_id": "mUcL6Aj5XcIwd5KTmsml"
+    },
+    {
+      "label": "Hosting Login URL",
+      "key": "hosting_login_url",
+      "value": "[REDACTED — see CREDENTIALS.local.md]",
+      "display": "[REDACTED — see CREDENTIALS.local.md]",
+      "field_id": "UtOQ8ujXqgddauXwYE26"
+    },
+    {
+      "label": "Hosting username or email",
+      "key": "hosting_username_or_email",
+      "value": "[REDACTED — see CREDENTIALS.local.md]",
+      "display": "[REDACTED — see CREDENTIALS.local.md]",
+      "field_id": "Y1V5dEAsK6ALJifW5Trz"
+    },
+    {
+      "label": "Hosting password",
+      "key": "hosting_password",
+      "value": "[REDACTED — see CREDENTIALS.local.md]",
+      "display": "[REDACTED — see CREDENTIALS.local.md]",
+      "field_id": "pEGwU8jcH86cMMO1TjxN"
+    },
+    {
+      "label": "Where is your domain registered?",
+      "key": "where_is_your_domain_registered",
+      "value": "[REDACTED — see CREDENTIALS.local.md]",
+      "display": "[REDACTED — see CREDENTIALS.local.md]",
+      "field_id": "zaDlVpYjJCkyCJfA3553"
+    },
+    {
+      "label": "Domain registrar login info",
+      "key": "domain_registrar_login_info",
+      "value": "[REDACTED — see CREDENTIALS.local.md]",
+      "display": "[REDACTED — see CREDENTIALS.local.md]",
+      "field_id": "w6pb5PrVux2g3Dw1KOWY"
+    },
+    {
+      "label": "Facebook Page URL",
+      "key": "facebook_page_url",
+      "value": "https://www.facebook.com/profile.php?id=61570114731358",
+      "display": "https://www.facebook.com/profile.php?id=61570114731358",
+      "field_id": "Z29dg8LRXxcRJom131WY"
+    },
+    {
+      "label": "Are you currently running Google Ads?",
+      "key": "are_you_currently_running_google_ads",
+      "value": "No — never run them",
+      "display": "No — never run them",
+      "field_id": "BJpNT0QL25VoSTCC0oAj"
+    },
+    {
+      "label": "Are you currently running Facebook/Instagram ads?",
+      "key": "are_you_currently_running_facebook_instagram_ads",
+      "value": "No — never run them",
+      "display": "No — never run them",
+      "field_id": "xeI0HNbPBgZvPcM3OsB1"
+    },
+    {
+      "label": "Primary brand color",
+      "key": "primary_brand_color",
+      "value": "Red",
+      "display": "Red",
+      "field_id": "N1OjmZJLZAEQfvIDJXXP"
+    },
+    {
+      "label": "Secondary brand color",
+      "key": "secondary_brand_color",
+      "value": "White",
+      "display": "White",
+      "field_id": "2EBjTM279JqsxWJlwNmL"
+    },
+    {
+      "label": "Accent color (optional)",
+      "key": "accent_color_optional",
+      "value": "Blue",
+      "display": "Blue",
+      "field_id": "g9sky10oO9INIxTWhyEZ"
+    },
+    {
+      "label": "Do you have a brand guide or style guide?",
+      "key": "do_you_have_a_brand_guide_or_style_guide",
+      "value": "No",
+      "display": "No",
+      "field_id": "QUHxCsiT3eQe6SVzTFFC"
+    },
+    {
+      "label": "Do you have a cloud folder with your brand assets?",
+      "key": "do_you_have_a_cloud_folder_with_your_brand_assets",
+      "value": "No — but I can put one together",
+      "display": "No — but I can put one together",
+      "field_id": "FuxY6Nd5aRdMQIT05XeQ"
+    },
+    {
+      "label": "Anything else we should know about your brand assets?",
+      "key": "anything_else_we_should_know_about_your_brand_assets",
+      "value": "We have a small inventory of merchandise to sell. We have pictures and events that update periodically.",
+      "display": "We have a small inventory of merchandise to sell. We have pictures and events that update periodically.",
+      "field_id": "8hXbVO894iqur8nqqPMZ"
+    },
+    {
+      "label": "In 1–2 sentences, what does your business do?",
+      "key": "in_1_2_sentences_what_does_your_business_do",
+      "value": "We run large scale tabletop gaming events to raise awareness and support for veterans. Our goal is to combat veteran homelessness and suicide through community and fun. ",
+      "display": "We run large scale tabletop gaming events to raise awareness and support for veterans. Our goal is to combat veteran homelessness and suicide through community and fun. ",
+      "field_id": "oajG6JtLdfdc2KvfYRjR"
+    },
+    {
+      "label": "How long have you been in business?",
+      "key": "how_long_have_you_been_in_business",
+      "value": "3–5 years",
+      "display": "3–5 years",
+      "field_id": "OjSJIbSCF408V3tNIceL"
+    },
+    {
+      "label": "What type of service area do you have?",
+      "key": "what_type_of_service_area_do_you_have",
+      "value": [
+        "Regional — multiple cities or counties"
+      ],
+      "display": "Regional — multiple cities or counties",
+      "field_id": "aNV2QFBeY8Oh5bnEeISg"
+    },
+    {
+      "label": "Primary city or business location",
+      "key": "primary_city_or_business_location",
+      "value": "Lafayette, indiana",
+      "display": "Lafayette, indiana",
+      "field_id": "lUxPOYfHrPZcrPX9vsOO"
+    },
+    {
+      "label": " List the specific cities, towns, or neighborhoods you serve",
+      "key": "list_the_specific_cities_towns_or_neighborhoods_you_serve",
+      "value": "The entire mid-west ",
+      "display": "The entire mid-west ",
+      "field_id": "iOquHG1E4QnpxqXESbtt"
+    },
+    {
+      "label": "List your main services or products",
+      "key": "list_your_main_services_or_products",
+      "value": "Informational resources of veteran organizations.\nTabletop gaming events.\nSmall selection of shirts and game accessories.",
+      "display": "Informational resources of veteran organizations.\nTabletop gaming events.\nSmall selection of shirts and game accessories.",
+      "field_id": "v84qTpIt9zELn6aFkrOh"
+    },
+    {
+      "label": "Which service or product is your highest priority to promote?",
+      "key": "which_service_or_product_is_your_highest_priority_to_promote",
+      "value": "Tabletop Game Events",
+      "display": "Tabletop Game Events",
+      "field_id": "x7sItyjiSQLkzPwHZllw"
+    },
+    {
+      "label": "How do you price your services/products?",
+      "key": "how_do_you_price_your_services_products",
+      "value": "Set entry fees",
+      "display": "Set entry fees",
+      "field_id": "8QJDdDyyo20Cm69qzvjr"
+    },
+    {
+      "label": "Where does most of your business currently come from?",
+      "key": "where_does_most_of_your_business_currently_come_from",
+      "value": [
+        "Repeat customers",
+        "Social media (organic)",
+        "Networking / events"
+      ],
+      "display": "Repeat customers, Social media (organic), Networking / events",
+      "field_id": "0GO8Awt4IkQQpqehxxVD"
+    },
+    {
+      "label": "What main pages exist on your current website?",
+      "key": "what_main_pages_exist_on_your_current_website",
+      "value": "Home, Donate, Events, Shop, Sponsors, About, Veteran Resources, Who we support, Why it matters, Sponsors",
+      "display": "Home, Donate, Events, Shop, Sponsors, About, Veteran Resources, Who we support, Why it matters, Sponsors",
+      "field_id": "oX31Ljg7dN05BGBsRyPM"
+    },
+    {
+      "label": "Do you have dedicated pages for each service/product?",
+      "key": "do_you_have_dedicated_pages_for_each_service_product",
+      "value": "Event registration: https://hcunits.net/circuits/red_white_and_clix_2026/",
+      "display": "Event registration: https://hcunits.net/circuits/red_white_and_clix_2026/",
+      "field_id": "hJBtdK2seuZL4iqHaE9j"
+    },
+    {
+      "label": "Do you currently have a blog or content section?",
+      "key": "do_you_currently_have_a_blog_or_content_section",
+      "value": "Yes — but inactive/outdated",
+      "display": "Yes — but inactive/outdated",
+      "field_id": "jpj2JzIsZbTnW37nrIlZ"
+    },
+    {
+      "label": "Do you sell anything directly on your website?",
+      "key": "do_you_sell_anything_directly_on_your_website",
+      "value": "Yes — limited (a few products or services)",
+      "display": "Yes — limited (a few products or services)",
+      "field_id": "ClyeBBiBTqbFVwRsi2lc"
+    },
+    {
+      "label": "Are there specific pages you know need work?",
+      "key": "are_there_specific_pages_you_know_need_work",
+      "value": "I need a complete overhaul.",
+      "display": "I need a complete overhaul.",
+      "field_id": "DO6Qn2zWlWB1VfA2ssPu"
+    },
+    {
+      "label": "What websites do you admire? (Yours or competitors')",
+      "key": "what_websites_do_you_admire_yours_or_competitors",
+      "value": "https://www.stackup.org\nhttps://www.operationgratitude.com\nhttps://www.woundedwarriorproject.org",
+      "display": "https://www.stackup.org\nhttps://www.operationgratitude.com\nhttps://www.woundedwarriorproject.org",
+      "field_id": "iQrIhC8ZEZ9XA3liemNE"
+    },
+    {
+      "label": "What does success look like in the next 90 days?",
+      "key": "what_does_success_look_like_in_the_next_90_days",
+      "value": "Double our website traffic and have at least 80 people registered for our November event.",
+      "display": "Double our website traffic and have at least 80 people registered for our November event.",
+      "field_id": "5VeOouDHIOL08TQSa7MA"
+    },
+    {
+      "label": "Where do you want your business to be 6 months from now?",
+      "key": "where_do_you_want_your_business_to_be_6_months_from_now",
+      "value": "Have all the details and finances established for our secondary event. ",
+      "display": "Have all the details and finances established for our secondary event. ",
+      "field_id": "43M7EFgbogJBpgMNrP6f"
+    },
+    {
+      "label": "Describe your ideal customer",
+      "key": "describe_your_ideal_customer",
+      "value": "Our ideal audience includes tabletop gamers, veterans, military families, and community members who want their hobby and participation to support a meaningful cause. Most are adults approximately 18–55, initially concentrated in Indiana and the Midwest but potentially nationwide.\n\nThey value camaraderie, welcoming communities, fair competition, and genuine support for veterans. Some veterans may be experiencing isolation, loss of purpose, PTSD, disability, or difficulty finding trustworthy resources and meaningful social connections. Tabletop gamers may want well-organized events where they feel included and can contribute to something larger than the game itself.\n\nThey want enjoyable, professionally run events; an accepting community; simple access to veteran resources; and clear ways to participate, volunteer, donate, or sponsor the mission. A secondary audience is businesses and organizations seeking a credible veteran nonprofit through which they can make a visible, measurable community impact.\n",
+      "display": "Our ideal audience includes tabletop gamers, veterans, military families, and community members who want their hobby and participation to support a meaningful cause. Most are adults approximately 18–55, initially concentrated in Indiana and the Midwest but potentially nationwide.\n\nThey value camaraderie, welcoming communities, fair competition, and genuine support for veterans. Some veterans may be experiencing isolation, loss of purpose, PTSD, disability, or difficulty finding trustworthy resources and meaningful social connections. Tabletop gamers may want well-organized events where they feel included and can contribute to something larger than the game itself.\n\nThey want enjoyable, professionally run events; an accepting community; simple access to veteran resources; and clear ways to participate, volunteer, donate, or sponsor the mission. A secondary audience is businesses and organizations seeking a credible veteran nonprofit through which they can make a visible, measurable community impact.\n",
+      "field_id": "swre2AMRUaVlMdp18AbM"
+    },
+    {
+      "label": "What makes you different from competitors?",
+      "key": "what_makes_you_different_from_competitors",
+      "value": "We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.",
+      "display": "We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.",
+      "field_id": "wkv3mzqHrJl1CTlwvVi3"
+    },
+    {
+      "label": "Who are your top competitors?",
+      "key": "who_are_your_top_competitors",
+      "value": "We don't really have a competitor ",
+      "display": "We don't really have a competitor ",
+      "field_id": "xqQJlm1nIlE73y5KZJaF"
+    },
+    {
+      "label": "What types of content do you want us to create?",
+      "key": "what_types_of_content_do_you_want_us_to_create",
+      "value": [
+        "Social media posts",
+        "Short-form video (Reels, TikTok, Shorts)",
+        "Long-form video (YouTube)",
+        "Email newsletters",
+        "Infographics",
+        "Not sure — recommend what's best"
+      ],
+      "display": "Social media posts, Short-form video (Reels, TikTok, Shorts), Long-form video (YouTube), Email newsletters, Infographics, Not sure — recommend what's best",
+      "field_id": "VLatoFJJtu0iolJbGClo"
+    },
+    {
+      "label": "How should your brand sound?",
+      "key": "how_should_your_brand_sound",
+      "value": [
+        "Professional",
+        "Inspirational / Motivational",
+        "Empathetic / Warm"
+      ],
+      "display": "Professional, Inspirational / Motivational, Empathetic / Warm",
+      "field_id": "fRClLoYs4AfddP3uBK2a"
+    },
+    {
+      "label": "Anything we should NOT talk about?",
+      "key": "anything_we_should_not_talk_about",
+      "value": "Politics or anything divisive. We are about inclusion and being a fun environment for everyone. ",
+      "display": "Politics or anything divisive. We are about inclusion and being a fun environment for everyone. ",
+      "field_id": "4I23SZhsIRdocwhF0MtJ"
+    },
+    {
+      "label": "What's your biggest marketing challenge right now?",
+      "key": "whats_your_biggest_marketing_challenge_right_now",
+      "value": "Honestly, the maintenance. I don't know what I want the site to look like, but I know what I have isn't it. My skills are very basic and my site reflects that. I want to expand the site in depth and engagement. ",
+      "display": "Honestly, the maintenance. I don't know what I want the site to look like, but I know what I have isn't it. My skills are very basic and my site reflects that. I want to expand the site in depth and engagement. ",
+      "field_id": "UR2zjECMmPJKuqXFVE3G"
+    },
+    {
+      "label": "Anything else we should know to do great work for you?",
+      "key": "anything_else_we_should_know_to_do_great_work_for_you",
+      "value": "I am extremely open to suggestions and recommendations. This is all very new to me and I am learning as I go. I gladly welcome advice from those who know what they're talking about. ",
+      "display": "I am extremely open to suggestions and recommendations. This is all very new to me and I am learning as I go. I gladly welcome advice from those who know what they're talking about. ",
+      "field_id": "IRpinCGMDo5OgqM4VYUP"
+    }
+  ],
+  "answers_by_key": {
+    "first_name": "Wesley",
+    "last_name": "Robertson",
+    "email": "redwhiteandclix@gmail.com",
+    "phone": "+15742659585",
+    "what_platform_is_your_website_built_on": "Squarespace",
+    "who_is_your_hosting_provider": "[REDACTED — see CREDENTIALS.local.md]",
+    "hosting_login_url": "[REDACTED — see CREDENTIALS.local.md]",
+    "hosting_username_or_email": "[REDACTED — see CREDENTIALS.local.md]",
+    "hosting_password": "[REDACTED — see CREDENTIALS.local.md]",
+    "where_is_your_domain_registered": "[REDACTED — see CREDENTIALS.local.md]",
+    "domain_registrar_login_info": "[REDACTED — see CREDENTIALS.local.md]",
+    "facebook_page_url": "https://www.facebook.com/profile.php?id=61570114731358",
+    "are_you_currently_running_google_ads": "No — never run them",
+    "are_you_currently_running_facebook_instagram_ads": "No — never run them",
+    "upload_your_logo": [
+      "RWC- 700.png"
+    ],
+    "primary_brand_color": "Red",
+    "secondary_brand_color": "White",
+    "accent_color_optional": "Blue",
+    "do_you_have_a_brand_guide_or_style_guide": "No",
+    "do_you_have_a_cloud_folder_with_your_brand_assets": "No — but I can put one together",
+    "anything_else_we_should_know_about_your_brand_assets": "We have a small inventory of merchandise to sell. We have pictures and events that update periodically.",
+    "in_1_2_sentences_what_does_your_business_do": "We run large scale tabletop gaming events to raise awareness and support for veterans. Our goal is to combat veteran homelessness and suicide through community and fun. ",
+    "how_long_have_you_been_in_business": "3–5 years",
+    "what_type_of_service_area_do_you_have": [
+      "Regional — multiple cities or counties"
+    ],
+    "primary_city_or_business_location": "Lafayette, indiana",
+    "list_the_specific_cities_towns_or_neighborhoods_you_serve": "The entire mid-west ",
+    "list_your_main_services_or_products": "Informational resources of veteran organizations.\nTabletop gaming events.\nSmall selection of shirts and game accessories.",
+    "which_service_or_product_is_your_highest_priority_to_promote": "Tabletop Game Events",
+    "how_do_you_price_your_services_products": "Set entry fees",
+    "where_does_most_of_your_business_currently_come_from": [
+      "Repeat customers",
+      "Social media (organic)",
+      "Networking / events"
+    ],
+    "what_main_pages_exist_on_your_current_website": "Home, Donate, Events, Shop, Sponsors, About, Veteran Resources, Who we support, Why it matters, Sponsors",
+    "do_you_have_dedicated_pages_for_each_service_product": "Event registration: https://hcunits.net/circuits/red_white_and_clix_2026/",
+    "do_you_currently_have_a_blog_or_content_section": "Yes — but inactive/outdated",
+    "do_you_sell_anything_directly_on_your_website": "Yes — limited (a few products or services)",
+    "are_there_specific_pages_you_know_need_work": "I need a complete overhaul.",
+    "what_websites_do_you_admire_yours_or_competitors": "https://www.stackup.org\nhttps://www.operationgratitude.com\nhttps://www.woundedwarriorproject.org",
+    "what_does_success_look_like_in_the_next_90_days": "Double our website traffic and have at least 80 people registered for our November event.",
+    "where_do_you_want_your_business_to_be_6_months_from_now": "Have all the details and finances established for our secondary event. ",
+    "describe_your_ideal_customer": "Our ideal audience includes tabletop gamers, veterans, military families, and community members who want their hobby and participation to support a meaningful cause. Most are adults approximately 18–55, initially concentrated in Indiana and the Midwest but potentially nationwide.\n\nThey value camaraderie, welcoming communities, fair competition, and genuine support for veterans. Some veterans may be experiencing isolation, loss of purpose, PTSD, disability, or difficulty finding trustworthy resources and meaningful social connections. Tabletop gamers may want well-organized events where they feel included and can contribute to something larger than the game itself.\n\nThey want enjoyable, professionally run events; an accepting community; simple access to veteran resources; and clear ways to participate, volunteer, donate, or sponsor the mission. A secondary audience is businesses and organizations seeking a credible veteran nonprofit through which they can make a visible, measurable community impact.\n",
+    "what_makes_you_different_from_competitors": "We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.",
+    "who_are_your_top_competitors": "We don't really have a competitor ",
+    "what_types_of_content_do_you_want_us_to_create": [
+      "Social media posts",
+      "Short-form video (Reels, TikTok, Shorts)",
+      "Long-form video (YouTube)",
+      "Email newsletters",
+      "Infographics",
+      "Not sure — recommend what's best"
+    ],
+    "how_should_your_brand_sound": [
+      "Professional",
+      "Inspirational / Motivational",
+      "Empathetic / Warm"
+    ],
+    "anything_we_should_not_talk_about": "Politics or anything divisive. We are about inclusion and being a fun environment for everyone. ",
+    "whats_your_biggest_marketing_challenge_right_now": "Honestly, the maintenance. I don't know what I want the site to look like, but I know what I have isn't it. My skills are very basic and my site reflects that. I want to expand the site in depth and engagement. ",
+    "anything_else_we_should_know_to_do_great_work_for_you": "I am extremely open to suggestions and recommendations. This is all very new to me and I am learning as I go. I gladly welcome advice from those who know what they're talking about. "
+  },
+  "files": [
+    {
+      "originalname": "RWC- 700.png",
+      "mimetype": "image/png",
+      "url": "https://services.leadconnectorhq.com/documents/download/69FnuhRvVGtsvhSwtOSU",
+      "documentId": "69FnuhRvVGtsvhSwtOSU",
+      "label": "Upload your logo",
+      "key": "upload_your_logo"
+    }
+  ],
+  "raw": {
+    "phone": "+15742659585",
+    "first_name": "Wesley",
+    "last_name": "Robertson",
+    "email": "redwhiteandclix@gmail.com",
+    "cRGM0H6kZJQ0UiQnSmMl": "Squarespace",
+    "mUcL6Aj5XcIwd5KTmsml": "[REDACTED — see CREDENTIALS.local.md]",
+    "UtOQ8ujXqgddauXwYE26": "[REDACTED — see CREDENTIALS.local.md]",
+    "Y1V5dEAsK6ALJifW5Trz": "[REDACTED — see CREDENTIALS.local.md]",
+    "pEGwU8jcH86cMMO1TjxN": "[REDACTED — see CREDENTIALS.local.md]",
+    "zaDlVpYjJCkyCJfA3553": "[REDACTED — see CREDENTIALS.local.md]",
+    "w6pb5PrVux2g3Dw1KOWY": "[REDACTED — see CREDENTIALS.local.md]",
+    "Z29dg8LRXxcRJom131WY": "https://www.facebook.com/profile.php?id=61570114731358",
+    "BJpNT0QL25VoSTCC0oAj": "No — never run them",
+    "xeI0HNbPBgZvPcM3OsB1": "No — never run them",
+    "aWdsfKgbNPozgK1YdaPD": {
+      "6c220ac3-7b5a-4e59-bc99-f4b96041adf4": {
+        "meta": {
+          "fieldname": "aWdsfKgbNPozgK1YdaPD",
+          "originalname": "RWC- 700.png",
+          "encoding": "7bit",
+          "mimetype": "image/png",
+          "size": 80840,
+          "uuid": "6c220ac3-7b5a-4e59-bc99-f4b96041adf4"
+        },
+        "url": "https://services.leadconnectorhq.com/documents/download/69FnuhRvVGtsvhSwtOSU",
+        "documentId": "69FnuhRvVGtsvhSwtOSU"
+      }
+    },
+    "N1OjmZJLZAEQfvIDJXXP": "Red",
+    "2EBjTM279JqsxWJlwNmL": "White",
+    "g9sky10oO9INIxTWhyEZ": "Blue",
+    "QUHxCsiT3eQe6SVzTFFC": "No",
+    "FuxY6Nd5aRdMQIT05XeQ": "No — but I can put one together",
+    "8hXbVO894iqur8nqqPMZ": "We have a small inventory of merchandise to sell. We have pictures and events that update periodically.",
+    "oajG6JtLdfdc2KvfYRjR": "We run large scale tabletop gaming events to raise awareness and support for veterans. Our goal is to combat veteran homelessness and suicide through community and fun. ",
+    "OjSJIbSCF408V3tNIceL": "3–5 years",
+    "aNV2QFBeY8Oh5bnEeISg": [
+      "Regional — multiple cities or counties"
+    ],
+    "lUxPOYfHrPZcrPX9vsOO": "Lafayette, indiana",
+    "iOquHG1E4QnpxqXESbtt": "The entire mid-west ",
+    "v84qTpIt9zELn6aFkrOh": "Informational resources of veteran organizations.\nTabletop gaming events.\nSmall selection of shirts and game accessories.",
+    "x7sItyjiSQLkzPwHZllw": "Tabletop Game Events",
+    "8QJDdDyyo20Cm69qzvjr": "Set entry fees",
+    "0GO8Awt4IkQQpqehxxVD": [
+      "Repeat customers",
+      "Social media (organic)",
+      "Networking / events"
+    ],
+    "oX31Ljg7dN05BGBsRyPM": "Home, Donate, Events, Shop, Sponsors, About, Veteran Resources, Who we support, Why it matters, Sponsors",
+    "hJBtdK2seuZL4iqHaE9j": "Event registration: https://hcunits.net/circuits/red_white_and_clix_2026/",
+    "jpj2JzIsZbTnW37nrIlZ": "Yes — but inactive/outdated",
+    "ClyeBBiBTqbFVwRsi2lc": "Yes — limited (a few products or services)",
+    "DO6Qn2zWlWB1VfA2ssPu": "I need a complete overhaul.",
+    "iQrIhC8ZEZ9XA3liemNE": "https://www.stackup.org\nhttps://www.operationgratitude.com\nhttps://www.woundedwarriorproject.org",
+    "5VeOouDHIOL08TQSa7MA": "Double our website traffic and have at least 80 people registered for our November event.",
+    "43M7EFgbogJBpgMNrP6f": "Have all the details and finances established for our secondary event. ",
+    "swre2AMRUaVlMdp18AbM": "Our ideal audience includes tabletop gamers, veterans, military families, and community members who want their hobby and participation to support a meaningful cause. Most are adults approximately 18–55, initially concentrated in Indiana and the Midwest but potentially nationwide.\n\nThey value camaraderie, welcoming communities, fair competition, and genuine support for veterans. Some veterans may be experiencing isolation, loss of purpose, PTSD, disability, or difficulty finding trustworthy resources and meaningful social connections. Tabletop gamers may want well-organized events where they feel included and can contribute to something larger than the game itself.\n\nThey want enjoyable, professionally run events; an accepting community; simple access to veteran resources; and clear ways to participate, volunteer, donate, or sponsor the mission. A secondary audience is businesses and organizations seeking a credible veteran nonprofit through which they can make a visible, measurable community impact.\n",
+    "wkv3mzqHrJl1CTlwvVi3": "We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.",
+    "xqQJlm1nIlE73y5KZJaF": "We don't really have a competitor ",
+    "VLatoFJJtu0iolJbGClo": [
+      "Social media posts",
+      "Short-form video (Reels, TikTok, Shorts)",
+      "Long-form video (YouTube)",
+      "Email newsletters",
+      "Infographics",
+      "Not sure — recommend what's best"
+    ],
+    "fRClLoYs4AfddP3uBK2a": [
+      "Professional",
+      "Inspirational / Motivational",
+      "Empathetic / Warm"
+    ],
+    "4I23SZhsIRdocwhF0MtJ": "Politics or anything divisive. We are about inclusion and being a fun environment for everyone. ",
+    "UR2zjECMmPJKuqXFVE3G": "Honestly, the maintenance. I don't know what I want the site to look like, but I know what I have isn't it. My skills are very basic and my site reflects that. I want to expand the site in depth and engagement. ",
+    "IRpinCGMDo5OgqM4VYUP": "I am extremely open to suggestions and recommendations. This is all very new to me and I am learning as I go. I gladly welcome advice from those who know what they're talking about. ",
+    "formId": "wY44EqOdMz1HbS7O910c",
+    "location_id": "jcLm5C8BIHyWFoYRJive",
+    "eventData": {
+      "source": "Direct traffic",
+      "referrer": null,
+      "adSource": "",
+      "page": {
+        "url": "https://blaksheepcreative.com/onboarding/",
+        "title": ""
+      },
+      "timestamp": 1789522778517,
+      "contactSessionIds": {
+        "ids": [
+          "9a3d2798-a29e-42dd-a654-0174a5d33b86",
+          "6302e631-1c62-493c-bdf7-26f794e17d69"
+        ]
+      },
+      "fbp": "fb.1.1789514273696.553729844322596272",
+      "fbc": "",
+      "type": "page-visit",
+      "parentId": "wY44EqOdMz1HbS7O910c",
+      "pageVisitType": "survey",
+      "domain": "brand.blaksheepcreative.com",
+      "version": "v3",
+      "parentName": "BSC Onboarding Survey",
+      "fingerprint": null,
+      "documentURL": "https://brand.blaksheepcreative.com/widget/survey/wY44EqOdMz1HbS7O910c",
+      "gaClientId": "GA1.1.115454840.1789514273",
+      "fbEventId": "a9d5ec5a-c0a0-4e52-9170-3b0417c0a2e6",
+      "medium": "survey",
+      "mediumId": "wY44EqOdMz1HbS7O910c"
+    },
+    "sessionFingerprint": "8acc3b63-d394-4f2a-a5e2-a7509b03539e",
+    "Timezone": "America/Indianapolis (GMT-04:00)",
+    "fieldsOriSequance": [
+      "image",
+      "header",
+      "image",
+      "first_name",
+      "last_name",
+      "email",
+      "phone",
+      "image",
+      "header",
+      "cRGM0H6kZJQ0UiQnSmMl",
+      "mUcL6Aj5XcIwd5KTmsml",
+      "UtOQ8ujXqgddauXwYE26",
+      "Y1V5dEAsK6ALJifW5Trz",
+      "pEGwU8jcH86cMMO1TjxN",
+      "4nkzohzVI9v7LOPxjrQd",
+      "hIlO42P2W4qOWRt3uczQ",
+      "YDVISKydWPM8WUNZZrtz",
+      "zaDlVpYjJCkyCJfA3553",
+      "w6pb5PrVux2g3Dw1KOWY",
+      "image",
+      "header",
+      "html",
+      "Z29dg8LRXxcRJom131WY",
+      "eYqE8TfUvPVJovxnnXC1",
+      "html",
+      "psBwYQYiGR5vbhdMm7Mf",
+      "BfTTNZ7GeD0DAPeG9SH4",
+      "ksrt9H8aj1xFHLNXGqBm",
+      "html",
+      "FfvYyY3RI0oGXNr0S98c",
+      "html",
+      "8NeHhCFV90T6XZSvUR3M",
+      "8Mus9w6XH8MOdAfOAbAy",
+      "html",
+      "viSd1cM34iu8PMJzrNxG",
+      "zS7ZLdhMv9VSlhCqHljV",
+      "7KbIZZGCHpG4oTaagJRr",
+      "pe1yAhumt4jlr2CJsELD",
+      "html",
+      "Mw0l1zOguLRCLmxF8pGQ",
+      "23p1NrTwUCQsQg0MzW7N",
+      "up3GNJtqQjmxtuHAiVva",
+      "8sotPR3Hx3pT66cjO1nZ",
+      "html",
+      "u4fHPSWFWs9p8UwTwfGq",
+      "image",
+      "header",
+      "html",
+      "BJpNT0QL25VoSTCC0oAj",
+      "ofMVGH7r3V5YRhQNhd38",
+      "MQaPM4pfEM4IPlBc1k6K",
+      "html",
+      "xeI0HNbPBgZvPcM3OsB1",
+      "UsVqwpPGnYpdHsd3q7X0",
+      "lRseBtEXu8kJTc09OiDb",
+      "html",
+      "kIzRpsNcfLXEin7R0SL1",
+      "If3fmopg2St7gkNfAJgX",
+      "html",
+      "image",
+      "header",
+      "html",
+      "aWdsfKgbNPozgK1YdaPD",
+      "jeomOqbckVclOmII0SuU",
+      "html",
+      "N1OjmZJLZAEQfvIDJXXP",
+      "2EBjTM279JqsxWJlwNmL",
+      "g9sky10oO9INIxTWhyEZ",
+      "html",
+      "l4FE2K5HO9mikdNehh73",
+      "YmIurPMFDbQoVNaO6Tey",
+      "html",
+      "QUHxCsiT3eQe6SVzTFFC",
+      "if4LTg1wHIV4PEi9MFI0",
+      "html",
+      "FuxY6Nd5aRdMQIT05XeQ",
+      "9o4s72QGrStncEdKqVlE",
+      "nh8FYu7KWJQUHHhEqvTS",
+      "html",
+      "8hXbVO894iqur8nqqPMZ",
+      "image",
+      "header",
+      "html",
+      "oajG6JtLdfdc2KvfYRjR",
+      "OjSJIbSCF408V3tNIceL",
+      "html",
+      "aNV2QFBeY8Oh5bnEeISg",
+      "lUxPOYfHrPZcrPX9vsOO",
+      "PCKEWSpGt8ylxQmEpT2q",
+      "iOquHG1E4QnpxqXESbtt",
+      "353VWAEJQKpWPIiJPxq1",
+      "u4XmnN8hUo5spsmoREn7",
+      "Zq2GaYKYd9xFDSipocn5",
+      "vD1PH5Os2yktn347O0rW",
+      "J6U6Y9xx7iOUfmRLWIdf",
+      "html",
+      "v84qTpIt9zELn6aFkrOh",
+      "x7sItyjiSQLkzPwHZllw",
+      "8QJDdDyyo20Cm69qzvjr",
+      "0GO8Awt4IkQQpqehxxVD",
+      "html",
+      "oX31Ljg7dN05BGBsRyPM",
+      "hJBtdK2seuZL4iqHaE9j",
+      "jpj2JzIsZbTnW37nrIlZ",
+      "ClyeBBiBTqbFVwRsi2lc",
+      "DO6Qn2zWlWB1VfA2ssPu",
+      "DdlQ1k5GIu1GKijRGkqF",
+      "html",
+      "iQrIhC8ZEZ9XA3liemNE",
+      "rYmlv3eylsAPbNQNdwVv",
+      "image",
+      "header",
+      "html",
+      "5VeOouDHIOL08TQSa7MA",
+      "43M7EFgbogJBpgMNrP6f",
+      "html",
+      "swre2AMRUaVlMdp18AbM",
+      "wkv3mzqHrJl1CTlwvVi3",
+      "xqQJlm1nIlE73y5KZJaF",
+      "html",
+      "VLatoFJJtu0iolJbGClo",
+      "fRClLoYs4AfddP3uBK2a",
+      "4I23SZhsIRdocwhF0MtJ",
+      "html",
+      "UR2zjECMmPJKuqXFVE3G",
+      "IRpinCGMDo5OgqM4VYUP",
+      "image",
+      "html"
+    ],
+    "submissionId": "4124747e-74c6-4cf5-8a71-c27d4e64ded7",
+    "signatureHash": "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",
+    "ip": "2604:d7c0:2fd:f400:e586:2057:632f:9b62"
+  }
+}

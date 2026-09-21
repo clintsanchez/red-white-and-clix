@@ -1,0 +1,17 @@
+rank,category,issue,severity,scope,fix,effort
+1,indexability,"Duplicate / and /home; sitemap/canonical mismatch",high,homepage,"301 /home to / and list only / in sitemap",S
+2,on-page,"Event hub title is Store 2",high,/services-store,"Write descriptive event title",S
+3,on-page,"Empty meta descriptions",high,"/donate;/services-store","Add unique descriptions",S
+4,on-page,"Donation page has no H1",high,/donate,"Add one descriptive H1",S
+5,on-page,"Homepage has excessive H1 elements",high,homepage,"Retain one H1 and demote section/sponsor headings",M
+6,schema,"Misleading always-closed LocalBusiness schema",high,sitewide,"Use NGO/Organization and distinguish addresses",M
+7,schema,"No Event schema",high,event pages,"Add Event entities after details are reconciled",M
+8,images,"73 of 89 images missing/empty alt across four sampled pages",medium,key pages,"Write contextual alt or empty decorative alt",M
+9,architecture,"Sitemap dominated by merchandise/product URLs",medium,sitewide,"Consolidate weak products and build mission/content hubs",L
+10,schema,"Organization description empty and sameAs blank",medium,sitewide,"Complete entity data and verified social profiles",S
+11,content,"Donation FAQs contain placeholder/unverified content",high,/donate,"Publish verified allocation and tax language",M
+12,content,"Conflicting event prices and purchase routes",high,event pages,"Choose authoritative registration route and price",M
+13,social,"Facebook has stale domain and email",medium,local SEO,"Update profile fields",S
+14,performance,"Homepage raw HTML approximately 1.09 MB",medium,homepage,"Reduce widgets/media and test with Lighthouse",M
+15,security,"HSTS lacks includeSubDomains/preload",low,sitewide,"Evaluate stronger HSTS after subdomain review",S
+

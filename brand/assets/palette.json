@@ -1,0 +1,15 @@
+{
+  "sample_source": "../red-white-and-clix-logo.png",
+  "sample_method": "Most common opaque RGBA pixels, no palette estimation",
+  "colors": {
+    "logo_red": "#FF0000",
+    "logo_blue": "#0072FF",
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "ui_red": "#B91C1C",
+    "ui_blue": "#0050B3",
+    "ink": "#111827",
+    "surface": "#F5F7FA"
+  },
+  "status": "Logo colors observed; UI shades proposed"
+}

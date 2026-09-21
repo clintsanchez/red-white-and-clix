@@ -1,0 +1,27 @@
+/* RWC onboarding, 2026-09-21. Logo hues observed; UI/layout rules proposed. */
+:root {
+  --rwc-logo-red: #FF0000;
+  --rwc-logo-blue: #0072FF;
+  --rwc-white: #FFFFFF;
+  --rwc-black: #000000;
+  --rwc-action: #B91C1C;
+  --rwc-link: #0050B3;
+  --rwc-ink: #111827;
+  --rwc-surface: #F5F7FA;
+  --rwc-font-heading: "Archivo Black", Arial, sans-serif;
+  --rwc-font-body: "Space Grotesk", Arial, sans-serif;
+  --rwc-body-size: 1.125rem;
+  --rwc-body-leading: 1.6;
+  --rwc-h1: clamp(2.25rem, 5vw, 4.5rem);
+  --rwc-content-width: 75rem;
+  --rwc-reading-width: 70ch;
+  --rwc-radius: .5rem;
+  --rwc-space-1: .25rem;
+  --rwc-space-2: .5rem;
+  --rwc-space-3: .75rem;
+  --rwc-space-4: 1rem;
+  --rwc-space-6: 1.5rem;
+  --rwc-space-8: 2rem;
+  --rwc-space-12: 3rem;
+  --rwc-space-16: 4rem;
+}

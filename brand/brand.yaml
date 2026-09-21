@@ -1,0 +1,29 @@
+schema_version: 1
+slug: red-white-and-clix
+name: Red White and Clix
+one_liner: Veteran-founded tabletop events where competition, camaraderie, and veteran support share the same table.
+tagline: "One Community. One Mission."
+archetype: "Everyperson with Caregiver secondary"
+status: active
+stage: early
+industry: "Nonprofit tabletop gaming events and veteran support"
+languages: [en]
+links:
+  domain: "https://www.redwhiteandclix.org/"
+  repo: ""
+created: 2026-09-21
+updated: 2026-09-21
+version: 2
+artifacts:
+  context: true
+  naming: true
+  strategy: true
+  architecture: true
+  identity: true
+  voice: true
+  messaging: true
+  positioning: true
+  story: true
+  guidelines: true
+  audit: true
+
