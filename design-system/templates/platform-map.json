@@ -6,7 +6,10 @@
       "portrait",
       "landscape",
       "story",
-      "avatar"
+      "avatar",
+      "instagram-landscape",
+      "reel-cover",
+      "avatar-instagram"
     ],
     "Facebook": [
       "square",
@@ -16,7 +19,9 @@
       "facebook-cover",
       "facebook-event",
       "facebook-group",
-      "avatar"
+      "avatar",
+      "reel-cover",
+      "avatar-facebook"
     ],
     "LinkedIn": [
       "square",
@@ -24,7 +29,11 @@
       "landscape",
       "linkedin-cover",
       "ultrawide",
-      "avatar"
+      "avatar",
+      "linkedin-landscape",
+      "linkedin-square",
+      "linkedin-portrait",
+      "avatar-linkedin"
     ],
     "YouTube": [
       "thumbnail",
@@ -32,7 +41,10 @@
       "avatar",
       "square",
       "portrait",
-      "story"
+      "story",
+      "reel-cover",
+      "youtube-podcast",
+      "avatar-youtube"
     ],
     "Google Business Profile": [
       "square",
@@ -43,14 +55,19 @@
       "story",
       "square",
       "widescreen",
-      "avatar"
+      "avatar",
+      "reel-cover",
+      "avatar-tiktok"
     ],
     "X": [
       "landscape",
       "portrait",
       "square",
       "wide-banner",
-      "avatar"
+      "avatar",
+      "x-landscape",
+      "x-portrait",
+      "avatar-x"
     ],
     "Threads": [
       "square",
@@ -69,7 +86,10 @@
       "tall",
       "square",
       "thumbnail",
-      "avatar"
+      "avatar",
+      "pinterest-square",
+      "pinterest-landscape",
+      "avatar-pinterest"
     ],
     "Snapchat": [
       "story",

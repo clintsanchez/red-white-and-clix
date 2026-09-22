@@ -254,5 +254,314 @@
     "source": "Supplied universal and RWC design briefs",
     "checked": null,
     "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "instagram-landscape",
+    "width": 1080,
+    "height": 566,
+    "ratio": 1.908,
+    "safe_rect_xywh": [
+      64,
+      64,
+      952,
+      438
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "Instagram feed landscape (1.91:1). Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "instagram-landscape"
+  },
+  {
+    "id": "linkedin-landscape",
+    "width": 1200,
+    "height": 627,
+    "ratio": 1.914,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1072,
+      499
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "LinkedIn landscape post and link preview. Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "linkedin-landscape"
+  },
+  {
+    "id": "x-landscape",
+    "width": 1280,
+    "height": 720,
+    "ratio": 1.778,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1152,
+      592
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "X landscape image (16:9). Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "x-landscape"
+  },
+  {
+    "id": "linkedin-square",
+    "width": 1200,
+    "height": 1200,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      71,
+      71,
+      1058,
+      1058
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "LinkedIn square post; square composition output at 1200. Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "square"
+  },
+  {
+    "id": "linkedin-portrait",
+    "width": 720,
+    "height": 900,
+    "ratio": 0.8,
+    "safe_rect_xywh": [
+      43,
+      43,
+      635,
+      815
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "LinkedIn portrait post (4:5); portrait composition output at 720. Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "portrait"
+  },
+  {
+    "id": "x-portrait",
+    "width": 720,
+    "height": 1280,
+    "ratio": 0.562,
+    "safe_rect_xywh": [
+      43,
+      167,
+      571,
+      900
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "X portrait image (9:16); story composition output at 720. Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "story"
+  },
+  {
+    "id": "pinterest-square",
+    "width": 1000,
+    "height": 1000,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      59,
+      59,
+      881,
+      881
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "Pinterest square pin; square composition output at 1000. Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "square"
+  },
+  {
+    "id": "pinterest-landscape",
+    "width": 800,
+    "height": 450,
+    "ratio": 1.778,
+    "safe_rect_xywh": [
+      40,
+      40,
+      720,
+      370
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "Pinterest landscape cover (16:9); composed at 1280 x 720. Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "x-landscape"
+  },
+  {
+    "id": "youtube-podcast",
+    "width": 1280,
+    "height": 1280,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      76,
+      76,
+      1128,
+      1128
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (channel list)",
+    "checked": null,
+    "crop": "YouTube podcast / playlist thumbnail (1:1). Keep text inside guide; verify mobile and desktop uploader crops.",
+    "design_master": "square"
+  },
+  {
+    "id": "reel-cover",
+    "width": 1080,
+    "height": 1920,
+    "ratio": 0.562,
+    "safe_rect_xywh": [
+      64,
+      250,
+      826,
+      1190
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (video cover system)",
+    "checked": null,
+    "crop": "Shared cover for Instagram Reels, Facebook Reels, TikTok and YouTube Shorts. Top 250 px, bottom 480 px and right 190 px are interface zones; the profile grid shows the centre 1080 x 1440 (3:4). Verify in each app before posting.",
+    "design_master": "reel-cover",
+    "ui_zones": {
+      "Top bar (account, close, audio)": [
+        0,
+        0,
+        1080,
+        250
+      ],
+      "Caption, audio and navigation": [
+        0,
+        1440,
+        1080,
+        480
+      ],
+      "Action rail (like, comment, share)": [
+        890,
+        250,
+        190,
+        1190
+      ]
+    }
+  },
+  {
+    "id": "avatar-instagram",
+    "width": 320,
+    "height": 320,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      58,
+      58,
+      205,
+      205
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
+  },
+  {
+    "id": "avatar-tiktok",
+    "width": 200,
+    "height": 200,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      36,
+      36,
+      128,
+      128
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
+  },
+  {
+    "id": "avatar-x",
+    "width": 400,
+    "height": 400,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      72,
+      72,
+      256,
+      256
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
+  },
+  {
+    "id": "avatar-linkedin",
+    "width": 400,
+    "height": 400,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      72,
+      72,
+      256,
+      256
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
+  },
+  {
+    "id": "avatar-pinterest",
+    "width": 280,
+    "height": 280,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      50,
+      50,
+      179,
+      179
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
+  },
+  {
+    "id": "avatar-youtube",
+    "width": 800,
+    "height": 800,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      144,
+      144,
+      512,
+      512
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
+  },
+  {
+    "id": "avatar-facebook",
+    "width": 320,
+    "height": 320,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      58,
+      58,
+      205,
+      205
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Universal social template brief (profile images)",
+    "checked": null,
+    "crop": "Circular crop on most platforms; the mark stays inside the central safe circle.",
+    "design_master": "avatar"
   }
 ]

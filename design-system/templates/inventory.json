@@ -1790,5 +1790,557 @@
     "format": "widescreen",
     "path": "templates/slides/slide-closing.svg",
     "fields": []
+  },
+  {
+    "id": "save-date-instagram-landscape",
+    "title": "Save the date / instagram-landscape",
+    "category": "social",
+    "format": "instagram-landscape",
+    "path": "templates/social/save-date-instagram-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-instagram-landscape",
+    "title": "Event update / instagram-landscape",
+    "category": "social",
+    "format": "instagram-landscape",
+    "path": "templates/social/event-update-instagram-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-instagram-landscape",
+    "title": "Mission statement / instagram-landscape",
+    "category": "social",
+    "format": "instagram-landscape",
+    "path": "templates/social/mission-instagram-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-instagram-landscape",
+    "title": "Impact statistic / instagram-landscape",
+    "category": "social",
+    "format": "instagram-landscape",
+    "path": "templates/social/impact-instagram-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-instagram-landscape",
+    "title": "New-player welcome / instagram-landscape",
+    "category": "social",
+    "format": "instagram-landscape",
+    "path": "templates/social/new-player-instagram-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-instagram-landscape",
+    "title": "Sponsor recruitment / instagram-landscape",
+    "category": "social",
+    "format": "instagram-landscape",
+    "path": "templates/social/sponsor-instagram-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-linkedin-landscape",
+    "title": "Save the date / linkedin-landscape",
+    "category": "social",
+    "format": "linkedin-landscape",
+    "path": "templates/social/save-date-linkedin-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-linkedin-landscape",
+    "title": "Event update / linkedin-landscape",
+    "category": "social",
+    "format": "linkedin-landscape",
+    "path": "templates/social/event-update-linkedin-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-linkedin-landscape",
+    "title": "Mission statement / linkedin-landscape",
+    "category": "social",
+    "format": "linkedin-landscape",
+    "path": "templates/social/mission-linkedin-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-linkedin-landscape",
+    "title": "Impact statistic / linkedin-landscape",
+    "category": "social",
+    "format": "linkedin-landscape",
+    "path": "templates/social/impact-linkedin-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-linkedin-landscape",
+    "title": "New-player welcome / linkedin-landscape",
+    "category": "social",
+    "format": "linkedin-landscape",
+    "path": "templates/social/new-player-linkedin-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-linkedin-landscape",
+    "title": "Sponsor recruitment / linkedin-landscape",
+    "category": "social",
+    "format": "linkedin-landscape",
+    "path": "templates/social/sponsor-linkedin-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-x-landscape",
+    "title": "Save the date / x-landscape",
+    "category": "social",
+    "format": "x-landscape",
+    "path": "templates/social/save-date-x-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-x-landscape",
+    "title": "Event update / x-landscape",
+    "category": "social",
+    "format": "x-landscape",
+    "path": "templates/social/event-update-x-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-x-landscape",
+    "title": "Mission statement / x-landscape",
+    "category": "social",
+    "format": "x-landscape",
+    "path": "templates/social/mission-x-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-x-landscape",
+    "title": "Impact statistic / x-landscape",
+    "category": "social",
+    "format": "x-landscape",
+    "path": "templates/social/impact-x-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-x-landscape",
+    "title": "New-player welcome / x-landscape",
+    "category": "social",
+    "format": "x-landscape",
+    "path": "templates/social/new-player-x-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-x-landscape",
+    "title": "Sponsor recruitment / x-landscape",
+    "category": "social",
+    "format": "x-landscape",
+    "path": "templates/social/sponsor-x-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-linkedin-square",
+    "title": "Save the date / linkedin-square",
+    "category": "social",
+    "format": "linkedin-square",
+    "path": "templates/social/save-date-linkedin-square.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-linkedin-square",
+    "title": "Event update / linkedin-square",
+    "category": "social",
+    "format": "linkedin-square",
+    "path": "templates/social/event-update-linkedin-square.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-linkedin-square",
+    "title": "Mission statement / linkedin-square",
+    "category": "social",
+    "format": "linkedin-square",
+    "path": "templates/social/mission-linkedin-square.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-linkedin-square",
+    "title": "Impact statistic / linkedin-square",
+    "category": "social",
+    "format": "linkedin-square",
+    "path": "templates/social/impact-linkedin-square.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-linkedin-square",
+    "title": "New-player welcome / linkedin-square",
+    "category": "social",
+    "format": "linkedin-square",
+    "path": "templates/social/new-player-linkedin-square.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-linkedin-square",
+    "title": "Sponsor recruitment / linkedin-square",
+    "category": "social",
+    "format": "linkedin-square",
+    "path": "templates/social/sponsor-linkedin-square.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-linkedin-portrait",
+    "title": "Save the date / linkedin-portrait",
+    "category": "social",
+    "format": "linkedin-portrait",
+    "path": "templates/social/save-date-linkedin-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-linkedin-portrait",
+    "title": "Event update / linkedin-portrait",
+    "category": "social",
+    "format": "linkedin-portrait",
+    "path": "templates/social/event-update-linkedin-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-linkedin-portrait",
+    "title": "Mission statement / linkedin-portrait",
+    "category": "social",
+    "format": "linkedin-portrait",
+    "path": "templates/social/mission-linkedin-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-linkedin-portrait",
+    "title": "Impact statistic / linkedin-portrait",
+    "category": "social",
+    "format": "linkedin-portrait",
+    "path": "templates/social/impact-linkedin-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-linkedin-portrait",
+    "title": "New-player welcome / linkedin-portrait",
+    "category": "social",
+    "format": "linkedin-portrait",
+    "path": "templates/social/new-player-linkedin-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-linkedin-portrait",
+    "title": "Sponsor recruitment / linkedin-portrait",
+    "category": "social",
+    "format": "linkedin-portrait",
+    "path": "templates/social/sponsor-linkedin-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-x-portrait",
+    "title": "Save the date / x-portrait",
+    "category": "social",
+    "format": "x-portrait",
+    "path": "templates/social/save-date-x-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-x-portrait",
+    "title": "Event update / x-portrait",
+    "category": "social",
+    "format": "x-portrait",
+    "path": "templates/social/event-update-x-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-x-portrait",
+    "title": "Mission statement / x-portrait",
+    "category": "social",
+    "format": "x-portrait",
+    "path": "templates/social/mission-x-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-x-portrait",
+    "title": "Impact statistic / x-portrait",
+    "category": "social",
+    "format": "x-portrait",
+    "path": "templates/social/impact-x-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-x-portrait",
+    "title": "New-player welcome / x-portrait",
+    "category": "social",
+    "format": "x-portrait",
+    "path": "templates/social/new-player-x-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-x-portrait",
+    "title": "Sponsor recruitment / x-portrait",
+    "category": "social",
+    "format": "x-portrait",
+    "path": "templates/social/sponsor-x-portrait.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-pinterest-square",
+    "title": "Save the date / pinterest-square",
+    "category": "social",
+    "format": "pinterest-square",
+    "path": "templates/social/save-date-pinterest-square.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-pinterest-square",
+    "title": "Event update / pinterest-square",
+    "category": "social",
+    "format": "pinterest-square",
+    "path": "templates/social/event-update-pinterest-square.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-pinterest-square",
+    "title": "Mission statement / pinterest-square",
+    "category": "social",
+    "format": "pinterest-square",
+    "path": "templates/social/mission-pinterest-square.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-pinterest-square",
+    "title": "Impact statistic / pinterest-square",
+    "category": "social",
+    "format": "pinterest-square",
+    "path": "templates/social/impact-pinterest-square.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-pinterest-square",
+    "title": "New-player welcome / pinterest-square",
+    "category": "social",
+    "format": "pinterest-square",
+    "path": "templates/social/new-player-pinterest-square.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-pinterest-square",
+    "title": "Sponsor recruitment / pinterest-square",
+    "category": "social",
+    "format": "pinterest-square",
+    "path": "templates/social/sponsor-pinterest-square.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-pinterest-landscape",
+    "title": "Save the date / pinterest-landscape",
+    "category": "social",
+    "format": "pinterest-landscape",
+    "path": "templates/social/save-date-pinterest-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-pinterest-landscape",
+    "title": "Event update / pinterest-landscape",
+    "category": "social",
+    "format": "pinterest-landscape",
+    "path": "templates/social/event-update-pinterest-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-pinterest-landscape",
+    "title": "Mission statement / pinterest-landscape",
+    "category": "social",
+    "format": "pinterest-landscape",
+    "path": "templates/social/mission-pinterest-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-pinterest-landscape",
+    "title": "Impact statistic / pinterest-landscape",
+    "category": "social",
+    "format": "pinterest-landscape",
+    "path": "templates/social/impact-pinterest-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-pinterest-landscape",
+    "title": "New-player welcome / pinterest-landscape",
+    "category": "social",
+    "format": "pinterest-landscape",
+    "path": "templates/social/new-player-pinterest-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-pinterest-landscape",
+    "title": "Sponsor recruitment / pinterest-landscape",
+    "category": "social",
+    "format": "pinterest-landscape",
+    "path": "templates/social/sponsor-pinterest-landscape.svg",
+    "fields": []
+  },
+  {
+    "id": "save-date-youtube-podcast",
+    "title": "Save the date / youtube-podcast",
+    "category": "social",
+    "format": "youtube-podcast",
+    "path": "templates/social/save-date-youtube-podcast.svg",
+    "fields": []
+  },
+  {
+    "id": "event-update-youtube-podcast",
+    "title": "Event update / youtube-podcast",
+    "category": "social",
+    "format": "youtube-podcast",
+    "path": "templates/social/event-update-youtube-podcast.svg",
+    "fields": []
+  },
+  {
+    "id": "mission-youtube-podcast",
+    "title": "Mission statement / youtube-podcast",
+    "category": "social",
+    "format": "youtube-podcast",
+    "path": "templates/social/mission-youtube-podcast.svg",
+    "fields": []
+  },
+  {
+    "id": "impact-youtube-podcast",
+    "title": "Impact statistic / youtube-podcast",
+    "category": "social",
+    "format": "youtube-podcast",
+    "path": "templates/social/impact-youtube-podcast.svg",
+    "fields": []
+  },
+  {
+    "id": "new-player-youtube-podcast",
+    "title": "New-player welcome / youtube-podcast",
+    "category": "social",
+    "format": "youtube-podcast",
+    "path": "templates/social/new-player-youtube-podcast.svg",
+    "fields": []
+  },
+  {
+    "id": "sponsor-youtube-podcast",
+    "title": "Sponsor recruitment / youtube-podcast",
+    "category": "social",
+    "format": "youtube-podcast",
+    "path": "templates/social/sponsor-youtube-podcast.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-save-date",
+    "title": "Video cover / Save the date",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-save-date.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-new-player",
+    "title": "Video cover / New-player welcome",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-new-player.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-photo-recap",
+    "title": "Video cover / Photo recap",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-photo-recap.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-competition",
+    "title": "Video cover / Competition",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-competition.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-event-update",
+    "title": "Video cover / Event update",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-event-update.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-founder",
+    "title": "Video cover / Founder story",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-founder.svg",
+    "fields": []
+  },
+  {
+    "id": "reel-cover-guide",
+    "title": "Video cover / interface safe zones (guide)",
+    "category": "social",
+    "format": "reel-cover",
+    "path": "templates/social/reel-cover-guide.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-instagram",
+    "title": "Avatar / instagram 320 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-instagram.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-tiktok",
+    "title": "Avatar / tiktok 200 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-tiktok.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-x",
+    "title": "Avatar / x 400 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-x.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-linkedin",
+    "title": "Avatar / linkedin 400 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-linkedin.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-pinterest",
+    "title": "Avatar / pinterest 280 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-pinterest.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-youtube",
+    "title": "Avatar / youtube 800 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-youtube.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-facebook",
+    "title": "Avatar / facebook 320 px",
+    "category": "social",
+    "format": "avatar",
+    "path": "templates/social/avatar-facebook.svg",
+    "fields": []
+  },
+  {
+    "id": "avatar-size-preview",
+    "title": "Avatar / size and circle-crop preview",
+    "category": "social",
+    "format": "avatar-preview",
+    "path": "templates/social/avatar-size-preview.svg",
+    "fields": []
   }
 ]
