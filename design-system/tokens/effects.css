@@ -1,0 +1,15 @@
+:root {
+  --rwc-radius: 8px;
+  --rwc-radius-button: 8px;
+  --rwc-radius-card: 8px;
+  --rwc-radius-input: 8px;
+  --rwc-radius-modal: 8px;
+  --rwc-radius-pill: 999px;
+  --rwc-shadow-sm: 0 2px 8px rgb(17 24 39 / 8%);
+  --rwc-shadow-md: 0 8px 24px rgb(17 24 39 / 12%);
+  --rwc-shadow-lg: 0 16px 48px rgb(17 24 39 / 16%);
+  --rwc-duration-fast: 120ms;
+  --rwc-duration: 180ms;
+  --rwc-ease: cubic-bezier(.2,0,0,1);
+  --rwc-focus-ring: 0 0 0 2px #FFFFFF, 0 0 0 5px #0050B3;
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "success": true,
+    "return_value": {
+      "checks": {
+        "header_logo": true,
+        "footer_logo": true,
+        "company": true,
+        "email": true,
+        "email_link": true,
+        "phone_link": true,
+        "home_base": true,
+        "description": true,
+        "newsletter": true
+      },
+      "stored_options_unchanged": true
+    },
+    "output": "",
+    "errors": [],
+    "execution_time_ms": 282.99
+  }
+}

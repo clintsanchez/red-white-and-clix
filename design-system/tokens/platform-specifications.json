@@ -1,0 +1,258 @@
+[
+  {
+    "id": "square",
+    "width": 1080,
+    "height": 1080,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      64,
+      64,
+      952,
+      952
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "portrait",
+    "width": 1080,
+    "height": 1350,
+    "ratio": 0.8,
+    "safe_rect_xywh": [
+      64,
+      64,
+      952,
+      1222
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "story",
+    "width": 1080,
+    "height": 1920,
+    "ratio": 0.562,
+    "safe_rect_xywh": [
+      64,
+      250,
+      856,
+      1350
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "landscape",
+    "width": 1200,
+    "height": 630,
+    "ratio": 1.905,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1072,
+      502
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "tall",
+    "width": 1000,
+    "height": 1500,
+    "ratio": 0.667,
+    "safe_rect_xywh": [
+      64,
+      64,
+      872,
+      1372
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "widescreen",
+    "width": 1920,
+    "height": 1080,
+    "ratio": 1.778,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1792,
+      952
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "thumbnail",
+    "width": 1280,
+    "height": 720,
+    "ratio": 1.778,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1152,
+      592
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "wide-banner",
+    "width": 1500,
+    "height": 500,
+    "ratio": 3.0,
+    "safe_rect_xywh": [
+      345,
+      70,
+      900,
+      325
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "ultrawide",
+    "width": 1584,
+    "height": 396,
+    "ratio": 4.0,
+    "safe_rect_xywh": [
+      364,
+      55,
+      950,
+      257
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "facebook-cover",
+    "width": 851,
+    "height": 315,
+    "ratio": 2.702,
+    "safe_rect_xywh": [
+      195,
+      44,
+      510,
+      204
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "facebook-event",
+    "width": 1920,
+    "height": 1005,
+    "ratio": 1.91,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1792,
+      877
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "facebook-group",
+    "width": 1640,
+    "height": 856,
+    "ratio": 1.916,
+    "safe_rect_xywh": [
+      64,
+      64,
+      1512,
+      728
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "linkedin-cover",
+    "width": 1512,
+    "height": 256,
+    "ratio": 5.906,
+    "safe_rect_xywh": [
+      320,
+      40,
+      872,
+      160
+    ],
+    "status": "Verified 2026-09-21 dimensions; safe rectangle is a conservative design guide",
+    "source": "https://www.linkedin.com/help/linkedin/answer/a563309",
+    "checked": "2026-09-21",
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "linkedin-cover-legacy",
+    "width": 1128,
+    "height": 191,
+    "ratio": 5.906,
+    "safe_rect_xywh": [
+      259,
+      26,
+      676,
+      124
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "youtube-banner",
+    "width": 2560,
+    "height": 1440,
+    "ratio": 1.778,
+    "safe_rect_xywh": [
+      508,
+      509,
+      1544,
+      422
+    ],
+    "status": "Verified 2026-09-21; central zone conservatively scaled from official minimum-size safe area",
+    "source": "https://support.google.com/youtube/answer/10456525",
+    "checked": "2026-09-21",
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  },
+  {
+    "id": "avatar",
+    "width": 800,
+    "height": 800,
+    "ratio": 1.0,
+    "safe_rect_xywh": [
+      144,
+      144,
+      512,
+      512
+    ],
+    "status": "Editable production default; check platform preview before upload",
+    "source": "Supplied universal and RWC design briefs",
+    "checked": null,
+    "crop": "Keep text inside guide; verify mobile and desktop uploader crops."
+  }
+]

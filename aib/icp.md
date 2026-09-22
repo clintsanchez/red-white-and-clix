@@ -19,8 +19,8 @@ They want enjoyable, professionally run events; an accepting community; simple a
 ## Service Area
 - **Type:** Regional — multiple cities or counties
 - **Cities / towns:** The entire mid-west
-- **Counties:** _not captured_
-- **Growth markets (target first):** _not captured_
+- **Counties:** To be determined
+- **Growth markets (target first):** To be determined
 
 ## Where to Find Them / Lead Sources Today
 Repeat customers, Social media (organic), Networking / events
@@ -28,9 +28,16 @@ Repeat customers, Social media (organic), Networking / events
 ## Buying Behavior
 - **Pricing model:** Set entry fees
 - **Highest-priority offer:** Tabletop Game Events
-- **Decision process / objections:** To be determined (confirm on a call)
+- **Decision process / objections:** Working hypotheses from existing research: format, fee, travel, newcomer fit and confidence in the beneficiary/impact. Validate through the existing primary-research plan; do not treat these as completed interviews.
 
 ## Messaging That Resonates
 *Drafts grounded in the differentiator + voice — refine with the Content team:*
 - Lead with: We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.
 - Tone: Professional, Inspirational / Motivational, Empathetic / Warm
+
+## Practical message examples
+- Players: review the format, schedule and fee before you register.
+- Veterans and families: participate as peers in a welcoming tabletop community.
+- Sponsors: understand the benefits, event context and reporting before committing.
+
+Average transaction size and lifetime value: To be determined. Primary interview responses: not yet collected.

@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "ok": false,
+    "active": false,
+    "authority": "design",
+    "authoritative": true,
+    "builder": null,
+    "slug": "",
+    "violations": [
+      {
+        "rule": "ai-purple",
+        "severity": "warn",
+        "message": "Purple/violet detected. Discouraged as a default accent. Use a non-purple high-contrast accent unless the brand is purple.",
+        "evidence": "#9b51e0"
+      },
+      {
+        "rule": "inter-font",
+        "severity": "fail",
+        "message": "Inter used as a font. Banned by default (the #1 AI tell). Pick a brand-appropriate face, or list Inter in the design if intentional.",
+        "evidence": "font-family: Inter"
+      }
+    ],
+    "checked": [
+      "em-dash",
+      "ai-purple",
+      "inter-font",
+      "warm-craft-palette",
+      "filler-copy",
+      "generic-names",
+      "font-off-palette",
+      "color-off-palette",
+      "design-dont"
+    ],
+    "not_checked": [
+      "hero-in-viewport",
+      "centered-mega-hero",
+      "three-equal-cards",
+      "eyebrow-overuse",
+      "zigzag-cap",
+      "section-layout-repetition"
+    ]
+  }
+}

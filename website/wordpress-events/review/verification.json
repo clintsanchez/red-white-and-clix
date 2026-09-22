@@ -1,0 +1,84 @@
+[
+  {
+    "name": "archive",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "text": "Skip to content\nPOWERED BY\nFacebook-f\n \nTwitter\n \nInstagram\n \nLinkedin-in\n \nYoutube\n \nTwitch\nHOME\nTEAMS\nMERCH\nABOUT\nPARTNERS\nNEWS\nCONTACT\nPAGES\nEVENTS\nARCHIVES: EVENTS\nHOME\nBrowse event dates, venues and registration details.\nEvent preview A \u2014 sample only\nJANUARY 10, 2027 \u00b7 9:00 AM EST\nSAMPLE HALL A\nSCHEDULED\nVIEW EVENT\nEvent preview B \u2014 sample only\nFEBRUARY 14, 2027 \u00b7 1:30 PM EST\nSAMPLE HALL B\nCANCELLED\nVIEW EVENT\nNEWSLETTER\nJOIN OUR NEWSLETTER\n\nUltrices congue eget amet, elit, porttitor sed maecenas consectetur. Nunc, sem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra. Cras nibh egestas neque integerel ultrices fusce\n\nEmail\nSUBSCRIBE\n\nNuncem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra nibh egestas ultrices fusce dolor laoreet lacus dignissim. Sollicitudin quam tortor integer.\n\nFOLLOW US\nFacebook-f\n \nTwitter\n \nInstagram\n \nLinkedin-in\n \nYoutube\n \nTwitch\nPARTNER\nHome\nTeam\nMerch\nEsports\nCopyright \u00a9 2022 Triple-A. All rights reserved.\nContact\nPrivacy\nImprint",
+    "register_links": 0,
+    "templates": [
+      "1304",
+      "1460",
+      "1461",
+      "1461",
+      "1273"
+    ]
+  },
+  {
+    "name": "single",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "text": "Skip to content\nPOWERED BY\nFacebook-f\n \nTwitter\n \nInstagram\n \nLinkedin-in\n \nYoutube\n \nTwitch\nHOME\nTEAMS\nMERCH\nABOUT\nPARTNERS\nNEWS\nCONTACT\nPAGES\nEVENTS\nEVENT PREVIEW A \u2014 SAMPLE ONLY\nALL EVENTS\nSTARTS\nJanuary 10, 2027 \u00b7 9:00 am EST\nTIMEZONE\nAmerica/Indiana/Indianapolis\nVENUE\nSample Hall A\nFORMAT\nTo be confirmed\nENTRY PRICE\n25\nFEE BASIS\nper person\nCAPACITY UNIT\nTo be confirmed\nORGANIZER\nTo be confirmed\nCONTACT PHONE\nTo be confirmed\nENDS\nJanuary 10, 2027 \u00b7 6:00 pm EST\nCHECK-IN\nTo be confirmed\nADDRESS\nTo be confirmed\nSTATUS\nScheduled\nCURRENCY\nUSD\nCAPACITY\nTo be confirmed\nREGISTRATION CLOSES\nTo be confirmed\nCONTACT EMAIL\nTo be confirmed\n\nTemporary local test content. This is not a real event.\n\nSCHEDULE\nDetails to be confirmed.\nREFUND POLICY\nDetails to be confirmed.\nACCESSIBILITY AND TRAVEL\nDetails to be confirmed.\nREGISTER FOR THIS EVENT\nNEWSLETTER\nJOIN OUR NEWSLETTER\n\nUltrices congue eget amet, elit, porttitor sed maecenas consectetur. Nunc, sem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra. Cras nibh egestas neque integerel ultrices fusce\n\nEmail\nSUBSCRIBE\nCopyright \u00a9 2022 Triple-A. All rights reserved.\nContact\nPrivacy\nImprint",
+    "register_links": 1,
+    "templates": [
+      "1304",
+      "1459",
+      "1273"
+    ]
+  },
+  {
+    "name": "cancelled",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "text": "Skip to content\nPOWERED BY\nFacebook-f\n \nTwitter\n \nInstagram\n \nLinkedin-in\n \nYoutube\n \nTwitch\nHOME\nTEAMS\nMERCH\nABOUT\nPARTNERS\nNEWS\nCONTACT\nPAGES\nEVENTS\nEVENT PREVIEW B \u2014 SAMPLE ONLY\nALL EVENTS\nSTARTS\nFebruary 14, 2027 \u00b7 1:30 pm EST\nTIMEZONE\nAmerica/Indiana/Indianapolis\nVENUE\nSample Hall B\nFORMAT\nTo be confirmed\nENTRY PRICE\n25\nFEE BASIS\nper person\nCAPACITY UNIT\nTo be confirmed\nORGANIZER\nTo be confirmed\nCONTACT PHONE\nTo be confirmed\nENDS\nFebruary 14, 2027 \u00b7 6:00 pm EST\nCHECK-IN\nTo be confirmed\nADDRESS\nTo be confirmed\nSTATUS\nCancelled\nCURRENCY\nUSD\nCAPACITY\nTo be confirmed\nREGISTRATION CLOSES\nTo be confirmed\nCONTACT EMAIL\nTo be confirmed\n\nTemporary local test content. This is not a real event.\n\nSCHEDULE\nDetails to be confirmed.\nREFUND POLICY\nDetails to be confirmed.\nACCESSIBILITY AND TRAVEL\nDetails to be confirmed.\nNEWSLETTER\nJOIN OUR NEWSLETTER\n\nUltrices congue eget amet, elit, porttitor sed maecenas consectetur. Nunc, sem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra. Cras nibh egestas neque integerel ultrices fusce\n\nEmail\nSUBSCRIBE\nCopyright \u00a9 2022 Triple-A. All rights reserved.\nContact\nPrivacy\nImprint",
+    "register_links": 0,
+    "templates": [
+      "1304",
+      "1459",
+      "1273"
+    ]
+  },
+  {
+    "name": "archive",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "text": "Skip to content\nHOME\nTEAMS\nMERCH\nABOUT\nNEWS\nCONTACT\nPAGES\nEVENTS\nARCHIVES: EVENTS\nHOME\nBrowse event dates, venues and registration details.\nEvent preview A \u2014 sample only\nJANUARY 10, 2027 \u00b7 9:00 AM EST\nSAMPLE HALL A\nSCHEDULED\nVIEW EVENT\nEvent preview B \u2014 sample only\nFEBRUARY 14, 2027 \u00b7 1:30 PM EST\nSAMPLE HALL B\nCANCELLED\nVIEW EVENT\nNEWSLETTER\nJOIN OUR NEWSLETTER\n\nUltrices congue eget amet, elit, porttitor sed maecenas consectetur. Nunc, sem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra. Cras nibh egestas neque integerel ultrices fusce\n\nEmail\nSUBSCRIBE\n\nNuncem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra nibh egestas ultrices fusce dolor laoreet lacus dignissim. Sollicitudin quam tortor integer.\n\nFOLLOW US\nFacebook-f\n \nTwitter\n \nInstagram\n \nLinkedin-in\n \nYoutube\n \nTwitch\nCopyright \u00a9 2022 Triple-A. All rights reserved.\nContact\nPrivacy\nImprint",
+    "register_links": 0,
+    "templates": [
+      "1304",
+      "1460",
+      "1461",
+      "1461",
+      "1273"
+    ]
+  },
+  {
+    "name": "single",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "text": "Skip to content\nHOME\nTEAMS\nMERCH\nABOUT\nNEWS\nCONTACT\nPAGES\nEVENTS\nEVENT PREVIEW A \u2014 SAMPLE ONLY\nALL EVENTS\nSTARTS\nJanuary 10, 2027 \u00b7 9:00 am EST\nTIMEZONE\nAmerica/Indiana/Indianapolis\nVENUE\nSample Hall A\nFORMAT\nTo be confirmed\nENTRY PRICE\n25\nFEE BASIS\nper person\nCAPACITY UNIT\nTo be confirmed\nORGANIZER\nTo be confirmed\nCONTACT PHONE\nTo be confirmed\nENDS\nJanuary 10, 2027 \u00b7 6:00 pm EST\nCHECK-IN\nTo be confirmed\nADDRESS\nTo be confirmed\nSTATUS\nScheduled\nCURRENCY\nUSD\nCAPACITY\nTo be confirmed\nREGISTRATION CLOSES\nTo be confirmed\nCONTACT EMAIL\nTo be confirmed\n\nTemporary local test content. This is not a real event.\n\nSCHEDULE\nDetails to be confirmed.\nREFUND POLICY\nDetails to be confirmed.\nACCESSIBILITY AND TRAVEL\nDetails to be confirmed.\nREGISTER FOR THIS EVENT\nNEWSLETTER\n\nUltrices congue eget amet, elit, porttitor sed maecenas consectetur. Nunc, sem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra. Cras nibh egestas neque integerel ultrices fusce\n\nCopyright \u00a9 2022 Triple-A. All rights reserved.\nContact\nPrivacy\nImprint",
+    "register_links": 1,
+    "templates": [
+      "1304",
+      "1459",
+      "1273"
+    ]
+  },
+  {
+    "name": "cancelled",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "text": "Skip to content\nHOME\nTEAMS\nMERCH\nABOUT\nNEWS\nCONTACT\nPAGES\nEVENTS\nEVENT PREVIEW B \u2014 SAMPLE ONLY\nALL EVENTS\nSTARTS\nFebruary 14, 2027 \u00b7 1:30 pm EST\nTIMEZONE\nAmerica/Indiana/Indianapolis\nVENUE\nSample Hall B\nFORMAT\nTo be confirmed\nENTRY PRICE\n25\nFEE BASIS\nper person\nCAPACITY UNIT\nTo be confirmed\nORGANIZER\nTo be confirmed\nCONTACT PHONE\nTo be confirmed\nENDS\nFebruary 14, 2027 \u00b7 6:00 pm EST\nCHECK-IN\nTo be confirmed\nADDRESS\nTo be confirmed\nSTATUS\nCancelled\nCURRENCY\nUSD\nCAPACITY\nTo be confirmed\nREGISTRATION CLOSES\nTo be confirmed\nCONTACT EMAIL\nTo be confirmed\n\nTemporary local test content. This is not a real event.\n\nSCHEDULE\nDetails to be confirmed.\nREFUND POLICY\nDetails to be confirmed.\nACCESSIBILITY AND TRAVEL\nDetails to be confirmed.\nNEWSLETTER\n\nUltrices congue eget amet, elit, porttitor sed maecenas consectetur. Nunc, sem imperdiet ultrices sed eleifend adipiscing facilisis arcu pharetra. Cras nibh egestas neque integerel ultrices fusce\n\nCopyright \u00a9 2022 Triple-A. All rights reserved.\nContact\nPrivacy\nImprint",
+    "register_links": 0,
+    "templates": [
+      "1304",
+      "1459",
+      "1273"
+    ]
+  }
+]

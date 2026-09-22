@@ -7,3 +7,7 @@ build/*.html
 
 # The private onboarding repository intentionally retains memory/*.json.
 # Never add live credentials or local secret files to memory/.
+
+# Local browser logs and oversized duplicate bundle
+.playwright-mcp/
+deliverables/Red White and Clix Complete Design Kit.zip

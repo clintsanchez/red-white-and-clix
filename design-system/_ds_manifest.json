@@ -1,0 +1,1099 @@
+{
+  "name": "Red White and Clix Design System",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "editor": "template-studio.html",
+  "styles": "styles.css",
+  "tokens": "tokens/tokens.json",
+  "components": [
+    {
+      "name": "Button",
+      "sourcePath": "components/Button.html"
+    },
+    {
+      "name": "Logo",
+      "sourcePath": "components/Logo.html"
+    },
+    {
+      "name": "Icon",
+      "sourcePath": "components/Icon.html"
+    },
+    {
+      "name": "Badge",
+      "sourcePath": "components/Badge.html"
+    },
+    {
+      "name": "EventDetails",
+      "sourcePath": "components/EventDetails.html"
+    },
+    {
+      "name": "EventDate",
+      "sourcePath": "components/EventDate.html"
+    },
+    {
+      "name": "RegistrationAction",
+      "sourcePath": "components/RegistrationAction.html"
+    },
+    {
+      "name": "Field",
+      "sourcePath": "components/Field.html"
+    },
+    {
+      "name": "FieldError",
+      "sourcePath": "components/FieldError.html"
+    },
+    {
+      "name": "Select",
+      "sourcePath": "components/Select.html"
+    },
+    {
+      "name": "Checkbox",
+      "sourcePath": "components/Checkbox.html"
+    },
+    {
+      "name": "Textarea",
+      "sourcePath": "components/Textarea.html"
+    },
+    {
+      "name": "Alert",
+      "sourcePath": "components/Alert.html"
+    },
+    {
+      "name": "StatusMessage",
+      "sourcePath": "components/StatusMessage.html"
+    },
+    {
+      "name": "ProductionWarning",
+      "sourcePath": "components/ProductionWarning.html"
+    },
+    {
+      "name": "Navigation",
+      "sourcePath": "components/Navigation.html"
+    },
+    {
+      "name": "Footer",
+      "sourcePath": "components/Footer.html"
+    },
+    {
+      "name": "CTABand",
+      "sourcePath": "components/CTABand.html"
+    },
+    {
+      "name": "EventCard",
+      "sourcePath": "components/EventCard.html"
+    },
+    {
+      "name": "Schedule",
+      "sourcePath": "components/Schedule.html"
+    },
+    {
+      "name": "NewPlayerGuide",
+      "sourcePath": "components/NewPlayerGuide.html"
+    },
+    {
+      "name": "VenueCard",
+      "sourcePath": "components/VenueCard.html"
+    },
+    {
+      "name": "BeneficiaryCard",
+      "sourcePath": "components/BeneficiaryCard.html"
+    },
+    {
+      "name": "SponsorGrid",
+      "sourcePath": "components/SponsorGrid.html"
+    },
+    {
+      "name": "SponsorTier",
+      "sourcePath": "components/SponsorTier.html"
+    },
+    {
+      "name": "DonationAllocation",
+      "sourcePath": "components/DonationAllocation.html"
+    },
+    {
+      "name": "DonationFAQ",
+      "sourcePath": "components/DonationFAQ.html"
+    },
+    {
+      "name": "VolunteerCard",
+      "sourcePath": "components/VolunteerCard.html"
+    },
+    {
+      "name": "ResourceCard",
+      "sourcePath": "components/ResourceCard.html"
+    },
+    {
+      "name": "MerchandiseCard",
+      "sourcePath": "components/MerchandiseCard.html"
+    },
+    {
+      "name": "Quote",
+      "sourcePath": "components/Quote.html"
+    },
+    {
+      "name": "Review",
+      "sourcePath": "components/Review.html"
+    },
+    {
+      "name": "KPI",
+      "sourcePath": "components/KPI.html"
+    },
+    {
+      "name": "KPIGrid",
+      "sourcePath": "components/KPIGrid.html"
+    },
+    {
+      "name": "Citation",
+      "sourcePath": "components/Citation.html"
+    },
+    {
+      "name": "PhotoCaption",
+      "sourcePath": "components/PhotoCaption.html"
+    },
+    {
+      "name": "PhotoGallery",
+      "sourcePath": "components/PhotoGallery.html"
+    },
+    {
+      "name": "Comparison",
+      "sourcePath": "components/Comparison.html"
+    },
+    {
+      "name": "Checklist",
+      "sourcePath": "components/Checklist.html"
+    },
+    {
+      "name": "CarouselFooter",
+      "sourcePath": "components/CarouselFooter.html"
+    },
+    {
+      "name": "ImageContainer",
+      "sourcePath": "components/ImageContainer.html"
+    },
+    {
+      "name": "BrowserFrame",
+      "sourcePath": "components/BrowserFrame.html"
+    },
+    {
+      "name": "EmptyState",
+      "sourcePath": "components/EmptyState.html"
+    },
+    {
+      "name": "Progress",
+      "sourcePath": "components/Progress.html"
+    },
+    {
+      "name": "ContactCard",
+      "sourcePath": "components/ContactCard.html"
+    }
+  ],
+  "templates": [
+    {
+      "name": "Mission statement / square",
+      "path": "templates/social/mission-square.svg"
+    },
+    {
+      "name": "Mission statement / portrait",
+      "path": "templates/social/mission-portrait.svg"
+    },
+    {
+      "name": "Mission statement / story",
+      "path": "templates/social/mission-story.svg"
+    },
+    {
+      "name": "Mission statement / landscape",
+      "path": "templates/social/mission-landscape.svg"
+    },
+    {
+      "name": "Save the date / square",
+      "path": "templates/social/save-date-square.svg"
+    },
+    {
+      "name": "Save the date / portrait",
+      "path": "templates/social/save-date-portrait.svg"
+    },
+    {
+      "name": "Save the date / story",
+      "path": "templates/social/save-date-story.svg"
+    },
+    {
+      "name": "Save the date / landscape",
+      "path": "templates/social/save-date-landscape.svg"
+    },
+    {
+      "name": "300 Modern / square",
+      "path": "templates/social/modern-square.svg"
+    },
+    {
+      "name": "300 Modern / portrait",
+      "path": "templates/social/modern-portrait.svg"
+    },
+    {
+      "name": "300 Modern / story",
+      "path": "templates/social/modern-story.svg"
+    },
+    {
+      "name": "300 Modern / landscape",
+      "path": "templates/social/modern-landscape.svg"
+    },
+    {
+      "name": "Team Sealed / square",
+      "path": "templates/social/team-sealed-square.svg"
+    },
+    {
+      "name": "Team Sealed / portrait",
+      "path": "templates/social/team-sealed-portrait.svg"
+    },
+    {
+      "name": "Team Sealed / story",
+      "path": "templates/social/team-sealed-story.svg"
+    },
+    {
+      "name": "Team Sealed / landscape",
+      "path": "templates/social/team-sealed-landscape.svg"
+    },
+    {
+      "name": "Event update / square",
+      "path": "templates/social/event-update-square.svg"
+    },
+    {
+      "name": "Event update / portrait",
+      "path": "templates/social/event-update-portrait.svg"
+    },
+    {
+      "name": "Event update / story",
+      "path": "templates/social/event-update-story.svg"
+    },
+    {
+      "name": "Event update / landscape",
+      "path": "templates/social/event-update-landscape.svg"
+    },
+    {
+      "name": "New-player welcome / square",
+      "path": "templates/social/new-player-square.svg"
+    },
+    {
+      "name": "New-player welcome / portrait",
+      "path": "templates/social/new-player-portrait.svg"
+    },
+    {
+      "name": "New-player welcome / story",
+      "path": "templates/social/new-player-story.svg"
+    },
+    {
+      "name": "New-player welcome / landscape",
+      "path": "templates/social/new-player-landscape.svg"
+    },
+    {
+      "name": "Competition / square",
+      "path": "templates/social/competition-square.svg"
+    },
+    {
+      "name": "Competition / portrait",
+      "path": "templates/social/competition-portrait.svg"
+    },
+    {
+      "name": "Competition / story",
+      "path": "templates/social/competition-story.svg"
+    },
+    {
+      "name": "Competition / landscape",
+      "path": "templates/social/competition-landscape.svg"
+    },
+    {
+      "name": "Veterans and families / square",
+      "path": "templates/social/community-square.svg"
+    },
+    {
+      "name": "Veterans and families / portrait",
+      "path": "templates/social/community-portrait.svg"
+    },
+    {
+      "name": "Veterans and families / story",
+      "path": "templates/social/community-story.svg"
+    },
+    {
+      "name": "Veterans and families / landscape",
+      "path": "templates/social/community-landscape.svg"
+    },
+    {
+      "name": "Donation appeal / square",
+      "path": "templates/social/donation-square.svg"
+    },
+    {
+      "name": "Donation appeal / portrait",
+      "path": "templates/social/donation-portrait.svg"
+    },
+    {
+      "name": "Donation appeal / story",
+      "path": "templates/social/donation-story.svg"
+    },
+    {
+      "name": "Donation appeal / landscape",
+      "path": "templates/social/donation-landscape.svg"
+    },
+    {
+      "name": "Donation transparency / square",
+      "path": "templates/social/transparency-square.svg"
+    },
+    {
+      "name": "Donation transparency / portrait",
+      "path": "templates/social/transparency-portrait.svg"
+    },
+    {
+      "name": "Donation transparency / story",
+      "path": "templates/social/transparency-story.svg"
+    },
+    {
+      "name": "Donation transparency / landscape",
+      "path": "templates/social/transparency-landscape.svg"
+    },
+    {
+      "name": "Sponsor recruitment / square",
+      "path": "templates/social/sponsor-square.svg"
+    },
+    {
+      "name": "Sponsor recruitment / portrait",
+      "path": "templates/social/sponsor-portrait.svg"
+    },
+    {
+      "name": "Sponsor recruitment / story",
+      "path": "templates/social/sponsor-story.svg"
+    },
+    {
+      "name": "Sponsor recruitment / landscape",
+      "path": "templates/social/sponsor-landscape.svg"
+    },
+    {
+      "name": "Sponsor spotlight / square",
+      "path": "templates/social/sponsor-spotlight-square.svg"
+    },
+    {
+      "name": "Sponsor spotlight / portrait",
+      "path": "templates/social/sponsor-spotlight-portrait.svg"
+    },
+    {
+      "name": "Sponsor spotlight / story",
+      "path": "templates/social/sponsor-spotlight-story.svg"
+    },
+    {
+      "name": "Sponsor spotlight / landscape",
+      "path": "templates/social/sponsor-spotlight-landscape.svg"
+    },
+    {
+      "name": "Volunteer recruitment / square",
+      "path": "templates/social/volunteer-square.svg"
+    },
+    {
+      "name": "Volunteer recruitment / portrait",
+      "path": "templates/social/volunteer-portrait.svg"
+    },
+    {
+      "name": "Volunteer recruitment / story",
+      "path": "templates/social/volunteer-story.svg"
+    },
+    {
+      "name": "Volunteer recruitment / landscape",
+      "path": "templates/social/volunteer-landscape.svg"
+    },
+    {
+      "name": "Beneficiary spotlight / square",
+      "path": "templates/social/beneficiary-square.svg"
+    },
+    {
+      "name": "Beneficiary spotlight / portrait",
+      "path": "templates/social/beneficiary-portrait.svg"
+    },
+    {
+      "name": "Beneficiary spotlight / story",
+      "path": "templates/social/beneficiary-story.svg"
+    },
+    {
+      "name": "Beneficiary spotlight / landscape",
+      "path": "templates/social/beneficiary-landscape.svg"
+    },
+    {
+      "name": "Impact statistic / square",
+      "path": "templates/social/impact-square.svg"
+    },
+    {
+      "name": "Impact statistic / portrait",
+      "path": "templates/social/impact-portrait.svg"
+    },
+    {
+      "name": "Impact statistic / story",
+      "path": "templates/social/impact-story.svg"
+    },
+    {
+      "name": "Impact statistic / landscape",
+      "path": "templates/social/impact-landscape.svg"
+    },
+    {
+      "name": "Post-event results / square",
+      "path": "templates/social/results-square.svg"
+    },
+    {
+      "name": "Post-event results / portrait",
+      "path": "templates/social/results-portrait.svg"
+    },
+    {
+      "name": "Post-event results / story",
+      "path": "templates/social/results-story.svg"
+    },
+    {
+      "name": "Post-event results / landscape",
+      "path": "templates/social/results-landscape.svg"
+    },
+    {
+      "name": "Founder story / square",
+      "path": "templates/social/founder-square.svg"
+    },
+    {
+      "name": "Founder story / portrait",
+      "path": "templates/social/founder-portrait.svg"
+    },
+    {
+      "name": "Founder story / story",
+      "path": "templates/social/founder-story.svg"
+    },
+    {
+      "name": "Founder story / landscape",
+      "path": "templates/social/founder-landscape.svg"
+    },
+    {
+      "name": "Veteran resources / square",
+      "path": "templates/social/resources-square.svg"
+    },
+    {
+      "name": "Veteran resources / portrait",
+      "path": "templates/social/resources-portrait.svg"
+    },
+    {
+      "name": "Veteran resources / story",
+      "path": "templates/social/resources-story.svg"
+    },
+    {
+      "name": "Veteran resources / landscape",
+      "path": "templates/social/resources-landscape.svg"
+    },
+    {
+      "name": "Merchandise / square",
+      "path": "templates/social/merchandise-square.svg"
+    },
+    {
+      "name": "Merchandise / portrait",
+      "path": "templates/social/merchandise-portrait.svg"
+    },
+    {
+      "name": "Merchandise / story",
+      "path": "templates/social/merchandise-story.svg"
+    },
+    {
+      "name": "Merchandise / landscape",
+      "path": "templates/social/merchandise-landscape.svg"
+    },
+    {
+      "name": "FAQ / square",
+      "path": "templates/social/faq-square.svg"
+    },
+    {
+      "name": "FAQ / portrait",
+      "path": "templates/social/faq-portrait.svg"
+    },
+    {
+      "name": "FAQ / story",
+      "path": "templates/social/faq-story.svg"
+    },
+    {
+      "name": "FAQ / landscape",
+      "path": "templates/social/faq-landscape.svg"
+    },
+    {
+      "name": "Quote and testimonial / square",
+      "path": "templates/social/quote-square.svg"
+    },
+    {
+      "name": "Quote and testimonial / portrait",
+      "path": "templates/social/quote-portrait.svg"
+    },
+    {
+      "name": "Quote and testimonial / story",
+      "path": "templates/social/quote-story.svg"
+    },
+    {
+      "name": "Quote and testimonial / landscape",
+      "path": "templates/social/quote-landscape.svg"
+    },
+    {
+      "name": "Countdown / square",
+      "path": "templates/social/countdown-square.svg"
+    },
+    {
+      "name": "Countdown / portrait",
+      "path": "templates/social/countdown-portrait.svg"
+    },
+    {
+      "name": "Countdown / story",
+      "path": "templates/social/countdown-story.svg"
+    },
+    {
+      "name": "Countdown / landscape",
+      "path": "templates/social/countdown-landscape.svg"
+    },
+    {
+      "name": "Weather or cancellation / square",
+      "path": "templates/social/weather-square.svg"
+    },
+    {
+      "name": "Weather or cancellation / portrait",
+      "path": "templates/social/weather-portrait.svg"
+    },
+    {
+      "name": "Weather or cancellation / story",
+      "path": "templates/social/weather-story.svg"
+    },
+    {
+      "name": "Weather or cancellation / landscape",
+      "path": "templates/social/weather-landscape.svg"
+    },
+    {
+      "name": "Photo recap / square",
+      "path": "templates/social/photo-recap-square.svg"
+    },
+    {
+      "name": "Photo recap / portrait",
+      "path": "templates/social/photo-recap-portrait.svg"
+    },
+    {
+      "name": "Photo recap / story",
+      "path": "templates/social/photo-recap-story.svg"
+    },
+    {
+      "name": "Photo recap / landscape",
+      "path": "templates/social/photo-recap-landscape.svg"
+    },
+    {
+      "name": "Educational checklist / square",
+      "path": "templates/social/education-square.svg"
+    },
+    {
+      "name": "Educational checklist / portrait",
+      "path": "templates/social/education-portrait.svg"
+    },
+    {
+      "name": "Educational checklist / story",
+      "path": "templates/social/education-story.svg"
+    },
+    {
+      "name": "Educational checklist / landscape",
+      "path": "templates/social/education-landscape.svg"
+    },
+    {
+      "name": "Comparison / square",
+      "path": "templates/social/comparison-square.svg"
+    },
+    {
+      "name": "Comparison / portrait",
+      "path": "templates/social/comparison-portrait.svg"
+    },
+    {
+      "name": "Comparison / story",
+      "path": "templates/social/comparison-story.svg"
+    },
+    {
+      "name": "Comparison / landscape",
+      "path": "templates/social/comparison-landscape.svg"
+    },
+    {
+      "name": "Myth and fact / square",
+      "path": "templates/social/myth-fact-square.svg"
+    },
+    {
+      "name": "Myth and fact / portrait",
+      "path": "templates/social/myth-fact-portrait.svg"
+    },
+    {
+      "name": "Myth and fact / story",
+      "path": "templates/social/myth-fact-story.svg"
+    },
+    {
+      "name": "Myth and fact / landscape",
+      "path": "templates/social/myth-fact-landscape.svg"
+    },
+    {
+      "name": "Case study / square",
+      "path": "templates/social/case-study-square.svg"
+    },
+    {
+      "name": "Case study / portrait",
+      "path": "templates/social/case-study-portrait.svg"
+    },
+    {
+      "name": "Case study / story",
+      "path": "templates/social/case-study-story.svg"
+    },
+    {
+      "name": "Case study / landscape",
+      "path": "templates/social/case-study-landscape.svg"
+    },
+    {
+      "name": "Problem and solution / square",
+      "path": "templates/social/problem-solution-square.svg"
+    },
+    {
+      "name": "Problem and solution / portrait",
+      "path": "templates/social/problem-solution-portrait.svg"
+    },
+    {
+      "name": "Problem and solution / story",
+      "path": "templates/social/problem-solution-story.svg"
+    },
+    {
+      "name": "Problem and solution / landscape",
+      "path": "templates/social/problem-solution-landscape.svg"
+    },
+    {
+      "name": "Announcement / square",
+      "path": "templates/social/announcement-square.svg"
+    },
+    {
+      "name": "Announcement / portrait",
+      "path": "templates/social/announcement-portrait.svg"
+    },
+    {
+      "name": "Announcement / story",
+      "path": "templates/social/announcement-story.svg"
+    },
+    {
+      "name": "Announcement / landscape",
+      "path": "templates/social/announcement-landscape.svg"
+    },
+    {
+      "name": "Countdown / 30 days",
+      "path": "templates/social/countdown-30-days.svg"
+    },
+    {
+      "name": "Countdown / 14 days",
+      "path": "templates/social/countdown-14-days.svg"
+    },
+    {
+      "name": "Countdown / 7 days",
+      "path": "templates/social/countdown-7-days.svg"
+    },
+    {
+      "name": "Countdown / 3 days",
+      "path": "templates/social/countdown-3-days.svg"
+    },
+    {
+      "name": "Countdown / Tomorrow",
+      "path": "templates/social/countdown-tomorrow.svg"
+    },
+    {
+      "name": "Countdown / Today",
+      "path": "templates/social/countdown-today.svg"
+    },
+    {
+      "name": "Operations / Schedule change",
+      "path": "templates/social/notice-schedule-change.svg"
+    },
+    {
+      "name": "Operations / Venue change",
+      "path": "templates/social/notice-venue-change.svg"
+    },
+    {
+      "name": "Operations / Registration closing",
+      "path": "templates/social/notice-registration-closing.svg"
+    },
+    {
+      "name": "Operations / Sold out",
+      "path": "templates/social/notice-sold-out.svg"
+    },
+    {
+      "name": "Operations / Weather notice",
+      "path": "templates/social/notice-weather-notice.svg"
+    },
+    {
+      "name": "Operations / Cancellation",
+      "path": "templates/social/notice-cancellation.svg"
+    },
+    {
+      "name": "Carousel / first-event / 1",
+      "path": "templates/social/carousel-first-event-01.svg"
+    },
+    {
+      "name": "Carousel / first-event / 2",
+      "path": "templates/social/carousel-first-event-02.svg"
+    },
+    {
+      "name": "Carousel / first-event / 3",
+      "path": "templates/social/carousel-first-event-03.svg"
+    },
+    {
+      "name": "Carousel / first-event / 4",
+      "path": "templates/social/carousel-first-event-04.svg"
+    },
+    {
+      "name": "Carousel / first-event / 5",
+      "path": "templates/social/carousel-first-event-05.svg"
+    },
+    {
+      "name": "Carousel / first-event / 6",
+      "path": "templates/social/carousel-first-event-06.svg"
+    },
+    {
+      "name": "Carousel / first-event / 7",
+      "path": "templates/social/carousel-first-event-07.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 1",
+      "path": "templates/social/carousel-mission-path-01.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 2",
+      "path": "templates/social/carousel-mission-path-02.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 3",
+      "path": "templates/social/carousel-mission-path-03.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 4",
+      "path": "templates/social/carousel-mission-path-04.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 5",
+      "path": "templates/social/carousel-mission-path-05.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 6",
+      "path": "templates/social/carousel-mission-path-06.svg"
+    },
+    {
+      "name": "Carousel / mission-path / 7",
+      "path": "templates/social/carousel-mission-path-07.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 1",
+      "path": "templates/social/carousel-five-ways-01.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 2",
+      "path": "templates/social/carousel-five-ways-02.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 3",
+      "path": "templates/social/carousel-five-ways-03.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 4",
+      "path": "templates/social/carousel-five-ways-04.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 5",
+      "path": "templates/social/carousel-five-ways-05.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 6",
+      "path": "templates/social/carousel-five-ways-06.svg"
+    },
+    {
+      "name": "Carousel / five-ways / 7",
+      "path": "templates/social/carousel-five-ways-07.svg"
+    },
+    {
+      "name": "Banner / wide-banner",
+      "path": "templates/social/banner-wide-banner.svg"
+    },
+    {
+      "name": "Banner / ultrawide",
+      "path": "templates/social/banner-ultrawide.svg"
+    },
+    {
+      "name": "Banner / facebook-cover",
+      "path": "templates/social/banner-facebook-cover.svg"
+    },
+    {
+      "name": "Banner / facebook-event",
+      "path": "templates/social/banner-facebook-event.svg"
+    },
+    {
+      "name": "Banner / facebook-group",
+      "path": "templates/social/banner-facebook-group.svg"
+    },
+    {
+      "name": "Banner / linkedin-cover",
+      "path": "templates/social/banner-linkedin-cover.svg"
+    },
+    {
+      "name": "Banner / linkedin-cover-legacy",
+      "path": "templates/social/banner-linkedin-cover-legacy.svg"
+    },
+    {
+      "name": "Banner / youtube-banner",
+      "path": "templates/social/banner-youtube-banner.svg"
+    },
+    {
+      "name": "Avatar / primary full mark",
+      "path": "templates/social/avatar-primary.svg"
+    },
+    {
+      "name": "Video / Save the date",
+      "path": "templates/social/thumbnail-save-date.svg"
+    },
+    {
+      "name": "Video / Event update",
+      "path": "templates/social/thumbnail-event-update.svg"
+    },
+    {
+      "name": "Video / New-player welcome",
+      "path": "templates/social/thumbnail-new-player.svg"
+    },
+    {
+      "name": "Video / Sponsor spotlight",
+      "path": "templates/social/thumbnail-sponsor-spotlight.svg"
+    },
+    {
+      "name": "Video / Beneficiary spotlight",
+      "path": "templates/social/thumbnail-beneficiary.svg"
+    },
+    {
+      "name": "Video / Founder story",
+      "path": "templates/social/thumbnail-founder.svg"
+    },
+    {
+      "name": "Video / FAQ",
+      "path": "templates/social/thumbnail-faq.svg"
+    },
+    {
+      "name": "Video / Photo recap",
+      "path": "templates/social/thumbnail-photo-recap.svg"
+    },
+    {
+      "name": "Infographic / New-player welcome",
+      "path": "templates/social/infographic-new-player.svg"
+    },
+    {
+      "name": "Infographic / Impact statistic",
+      "path": "templates/social/infographic-impact.svg"
+    },
+    {
+      "name": "Infographic / Educational checklist",
+      "path": "templates/social/infographic-education.svg"
+    },
+    {
+      "name": "Infographic / Comparison",
+      "path": "templates/social/infographic-comparison.svg"
+    },
+    {
+      "name": "Data / Vertical bar",
+      "path": "templates/charts/chart-vertical-bar.svg"
+    },
+    {
+      "name": "Data / Horizontal bar",
+      "path": "templates/charts/chart-horizontal-bar.svg"
+    },
+    {
+      "name": "Data / Grouped bar",
+      "path": "templates/charts/chart-grouped-bar.svg"
+    },
+    {
+      "name": "Data / Stacked bar",
+      "path": "templates/charts/chart-stacked-bar.svg"
+    },
+    {
+      "name": "Data / 100 percent stacked bar",
+      "path": "templates/charts/chart-100-percent-stacked-bar.svg"
+    },
+    {
+      "name": "Data / Line",
+      "path": "templates/charts/chart-line.svg"
+    },
+    {
+      "name": "Data / Multi series line",
+      "path": "templates/charts/chart-multi-series-line.svg"
+    },
+    {
+      "name": "Data / Area",
+      "path": "templates/charts/chart-area.svg"
+    },
+    {
+      "name": "Data / Pie",
+      "path": "templates/charts/chart-pie.svg"
+    },
+    {
+      "name": "Data / Donut",
+      "path": "templates/charts/chart-donut.svg"
+    },
+    {
+      "name": "Data / Scatter",
+      "path": "templates/charts/chart-scatter.svg"
+    },
+    {
+      "name": "Data / Bubble",
+      "path": "templates/charts/chart-bubble.svg"
+    },
+    {
+      "name": "Data / Funnel",
+      "path": "templates/charts/chart-funnel.svg"
+    },
+    {
+      "name": "Data / Waterfall",
+      "path": "templates/charts/chart-waterfall.svg"
+    },
+    {
+      "name": "Data / Gauge",
+      "path": "templates/charts/chart-gauge.svg"
+    },
+    {
+      "name": "Data / Progress bar",
+      "path": "templates/charts/chart-progress-bar.svg"
+    },
+    {
+      "name": "Data / Progress ring",
+      "path": "templates/charts/chart-progress-ring.svg"
+    },
+    {
+      "name": "Data / Sparkline",
+      "path": "templates/charts/chart-sparkline.svg"
+    },
+    {
+      "name": "Data / Heat map",
+      "path": "templates/charts/chart-heat-map.svg"
+    },
+    {
+      "name": "Data / Ranking",
+      "path": "templates/charts/chart-ranking.svg"
+    },
+    {
+      "name": "Data / Timeline",
+      "path": "templates/charts/chart-timeline.svg"
+    },
+    {
+      "name": "Data / Comparison matrix",
+      "path": "templates/charts/chart-comparison-matrix.svg"
+    },
+    {
+      "name": "A seat at the table.",
+      "path": "templates/print/overview.svg"
+    },
+    {
+      "name": "Red White and Clix 2026",
+      "path": "templates/print/event-poster.svg"
+    },
+    {
+      "name": "Plan your event weekend.",
+      "path": "templates/print/event-schedule.svg"
+    },
+    {
+      "name": "Your place at the table.",
+      "path": "templates/print/registration-card.svg"
+    },
+    {
+      "name": "Find your format.",
+      "path": "templates/print/format-explainer.svg"
+    },
+    {
+      "name": "Your first RWC event.",
+      "path": "templates/print/new-player-guide.svg"
+    },
+    {
+      "name": "Find the gathering.",
+      "path": "templates/print/venue-directions.svg"
+    },
+    {
+      "name": "Stand behind the table.",
+      "path": "templates/print/sponsor-cover.svg"
+    },
+    {
+      "name": "Choose how to support.",
+      "path": "templates/print/sponsor-tiers.svg"
+    },
+    {
+      "name": "Thank you, [Sponsor].",
+      "path": "templates/print/sponsor-thanks.svg"
+    },
+    {
+      "name": "See where support goes.",
+      "path": "templates/print/beneficiary.svg"
+    },
+    {
+      "name": "Help put purpose behind play.",
+      "path": "templates/print/donation-appeal.svg"
+    },
+    {
+      "name": "Thank you for your support.",
+      "path": "templates/print/donation-thanks.svg"
+    },
+    {
+      "name": "Help make the event happen.",
+      "path": "templates/print/volunteer.svg"
+    },
+    {
+      "name": "What we accomplished together.",
+      "path": "templates/print/impact-cover.svg"
+    },
+    {
+      "name": "Participation with a record.",
+      "path": "templates/print/impact-statistics.svg"
+    },
+    {
+      "name": "The gathering. The result.",
+      "path": "templates/print/results.svg"
+    },
+    {
+      "name": "Find your next source of support.",
+      "path": "templates/print/resource-guide.svg"
+    },
+    {
+      "name": "Wear the mission.",
+      "path": "templates/print/merchandise.svg"
+    },
+    {
+      "name": "Red White and Clix",
+      "path": "templates/print/letterhead.svg"
+    },
+    {
+      "name": "Email / branded header",
+      "path": "templates/social/email-header.svg"
+    },
+    {
+      "name": "Contact / business card",
+      "path": "templates/print/contact-card.svg"
+    },
+    {
+      "name": "Presentation / title",
+      "path": "templates/slides/slide-title.svg"
+    },
+    {
+      "name": "Presentation / content",
+      "path": "templates/slides/slide-content.svg"
+    },
+    {
+      "name": "Presentation / data",
+      "path": "templates/slides/slide-data.svg"
+    },
+    {
+      "name": "Presentation / quote",
+      "path": "templates/slides/slide-quote.svg"
+    },
+    {
+      "name": "Presentation / photo",
+      "path": "templates/slides/slide-photo.svg"
+    },
+    {
+      "name": "Presentation / closing",
+      "path": "templates/slides/slide-closing.svg"
+    }
+  ],
+  "brandFonts": [
+    {
+      "family": "Archivo Black",
+      "file": "assets/fonts/ArchivoBlack-Regular.ttf"
+    },
+    {
+      "family": "Space Grotesk",
+      "file": "assets/fonts/SpaceGrotesk.ttf"
+    }
+  ],
+  "note": "Portable HTML/SVG kit. This manifest is an inventory, not a claim of compatibility with a proprietary import format."
+}

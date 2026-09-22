@@ -1,0 +1,15 @@
+id,priority,task,proposed_owner,dependency,acceptance,status
+RWC-01,P0,"Confirm platform, budget, scope and maintenance",Clint + Wes,Client decision,Four decisions and a target milestone recorded,Pending decision
+RWC-02,P0,"Confirm event fees, fee basis and checkout",Wes,Organizer records,One authoritative price and URL per format; conflicts resolved,Pending facts
+RWC-03,P0,Establish traffic and paid-registration baseline,Analytics/registration owner,Access + counting definitions,Comparable traffic window and distinct people/entries/team counts recorded,Pending access/data
+RWC-04,P0,Complete event hub copy and registration journey,Agency + Wes,RWC-01;RWC-02,Date/venue/format/fee/basis/refunds/action match checkout,Local event-hub preview built; fees and checkout pending
+RWC-05,P1,Repair event/home/donation metadata and headings,Agency,Website access + page review,Reviewed titles/descriptions; one meaningful primary heading per page,Ready to scope
+RWC-06,P1,Resolve homepage duplicate and URL mapping,Agency,Platform controls + existing route inventory,Chosen canonical and tested redirect preserve useful destinations,Ready to scope
+RWC-07,P1,Replace donation FAQ placeholders,Agency + Wes,"Beneficiary, allocation and receipt facts",Visible copy matches approved records and donation route,Pending facts
+RWC-08,P1,Review organization/event structured data,Agency,Confirmed facts + platform access,Markup describes visible content and correct venue/address roles,Ready to scope
+RWC-09,P1,Apply brand components and documentary imagery,Agency,Approved layout + image context/rights,"Responsive core pages use tokens, consistent CTAs and appropriate alt text",Applied in local preview; final imagery/content permission pending
+RWC-10,P1,Correct Facebook website/contact fields,Authorized page editor,Owner confirmation + delegated access,Visible profile uses confirmed current domain/contact,Pending access/facts
+RWC-11,P1,Validate completed-registration reporting,Registration/analytics owner,RWC-02;RWC-03,Payment outcome source established; outbound click kept separate,Specification prepared
+RWC-12,P2,Prepare newcomer and format guidance,Agency + Wes,Current rules and actual beginner support,Helpful guide contains no unconfirmed loaner/coaching promises,Ready to draft
+RWC-13,P2,Prepare impact and sponsor content,Agency + Wes,"Verified results, relationship and permission records",Each material claim has a source/date and responsible owner,Pending evidence
+RWC-14,P1,Run prelaunch review and owner handoff,Agency + maintenance owner,Core implementation + decisions complete,"Links, forms, mobile, focus/contrast, indexing and update routine reviewed",Local responsive/navigation checks passed; production QA and owner handoff pending

@@ -23,17 +23,19 @@ Double our website traffic and have at least 80 people registered for our Novemb
 - **Platform:** Squarespace
 - **Current pages:** Home, Donate, Events, Shop, Sponsors, About, Veteran Resources, Who we support, Why it matters, Sponsors
 - **Pages needing work:** I need a complete overhaul.
-- **Google Ads:** No — never run them · **Meta Ads:** No — never run them · **Spend:** _not captured_
+- **Google Ads:** No — never run them · **Meta Ads:** No — never run them · **Spend:** To be determined
 
 ## Budget
-- **Monthly ad spend (stated):** _not captured_
+- **Monthly ad spend (stated):** To be determined
 - **Budget notes:** To be determined (confirm full marketing budget on a call)
 
 ## Recommended Priority Actions
 *Grounded in the stated goals — the Strategy team should refine:*
-1. Establish findability (the 90-day goal centers on being found online).
-2. Build/upgrade pages for the priority offer: Tabletop Game Events.
-3. Stand up service-area pages for growth markets: _not captured_.
+1. Establish comparable traffic and paid-registration baselines, and define what the 80-registration goal counts.
+2. Resolve the November fee/checkout conflict and prepare one authoritative event-information journey.
+3. Correct priority content and SEO issues after platform, scope and access are settled.
+4. Prepare donor transparency content from approved beneficiary and allocation records.
+5. Assign a maintenance owner and review routine before launch.
 
 
 ## Research reconciliation — September 21, 2026
@@ -46,3 +48,6 @@ The survey timestamp is 2026-09-16T01:39:42Z, equivalent to September 15 at 8:39
 - Logo colors sampled: #FF0000, #FFFFFF, #0072FF, #000000. Existing site fonts: Archivo Black and Space Grotesk.
 - Social discovery and access limitations: `06-Reports/social-and-directory-inventory.md`.
 - Follow-up questions: `CLIENT-FOLLOWUP.md`. Do not repeat the onboarding survey.
+
+## Target interpretation
+The traffic-doubling goal has no verified baseline yet. The 80-registration goal must distinguish unique paid people from tournament entries and team purchases. Counts are unknown, not zero. Neither goal is currently measured by a connected dashboard.

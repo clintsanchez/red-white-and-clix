@@ -1,31 +1,41 @@
 ---
-tags:
-  - client
-  - competitors
 client: "Red White and Clix"
+tags: [client, competitors]
 ---
 
 # Red White and Clix — Competitive Landscape
 
-> Auto-generated from the BSC Onboarding Survey. The client named the
-> competitors below; the Intelligence team should research each (strengths,
-> weaknesses, positioning) to complete this file.
+The original intake said “We don’t really have a competitor.” Subsequent project research defines the relevant comparison set as veteran-serving organizations. This update uses the September 21, 2026 research already in the repository; it is not a new live review.
 
-## Our Position
-We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.
+## Landscape
 
-## Competitors (as named by the client)
-We don't really have a competitor
+RWC's competitor set is limited to organizations that serve veterans. Stack Up is both the closest mission/category competitor and the founder's original aspirational benchmark. Operation Gratitude demonstrates tangible service and broad volunteer participation. Wounded Warrior Project establishes the institutional standard for proof, program breadth and national recognition.
 
-*For each competitor above, the Intelligence team should fill in:*
-- **Website:**
-- **What They Do Well:**
-- **Where They're Weak:**
-- **How We Beat Them:** (anchor to our differentiator)
+## Comparison
 
-## Competitive Gaps & Opportunities
-- Client admires (websites): https://www.stackup.org
-https://www.operationgratitude.com
-https://www.woundedwarriorproject.org
-- Client admires (brands): _not captured_
-- Note: client asked us NOT to mention — Politics or anything divisive. We are about inclusion and being a fun environment for everyone.
+| Organization | Core mechanism | Cause | Scale | Primary strength | Open space for RWC |
+|---|---|---|---|---|---|
+| Red White and Clix | Organizer-led HeroClix events | Veterans | Local/Midwest | Specific event and founder proximity | Own purposeful tabletop destination events |
+| Stack Up | Video gaming programs/community | Veterans | National | Gaming-veteran category authority | Tabletop specificity and local intimacy |
+| Operation Gratitude | Care packages and volunteer acts | Military/veteran community | National | Tangible service | Competition and ongoing hobby community |
+| WWP | Direct programs, advocacy, grants | Post-9/11 wounded veterans | National | Scale and proof | Human-scale participation and local connection |
+
+## Positioning map
+
+On a spectrum from **institution-led** to **participant-led**, WWP sits furthest toward institution-led, Operation Gratitude occupies the middle, and Stack Up is the most gaming-native. RWC can be participant-led while remaining organizer-curated. On **broad veteran services** to **specific shared activity**, RWC should own the most specific position: veteran-founded HeroClix events.
+
+## Strategic takeaways
+
+1. “Gaming for good” is occupied; add tabletop, HeroClix, Midwest and organizer-led specificity.
+2. Every mature peer makes the support mechanism understandable. RWC must document beneficiary, allocation and results.
+3. The strongest organizations offer several ways to participate without obscuring one primary action.
+4. Local proximity is valuable only when logistics and follow-through are reliable.
+5. Newcomer welcome can distinguish RWC from purely competitive alternatives if it becomes an actual event practice.
+6. Stack Up should be the primary benchmark in planning reviews: copy its discipline around programs, participation and transparency while preserving RWC's tabletop specialization and local character.
+
+## Research limitations
+
+SEO authority, keyword, backlink and traffic metrics were not available through the current toolset and are omitted rather than estimated. Profiles use official public pages and are dated snapshots. Pricing is generally inapplicable because these are nonprofits/programs rather than substitutable commercial products.
+
+
+Source records: /Users/clintsanchez/Documents/Claude/Red, White, and Clix/06-Reports/marketing-research/competitor-profiles

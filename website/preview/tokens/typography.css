@@ -1,0 +1,13 @@
+:root {
+  --rwc-font-heading: "Archivo Black", Arial, sans-serif;
+  --rwc-font-body: "Space Grotesk", Arial, sans-serif;
+  --rwc-body-size: 18px;
+  --rwc-body-leading: 1.6;
+  --rwc-h1: clamp(36px,5vw,72px);
+  --rwc-h2: clamp(28px,4vw,48px);
+  --rwc-h3: 24px;
+  --rwc-label: 16px;
+  --rwc-caption: 14px;
+  --rwc-display-leading: 1.08;
+  --rwc-heading-tracking: -0.025em;
+}

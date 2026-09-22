@@ -18,9 +18,9 @@ tags:
 - **Company Name:** Red White and Clix
 - **Industry:** We run large scale tabletop gaming events to raise awareness and support for veterans.
 - **Website:** https://www.redwhiteandclix.org
-- **Founded / Years in Business:** 3–5 years
+- **Founded / Years in Business:** Client reported 3–5 years; operating and incorporation dates remain unconfirmed.
 - **Company Size:** To be determined
-- **Location:** Lafayette, indiana
+- **Location:** Lafayette, Indiana
 
 ## Products / Services
 
@@ -43,24 +43,24 @@ They value camaraderie, welcoming communities, fair competition, and genuine sup
 They want enjoyable, professionally run events; an accepting community; simple access to veteran resources; and clear ways to participate, volunteer, donate, or sponsor the mission. A secondary audience is businesses and organizations seeking a credible veteran nonprofit through which they can make a visible, measurable community impact.
 - **Where business comes from today:** Repeat customers, Social media (organic), Networking / events
 
-See also: [[Red White and Clix — ICP]]
+See also: [[icp]]
 
 ## Competitors
 
-We don't really have a competitor
+Original intake: “We don’t really have a competitor.” Research reconciliation: Stack Up is the primary aspirational benchmark; Operation Gratitude and Wounded Warrior Project are the other veteran-serving comparisons. See competitors.md and the September 21 research profiles.
 
 **Our Differentiator:** We don't just ask for handouts. We integrate fun, community, engagement, comradery, and personal interaction while offering a way to support veterans and give them a support structure and resources.
 
-See also: [[Red White and Clix — Competitors]]
+See also: [[competitors]]
 
 ## Goals & KPIs
 
 - **90-Day Success Criteria:** Double our website traffic and have at least 80 people registered for our November event.
 - **6-Month:** Have all the details and finances established for our secondary event.
 - **Biggest Challenge:** Honestly, the maintenance. I don't know what I want the site to look like, but I know what I have isn't it. My skills are very basic and my site reflects that. I want to expand the site in depth and engagement.
-- **Ad status:** Google Ads — No — never run them; Meta — No — never run them; spend — _not captured_
+- **Ad status:** Google Ads — No — never run them; Meta — No — never run them; spend — To be determined
 
-See also: [[Red White and Clix — Goals]]
+See also: [[goals]]
 
 ## Brand Voice Summary
 
@@ -68,7 +68,7 @@ See also: [[Red White and Clix — Goals]]
 - **Brand colors (described):** primary Red, secondary White, accent Blue
 - **Do NOT mention:** Politics or anything divisive. We are about inclusion and being a fun environment for everyone.
 
-See also: [[Red White and Clix — Brand Voice]]
+See also: [[brand-voice]]
 
 ## Contact Info
 
@@ -83,8 +83,8 @@ See also: [[Red White and Clix — Brand Voice]]
 - **Type:** Regional — multiple cities or counties
 - **Base:** Lafayette, indiana
 - **Cities:** The entire mid-west
-- **Counties:** _not captured_
-- **Growth markets:** _not captured_
+- **Counties:** To be determined
+- **Growth markets:** To be determined
 
 ## Notes
 
@@ -105,3 +105,6 @@ The survey timestamp is 2026-09-16T01:39:42Z, equivalent to September 15 at 8:39
 - Logo colors sampled: #FF0000, #FFFFFF, #0072FF, #000000. Existing site fonts: Archivo Black and Space Grotesk.
 - Social discovery and access limitations: `06-Reports/social-and-directory-inventory.md`.
 - Follow-up questions: `CLIENT-FOLLOWUP.md`. Do not repeat the onboarding survey.
+
+## Current phase — September 21, 2026
+Intake, initial research and design-kit production are complete. Website planning is underway. Platform direction, budget, account access, authoritative registration details and a maintenance owner remain open decisions. No build or launch date is committed.

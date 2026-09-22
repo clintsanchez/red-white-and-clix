@@ -1,0 +1,182 @@
+{
+  "key": "rwc-event-details",
+  "title": "Event Details",
+  "post_types": [
+    "rwc_event"
+  ],
+  "fields": [
+    {
+      "id": "rwc_event_start",
+      "name": "Start date and time",
+      "type": "datetime",
+      "required": true,
+      "save_format": "Y-m-d H:i:s",
+      "timestamp": false,
+      "desc": "Local time in the event timezone."
+    },
+    {
+      "id": "rwc_event_end",
+      "name": "End date and time",
+      "type": "datetime",
+      "save_format": "Y-m-d H:i:s",
+      "timestamp": false,
+      "desc": "Must be on or after the start; leave blank until confirmed."
+    },
+    {
+      "id": "rwc_event_timezone",
+      "name": "Timezone",
+      "type": "text",
+      "std": "America/Indiana/Indianapolis",
+      "required": true,
+      "desc": "IANA timezone, e.g. America/Indiana/Indianapolis. Times are entered in this timezone."
+    },
+    {
+      "id": "rwc_event_check_in",
+      "name": "Check-in time",
+      "type": "text",
+      "desc": "Optional attendee-facing check-in instructions."
+    },
+    {
+      "id": "rwc_event_status",
+      "name": "Event status",
+      "type": "select",
+      "options": {
+        "Scheduled": "Scheduled",
+        "Postponed": "Postponed",
+        "Cancelled": "Cancelled",
+        "Sold out": "Sold out",
+        "Completed": "Completed"
+      },
+      "std": "Scheduled"
+    },
+    {
+      "id": "rwc_event_format",
+      "name": "Game / format",
+      "type": "text",
+      "desc": "For example: HeroClix Modern or Team Sealed."
+    },
+    {
+      "id": "rwc_event_venue",
+      "name": "Venue name",
+      "type": "text"
+    },
+    {
+      "id": "rwc_event_address",
+      "name": "Venue address",
+      "type": "textarea",
+      "desc": "Street, city, state/province, postal code and country."
+    },
+    {
+      "id": "rwc_event_map_url",
+      "name": "Directions URL",
+      "type": "url"
+    },
+    {
+      "id": "rwc_event_online_url",
+      "name": "Online event URL",
+      "type": "url"
+    },
+    {
+      "id": "rwc_event_registration_url",
+      "name": "Registration URL",
+      "type": "url",
+      "desc": "Authoritative checkout or registration page. Leave blank until confirmed."
+    },
+    {
+      "id": "rwc_event_registration_deadline",
+      "name": "Registration deadline",
+      "type": "datetime",
+      "save_format": "Y-m-d H:i:s",
+      "timestamp": false
+    },
+    {
+      "id": "rwc_event_price",
+      "name": "Entry price",
+      "type": "number",
+      "min": 0,
+      "step": "0.01",
+      "desc": "Leave blank if unconfirmed; enter 0 only for a confirmed free event."
+    },
+    {
+      "id": "rwc_event_currency",
+      "name": "Currency",
+      "type": "text",
+      "std": "USD"
+    },
+    {
+      "id": "rwc_event_fee_basis",
+      "name": "Fee basis",
+      "type": "select",
+      "options": {
+        "": "Not confirmed",
+        "per person": "Per person",
+        "per team": "Per team",
+        "per entry": "Per entry"
+      },
+      "std": ""
+    },
+    {
+      "id": "rwc_event_capacity",
+      "name": "Capacity",
+      "type": "number",
+      "min": 1,
+      "step": 1,
+      "desc": "Optional maximum number of the capacity units below."
+    },
+    {
+      "id": "rwc_event_capacity_unit",
+      "name": "Capacity unit",
+      "type": "select",
+      "options": {
+        "": "Not confirmed",
+        "people": "People",
+        "teams": "Teams",
+        "entries": "Entries"
+      }
+    },
+    {
+      "id": "rwc_event_organizer",
+      "name": "Organizer name",
+      "type": "text"
+    },
+    {
+      "id": "rwc_event_email",
+      "name": "Organizer email",
+      "type": "email"
+    },
+    {
+      "id": "rwc_event_phone",
+      "name": "Organizer phone",
+      "type": "text"
+    },
+    {
+      "id": "rwc_event_rules_url",
+      "name": "Rules / event pack URL",
+      "type": "url"
+    },
+    {
+      "id": "rwc_event_schedule",
+      "name": "Schedule",
+      "type": "textarea",
+      "desc": "Confirmed agenda, rounds and timing."
+    },
+    {
+      "id": "rwc_event_refund_policy",
+      "name": "Refund policy",
+      "type": "textarea"
+    },
+    {
+      "id": "rwc_event_accessibility",
+      "name": "Accessibility / travel notes",
+      "type": "textarea"
+    },
+    {
+      "id": "rwc_event_verified_on",
+      "name": "Details last verified",
+      "type": "date",
+      "save_format": "Y-m-d"
+    }
+  ],
+  "context": "normal",
+  "priority": "high"
+}

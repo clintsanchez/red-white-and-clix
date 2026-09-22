@@ -1,0 +1,53 @@
+{
+  "variants": 9,
+  "vectorOnlySVGs": true,
+  "classificationAgreementPercent": 99.141,
+  "comparison": "Original versus vector render at 700px, brand-hue classification and alpha threshold 128. Boundary antialiasing differences count as mismatches.",
+  "pdfChecks": [
+    {
+      "file": "rwc-letterforms-black.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 24
+    },
+    {
+      "file": "rwc-letterforms-white.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 24
+    },
+    {
+      "file": "rwc-primary-black-outline.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 26
+    },
+    {
+      "file": "rwc-primary-full-color.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 25
+    },
+    {
+      "file": "rwc-primary-white-outline.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 26
+    },
+    {
+      "file": "rwc-single-color-black.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 8
+    },
+    {
+      "file": "rwc-single-color-white.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 8
+    },
+    {
+      "file": "rwc-wide-wordmark-on-dark.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 24
+    },
+    {
+      "file": "rwc-wide-wordmark.pdf",
+      "embeddedImages": 0,
+      "vectorDrawings": 24
+    }
+  ]
+}

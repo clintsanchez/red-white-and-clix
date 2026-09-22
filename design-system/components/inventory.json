@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Button",
+    "path": "components/Button.html",
+    "description": "Primary, secondary, text, hover, pressed, focus and disabled. One main action; 44px minimum target."
+  },
+  {
+    "name": "Logo",
+    "path": "components/Logo.html",
+    "description": "Supplied raster artwork; black plate; preserve proportions and 10% clear space. Full artwork itself at least 120px for production."
+  },
+  {
+    "name": "Icon",
+    "path": "components/Icon.html",
+    "description": "16 original simple line icons. 24px viewBox, 2px stroke; decorative icons hidden from assistive technology."
+  },
+  {
+    "name": "Badge",
+    "path": "components/Badge.html",
+    "description": "Format, registration status and sponsor-tier variants. Meaning is written in words."
+  },
+  {
+    "name": "EventDetails",
+    "path": "components/EventDetails.html",
+    "description": "Date, venue, format, fee and authoritative action together. Copy is drawn from the September 21 project brief."
+  },
+  {
+    "name": "EventDate",
+    "path": "components/EventDate.html",
+    "description": "Compact social and UI date block; never infer date from photography."
+  },
+  {
+    "name": "RegistrationAction",
+    "path": "components/RegistrationAction.html",
+    "description": "Link variant in production after checkout route is confirmed. This specimen sends no registration."
+  },
+  {
+    "name": "Field",
+    "path": "components/Field.html",
+    "description": "Visible label, email keyboard, autocomplete and helper text."
+  },
+  {
+    "name": "FieldError",
+    "path": "components/FieldError.html",
+    "description": "Error names the fix and is connected with aria-describedby; no color-only signal."
+  },
+  {
+    "name": "Select",
+    "path": "components/Select.html",
+    "description": "Native select, keyboard accessible. Options are inquiry categories, not promised services."
+  },
+  {
+    "name": "Checkbox",
+    "path": "components/Checkbox.html",
+    "description": "Optional consent is unchecked by default; connected to a real policy before launch."
+  },
+  {
+    "name": "Textarea",
+    "path": "components/Textarea.html",
+    "description": "Plain language prompt and generous input area."
+  },
+  {
+    "name": "Alert",
+    "path": "components/Alert.html",
+    "description": "Calm logistics alert; requires timestamp and authoritative source."
+  },
+  {
+    "name": "StatusMessage",
+    "path": "components/StatusMessage.html",
+    "description": "Success/info use blue; errors use action red. Icon and text distinguish meaning."
+  },
+  {
+    "name": "ProductionWarning",
+    "path": "components/ProductionWarning.html",
+    "description": "Visible authoring placeholder; replace only after checking the underlying fact."
+  },
+  {
+    "name": "Navigation",
+    "path": "components/Navigation.html",
+    "description": "Responsive navigation specimen. Final information architecture remains proposed."
+  },
+  {
+    "name": "Footer",
+    "path": "components/Footer.html",
+    "description": "Compact, standard and expanded variants; no invented social handles."
+  },
+  {
+    "name": "CTABand",
+    "path": "components/CTABand.html",
+    "description": "Dark band, single red action and a restrained blue edge."
+  },
+  {
+    "name": "EventCard",
+    "path": "components/EventCard.html",
+    "description": "Event summary card with date and place visible before the action."
+  },
+  {
+    "name": "Schedule",
+    "path": "components/Schedule.html",
+    "description": "Chronological timeline; no invented check-in times."
+  },
+  {
+    "name": "NewPlayerGuide",
+    "path": "components/NewPlayerGuide.html",
+    "description": "Helpful steps without promising loaners, coaching or beginner divisions."
+  },
+  {
+    "name": "VenueCard",
+    "path": "components/VenueCard.html",
+    "description": "Venue is labeled separately from the mailing location."
+  },
+  {
+    "name": "BeneficiaryCard",
+    "path": "components/BeneficiaryCard.html",
+    "description": "Neutral logo slot and relationship statement; no assumed endorsement."
+  },
+  {
+    "name": "SponsorGrid",
+    "path": "components/SponsorGrid.html",
+    "description": "Equal visual weight within each confirmed tier. Preserve each supplied logo."
+  },
+  {
+    "name": "SponsorTier",
+    "path": "components/SponsorTier.html",
+    "description": "Tier benefits and price remain editable until defined."
+  },
+  {
+    "name": "DonationAllocation",
+    "path": "components/DonationAllocation.html",
+    "description": "Allocation and transfer totals require records. No implied percentage split."
+  },
+  {
+    "name": "DonationFAQ",
+    "path": "components/DonationFAQ.html",
+    "description": "Native disclosure controls; donation answers need operational confirmation."
+  },
+  {
+    "name": "VolunteerCard",
+    "path": "components/VolunteerCard.html",
+    "description": "Recruitment CTA with clear role and date fields."
+  },
+  {
+    "name": "ResourceCard",
+    "path": "components/ResourceCard.html",
+    "description": "Keep resource information separate from fundraising; verify provider details."
+  },
+  {
+    "name": "MerchandiseCard",
+    "path": "components/MerchandiseCard.html",
+    "description": "Product images must be real product assets or labeled mockups."
+  },
+  {
+    "name": "Quote",
+    "path": "components/Quote.html",
+    "description": "Never fabricate testimony or attribution."
+  },
+  {
+    "name": "Review",
+    "path": "components/Review.html",
+    "description": "Rating appears only if the source supplies it."
+  },
+  {
+    "name": "KPI",
+    "path": "components/KPI.html",
+    "description": "One, two, three and four metric variants. Empty data stays a placeholder."
+  },
+  {
+    "name": "KPIGrid",
+    "path": "components/KPIGrid.html",
+    "description": "Responsive metric group with independent source fields."
+  },
+  {
+    "name": "Citation",
+    "path": "components/Citation.html",
+    "description": "Readable evidence line. Required on statistics and researched content."
+  },
+  {
+    "name": "PhotoCaption",
+    "path": "components/PhotoCaption.html",
+    "description": "Provenance and consent metadata stay attached to assets."
+  },
+  {
+    "name": "PhotoGallery",
+    "path": "components/PhotoGallery.html",
+    "description": "Authentic photo grid; individual caption and alt text before publication."
+  },
+  {
+    "name": "Comparison",
+    "path": "components/Comparison.html",
+    "description": "Compare the same dimensions; use labels rather than red/blue alone."
+  },
+  {
+    "name": "Checklist",
+    "path": "components/Checklist.html",
+    "description": "Checklist supports short, long, process and review variants."
+  },
+  {
+    "name": "CarouselFooter",
+    "path": "components/CarouselFooter.html",
+    "description": "Persistent page numbering and optional swipe cue; real sequence count."
+  },
+  {
+    "name": "ImageContainer",
+    "path": "components/ImageContainer.html",
+    "description": "Full bleed, framed, rounded, split, portrait, product and screenshot slots; do not invent device or product evidence."
+  },
+  {
+    "name": "BrowserFrame",
+    "path": "components/BrowserFrame.html",
+    "description": "Neutral browser frame for an actual site capture; no fabricated interface proof."
+  },
+  {
+    "name": "EmptyState",
+    "path": "components/EmptyState.html",
+    "description": "Honest empty state for unpopulated reporting."
+  },
+  {
+    "name": "Progress",
+    "path": "components/Progress.html",
+    "description": "No fabricated filled portion; determinate state requires numerator and denominator."
+  },
+  {
+    "name": "ContactCard",
+    "path": "components/ContactCard.html",
+    "description": "Contact card using client-provided details."
+  }
+]

@@ -1,0 +1,10 @@
+:root {
+  --rwc-social-margin: 64px;
+  --rwc-social-gutter: 32px;
+  --rwc-social-headline: 72px;
+  --rwc-social-body: 32px;
+  --rwc-social-caption: 24px;
+  --rwc-social-story-top: 250px;
+  --rwc-social-story-bottom: 320px;
+  --rwc-social-story-right: 160px;
+}

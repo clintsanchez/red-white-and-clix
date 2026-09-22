@@ -1,0 +1,590 @@
+{
+  "checks": [
+    {
+      "page": "index.html",
+      "width": 1440,
+      "bodyWidth": 1440,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "events.html",
+      "width": 1440,
+      "bodyWidth": 1440,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "width": 1440,
+      "bodyWidth": 1440,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "donate.html",
+      "width": 1440,
+      "bodyWidth": 1440,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "review.html",
+      "width": 1440,
+      "bodyWidth": 1440,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "bodyWidth": 768,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "events.html",
+      "width": 768,
+      "bodyWidth": 768,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "width": 768,
+      "bodyWidth": 768,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "donate.html",
+      "width": 768,
+      "bodyWidth": 768,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "review.html",
+      "width": 768,
+      "bodyWidth": 768,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "bodyWidth": 390,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "events.html",
+      "width": 390,
+      "bodyWidth": 390,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "width": 390,
+      "bodyWidth": 390,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "donate.html",
+      "width": 390,
+      "bodyWidth": 390,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "review.html",
+      "width": 390,
+      "bodyWidth": 390,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "width": 320,
+      "bodyWidth": 320,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "events.html",
+      "width": 320,
+      "bodyWidth": 320,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "width": 320,
+      "bodyWidth": 320,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "donate.html",
+      "width": 320,
+      "bodyWidth": 320,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "page": "review.html",
+      "width": 320,
+      "bodyWidth": 320,
+      "h1": 1,
+      "brokenImages": [],
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "unloaded"
+        },
+        {
+          "family": "Space Grotesk",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "browserErrors": [],
+  "localLinksAndAnchors": "passed",
+  "mobileMenu": "passed",
+  "faq": "passed",
+  "checkoutControls": "disabled as intended",
+  "keyboardSkipLink": "passed"
+}

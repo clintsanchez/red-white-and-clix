@@ -1,44 +1,66 @@
 # Red White and Clix — handoff
 
-**Status: Onboarding complete, September 21, 2026.** Ready for discovery follow-up and website planning. This does not mean the website overhaul or all account access is complete.
+Updated September 21, 2026. **Intake, research and design deliverables complete. Website planning prepared; implementation remains pending decisions and access.**
 
-## Created and verified
+Start with [onboarding status](ONBOARDING-STATUS.md) and [website planning](08-Website-Planning/README.md).
 
-- GHL BSC Onboarding Survey matched to Wesley Robertson, contact `TGwjKOcOvCWWCnmObL4o`; original timestamp September 16 UTC / September 15 Central.
-- Client working repo initialized at `~/Documents/Claude/Projects/Red-White-and-Clix/`.
-- Numbered pCloud deliverables folders, client brief, source-of-truth marketing context and secure credential file.
-- Five Agency-in-a-BOX files, live vault entry and dashboard activity row.
-- [Trello board](https://trello.com/b/qwUSKYIS/red-white-and-clix), copied from BSC's onboarding template.
-- Client-uploaded logo downloaded; sampled colors and existing font families recorded; brand guide, DESIGN.md and CSS tokens synchronized.
-- 27 public website pages captured. 333 source image references consolidated into 283 byte-unique website files.
-- 18 Facebook images saved through a fresh public Playwright browser; includes event photos, logos, a flyer and video thumbnails. Fourteen event/community images shortlisted across site and Facebook collections.
-- Federal nonprofit record checked against IRS Indiana BMF: EIN 41-4723161, 501(c)(3), March 2026 ruling.
-- Current HCUnits event verified: November 7–8, 2026, Lafayette National Guard Armory.
+## Completed
 
-## Read next
+- Original GHL survey retained in the existing client brief; no repeat intake.
+- Existing organization, records, social, asset, marketing and SEO research in `06-Reports/` and `99-Reference/`.
+- Supplied logo, brand package and selected documentary image references preserved.
+- 77-page design system PDF/HTML; 45 components; 224 editable templates and PNG previews; 74 tokens and bundled fonts.
+- Separate nine-variant vector logo kit in SVG, vector PDF and PNG. Alternative arrangements remain proposed.
+- Five Agency-in-a-BOX files reconciled with existing research and restored to the local canonical client folder; dashboard updated without replacing other client records.
+- Website scope brief, home/events/about/donation drafts, measurement/access handoff, focused decision sheet and 14-item implementation backlog.
 
-1. [Client brief](00-Client-Brief.md) and [organization research](06-Reports/organization-research.md).
-2. [Social/directory inventory](06-Reports/social-and-directory-inventory.md) and [records check](06-Reports/records-check.md).
-3. [Asset library](06-Reports/ASSET-LIBRARY.md), including two visual contact sheets.
-4. [Focused follow-up](CLIENT-FOLLOWUP.md).
-5. [Brand guide](brand-style-guide.md) and [content engine contract](CONTENT-ENGINE-CONTRACT.md).
+## Immediate review
 
-## Priority follow-ups
+1. Settle website platform, scope, budget, target milestone and maintenance owner.
+2. Reconcile the recorded Squarespace/HCUnits pricing conflict and choose the authoritative checkout for each event format.
+3. Define the 80-registration goal; establish real registration counts and a traffic baseline.
+4. Arrange delegated access to the relevant website, registration, analytics and Facebook accounts.
+5. Confirm beneficiary/allocations/receipts and permissions before donor/sponsor/photo content is released.
 
-- Reconcile $0 Squarespace event entries with $40 / $240 HCUnits listings and define the authoritative checkout route.
-- Confirm baseline traffic, unique versus event registrations, and current paid registrations for the 80-registration goal.
-- Replace the donation page's placeholder FAQ content once allocation and receipt details are confirmed.
-- Update Facebook's old GoDaddy website and reconcile public contact/address roles during authorized account work.
-- Confirm primary merchandise store, hotel rate, beneficiary/sponsor facts, budget and ongoing maintenance owner.
+Current event facts are carried from September 21 research: November 7–8, 2026, Lafayette National Guard Armory. Recheck the affected facts before publication. The event venue and mailing address have different roles.
 
-## Access and scope limits
+## Access and evidence boundaries
 
-Google Business Profile displayed an unusual-traffic challenge; Candid displayed security verification. Profile/review/Candid-seal details were not verified. The federal record was independently checked with IRS data. Public Facebook coverage is partial; no login credentials or saved browser cookies were extracted. Other owned social accounts were not verified; do not invent handles.
+The recorded current platform is Squarespace. A platform change is not yet settled. No website deployment, profile edit or client message occurred during this continuation. Recurring publishing and completed-registration tracking are not configured.
 
-Current platform: Squarespace. The generated placeholder WordPress MCP block was disabled because no WordPress integration exists. Blank environment file retained; secrets stay in gitignored `CREDENTIALS.local.md` (0600). No GitHub remote, deployment, account edits, purchases or client messages were made.
+Existing reports record GBP/Candid verification limits, missing analytics baselines, uncollected primary interviews and unavailable quantitative SEO data. Those limits remain. A credential-file reference does not prove working account access on this machine; secrets must stay out of shared documents.
 
-## Locations
+## Current locations
 
-- Deliverables and originals: `~/pCloud Drive/Documents/BlakSheep Creative/Clients/Red White and Clix/`
-- AiB: `~/Documents/Claude/agency-in-a-box/Agency-in-a-BOX/vault/01-Clients/Red White and Clix/`
-- Reproducible collection scripts: `tools/research/`; source snapshots: `99-Reference/`.
+- Working repository: `/Users/clintsanchez/Documents/Claude/Red, White, and Clix/`
+- Git remote: `https://github.com/clintsanchez/red-white-and-clix.git`; repository cloned on `main`. New deliverables have not been committed or pushed in this session.
+- pCloud client: `/Users/clintsanchez/pCloud Drive/Documents/BlakSheep Creative/Clients/Red White and Clix/`
+- Agency client: `/Users/clintsanchez/Documents/Claude/agency-in-a-box/Agency-in-a-BOX/vault/01-Clients/Red White and Clix/`
+- Downloads: `/Users/clintsanchez/Downloads/Red White and Clix Design Kit/`
+- Existing Trello board: https://trello.com/b/qwUSKYIS/red-white-and-clix — referenced from prior handoff; not modified or reverified in this continuation.
+
+See [CLIENT-FOLLOWUP.md](CLIENT-FOLLOWUP.md) for the complete unresolved list. Answers should update the [decision log](08-Website-Planning/04-DECISIONS-FOR-WES.md).
+
+## Website preview — September 21, 2026
+
+A platform-neutral local preview now implements Home, Events, Our story and Give, with internal review notes. Open [the preview](website/preview/index.html). It uses the design-system tokens/fonts and supplied original logo. Registration/donation controls remain disabled until authoritative links and facts are confirmed. No website account changes or deployment have occurred.
+
+Verification passed for five pages at 1440, 768, 390 and 320px: no horizontal overflow, one H1 per page, local links/anchors, images, mobile navigation, FAQ disclosures, disabled checkout and the keyboard skip link. Screenshots and results are in `website/preview/review/`. Platform, budget, access and remaining fact decisions are still open.
+
+
+## September 22 — local Elementor template framing
+
+Clint selected Elementor and uploaded the Triple-A kit. The current pass preserves template content and styling; it does not apply project copy or the earlier custom website preview. Twelve page layouts are inserted, shared Theme Builder templates assigned, missing original navigation/logo restored, and local visibility settings corrected. See [template placement](08-Website-Planning/07-ELEMENTOR-TEMPLATE-PLACEMENT.md). Events and Donate remain drafts. Production migration/launch remains separate.
+
+
+## September 22 — Events content type and templates
+
+Created the Meta Box Events CPT and 25 fields, with Elementor Single Event (1459), Events Archive (1460) and Event Card (1461) templates assembled from the imported kit. Archive: `/events/`. Real event entries are still pending verified details. Temporary test records were removed. See [Events implementation](08-Website-Planning/08-EVENTS-IMPLEMENTATION.md).
+
+## Header/footer branding pass — September 22, 2026
+
+Existing Elementor Header 1304 / Footer 1273 now use supplied RWC logo attachment 1491 with responsive sizing. Footer organization/newsletter copy, confirmed contact details, and copyright updated. Existing kit layout, colors, typography and navigation preserved. Fixed inherited paragraph overlaps and mobile contact wrapping. Global kit logo was not changed. Placeholder sponsor assets, social destinations, legal/footer menu destinations, and newsletter integration remain pending. No forms submitted. See `08-Website-Planning/09-HEADER-FOOTER-IMPLEMENTATION.md` and `website/wordpress-header-footer/review/` for backup location and review artifacts.
+
+## Global options wiring — September 22, 2026
+
+Header/footer now derive logo and business details from the existing Options → Global Settings Meta Box group (25), option array `options`, rather than static widget values. Existing field IDs retained; `ceo` relabeled Founder / Contact. Five missing fields added. Native Meta Box Elementor tags supply logos, footer paragraphs, copyright company name, contact text and mailto/tel links. Footer navigation unchanged. No new runtime plugin. Nine in-memory substitution checks plus desktop/mobile browser checks passed. See `08-Website-Planning/10-GLOBAL-OPTIONS.md` for keys, backup and scope.

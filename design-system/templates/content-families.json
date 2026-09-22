@@ -1,0 +1,367 @@
+[
+  {
+    "id": "mission",
+    "title": "Mission statement",
+    "headline": "One Community. One Mission.",
+    "body": "Veteran-founded tabletop events where competition, camaraderie and veteran support share the same table.",
+    "cta": "Explore the mission",
+    "kind": "statement",
+    "fields": []
+  },
+  {
+    "id": "save-date",
+    "title": "Save the date",
+    "headline": "A weekend around the table.",
+    "body": "November 7–8, 2026 · Lafayette National Guard Armory",
+    "cta": "View event details",
+    "kind": "event",
+    "fields": [
+      "NOV 07–08 / 2026",
+      "Lafayette, Indiana",
+      "300 Modern + Team Sealed"
+    ]
+  },
+  {
+    "id": "modern",
+    "title": "300 Modern",
+    "headline": "Bring your best team.",
+    "body": "RWC 300 Modern · Saturday, November 7, 2026",
+    "cta": "View 300 Modern",
+    "kind": "event",
+    "fields": [
+      "Lafayette National Guard Armory",
+      "Fee: CONFIRM BEFORE PUBLISHING",
+      "Registration URL: CONFIRM"
+    ]
+  },
+  {
+    "id": "team-sealed",
+    "title": "Team Sealed",
+    "headline": "Three players. One team.",
+    "body": "Team Sealed · 3v3 · Sunday, November 8, 2026",
+    "cta": "View Team Sealed",
+    "kind": "event",
+    "fields": [
+      "Lafayette National Guard Armory",
+      "Fee + per-team basis: CONFIRM",
+      "Registration URL: CONFIRM"
+    ]
+  },
+  {
+    "id": "event-update",
+    "title": "Event update",
+    "headline": "Here’s the latest.",
+    "body": "[Confirmed change] · Updated [date and time]",
+    "cta": "View current details",
+    "kind": "alert",
+    "fields": [
+      "New detail: CONFIRM",
+      "Authoritative link: CONFIRM",
+      "Contact: 574-265-9585"
+    ]
+  },
+  {
+    "id": "new-player",
+    "title": "New-player welcome",
+    "headline": "New to HeroClix? Start here.",
+    "body": "Review the format, bring your questions and join a community that values helpful competition.",
+    "cta": "Read the event guide",
+    "kind": "steps",
+    "fields": [
+      "Check the format",
+      "Review date and venue",
+      "Bring required game materials"
+    ]
+  },
+  {
+    "id": "competition",
+    "title": "Competition",
+    "headline": "Serious play. Shared purpose.",
+    "body": "Clear formats, fair competition and real camaraderie.",
+    "cta": "See the event schedule",
+    "kind": "statement",
+    "fields": []
+  },
+  {
+    "id": "community",
+    "title": "Veterans and families",
+    "headline": "Camaraderie starts at a shared table.",
+    "body": "Veterans, families, gamers and supporters participate as peers.",
+    "cta": "Join the community",
+    "kind": "statement",
+    "fields": []
+  },
+  {
+    "id": "donation",
+    "title": "Donation appeal",
+    "headline": "Put purpose behind every table.",
+    "body": "Your gift supports Red White and Clix and its veteran-focused mission.",
+    "cta": "Learn how to give",
+    "kind": "event",
+    "fields": [
+      "Beneficiary: CONFIRM",
+      "Allocation: CONFIRM",
+      "Donation URL: CONFIRM"
+    ]
+  },
+  {
+    "id": "transparency",
+    "title": "Donation transparency",
+    "headline": "Know what your gift supports.",
+    "body": "Every allocation and result needs a source and reporting date.",
+    "cta": "Read the impact report",
+    "kind": "data",
+    "fields": [
+      "Beneficiary / [Confirm]",
+      "Expenses / [Confirm]",
+      "Amount transferred / [Confirm]"
+    ]
+  },
+  {
+    "id": "sponsor",
+    "title": "Sponsor recruitment",
+    "headline": "Stand behind a community that shows up.",
+    "body": "Support a veteran-founded tabletop event with defined benefits and documented follow-through.",
+    "cta": "Become a sponsor",
+    "kind": "event",
+    "fields": [
+      "Benefits: CONFIRM",
+      "Tier + availability: CONFIRM"
+    ]
+  },
+  {
+    "id": "sponsor-spotlight",
+    "title": "Sponsor spotlight",
+    "headline": "Thank you, [Sponsor].",
+    "body": "[Approved description of sponsor support]",
+    "cta": "Meet our partners",
+    "kind": "image",
+    "fields": [
+      "[Approved sponsor logo]",
+      "Permission: CONFIRM"
+    ]
+  },
+  {
+    "id": "volunteer",
+    "title": "Volunteer recruitment",
+    "headline": "Help make the gathering possible.",
+    "body": "Support check-in, logistics, hospitality and the participant experience.",
+    "cta": "Volunteer with RWC",
+    "kind": "steps",
+    "fields": [
+      "Available roles: CONFIRM",
+      "Date and time: CONFIRM",
+      "Signup link: CONFIRM"
+    ]
+  },
+  {
+    "id": "beneficiary",
+    "title": "Beneficiary spotlight",
+    "headline": "Meet [Beneficiary].",
+    "body": "[Approved description of the organization and relationship]",
+    "cta": "Learn where support goes",
+    "kind": "image",
+    "fields": [
+      "[Approved beneficiary logo]",
+      "Relationship + permission: CONFIRM"
+    ]
+  },
+  {
+    "id": "impact",
+    "title": "Impact statistic",
+    "headline": "Participation, documented.",
+    "body": "[Reporting period] · Confirm each value before publishing.",
+    "cta": "Read the impact report",
+    "kind": "data",
+    "fields": [
+      "Registrations / [Value]",
+      "Volunteers / [Value]",
+      "Funds transferred / [Value]"
+    ]
+  },
+  {
+    "id": "results",
+    "title": "Post-event results",
+    "headline": "What we accomplished together.",
+    "body": "Thank you to every player, volunteer, sponsor and supporter.",
+    "cta": "View confirmed results",
+    "kind": "data",
+    "fields": [
+      "Attendance / [Value]",
+      "Funds raised / [Value]",
+      "Beneficiary / [Confirm]"
+    ]
+  },
+  {
+    "id": "founder",
+    "title": "Founder story",
+    "headline": "Veteran-founded. Community-powered.",
+    "body": "Wesley Robertson created RWC to connect tabletop camaraderie with veteran support.",
+    "cta": "Read the RWC story",
+    "kind": "statement",
+    "fields": []
+  },
+  {
+    "id": "resources",
+    "title": "Veteran resources",
+    "headline": "Looking for support? Start here.",
+    "body": "Explore qualified local, state and national organizations in the resource guide.",
+    "cta": "View veteran resources",
+    "kind": "steps",
+    "fields": [
+      "Provider name: CONFIRM",
+      "Service + eligibility: CONFIRM",
+      "Current contact: CONFIRM"
+    ]
+  },
+  {
+    "id": "merchandise",
+    "title": "Merchandise",
+    "headline": "Wear the mission.",
+    "body": "Explore current Red White and Clix merchandise through the official store.",
+    "cta": "View the official store",
+    "kind": "image",
+    "fields": [
+      "[Approved product image]",
+      "Price + availability + URL: CONFIRM"
+    ]
+  },
+  {
+    "id": "faq",
+    "title": "FAQ",
+    "headline": "What should I know before I go?",
+    "body": "[Approved answer to one event question]",
+    "cta": "Read the event guide",
+    "kind": "event",
+    "fields": [
+      "Format / [Confirm details]",
+      "Registration / [Confirm route]",
+      "Fee / [Confirm amount]"
+    ]
+  },
+  {
+    "id": "quote",
+    "title": "Quote and testimonial",
+    "headline": "“[Approved testimonial]”",
+    "body": "[Name] · [Role or event context]",
+    "cta": "Meet the community",
+    "kind": "quote",
+    "fields": [
+      "Source: CONFIRM",
+      "Date + permission: CONFIRM"
+    ]
+  },
+  {
+    "id": "countdown",
+    "title": "Countdown",
+    "headline": "[Days] until we gather.",
+    "body": "[Current event] · [Date] · [Venue]",
+    "cta": "View registration details",
+    "kind": "event",
+    "fields": [
+      "Registration status: CONFIRM",
+      "Authoritative link: CONFIRM"
+    ]
+  },
+  {
+    "id": "weather",
+    "title": "Weather or cancellation",
+    "headline": "A change to the event.",
+    "body": "[Confirmed operational update] · [Timestamp]",
+    "cta": "Read the full update",
+    "kind": "alert",
+    "fields": [
+      "Current details: CONFIRM",
+      "Next step: CONFIRM",
+      "Contact: 574-265-9585"
+    ]
+  },
+  {
+    "id": "photo-recap",
+    "title": "Photo recap",
+    "headline": "Around the tables.",
+    "body": "[Event/context] · [Verified date]",
+    "cta": "View the recap",
+    "kind": "image",
+    "fields": [
+      "[Documentary event photograph]",
+      "Photo credit + permission: CONFIRM"
+    ]
+  },
+  {
+    "id": "education",
+    "title": "Educational checklist",
+    "headline": "Your next step starts here.",
+    "body": "One clear action at a time.",
+    "cta": "Save the event guide",
+    "kind": "steps",
+    "fields": [
+      "Read the current event format",
+      "Confirm your registration",
+      "Plan your trip",
+      "Practice good sportsmanship"
+    ]
+  },
+  {
+    "id": "comparison",
+    "title": "Comparison",
+    "headline": "Choose your event format.",
+    "body": "Compare the same details before making plans.",
+    "cta": "Compare event details",
+    "kind": "comparison",
+    "fields": [
+      "300 Modern / Saturday",
+      "Team Sealed / Sunday",
+      "Fee and rules / CONFIRM"
+    ]
+  },
+  {
+    "id": "myth-fact",
+    "title": "Myth and fact",
+    "headline": "Check the details. Skip the guesswork.",
+    "body": "[Common misconception] → [Source-supported clarification]",
+    "cta": "Read the source",
+    "kind": "comparison",
+    "fields": [
+      "MYTH / [Claim to check]",
+      "FACT / [Verified explanation]"
+    ]
+  },
+  {
+    "id": "case-study",
+    "title": "Case study",
+    "headline": "From the table to the mission.",
+    "body": "[Documented challenge, action and outcome]",
+    "cta": "Read the full story",
+    "kind": "steps",
+    "fields": [
+      "Challenge / [Approved context]",
+      "Action / [Confirmed activity]",
+      "Result / [Verified outcome]"
+    ]
+  },
+  {
+    "id": "problem-solution",
+    "title": "Problem and solution",
+    "headline": "Make the next step clearer.",
+    "body": "[Audience question] · [Verified answer or practical action]",
+    "cta": "View the guide",
+    "kind": "comparison",
+    "fields": [
+      "Question / [Specific concern]",
+      "Next step / [Useful action]"
+    ]
+  },
+  {
+    "id": "announcement",
+    "title": "Announcement",
+    "headline": "A new chapter at the table.",
+    "body": "[Confirmed announcement and effective date]",
+    "cta": "Read the announcement",
+    "kind": "alert",
+    "fields": [
+      "Details: CONFIRM",
+      "Source + date: CONFIRM"
+    ]
+  }
+]

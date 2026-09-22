@@ -16,3 +16,11 @@ Working onboarding design system, September 21, 2026. See `brand-style-guide.md`
 - Proposed reusable components: event card, registration action, beneficiary summary, sponsor grid, photo gallery, resource card, donation FAQ.
 - Asset source, rights and dimensions: `06-Reports/site-assets-manifest.json` and `facebook-assets-manifest.json`.
 - CSS namespace reserved: `rwc-`. Tokens: `website/css-tokens.css`.
+
+## Complete kit — September 21, 2026
+
+The working foundation has been extended into a [77-page visual reference](design-system/index.html), a [matching PDF](design-system/exports/Red%20White%20and%20Clix%20Design%20System.pdf), and a [local template editor](design-system/template-studio.html). The kit includes 45 native HTML components, 224 editable SVG templates with PNG previews, 74 CSS tokens, JSON exports, bundled fonts, the supplied logo and photo-reference provenance. See [kit instructions](design-system/0%20-%20READ%20ME%20FIRST.md). Existing identity is preserved; proposed UI choices and unresolved operational fields remain labeled.
+
+### Vector logo extension
+
+A separate [vector logo kit](brand/vector-logo-kit/preview.html) now provides nine traced and proposed variants in SVG, vector PDF and transparent PNG. The supplied PNG remains the identity reference. The primary full-color trace preserves the badge; letterforms-only and wide arrangements are proposed alternatives. See [logo kit notes](brand/vector-logo-kit/README.md). This is an addition to the earlier design-system delivery.

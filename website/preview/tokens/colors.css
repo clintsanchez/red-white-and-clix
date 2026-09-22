@@ -1,0 +1,29 @@
+:root {
+  --rwc-logo-red: #FF0000;
+  --rwc-logo-blue: #0072FF;
+  --rwc-white: #FFFFFF;
+  --rwc-black: #000000;
+  --rwc-action: #B91C1C;
+  --rwc-link: #0050B3;
+  --rwc-ink: #111827;
+  --rwc-surface: #F5F7FA;
+  --rwc-border: #D1D5DB;
+  --rwc-text-primary: var(--rwc-ink);
+  --rwc-text-secondary: var(--rwc-ink);
+  --rwc-surface-primary: var(--rwc-white);
+  --rwc-surface-secondary: var(--rwc-surface);
+  --rwc-surface-inverse: var(--rwc-ink);
+  --rwc-text-inverse: var(--rwc-white);
+  --rwc-border-control: var(--rwc-ink);
+  --rwc-status-success: var(--rwc-link);
+  --rwc-status-info: var(--rwc-link);
+  --rwc-status-warning: var(--rwc-ink);
+  --rwc-status-error: var(--rwc-action);
+  --rwc-data-primary: var(--rwc-link);
+  --rwc-data-secondary: var(--rwc-action);
+  --rwc-data-tertiary: var(--rwc-ink);
+  --rwc-data-neutral: var(--rwc-border);
+  --rwc-focus: var(--rwc-link);
+  --rwc-action-hover: var(--rwc-ink);
+  --rwc-action-pressed: var(--rwc-black);
+}

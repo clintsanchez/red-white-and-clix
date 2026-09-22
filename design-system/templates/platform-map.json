@@ -1,0 +1,98 @@
+{
+  "note": "Shared adaptable masters; platform accounts are not implied. Exact channel-specific upload sizes remain configuration values. LinkedIn legacy brief size is included separately.",
+  "platforms": {
+    "Instagram": [
+      "square",
+      "portrait",
+      "landscape",
+      "story",
+      "avatar"
+    ],
+    "Facebook": [
+      "square",
+      "portrait",
+      "landscape",
+      "story",
+      "facebook-cover",
+      "facebook-event",
+      "facebook-group",
+      "avatar"
+    ],
+    "LinkedIn": [
+      "square",
+      "portrait",
+      "landscape",
+      "linkedin-cover",
+      "ultrawide",
+      "avatar"
+    ],
+    "YouTube": [
+      "thumbnail",
+      "youtube-banner",
+      "avatar",
+      "square",
+      "portrait",
+      "story"
+    ],
+    "Google Business Profile": [
+      "square",
+      "landscape",
+      "avatar"
+    ],
+    "TikTok": [
+      "story",
+      "square",
+      "widescreen",
+      "avatar"
+    ],
+    "X": [
+      "landscape",
+      "portrait",
+      "square",
+      "wide-banner",
+      "avatar"
+    ],
+    "Threads": [
+      "square",
+      "portrait",
+      "landscape",
+      "avatar"
+    ],
+    "Bluesky": [
+      "square",
+      "portrait",
+      "landscape",
+      "wide-banner",
+      "avatar"
+    ],
+    "Pinterest": [
+      "tall",
+      "square",
+      "thumbnail",
+      "avatar"
+    ],
+    "Snapchat": [
+      "story",
+      "avatar",
+      "wide-banner"
+    ],
+    "Reddit": [
+      "square",
+      "portrait",
+      "landscape",
+      "ultrawide",
+      "avatar"
+    ],
+    "Mastodon": [
+      "square",
+      "portrait",
+      "landscape",
+      "wide-banner",
+      "avatar"
+    ],
+    "Email": [
+      "landscape",
+      "wide-banner"
+    ]
+  }
+}

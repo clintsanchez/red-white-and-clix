@@ -1,0 +1,67 @@
+[
+  {
+    "route": "/404/",
+    "status": 404,
+    "url": "https://red-white-and-clicks.local/404/",
+    "h1": [
+      "404"
+    ],
+    "template_ids": [
+      "1304",
+      "1311",
+      "1273"
+    ]
+  },
+  {
+    "route": "/shop/",
+    "status": 200,
+    "url": "https://red-white-and-clicks.local/shop/",
+    "h1": [
+      "Archives: Shop"
+    ],
+    "template_ids": [
+      "1304",
+      "1309",
+      "1273"
+    ]
+  },
+  {
+    "route": "/cart/",
+    "status": 200,
+    "url": "https://red-white-and-clicks.local/cart/",
+    "h1": [
+      "Cart"
+    ],
+    "template_ids": [
+      "1304",
+      "1323",
+      "1273"
+    ]
+  },
+  {
+    "route": "/checkout/",
+    "status": 200,
+    "url": "https://red-white-and-clicks.local/checkout/",
+    "h1": [
+      "Checkout"
+    ],
+    "template_ids": [
+      "1304",
+      "1321",
+      "1273"
+    ]
+  },
+  {
+    "route": "/my-account/",
+    "status": 200,
+    "url": "https://red-white-and-clicks.local/my-account/",
+    "h1": [
+      "my account"
+    ],
+    "template_ids": [
+      "1304",
+      "1319",
+      "1273"
+    ]
+  }
+]

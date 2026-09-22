@@ -1,0 +1,21 @@
+{
+  "title": "",
+  "subtitle": "",
+  "unit": "",
+  "reportingPeriod": "",
+  "series": [
+    {
+      "name": "",
+      "lineStyle": "solid",
+      "symbol": "circle",
+      "values": []
+    }
+  ],
+  "source": {
+    "organization": "",
+    "url": "",
+    "retrievedAt": ""
+  },
+  "footnote": "",
+  "note": "Populate from verified records; recompute geometry with a charting tool. Shipped SVGs are editable schematic templates, not data-driven reporting."
+}

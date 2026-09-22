@@ -1,0 +1,51 @@
+{
+  "source": "source/original-logo.png",
+  "method": "Fixed-palette classification and spline tracing; all delivered SVG artwork consists of path geometry.",
+  "variants": {
+    "rwc-primary-full-color": {
+      "title": "Primary / full color",
+      "file": "svg/rwc-primary-full-color.svg",
+      "background": "white"
+    },
+    "rwc-primary-white-outline": {
+      "title": "Primary / white outline",
+      "file": "svg/rwc-primary-white-outline.svg",
+      "background": "#111827"
+    },
+    "rwc-primary-black-outline": {
+      "title": "Primary / black outline",
+      "file": "svg/rwc-primary-black-outline.svg",
+      "background": "white"
+    },
+    "rwc-single-color-black": {
+      "title": "Single color / black",
+      "file": "svg/rwc-single-color-black.svg",
+      "background": "white"
+    },
+    "rwc-single-color-white": {
+      "title": "Single color / white",
+      "file": "svg/rwc-single-color-white.svg",
+      "background": "#111827"
+    },
+    "rwc-letterforms-black": {
+      "title": "Letterforms only / black \u2014 proposed",
+      "file": "svg/rwc-letterforms-black.svg",
+      "background": "white"
+    },
+    "rwc-letterforms-white": {
+      "title": "Letterforms only / white \u2014 proposed",
+      "file": "svg/rwc-letterforms-white.svg",
+      "background": "#111827"
+    },
+    "rwc-wide-wordmark": {
+      "title": "Wide wordmark \u2014 proposed arrangement",
+      "file": "svg/rwc-wide-wordmark.svg",
+      "background": "white"
+    },
+    "rwc-wide-wordmark-on-dark": {
+      "title": "Wide wordmark / on dark \u2014 proposed",
+      "file": "svg/rwc-wide-wordmark-on-dark.svg",
+      "background": "#111827"
+    }
+  }
+}

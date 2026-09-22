@@ -1,0 +1,3032 @@
+[
+  {
+    "path": "2 - Brand Guidelines.md",
+    "bytes": 4947,
+    "sha256": "3945eaad4370b5bd2c7b5aeb607e260c3d99e741cf753908e10b8f8b77cfcc43"
+  },
+  {
+    "path": "index.html",
+    "bytes": 15194403,
+    "sha256": "95789167696a526209abb611658ba16a7565cec0b580371a76caac375f41f1da"
+  },
+  {
+    "path": "styles.css",
+    "bytes": 282,
+    "sha256": "3de5e97af867aebc994a75df04f4d7491072f1caf4b9c8074f4d3bfdde186b05"
+  },
+  {
+    "path": "3 - Visual Identity.md",
+    "bytes": 2341,
+    "sha256": "8820eaaf24fc0302099838bd31508dac65d3d19e9565b2cb4aeaa16355d20f15"
+  },
+  {
+    "path": "5 - Messaging.md",
+    "bytes": 2750,
+    "sha256": "d94d133436d25d19bc235c3a01996b03089b88dabdcd7926bdb48b4d336eceec"
+  },
+  {
+    "path": "_ds_manifest.json",
+    "bytes": 29277,
+    "sha256": "8c86b551b8a03adf81687e29b35d63b467b20a29638ddfe3ba1fb808d7bbdb6a"
+  },
+  {
+    "path": "0 - READ ME FIRST.md",
+    "bytes": 2657,
+    "sha256": "c21e3365a6408ffb6056ea9edcd71fb1e4f4d33e01595b71b4943ae3ac162771"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2657,
+    "sha256": "c21e3365a6408ffb6056ea9edcd71fb1e4f4d33e01595b71b4943ae3ac162771"
+  },
+  {
+    "path": "6 - Brand Context and Prices.md",
+    "bytes": 1197,
+    "sha256": "935d911a257a63ef22ca92c3e1b8125bb872e0acd9539a8195ddac65ef670265"
+  },
+  {
+    "path": "template-studio.html",
+    "bytes": 23601890,
+    "sha256": "73948f10065739f7f7572a91a18be7eb27ffee9e143abccfd2721c5bf595565f"
+  },
+  {
+    "path": "4 - Brand Voice.md",
+    "bytes": 2845,
+    "sha256": "063925bbdf83bffbe0fa9fd7b0ce8dc2cc32a88a971fd180afaf6a7d67d643ff"
+  },
+  {
+    "path": "1 - MASTER PROMPT.md",
+    "bytes": 904,
+    "sha256": "d021b280f01aa27deae041b7c194b130d4df7955e9c1c129fb2e9b18de92f85b"
+  },
+  {
+    "path": "tools/package_kit.py",
+    "bytes": 3481,
+    "sha256": "cba720806328b4290420afe578f9942da2609b4a6b332290688c606010a8e05b"
+  },
+  {
+    "path": "tools/requirements.txt",
+    "bytes": 35,
+    "sha256": "77280108a24c8c30fa6f84734067a3559b9fc857f1b9633be1af3915f9c76164"
+  },
+  {
+    "path": "tools/export_and_check.py",
+    "bytes": 4648,
+    "sha256": "74dddecc38f4991b5714a1f63f9c8eef822e9b3be3699168a9ce6e404052688f"
+  },
+  {
+    "path": "tools/build_kit.py",
+    "bytes": 113303,
+    "sha256": "8aabba0abc0a3e40b99b43b8c98def480f6a7b8a94a04cbfdc7e2e69b315c87c"
+  },
+  {
+    "path": "exports/page-01.png",
+    "bytes": 73573,
+    "sha256": "7f5d8f2745a670c8f53ca41a6d48f8dd159da2e374d86cb59dfffaf751e5994b"
+  },
+  {
+    "path": "exports/page-14.png",
+    "bytes": 65419,
+    "sha256": "664fb4b34c4c50b7f18a1f04fd16b8b9fc7bd46fee026bef7bc6a08f3c9314a0"
+  },
+  {
+    "path": "exports/template-check.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "exports/page-17.png",
+    "bytes": 80404,
+    "sha256": "83429af0c87662cdaca1e92bfbcc457b050e25659cad005f7c76699fc71b0c14"
+  },
+  {
+    "path": "exports/page-07.png",
+    "bytes": 100000,
+    "sha256": "2ed24914ffdb5ce6d41414cc18aa120eeb30cf1b0789c126c3c880b53527244c"
+  },
+  {
+    "path": "exports/page-10.png",
+    "bytes": 63466,
+    "sha256": "b6809b3a2c34ab264e5d688183be34809f1fcefeb3c206148420af70fb7d1eba"
+  },
+  {
+    "path": "exports/page-04.png",
+    "bytes": 93081,
+    "sha256": "4a2104a5e2ed529c1003b686b1ad1a37105389398a2918c4a345186470fb4a7e"
+  },
+  {
+    "path": "exports/template-studio-preview.png",
+    "bytes": 140117,
+    "sha256": "b9433fcde876380e1e3ca8f3d177a77471630d4c4ef06307495bb5b5a5b845d2"
+  },
+  {
+    "path": "exports/page-77.png",
+    "bytes": 53194,
+    "sha256": "11eb7fa36ee6cb9ce4e0ae3a3435a512878e0063f9847ebcfc7703cef99b091f"
+  },
+  {
+    "path": "exports/page-49.png",
+    "bytes": 103373,
+    "sha256": "75bae12f97e164f2b9cec26f4f8593839b1527c4c749efcf7aa520234b8d4a91"
+  },
+  {
+    "path": "exports/Red White and Clix Design System.pdf",
+    "bytes": 2129975,
+    "sha256": "abfbcf16a4f95710bc632d6c336e850730b07ef1b39526faf712527644076fa0"
+  },
+  {
+    "path": "exports/layout-check.json",
+    "bytes": 9411,
+    "sha256": "e23de27eff8f8142b04b91474d9c0c739fd44ccb1ed2fd57035a105b94cd23f3"
+  },
+  {
+    "path": "exports/page-66.png",
+    "bytes": 95391,
+    "sha256": "cc242e4943058752c826432e3e11273fa2993aab754ab83ced6f4334014c350f"
+  },
+  {
+    "path": "exports/page-57.png",
+    "bytes": 52185,
+    "sha256": "ef437d8dc5af1a738228ebcf05996985668381692789f08b5e75116c0f7cbb19"
+  },
+  {
+    "path": "exports/page-43.png",
+    "bytes": 66192,
+    "sha256": "52136e100b500bcc9b71d41800a2ba537a1283aca2335d287865793e645b2ccf"
+  },
+  {
+    "path": "exports/template-studio-mobile.png",
+    "bytes": 51262,
+    "sha256": "ab79df5d40531ab6c9f72690c05c648ff529b891f805ae306318edc3eb5457ea"
+  },
+  {
+    "path": "exports/page-32.png",
+    "bytes": 83932,
+    "sha256": "d0d07ed8fc9c74759025d38fc470d1000de4237d85622a99bf6ebeff59c5b93d"
+  },
+  {
+    "path": "exports/document-index.json",
+    "bytes": 7985,
+    "sha256": "c7fb0743d4ecdb9c02746d1e2e3f18556bd52a3fe9624ce61b1d348b26fe46fa"
+  },
+  {
+    "path": "exports/page-25.png",
+    "bytes": 189157,
+    "sha256": "bfda8c4b96b05c89f189f05065f33c36ee944fcf1f6770552a859225465c2833"
+  },
+  {
+    "path": "exports/quality-report.json",
+    "bytes": 618,
+    "sha256": "608a6daac39e84e41e1a38872dbe94a517ddf51a0a612fa86f68a16454e1c26f"
+  },
+  {
+    "path": "components/EventDetails.html",
+    "bytes": 889,
+    "sha256": "95dcd4e1a063fa4d50d68a95890a508567aff63e5d75cf39ab6d8290bdd25244"
+  },
+  {
+    "path": "components/VenueCard.html",
+    "bytes": 489,
+    "sha256": "79f77367003adc90b17c5a51282341a8706070b876b003ccc28af76cb381373b"
+  },
+  {
+    "path": "components/Select.html",
+    "bytes": 412,
+    "sha256": "d04e1d9dd5dd5c93318a69878f94ca2264bec36432a3ec2121ee9052a11f4ec3"
+  },
+  {
+    "path": "components/EventDate.html",
+    "bytes": 375,
+    "sha256": "76bdfe287dbe83eaef7cea6f7c35af1558723d09045c3087b4bc34e72a732766"
+  },
+  {
+    "path": "components/MerchandiseCard.html",
+    "bytes": 525,
+    "sha256": "29ee75e7d204cb77a7f0c4f920fefb58a99dda91fd0225b063c3bea884a05f1b"
+  },
+  {
+    "path": "components/Checklist.html",
+    "bytes": 462,
+    "sha256": "ea5a0e8cb6f199f89ab8e6c58cd59069ef2490793ceeb00b6a3999af61ea8857"
+  },
+  {
+    "path": "components/Badge.html",
+    "bytes": 485,
+    "sha256": "bc7d08eebd4b74cabe803bfa4c99c50af32a7b0229a1208e5a5bb8eba40afc62"
+  },
+  {
+    "path": "components/KPIGrid.html",
+    "bytes": 544,
+    "sha256": "bf6d5c7642743f478655b20167bbe99929d1ffe69d8da957b78e32815d99f040"
+  },
+  {
+    "path": "components/Review.html",
+    "bytes": 465,
+    "sha256": "4e60cc63bf92b692aa0ea1c1099eee4f5b22b9f3c2f7a0525c8aea4cdbe5ce54"
+  },
+  {
+    "path": "components/ProductionWarning.html",
+    "bytes": 427,
+    "sha256": "8c6c24c1da369e47eae21462f5e16afbed92584c2db3b2888b27f0d084cae149"
+  },
+  {
+    "path": "components/ImageContainer.html",
+    "bytes": 399,
+    "sha256": "9f10811f182d3ae044b6306774c19c46109e8270eb7fa22d9bd10abf493f0b56"
+  },
+  {
+    "path": "components/Schedule.html",
+    "bytes": 468,
+    "sha256": "1d34c08be6bff489299fd883917d34e650672a3740184ca9ebb836cd2b9a1ce2"
+  },
+  {
+    "path": "components/Progress.html",
+    "bytes": 503,
+    "sha256": "b8b914e71abf97591ad73593b95db09b3e26263597519f1a3e17ab821fee2df0"
+  },
+  {
+    "path": "components/Textarea.html",
+    "bytes": 384,
+    "sha256": "2ca00bc30b50aadcc84b8bee03fdf658acd6e3e928747ddc29ba19e3753cb4cc"
+  },
+  {
+    "path": "components/PhotoCaption.html",
+    "bytes": 396,
+    "sha256": "95d5c481deaf8176c31d6964238e872f2d01c7794fb9f1c931d75893f7ef833d"
+  },
+  {
+    "path": "components/Button.html",
+    "bytes": 523,
+    "sha256": "e5ead5bd0725d5fb4cba7a372bcb890ba2976e5a3b5e95a52b55c3366c546d7b"
+  },
+  {
+    "path": "components/DonationFAQ.html",
+    "bytes": 541,
+    "sha256": "131789d0fb0b2f35043d16260575baa6439a98d322acb97d537b13f02672dfb9"
+  },
+  {
+    "path": "components/PhotoGallery.html",
+    "bytes": 854983,
+    "sha256": "cc48d4a0f63d4a9d1eb91fafd3b28977b214be7a2e96b6f2d44c3179ece02d62"
+  },
+  {
+    "path": "components/Quote.html",
+    "bytes": 438,
+    "sha256": "25df4fa9c0da1c762964b22288274593107b88d284a15b6bab9b70026eddd85e"
+  },
+  {
+    "path": "components/CarouselFooter.html",
+    "bytes": 374,
+    "sha256": "fb9803a130c0d6b8219d952204834678e05154ce151bb44b671cc2b47ef460d7"
+  },
+  {
+    "path": "components/FieldError.html",
+    "bytes": 505,
+    "sha256": "c6b054af7bc6d914b7feb98b7e622650937ffba7ce05cf1dfc8eeb5a3784100d"
+  },
+  {
+    "path": "components/Icon.html",
+    "bytes": 2403,
+    "sha256": "f8b504beae0780dd47ede1de81f29cf3a4431567fc5ae40d668d9ddf42e879cf"
+  },
+  {
+    "path": "components/Logo.html",
+    "bytes": 108125,
+    "sha256": "0bc983cf3844e3ed7f5f604f83c25ce740f87ca8a1e4140366af8243ed305cb0"
+  },
+  {
+    "path": "components/StatusMessage.html",
+    "bytes": 436,
+    "sha256": "caf9e6a9f61cae9c0ea82ceb8087ecdd6451a477dbf7d4fc7d7bc125beccd4c4"
+  },
+  {
+    "path": "components/CTABand.html",
+    "bytes": 466,
+    "sha256": "c835f7a49de66d50d7af1fd8e10ad2135f27b03ba8af8f7815a236684b445f92"
+  },
+  {
+    "path": "components/Checkbox.html",
+    "bytes": 350,
+    "sha256": "f74a04804389278a1e00d114d5457f3c8b46c8d5609f323538dab4941e27ef5d"
+  },
+  {
+    "path": "components/Comparison.html",
+    "bytes": 544,
+    "sha256": "903947d84ea45fcb4e42f0fb742294489d4846087d29249ec1f357365eff27a9"
+  },
+  {
+    "path": "components/EventCard.html",
+    "bytes": 489,
+    "sha256": "7e0172b6134febfdcca13b3065dea3dac62955ae713b97e5d352e35143edba17"
+  },
+  {
+    "path": "components/KPI.html",
+    "bytes": 460,
+    "sha256": "0e09af9fe73d7afe62f760b9de471b9f88c43a3794b3225c40a28d096db7c26a"
+  },
+  {
+    "path": "components/Alert.html",
+    "bytes": 435,
+    "sha256": "c0c564f6e92aff32a115331d5172b5d688ddc864a3d3e52d98ec69f58ae40c21"
+  },
+  {
+    "path": "components/ContactCard.html",
+    "bytes": 439,
+    "sha256": "105a3d19323e8f5d9561936e1f0dcd67c665393de16bfd67c9cf5a6f5dbb9ec0"
+  },
+  {
+    "path": "components/Citation.html",
+    "bytes": 387,
+    "sha256": "fa43d857a6af80d57d1ccdf2b5e6803e723cec59ccecb09a9958cd81a2fee12b"
+  },
+  {
+    "path": "components/inventory.json",
+    "bytes": 7679,
+    "sha256": "d61672e1bc21036020a9e06d54a6e3535a7f624346172cfbd9788b349da83f1e"
+  },
+  {
+    "path": "components/ResourceCard.html",
+    "bytes": 505,
+    "sha256": "b2a26357e91f1096c5d842cec4695cdb4a99ba5e330a41acdce6762ad215b5db"
+  },
+  {
+    "path": "components/SponsorTier.html",
+    "bytes": 492,
+    "sha256": "a5aa8315ffa4a6af1f3bc08bdc6c85d36a90b36ab8621318be0d6ddded9a63b4"
+  },
+  {
+    "path": "components/NewPlayerGuide.html",
+    "bytes": 517,
+    "sha256": "070dd7733cc86a7d8c96acab48ede7e3acba80f67a918eb268d23879d4058e83"
+  },
+  {
+    "path": "components/Footer.html",
+    "bytes": 424,
+    "sha256": "be34851fabaaa3d5e5276f4fa66e07364892e0f7160dafe86983d50c478967a1"
+  },
+  {
+    "path": "components/Field.html",
+    "bytes": 436,
+    "sha256": "a8768d2f1c304688c88868cbb5642be6780a15cc7900b776a6d1943f267f9fc8"
+  },
+  {
+    "path": "components/SponsorGrid.html",
+    "bytes": 482,
+    "sha256": "4d9933ed6e15d0fb329a1652def3b5b3b736bd4884a07af5b1d0f167234560c1"
+  },
+  {
+    "path": "components/BeneficiaryCard.html",
+    "bytes": 460,
+    "sha256": "b561b5b1d320b71865109a558bb9f84b9b31424ee93ec23b5f86ebb3ec543145"
+  },
+  {
+    "path": "components/VolunteerCard.html",
+    "bytes": 544,
+    "sha256": "6b606b9c548298a184bae38e43c74763ad3050b3f432ae6f7bbf71222ff3255c"
+  },
+  {
+    "path": "components/BrowserFrame.html",
+    "bytes": 414,
+    "sha256": "d9716f792fee04f9ae6d9c8c0bfbd618f4e327535f2052f16ef05129bd019abb"
+  },
+  {
+    "path": "components/components.css",
+    "bytes": 3726,
+    "sha256": "5fa7ca811a23008e2815b50964d35cc3b3df60ff6e8c5736b4e57c46e93d7ab5"
+  },
+  {
+    "path": "components/DonationAllocation.html",
+    "bytes": 655,
+    "sha256": "9e0f27dcf8c74e79af626aae50fb1932447c7f8dbb4997c09b201ea92abc57d2"
+  },
+  {
+    "path": "components/RegistrationAction.html",
+    "bytes": 450,
+    "sha256": "befa18d634c8c82e38db04acb3a87e9c7a4cc26d310dae25842de35605ecc109"
+  },
+  {
+    "path": "components/EmptyState.html",
+    "bytes": 483,
+    "sha256": "b89b38d953cb9da848efa2c521f84be837d93547e31881fcbc5938168a672af7"
+  },
+  {
+    "path": "components/Navigation.html",
+    "bytes": 457,
+    "sha256": "1f20ac5be319a97d445e2309eb699a5365f9db79e6fbf9b35f5fe8575b8e15cd"
+  },
+  {
+    "path": "templates/platform-map.json",
+    "bytes": 1711,
+    "sha256": "a40d6604f8d59d414fb3ab1cc67544b940263ec2cedfc87b71a93728f5f246bc"
+  },
+  {
+    "path": "templates/inventory.json",
+    "bytes": 45601,
+    "sha256": "d4c0534f237a972566341a19b45f8b8dc71b88897f2c05a44e13ca6d841f2d75"
+  },
+  {
+    "path": "templates/content-families.json",
+    "bytes": 10217,
+    "sha256": "75d7af3d512720c311d530cf56b7f0e682598ec5bd86fa80d57931341da07eff"
+  },
+  {
+    "path": "guidelines/logo-production-spec.md",
+    "bytes": 1079,
+    "sha256": "64ed94eab725d5611c1e7292d62248cbe15b9d0adb48cd48d182890d0be8f3dc"
+  },
+  {
+    "path": "guidelines/rebranding.md",
+    "bytes": 2252,
+    "sha256": "c15dde8557dc86c96599b036ca43478344f52888b39e438f3771fd3ff5edf320"
+  },
+  {
+    "path": "guidelines/audience.md",
+    "bytes": 6388,
+    "sha256": "c68cb72c2596a3bdcee91acaeaeff02a3756c67f70d41a8fef77922c7ed51c1c"
+  },
+  {
+    "path": "guidelines/architecture.md",
+    "bytes": 3755,
+    "sha256": "072820d05b159cf6f55dfb050fe374c76b78e605f5049ae29ed95c822a7dc16d"
+  },
+  {
+    "path": "guidelines/voice.md",
+    "bytes": 2845,
+    "sha256": "063925bbdf83bffbe0fa9fd7b0ce8dc2cc32a88a971fd180afaf6a7d67d643ff"
+  },
+  {
+    "path": "guidelines/context.md",
+    "bytes": 1611,
+    "sha256": "55d6eade2421f444a99ee068f281d48b00491a516adddc78dc46e495314f48fd"
+  },
+  {
+    "path": "guidelines/identity.md",
+    "bytes": 2341,
+    "sha256": "8820eaaf24fc0302099838bd31508dac65d3d19e9565b2cb4aeaa16355d20f15"
+  },
+  {
+    "path": "guidelines/competitors.md",
+    "bytes": 5599,
+    "sha256": "073a701ff3ac80d79e516ac8c3c7febf23413561f3e6c249b555d8b1e5943dff"
+  },
+  {
+    "path": "guidelines/messaging.md",
+    "bytes": 2750,
+    "sha256": "d94d133436d25d19bc235c3a01996b03089b88dabdcd7926bdb48b4d336eceec"
+  },
+  {
+    "path": "guidelines/guidelines.md",
+    "bytes": 4947,
+    "sha256": "3945eaad4370b5bd2c7b5aeb607e260c3d99e741cf753908e10b8f8b77cfcc43"
+  },
+  {
+    "path": "guidelines/platform-sources.md",
+    "bytes": 1031,
+    "sha256": "e088b92a5d20afaddbb80fa64cb1b20ed3d24b533b706af7524a99fa930d6ac6"
+  },
+  {
+    "path": "guidelines/audit.md",
+    "bytes": 2500,
+    "sha256": "333cad553ba887adc66164d2dda21f36f702c9d299e5f39a8f3a00bbb48d0712"
+  },
+  {
+    "path": "guidelines/positioning.md",
+    "bytes": 3941,
+    "sha256": "6f4882d46bf8ff04f07c6a758b78edada1f327dc3acfdb6117ca5f701761a5f2"
+  },
+  {
+    "path": "guidelines/production-handoff.md",
+    "bytes": 3763,
+    "sha256": "cb340031722094045b408fe1ab560c0d6924ca71a6d0229606a0f52a67135424"
+  },
+  {
+    "path": "guidelines/story.md",
+    "bytes": 4488,
+    "sha256": "1b4090e0081b8547f7f704ac24a4621377994dab49b236be93ac32fb369d9018"
+  },
+  {
+    "path": "guidelines/strategy.md",
+    "bytes": 9211,
+    "sha256": "e5fd8586dca0ed08f861fc3aecbcb62c4c0cc82be1f04e3431dbaaa56430efa9"
+  },
+  {
+    "path": "guidelines/confirmation-register.md",
+    "bytes": 1781,
+    "sha256": "778c04289dd2eaf37ec497e3465f627fb214c6d7f067046d97346aecc9bdf2c6"
+  },
+  {
+    "path": "guidelines/naming.md",
+    "bytes": 1793,
+    "sha256": "f608f9626b4d5461c4355a103a07df7ac547bd5dc257215f6d78ce14f7fa4aa8"
+  },
+  {
+    "path": "tokens/typography.css",
+    "bytes": 372,
+    "sha256": "32f3afc3e2cd60dc2b4318d1e29c9201c3996cc237177820de32b4ece630f08c"
+  },
+  {
+    "path": "tokens/platform-specifications.json",
+    "bytes": 6581,
+    "sha256": "03735b34f184174436017d122588a957dc6400e3b9f357f8cbe6f3fa9451663a"
+  },
+  {
+    "path": "tokens/spacing.css",
+    "bytes": 374,
+    "sha256": "d0d0e9c6ded2938262d642280fc95b76f6695dead18ceb7b4e87d9a9a0a23c38"
+  },
+  {
+    "path": "tokens/colors.css",
+    "bytes": 957,
+    "sha256": "c569eccc4fa8a1f77c1c995ef9a264e42ff0295c6658b5c97fb2c75e496dc487"
+  },
+  {
+    "path": "tokens/effects.css",
+    "bytes": 470,
+    "sha256": "566eefcdedca1487afae8dfed995f561fcf5b37fa4f94d1e4fc23ae467602ba9"
+  },
+  {
+    "path": "tokens/design-tokens.dtcg.json",
+    "bytes": 9200,
+    "sha256": "22fef512a3597e663a3f29b425ce7e82bad980a73e96bd0e7eb4f0ffdda98f5e"
+  },
+  {
+    "path": "tokens/social.css",
+    "bytes": 260,
+    "sha256": "42cc19b0b08a5e0fd9700c65d8453da867cf925b0a9718e195146fb3c942f423"
+  },
+  {
+    "path": "tokens/fonts.css",
+    "bytes": 713,
+    "sha256": "e8ce467f282d397808b87da67acff9b6462fb9e9c4dd506b462658616fb18b2a"
+  },
+  {
+    "path": "tokens/tokens.json",
+    "bytes": 2722,
+    "sha256": "b00f7362708ed1445326217fd2d3426bed629a233c43c8168ca9c1d61471986d"
+  },
+  {
+    "path": "tokens/contrast-report.json",
+    "bytes": 682,
+    "sha256": "365ad79b5f38a5b42760ee384c374b7e7dd3aa3a6dca2af1166bfc5d5235f25c"
+  },
+  {
+    "path": "tokens/base.css",
+    "bytes": 745,
+    "sha256": "58add62b4916f9d43b97de0d9c0034dae8a268cdfd0a33e8b7af698a1bea02be"
+  },
+  {
+    "path": "exports/template-previews/merchandise-square.png",
+    "bytes": 69919,
+    "sha256": "08f2548cbbbf22ec0c55fe5773498de8e51a38470c28676f32496ec8850da83d"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-event-update.png",
+    "bytes": 42809,
+    "sha256": "c1cd787532dfa23ec65b711d3d737862e244390b7e10bbdb74a7109ed29b4351"
+  },
+  {
+    "path": "exports/template-previews/contact-card.png",
+    "bytes": 50558,
+    "sha256": "2468250e586c698d3d872db490d638acc1d7724d9b1491cf4dc4c3eaa974a23e"
+  },
+  {
+    "path": "exports/template-previews/chart-funnel.png",
+    "bytes": 44244,
+    "sha256": "f862515462534b9c2b2fdbe012b291a373ccdc86be23747e587e890c8c276b6d"
+  },
+  {
+    "path": "exports/template-previews/impact-cover.png",
+    "bytes": 69457,
+    "sha256": "002a1aba5ad92ff53b16247726a79b6edf31a306baeb608ffd94a17f63f7b42f"
+  },
+  {
+    "path": "exports/template-previews/chart-donut.png",
+    "bytes": 42319,
+    "sha256": "21bd9ebe71f0041141c3a1e79eb262b608388b7846db67c275569fcfa756598c"
+  },
+  {
+    "path": "exports/template-previews/infographic-new-player.png",
+    "bytes": 85475,
+    "sha256": "920f30a3ae0c7ab7bf6bf949bd6e07ca94b81588b30cb94eb8b8d0465546e1a7"
+  },
+  {
+    "path": "exports/template-previews/sponsor-spotlight-portrait.png",
+    "bytes": 64727,
+    "sha256": "0e01a7090a94d957cb3fe1131f382ad1a0fa02d4cd96500d26a8d235e1c47c3f"
+  },
+  {
+    "path": "exports/template-previews/announcement-story.png",
+    "bytes": 72507,
+    "sha256": "31b272d555cfa74c40aebefc68c49a07af07b05234f38519090c3c8fb3075871"
+  },
+  {
+    "path": "exports/template-previews/founder-square.png",
+    "bytes": 72873,
+    "sha256": "1e789987f3e507e5d5b831c408631d833640a5834d6e83efd4c184782a4d015f"
+  },
+  {
+    "path": "exports/template-previews/team-sealed-story.png",
+    "bytes": 81893,
+    "sha256": "cb0f4009e4de7aff121c1ff115e8d84a9f5a607d12522c1d21275f56f9b428ce"
+  },
+  {
+    "path": "exports/template-previews/donation-story.png",
+    "bytes": 86774,
+    "sha256": "eaf3ef3baf57fd68954854b0be24420f78db3098e1120c028e4e328288f19b79"
+  },
+  {
+    "path": "exports/template-previews/case-study-landscape.png",
+    "bytes": 62949,
+    "sha256": "0421020f17a74e4a966d9d50c640b9f2154d4a22a41e49ebdadbebfc1f4e6720"
+  },
+  {
+    "path": "exports/template-previews/problem-solution-portrait.png",
+    "bytes": 81795,
+    "sha256": "528fece3c3edb4b6ff77aa38959ab8caa1cbfc279d03a1b0b6c49ec8a86b2c23"
+  },
+  {
+    "path": "exports/template-previews/banner-youtube-banner.png",
+    "bytes": 49934,
+    "sha256": "89a4e2b2acb4072d5377a36a878b7d4b87e56f3cb933af1330c8b138efbbfdf1"
+  },
+  {
+    "path": "exports/template-previews/beneficiary-square.png",
+    "bytes": 68046,
+    "sha256": "948b47eb8884a89f608674c5cd1d19c626b77b18cb2b831538dc4760703c29ac"
+  },
+  {
+    "path": "exports/template-previews/slide-closing.png",
+    "bytes": 57239,
+    "sha256": "8bc6e2bfea6310e8dc9dbdc4afbb713626d8e21c865517473823c0aabce96e72"
+  },
+  {
+    "path": "exports/template-previews/event-update-portrait.png",
+    "bytes": 68739,
+    "sha256": "03423b8c128210a02f4153ca84032e1474112612a7463335cc480fbb0b19fc3e"
+  },
+  {
+    "path": "exports/template-previews/email-header.png",
+    "bytes": 50536,
+    "sha256": "59cdcfc05f5d2dffca4a949da75413764972524fe065fedae7c387cd4b147eee"
+  },
+  {
+    "path": "exports/template-previews/donation-appeal.png",
+    "bytes": 62176,
+    "sha256": "48c16c2026bb02492e1bc04c3596b3d86b60bef3b294aae495f87a2b7352ec05"
+  },
+  {
+    "path": "exports/template-previews/slide-data.png",
+    "bytes": 62110,
+    "sha256": "cc550804b7fc36402bee6daf523f70f8bbd9ce046ffeaad29debeb86cf4c3177"
+  },
+  {
+    "path": "exports/template-previews/sponsor-story.png",
+    "bytes": 89112,
+    "sha256": "77bc8d1ccfd6d10bc561b64da8a41be2084d5a32333686bb223dfe885d492ffd"
+  },
+  {
+    "path": "exports/template-previews/save-date-portrait.png",
+    "bytes": 77345,
+    "sha256": "ec6e4fa715150a4509bb5a2d1670e638a8e90a3438570fed2b5e4eb451cc11d0"
+  },
+  {
+    "path": "exports/template-previews/impact-portrait.png",
+    "bytes": 78256,
+    "sha256": "4d98c51f27cf45c0a8af9843bc511e126473f36f5a574a5e77ef06ee5f28a8e8"
+  },
+  {
+    "path": "exports/template-previews/notice-sold-out.png",
+    "bytes": 68879,
+    "sha256": "0d596fe7a255059d1f59b46f43a7e2267a07dc203081edf41bfa9fb0583720a1"
+  },
+  {
+    "path": "exports/template-previews/chart-timeline.png",
+    "bytes": 31539,
+    "sha256": "f7e9cc20c9ecd5d31d0e3375f2c153512bfa083c9b8578681dffcb9c1a58f35f"
+  },
+  {
+    "path": "exports/template-previews/donation-thanks.png",
+    "bytes": 65593,
+    "sha256": "8165b09c3ee8296923d3eb6ce0db45737d01e566a84fc8234a6a1e1a0cd821f4"
+  },
+  {
+    "path": "exports/template-previews/merchandise.png",
+    "bytes": 61204,
+    "sha256": "f722a2e8370b393eec12e75e0b54e4e4556be60fac0c56587408de3ead3f277e"
+  },
+  {
+    "path": "exports/template-previews/event-update-story.png",
+    "bytes": 72660,
+    "sha256": "4024dfaf4442d4a9ce77d1913196f2022240ac6b22843e70bfecdc4dfe8a35f5"
+  },
+  {
+    "path": "exports/template-previews/chart-gauge.png",
+    "bytes": 43186,
+    "sha256": "b5a3e65a4c1f3b7589eb51e6eb5c9772cb992f31fb10c008ccfad3148af8050d"
+  },
+  {
+    "path": "exports/template-previews/volunteer-square.png",
+    "bytes": 82369,
+    "sha256": "857e8c7d1a753a7d82b50e6cb311d163590b19c0bf5254b2d9501f97ea1e19f8"
+  },
+  {
+    "path": "exports/template-previews/volunteer-story.png",
+    "bytes": 88741,
+    "sha256": "3602f4161f955f85ca66fdd4b836e6c9245c6e915a25595e5af58987a3874a8e"
+  },
+  {
+    "path": "exports/template-previews/sponsor-portrait.png",
+    "bytes": 84496,
+    "sha256": "8e6de4fbc469b0168250d869803602e85f084a07520a70224ffe0e50dc90f714"
+  },
+  {
+    "path": "exports/template-previews/infographic-impact.png",
+    "bytes": 78545,
+    "sha256": "cff3334e7cbfd57deb20c5f5ff45cccb458316b9c1395ad8c3d50f65da7dfd66"
+  },
+  {
+    "path": "exports/template-previews/mission-story.png",
+    "bytes": 74682,
+    "sha256": "1a9483534c323f1a9a349a8fa3163cc1a73f80832dc5c9642697ba59d8bb5585"
+  },
+  {
+    "path": "exports/template-previews/weather-story.png",
+    "bytes": 78938,
+    "sha256": "b07060b3708d7776c10acf3c303f1512fdbbe3f58e4598424e45aef0e050c920"
+  },
+  {
+    "path": "exports/template-previews/countdown-7-days.png",
+    "bytes": 63986,
+    "sha256": "339b45c4e4ebab5aac0955878ad3e59822dd84b6606471d1727e5e976305cdc3"
+  },
+  {
+    "path": "exports/template-previews/competition-story.png",
+    "bytes": 65890,
+    "sha256": "c95f896ae0db3c73be845d4858db9e4393269954a31e681fdc62c75e3cec6f2f"
+  },
+  {
+    "path": "exports/template-previews/transparency-landscape.png",
+    "bytes": 71786,
+    "sha256": "a10b33e462ee0dd2f9022eb77b63a438d77ce5808ebe0b02aedd1cdb0c2238fe"
+  },
+  {
+    "path": "exports/template-previews/problem-solution-story.png",
+    "bytes": 85980,
+    "sha256": "a3cb5c4bc0f41008c149d5023ccc25307f5a1ec05495fc1c81028fce07ee05d0"
+  },
+  {
+    "path": "exports/template-previews/transparency-story.png",
+    "bytes": 89442,
+    "sha256": "6171928550d237433e185ad0504582ba5ccd0d285fc83a8e5c935ab3e71a7d25"
+  },
+  {
+    "path": "exports/template-previews/results-portrait.png",
+    "bytes": 84605,
+    "sha256": "4796791c17f77557f29db6d83cc0e0b3be26afe70935e43eae26220f1ad678e9"
+  },
+  {
+    "path": "exports/template-previews/volunteer.png",
+    "bytes": 64426,
+    "sha256": "7f83af174a2574b1e70467c0172d4072cb22f0c5a1b4e4762821b380f228b887"
+  },
+  {
+    "path": "exports/template-previews/resources-story.png",
+    "bytes": 93258,
+    "sha256": "762b89fc95ed271d15ece55651dd3a15649b3cf38813511b9c1a3fb805cfd352"
+  },
+  {
+    "path": "exports/template-previews/beneficiary.png",
+    "bytes": 63830,
+    "sha256": "0bfaf52c32c7cc1f7153780964cd29305b559caa201d5fc4fe23171320cd72d3"
+  },
+  {
+    "path": "exports/template-previews/education-landscape.png",
+    "bytes": 62874,
+    "sha256": "b6fd710aeb857bfc23db7abd0e519b44fa233a630646f5039fc004314da353d5"
+  },
+  {
+    "path": "exports/template-previews/quote-landscape.png",
+    "bytes": 57497,
+    "sha256": "94914534a896f978fc029998ae7d94c3eefe95729c3e71ea068fd6a578f96dc3"
+  },
+  {
+    "path": "exports/template-previews/event-schedule.png",
+    "bytes": 67366,
+    "sha256": "167311e461541b70e25cdc034f3c0807e894a327a30c80ab6a716be1aa4f8ca1"
+  },
+  {
+    "path": "exports/template-previews/mission-portrait.png",
+    "bytes": 69934,
+    "sha256": "ba2e6275daa62239c5a1a363d944d4e3848be89dff7dcbc87249804021b359eb"
+  },
+  {
+    "path": "exports/template-previews/donation-square.png",
+    "bytes": 78187,
+    "sha256": "d0bc73e1b01cb06e100b642df9515160d5661041a68b4523b50ba6567c487cd6"
+  },
+  {
+    "path": "exports/template-previews/results.png",
+    "bytes": 57931,
+    "sha256": "300e456afd93d84e239886bc96ff51b7b65120dfe406af847bd28dc4a8a68b58"
+  },
+  {
+    "path": "exports/template-previews/quote-square.png",
+    "bytes": 69359,
+    "sha256": "3708caa61b0ef143c1f36f111a65734fa66ace521586f6a0db7347221e3ae5e6"
+  },
+  {
+    "path": "exports/template-previews/case-study-story.png",
+    "bytes": 83524,
+    "sha256": "66156516e0c8b24c6f524f68cdce2e72e8ac5a8f89267d322215cae80ccc2f52"
+  },
+  {
+    "path": "exports/template-previews/save-date-square.png",
+    "bytes": 75350,
+    "sha256": "9caa5905d5fa10f20e1e237d2ff0399ca7561c3494081b01b7ed3fa715e56f11"
+  },
+  {
+    "path": "exports/template-previews/resource-guide.png",
+    "bytes": 64303,
+    "sha256": "72e5d9486423fd201f083b073f5dfbfaa317827cdb871a792b5901b115e761fd"
+  },
+  {
+    "path": "exports/template-previews/sponsor-cover.png",
+    "bytes": 68902,
+    "sha256": "cd0ef8a2d4f7dda8de325884aa259e8154f453bb50b981d200e7d3bf8b55fa0b"
+  },
+  {
+    "path": "exports/template-previews/quote-story.png",
+    "bytes": 75091,
+    "sha256": "dc504f9d57419f15f487271c420d98b00f3dd32c4458cba9f44d13d341ead5dc"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-06.png",
+    "bytes": 69281,
+    "sha256": "97d208264a275c1221478507c1ef65efb05531b2fa1480b8c81dbc8b88b87be7"
+  },
+  {
+    "path": "exports/template-previews/education-square.png",
+    "bytes": 74863,
+    "sha256": "3404ba87a55953a60eacb2398eff270fe9f4f17a4ef5510435f96cf345e54af2"
+  },
+  {
+    "path": "exports/template-previews/impact-square.png",
+    "bytes": 76225,
+    "sha256": "5477c1ff208ec33e7060cb6c2e0f2b156dc0a29c40bfeaf9d1a3fa38848748f9"
+  },
+  {
+    "path": "exports/template-previews/countdown-today.png",
+    "bytes": 62633,
+    "sha256": "cc6a2394618e80260835f487bf89366aee4de08a56cb54d586b9cf9d4bed2773"
+  },
+  {
+    "path": "exports/template-previews/event-update-square.png",
+    "bytes": 67071,
+    "sha256": "997ae6e9eb7b8a1445d082af92bf282d6b240ef945a8014917ba658d86d8a2ac"
+  },
+  {
+    "path": "exports/template-previews/save-date-landscape.png",
+    "bytes": 61480,
+    "sha256": "28c4b78cc9e902e944d998cce92a4903be18e299355fbc810d102f8de17fa22c"
+  },
+  {
+    "path": "exports/template-previews/countdown-tomorrow.png",
+    "bytes": 63945,
+    "sha256": "c81cd477dc918ff8cfa814bce530957fa787b734af1ef03bacb7d42775964731"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-07.png",
+    "bytes": 60755,
+    "sha256": "d2835502d09ce1ad5bf06cbdd22d89983f0271d856f780a3641e7f108e6f80d9"
+  },
+  {
+    "path": "exports/template-previews/merchandise-landscape.png",
+    "bytes": 60154,
+    "sha256": "56dbab42bf691cac1cf82cd7a012936d7b442791227c0c77c98f58aa49e3b219"
+  },
+  {
+    "path": "exports/template-previews/save-date-story.png",
+    "bytes": 81683,
+    "sha256": "9d5f04077c6f9e8aa571e9bd4bd899a03f647a2da409b2b3e07bb004e7daa696"
+  },
+  {
+    "path": "exports/template-previews/results-story.png",
+    "bytes": 90633,
+    "sha256": "6b8b4b8c3aa116e78980495661860d4ef80f48686f558b205b33f50f8da9e263"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-05.png",
+    "bytes": 68090,
+    "sha256": "b169ea082aea265be30591a4e64a3287a1163ab6ccf2ee6fef015273bf9fe262"
+  },
+  {
+    "path": "exports/template-previews/mission-landscape.png",
+    "bytes": 58265,
+    "sha256": "95af42e21706de7c70f72a9ef6da3813a975833fa7890446739b2fa73cea6555"
+  },
+  {
+    "path": "exports/template-previews/overview.png",
+    "bytes": 69383,
+    "sha256": "32bf6299970a47006f8294022aec472ec8284d3640c4711227387a2ff5155056"
+  },
+  {
+    "path": "exports/template-previews/event-poster.png",
+    "bytes": 65540,
+    "sha256": "e4f28cda4cc3406e53c1215a88b011c0c67698642d952311940631a51b812d06"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-beneficiary.png",
+    "bytes": 43105,
+    "sha256": "20a43e4207c687a7603efb0078456183f9fc0ccaa69bc187323b2e8b35781256"
+  },
+  {
+    "path": "exports/template-previews/photo-recap-landscape.png",
+    "bytes": 54533,
+    "sha256": "216ea2d516427293f126ec59e8790e01c82decd534aac44c1102c46127dde186"
+  },
+  {
+    "path": "exports/template-previews/myth-fact-landscape.png",
+    "bytes": 73057,
+    "sha256": "f5e9b518a4f48886ba51e35d870b7aa30f5b56e6759a4964aa267a616317fe26"
+  },
+  {
+    "path": "exports/template-previews/quote-portrait.png",
+    "bytes": 71302,
+    "sha256": "635ec4559cb11a2b60122ad7b8c0199e663a3a3c6b89ab4759dbd1d656f7f56b"
+  },
+  {
+    "path": "exports/template-previews/education-portrait.png",
+    "bytes": 76876,
+    "sha256": "d28f7821775ea8908d2394659caea991d63955fd4816e215903f403c35e21137"
+  },
+  {
+    "path": "exports/template-previews/new-player-story.png",
+    "bytes": 89491,
+    "sha256": "6d0d01e0813cc20ba3efc16b047ca3b6ddaa84c83778a8e9eda2829643985d60"
+  },
+  {
+    "path": "exports/template-previews/impact-story.png",
+    "bytes": 82374,
+    "sha256": "eee9b08b316909cb12e45c3fe867296636d0731d703e9f1dc94edfc336c70d22"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-04.png",
+    "bytes": 71017,
+    "sha256": "640c2ec30b11d7beab61cdb5ee51bc55dbcefcdf533a24c316038d5cca06c787"
+  },
+  {
+    "path": "exports/template-previews/banner-facebook-cover.png",
+    "bytes": 24828,
+    "sha256": "82bddc10351dd7faa48e77709c416e49e54c4aec0c1f1a76aea2c55b8b15019c"
+  },
+  {
+    "path": "exports/template-previews/chart-bubble.png",
+    "bytes": 39982,
+    "sha256": "477277336977ece8efc9c29ea296b017fe70c5f0f2baa54131d95388ad7e396c"
+  },
+  {
+    "path": "exports/template-previews/founder-landscape.png",
+    "bytes": 59657,
+    "sha256": "f1d432b21cbba5f1b505ac4aab6ef124919351465cf4a45f8c7f063c7011986b"
+  },
+  {
+    "path": "exports/template-previews/competition-portrait.png",
+    "bytes": 61642,
+    "sha256": "6a058884052e2be4c68ccddf16420442f8e8824fc1dbe515b5bf0b4970d06ad2"
+  },
+  {
+    "path": "exports/template-previews/chart-multi-series-line.png",
+    "bytes": 38406,
+    "sha256": "6ca989387afef460cde364668e1f66a888d4ca32355d93783a607f0ba1ebb06c"
+  },
+  {
+    "path": "exports/template-previews/notice-weather-notice.png",
+    "bytes": 74971,
+    "sha256": "5d9bc882c314d1829173cc0d157b4fc46efa23bf235e5a8b0fe4aaf8d61770ab"
+  },
+  {
+    "path": "exports/template-previews/modern-portrait.png",
+    "bytes": 75802,
+    "sha256": "e9acfea6e58a6d1724b0faaf8357e36b6ccf1fa55827bd31d11de42007a5eb2d"
+  },
+  {
+    "path": "exports/template-previews/new-player-landscape.png",
+    "bytes": 70579,
+    "sha256": "6036ed5d70d22d4978691830c533b84a996c21179a837bfc860780e8f224c148"
+  },
+  {
+    "path": "exports/template-previews/chart-grouped-bar.png",
+    "bytes": 32810,
+    "sha256": "7608873cde8a6993315ebf19f17b47fb235e353bf1483ce422602bf6917826f4"
+  },
+  {
+    "path": "exports/template-previews/slide-quote.png",
+    "bytes": 58090,
+    "sha256": "c8609467a197cbdcb8f7345aaf7f48756ecc85e746b5fe2b4eb77e0a843b344f"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-01.png",
+    "bytes": 53253,
+    "sha256": "e3ce303230ba69f6ccf1d36ca3640af0159721f5ce7eb5f38d6d2ff6e6b60d54"
+  },
+  {
+    "path": "exports/template-previews/sponsor-spotlight-story.png",
+    "bytes": 70262,
+    "sha256": "b44fc756f721dba4191ee9e668236de0b476ec4d9dad869c1ade68a7d61fc40f"
+  },
+  {
+    "path": "exports/template-previews/competition-square.png",
+    "bytes": 60110,
+    "sha256": "365cb539e165a295736b0c645f062a3997431ed070c7e972a37241b6a55951a0"
+  },
+  {
+    "path": "exports/template-previews/community-portrait.png",
+    "bytes": 61867,
+    "sha256": "cbb4b6ddfab36310479e1387c07d147bae963d7669bb84e78afcd9d406a3a9f1"
+  },
+  {
+    "path": "exports/template-previews/infographic-comparison.png",
+    "bytes": 83103,
+    "sha256": "91018291690e2092fd2b16614af026ff3be3ef6dd0e6f2355c752da4f3412c50"
+  },
+  {
+    "path": "exports/template-previews/countdown-landscape.png",
+    "bytes": 53331,
+    "sha256": "b9801aca59d8cdcf751ac2da6b269f962dff9bcaec1a888e531b83eca5cb77e8"
+  },
+  {
+    "path": "exports/template-previews/sponsor-tiers.png",
+    "bytes": 62696,
+    "sha256": "a97060d5714cf40ac71de0b6885346dce06919bf01f789c594e2e278cf7f4a90"
+  },
+  {
+    "path": "exports/template-previews/results-square.png",
+    "bytes": 82524,
+    "sha256": "5520b652bca7217eefa53015022e1abec11201d111307662b970182fbd4730c6"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-03.png",
+    "bytes": 75660,
+    "sha256": "6384cf1ddb83f0317d478279878677edbbc79985ac633e8d555fecf4ab187dac"
+  },
+  {
+    "path": "exports/template-previews/slide-photo.png",
+    "bytes": 60241,
+    "sha256": "88a7351822425e774c8e593f3b5362446d1bde2d61503d1300daa1a33c7573b4"
+  },
+  {
+    "path": "exports/template-previews/chart-horizontal-bar.png",
+    "bytes": 36875,
+    "sha256": "ac5765a734e4e9f8745bb10246c53c7e45874eaa92d3df32a61676f839f0ade1"
+  },
+  {
+    "path": "exports/template-previews/founder-portrait.png",
+    "bytes": 74608,
+    "sha256": "b465f9abd103992d92fe867123889905cd9b0cc43d41b66860abfbd290e599b7"
+  },
+  {
+    "path": "exports/template-previews/chart-line.png",
+    "bytes": 33390,
+    "sha256": "88882feacd97d1c8440103610ed18d2e44fdcd0d7855f44588c76c230c20b875"
+  },
+  {
+    "path": "exports/template-previews/community-square.png",
+    "bytes": 60336,
+    "sha256": "314fcbe65e565fbced895c8b987022908435c8478772ad664b50541cf716ca7d"
+  },
+  {
+    "path": "exports/template-previews/carousel-mission-path-02.png",
+    "bytes": 63172,
+    "sha256": "bd649384632c4e39546a0a317ab2e587abce49be413367c3a898b2bae6b502d1"
+  },
+  {
+    "path": "exports/template-previews/chart-100-percent-stacked-bar.png",
+    "bytes": 35555,
+    "sha256": "37aa824dd88f0b6923551cd3a09e51660eee452a0c70cf4e415159f913a476c7"
+  },
+  {
+    "path": "exports/template-previews/beneficiary-landscape.png",
+    "bytes": 60043,
+    "sha256": "300f10816e16e4a315418d80a77b7ca55c424bd71301d47930810fda66838af9"
+  },
+  {
+    "path": "exports/template-previews/chart-scatter.png",
+    "bytes": 32851,
+    "sha256": "c1def827475389f28b161bb1568f39e397872cb704fa508747501a9e46653420"
+  },
+  {
+    "path": "exports/template-previews/mission-square.png",
+    "bytes": 68332,
+    "sha256": "11d6a334c62fe3f25baa43849026bc98d3a46153de9b1402131613dc8ae770aa"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-03.png",
+    "bytes": 53297,
+    "sha256": "23baa92f10322c1397431e0b010c70dc2fee2171864bef1d3797a01869e07879"
+  },
+  {
+    "path": "exports/template-previews/announcement-portrait.png",
+    "bytes": 68267,
+    "sha256": "03b155acc72ba6e432c7fce18a1d11a3faa7bf2d8e2d85d5d4588edd7f8172dc"
+  },
+  {
+    "path": "exports/template-previews/sponsor-landscape.png",
+    "bytes": 66186,
+    "sha256": "f86d20004de7112d40a66218597122a2ae7fe1396a131071ba35da92e5911329"
+  },
+  {
+    "path": "exports/template-previews/community-story.png",
+    "bytes": 69916,
+    "sha256": "7e9ac1d75251e78f64471c8658fcd4778c34823a01a964bc31ffd5a182a3da36"
+  },
+  {
+    "path": "exports/template-previews/avatar-primary.png",
+    "bytes": 35453,
+    "sha256": "f8d67eeb559ba7b9727692ab609a7ba2a8510d761c146800e0c08b4a2d1eb9f6"
+  },
+  {
+    "path": "exports/template-previews/comparison-story.png",
+    "bytes": 86927,
+    "sha256": "f188a258881a6017fdd7c79a9fa3b8b77d7b215ce2c56fb2553d64402eae669e"
+  },
+  {
+    "path": "exports/template-previews/chart-sparkline.png",
+    "bytes": 35404,
+    "sha256": "a8f227591719182c0dfce2a00565faf2ebf3d97f924262c827b6c0ddbe07ce79"
+  },
+  {
+    "path": "exports/template-previews/photo-recap-square.png",
+    "bytes": 63814,
+    "sha256": "32358b67a0c5178d5b43c5b1b40db87e50ab4dda73afad52d4eabca4fdc08003"
+  },
+  {
+    "path": "exports/template-previews/impact-statistics.png",
+    "bytes": 64812,
+    "sha256": "49835776f8bcb4487638ecd2c0e6d193d39ec2e83816a8addd6123966f991145"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-02.png",
+    "bytes": 55342,
+    "sha256": "752756eddfbd6bb8db80d81021a4bea503df61b421e9e6b5ad35684ad42293a8"
+  },
+  {
+    "path": "exports/template-previews/slide-content.png",
+    "bytes": 62577,
+    "sha256": "257c6c9c1599d806afb394a819d1e795f9122af8f9d2fc059b1ccaa041b50c65"
+  },
+  {
+    "path": "exports/template-previews/sponsor-square.png",
+    "bytes": 82401,
+    "sha256": "758cd84f7e3cb3cbc26305da269704ca4725b84f1778e09eaf5bd0ae623c8a54"
+  },
+  {
+    "path": "exports/template-previews/announcement-square.png",
+    "bytes": 66557,
+    "sha256": "e925cf21cfec2c80f7484788925e2943e67c664c81a4369b0733a630a0a96177"
+  },
+  {
+    "path": "exports/template-previews/banner-wide-banner.png",
+    "bytes": 36704,
+    "sha256": "88506054efa46528e2fa095641dac75d878da9b0900e5ac58d0ec04850fa8fc3"
+  },
+  {
+    "path": "exports/template-previews/team-sealed-landscape.png",
+    "bytes": 60950,
+    "sha256": "d5d2da30fe316a5dc065cbb9ee4d288587179f712f52eb1928f5139589820f2a"
+  },
+  {
+    "path": "exports/template-previews/modern-landscape.png",
+    "bytes": 61097,
+    "sha256": "b712aab804f07cc259384f49b75e9f620caf90edfed2541d2bfbafe3bb938f54"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-01.png",
+    "bytes": 50689,
+    "sha256": "510aa351725de662c5867e2fedab04e67573f8ec1cc279c60ea9271d3c63bfc7"
+  },
+  {
+    "path": "exports/template-previews/photo-recap-portrait.png",
+    "bytes": 65521,
+    "sha256": "d19348b9c5f7c6c7fe106d2549c26dd81161c292a7406094c6d0bb39569a5b7d"
+  },
+  {
+    "path": "exports/template-previews/resources-square.png",
+    "bytes": 86534,
+    "sha256": "b50be21ceec4a51214533fe64d6483ae3b021375f0b27bfb2c11e66e8501bfe8"
+  },
+  {
+    "path": "exports/template-previews/chart-heat-map.png",
+    "bytes": 32990,
+    "sha256": "22ff676a5a655ddf5e2b70c400cd81c199631c2b2678bf2594cbf1fa3e640ed6"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-05.png",
+    "bytes": 53395,
+    "sha256": "a8e0d14cd3f6822e205e603469280d7fce0c047a0cec85727eacfc0f58fe8c45"
+  },
+  {
+    "path": "exports/template-previews/merchandise-portrait.png",
+    "bytes": 71757,
+    "sha256": "fbfabc55dab20dc6966da016bd54d6b03209d8bf4e179cb3c5c89b982158e0f4"
+  },
+  {
+    "path": "exports/template-previews/notice-cancellation.png",
+    "bytes": 72593,
+    "sha256": "e904b9e14933810e993d7b7d038e0b9ff63b6af02882b35c1e2f05f249f656b3"
+  },
+  {
+    "path": "exports/template-previews/countdown-14-days.png",
+    "bytes": 65281,
+    "sha256": "031f6f868690a61ed6270601ab657bc06fb8d60bd17b1021d3e2feaf02c7b5dd"
+  },
+  {
+    "path": "exports/template-previews/chart-area.png",
+    "bytes": 34362,
+    "sha256": "9c53d4fbc62fa51789974603ada7402087321160f014533dfc8de85cb63066c8"
+  },
+  {
+    "path": "exports/template-previews/letterhead.png",
+    "bytes": 56499,
+    "sha256": "b9b219669ed083295d9b36c6e50300142f96eccea1b6eda8c9f7903c01104f73"
+  },
+  {
+    "path": "exports/template-previews/countdown-story.png",
+    "bytes": 70243,
+    "sha256": "33f4db6cd49df3b0998315adcf4ecc4ca141b7b43a9dbbc466d82fd717c16b5b"
+  },
+  {
+    "path": "exports/template-previews/faq-landscape.png",
+    "bytes": 61079,
+    "sha256": "a3f7caa9e6c470b27ae90ab60eebe5c7d247bc3029f3709e3546f1c3cbab359a"
+  },
+  {
+    "path": "exports/template-previews/education-story.png",
+    "bytes": 83216,
+    "sha256": "c2c152ae64d0723806eeaa5302b1c13a2943942daff0be62fee1d58d2126801a"
+  },
+  {
+    "path": "exports/template-previews/volunteer-portrait.png",
+    "bytes": 84442,
+    "sha256": "2a87833369261efd0234b41cd56643f1cace76178ad5fc17a976926edf111e59"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-04.png",
+    "bytes": 54120,
+    "sha256": "16131f82d97199aa25c358d9c8f38745183cc110c23d1c6cf68dd9f071227100"
+  },
+  {
+    "path": "exports/template-previews/announcement-landscape.png",
+    "bytes": 53710,
+    "sha256": "752d0fb91f198859ce199cddc05c758a3884f17e9e6a07358cdae714166fcfca"
+  },
+  {
+    "path": "exports/template-previews/chart-stacked-bar.png",
+    "bytes": 33056,
+    "sha256": "168abdef5aa292eafebd22d51008d18d68a6190e8f1e0c02998193a19eadbca7"
+  },
+  {
+    "path": "exports/template-previews/sponsor-spotlight-landscape.png",
+    "bytes": 52813,
+    "sha256": "022dc066a32f8fd898ec56ba811b80c84cd4e22853a01f75ef09a375fab8ff8b"
+  },
+  {
+    "path": "exports/template-previews/countdown-square.png",
+    "bytes": 63000,
+    "sha256": "bdccda374a57c3de8d20a447d34d8d3825488eb34c4596930d520e998d881aa6"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-06.png",
+    "bytes": 59156,
+    "sha256": "e2801a391bcfe69f93fcd1d9e3cddf2b37abce8a39c1d750b9629fc5c4892a4e"
+  },
+  {
+    "path": "exports/template-previews/weather-square.png",
+    "bytes": 71063,
+    "sha256": "92c749757e22e7094a9db9c47e4bfb1350f19c1bca680d4497290d22075fae3a"
+  },
+  {
+    "path": "exports/template-previews/transparency-portrait.png",
+    "bytes": 84177,
+    "sha256": "c89ea01b33f50ad0983aae3234079c90a344e27e3d33cc980eb8d6785b1c975e"
+  },
+  {
+    "path": "exports/template-previews/sponsor-thanks.png",
+    "bytes": 59053,
+    "sha256": "01d26ffdc44f3a2cde9c63e825b54de48265873aeb3de1bb9bc612879f9c96c0"
+  },
+  {
+    "path": "exports/template-previews/competition-landscape.png",
+    "bytes": 51775,
+    "sha256": "fa138ffa6d15c2861c4331cc6bbba3b222cde0048bf2cf51eaed7775fe78f282"
+  },
+  {
+    "path": "exports/template-previews/chart-ranking.png",
+    "bytes": 36226,
+    "sha256": "e9953acddcc97fb5cbb424e66a8429fc61ae920be22939aa6c491818044f2bfe"
+  },
+  {
+    "path": "exports/template-previews/banner-linkedin-cover-legacy.png",
+    "bytes": 17485,
+    "sha256": "aec1fa4211708dff7e53c8e55b8b545e071f7bea2d4d41fe870fd552fd1f565c"
+  },
+  {
+    "path": "exports/template-previews/resources-portrait.png",
+    "bytes": 88609,
+    "sha256": "b10514d02f810097118f851e6dfd3fe2e020bef93cd212eb3d93615e4ee813a2"
+  },
+  {
+    "path": "exports/template-previews/format-explainer.png",
+    "bytes": 61016,
+    "sha256": "580c509737dd9949f8e941488e285b5f0c2c0552a41ab415445caf1ed0844f40"
+  },
+  {
+    "path": "exports/template-previews/chart-waterfall.png",
+    "bytes": 35722,
+    "sha256": "d85fe543d7c6c826641d941e18fa87c07fa5c763cd2f08e8ccf8bb9893312693"
+  },
+  {
+    "path": "exports/template-previews/weather-landscape.png",
+    "bytes": 57200,
+    "sha256": "9cb7bffe77e31b669e9fb1351794819542a7d091821e5431da7fb0320f44773f"
+  },
+  {
+    "path": "exports/template-previews/team-sealed-square.png",
+    "bytes": 75832,
+    "sha256": "e9edbec49c6bf857e418f9cd6311ddcd6dec6acb59a55614ca168af163f480b5"
+  },
+  {
+    "path": "exports/template-previews/beneficiary-story.png",
+    "bytes": 75789,
+    "sha256": "620f63d9cea95ed07b90b974cead89e57ae523e9ba4eaed6df4977691f051642"
+  },
+  {
+    "path": "exports/template-previews/event-update-landscape.png",
+    "bytes": 56315,
+    "sha256": "acf7098c9a2a739e83bb086c91f71c89088a85cff9ffc589840acc1d83e7e68d"
+  },
+  {
+    "path": "exports/template-previews/carousel-five-ways-07.png",
+    "bytes": 57212,
+    "sha256": "e60721227ce1c5f775610a8221c88e91378d0b71f4a8d69cae28c1f7241b606a"
+  },
+  {
+    "path": "exports/template-previews/community-landscape.png",
+    "bytes": 54419,
+    "sha256": "799b2d1d4891f58976cb2ff0a7dc55d1653474c598a3e646a60cf6aad9088632"
+  },
+  {
+    "path": "exports/template-previews/banner-facebook-group.png",
+    "bytes": 41122,
+    "sha256": "79bd26748249549762f423f73d999b753a104285b8a1cda0cf931af9252266d3"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-new-player.png",
+    "bytes": 47658,
+    "sha256": "b9af27cc612492cf7a0349f221e25d0430830502c0e53ed4755fcab3fe6258b4"
+  },
+  {
+    "path": "exports/template-previews/chart-comparison-matrix.png",
+    "bytes": 44265,
+    "sha256": "e9589e3e6d9290a0ad42891897d003da032a7cdeb5f80dd8815f4f67db4a00ba"
+  },
+  {
+    "path": "exports/template-previews/merchandise-story.png",
+    "bytes": 75754,
+    "sha256": "e0c30cc3311a250f5c9795827a00f9d26590c805fadd132daeeb3c0279df19ef"
+  },
+  {
+    "path": "exports/template-previews/myth-fact-portrait.png",
+    "bytes": 88904,
+    "sha256": "9640c6415002aac8113048490d3d8a4140ea8ae4397e2b9a514e1f6cbe80cd70"
+  },
+  {
+    "path": "exports/template-previews/problem-solution-landscape.png",
+    "bytes": 65522,
+    "sha256": "7278af349e2cb9c6137b4b9d2f5e857076bbdb7b4226a03ec4e2124a7817a2b1"
+  },
+  {
+    "path": "exports/template-previews/photo-recap-story.png",
+    "bytes": 69239,
+    "sha256": "8f0dbf5a5660c527ca444ff1ec51b7a48e73f48852ed4374aec0348f2f35d193"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-05.png",
+    "bytes": 69704,
+    "sha256": "41121ab9505dc649c5a57528893328436ce622585362fa39e15196108f6d82ef"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-04.png",
+    "bytes": 57428,
+    "sha256": "9f726f2548e79512ae94b9f7bcab8131932f175b2943e142f46ed9be01c75335"
+  },
+  {
+    "path": "exports/template-previews/chart-pie.png",
+    "bytes": 41453,
+    "sha256": "bf29c37922b2a60181bdc314b20b5edea6638ee3b6ca4ccfa0338929686f423f"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-faq.png",
+    "bytes": 49435,
+    "sha256": "ed06d5f7fb908c4eb7b33a2b58ba308afd465d78af6be932b844c7fde47c06fc"
+  },
+  {
+    "path": "exports/template-previews/team-sealed-portrait.png",
+    "bytes": 77837,
+    "sha256": "61d7ff6988e91b5c2c265ea3de4c26ea9ae2e6fb75da79f3112e5d0c7d5b1819"
+  },
+  {
+    "path": "exports/template-previews/faq-portrait.png",
+    "bytes": 75975,
+    "sha256": "b8957c73bebc06587b78b28b5c41773fac91d4f6f51fa0a15d9c2fd2d773ff3d"
+  },
+  {
+    "path": "exports/template-previews/results-landscape.png",
+    "bytes": 72332,
+    "sha256": "aa129b3ec5b2594dfe5683116bb45db3f2bf5f4c8472313ba9dc4a1d83c482f6"
+  },
+  {
+    "path": "exports/template-previews/banner-linkedin-cover.png",
+    "bytes": 23021,
+    "sha256": "56735b5c006d4c2029db650c3eeb0c3daf5f3903b36b42e9b7d8f7e64144cc06"
+  },
+  {
+    "path": "exports/template-previews/case-study-square.png",
+    "bytes": 77035,
+    "sha256": "a919530935f8ec5b00c5b1c7c7d420191868a9ddb053349821cc9743aa0e191f"
+  },
+  {
+    "path": "exports/template-previews/modern-story.png",
+    "bytes": 80975,
+    "sha256": "397e976faf8b35622e98853c9b8d87e39ef800ac4595d9618a72d4b390e07c78"
+  },
+  {
+    "path": "exports/template-previews/slide-title.png",
+    "bytes": 62510,
+    "sha256": "9cdc4f4717bd1acb0655bb037fe0d931dc4dd4f6ed061dc22bac6706f2d03232"
+  },
+  {
+    "path": "exports/template-previews/new-player-portrait.png",
+    "bytes": 85795,
+    "sha256": "8772bcfbc0d7d8d32e850794fe9c384812aec082a80fc47dc1b5e5f82ab564fb"
+  },
+  {
+    "path": "exports/template-previews/case-study-portrait.png",
+    "bytes": 79059,
+    "sha256": "d3fca4ea2131bd6e283f8174131119d9e370bd5161c7521981137806582e3837"
+  },
+  {
+    "path": "exports/template-previews/resources-landscape.png",
+    "bytes": 71465,
+    "sha256": "6d60f5d847f56a2116f6dc9f0826f5d71d3ae3c600cc0543bf8e9a1e4ad1c465"
+  },
+  {
+    "path": "exports/template-previews/faq-square.png",
+    "bytes": 73959,
+    "sha256": "aee16b2dab5252d6ec3f9b9673b839537859cfcee11af78bd0afa8b3e5afc5ad"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-06.png",
+    "bytes": 71509,
+    "sha256": "ea93f39105f090ec31619e7bed1389998d68bb31eacf28cc49b91e776090e9bb"
+  },
+  {
+    "path": "exports/template-previews/comparison-square.png",
+    "bytes": 80745,
+    "sha256": "ba552fdad5fc9a924245458151f84a184883add192ab3be6004982bb9eb476b7"
+  },
+  {
+    "path": "exports/template-previews/chart-vertical-bar.png",
+    "bytes": 32192,
+    "sha256": "f2d8a7d398b060f3e7b7d2b40645495a58c655730c4d399949a91629445de1bb"
+  },
+  {
+    "path": "exports/template-previews/notice-registration-closing.png",
+    "bytes": 78130,
+    "sha256": "dd4e4f6d68bed5a3614d06523b70e751f6c254dc86dedd14a89374769dd21f45"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-07.png",
+    "bytes": 59288,
+    "sha256": "ff803fafc104757bad15e6bb9dafa412bc952f8340e8e2cabae91cb0309f8ee9"
+  },
+  {
+    "path": "exports/template-previews/notice-schedule-change.png",
+    "bytes": 76624,
+    "sha256": "8c6692783cf5834d3737836a081dd74bc15ad526eb458e21b27dcdb9bb5030f1"
+  },
+  {
+    "path": "exports/template-previews/sponsor-spotlight-square.png",
+    "bytes": 63140,
+    "sha256": "12a11b513d6cac77ad244797f953450250420d0c277944d4dfc01838769381d2"
+  },
+  {
+    "path": "exports/template-previews/myth-fact-story.png",
+    "bytes": 94204,
+    "sha256": "c8f62e717ba9515a33e43d7edb3ecaa24816a40664daa93f9ee957418b5e6e10"
+  },
+  {
+    "path": "exports/template-previews/weather-portrait.png",
+    "bytes": 72877,
+    "sha256": "49a3cadad16bcccbf96d1ca29218ca7bf20123a8bc4e7f8c386f2923798c7c50"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-founder.png",
+    "bytes": 51959,
+    "sha256": "2771fd7ca1cea1d0728e03cd993c02db5c87bf837d15bc360b45e8f4884f1eee"
+  },
+  {
+    "path": "exports/template-previews/infographic-education.png",
+    "bytes": 79476,
+    "sha256": "83ad0dcc96809c484776ec5de1647826fa5d84209cb506b489494ed918217d9b"
+  },
+  {
+    "path": "exports/template-previews/donation-landscape.png",
+    "bytes": 64361,
+    "sha256": "bba73466ab6d8fef42842d192b491f0f41646bb482c79701fb5f68cb57ce622a"
+  },
+  {
+    "path": "exports/template-previews/problem-solution-square.png",
+    "bytes": 79767,
+    "sha256": "47005e5f424dc554c83c7561e359cc3ee756a3d0727119fed590d8d8269bcf07"
+  },
+  {
+    "path": "exports/template-previews/comparison-portrait.png",
+    "bytes": 82854,
+    "sha256": "ab9795b17f951891e64b44c76148079b10c58f1a038347ea8d5dd325c1b5b15f"
+  },
+  {
+    "path": "exports/template-previews/beneficiary-portrait.png",
+    "bytes": 69675,
+    "sha256": "58c688f24775c9e1d9c771f0cef1f74c992ad6d06df1fe33c50624c1dace683d"
+  },
+  {
+    "path": "exports/template-previews/venue-directions.png",
+    "bytes": 61247,
+    "sha256": "edba685904995a991effd5e98fd3c5eb05cd04ecf5111b7907d2111c6bf3d7bd"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-03.png",
+    "bytes": 63258,
+    "sha256": "b571ae6c478f16b0fe7abab638af10b34f206cee9c93881f29f1ce1bbdfc10a7"
+  },
+  {
+    "path": "exports/template-previews/banner-ultrawide.png",
+    "bytes": 32095,
+    "sha256": "2fd1911a1b14ce6cd568a2f929a2bc35a17161074eca6aa89bea723dc2f5f50a"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-02.png",
+    "bytes": 66462,
+    "sha256": "eef84fa7fe3165f1fff318fea2b0537517ea958879d83e91ea5fcab78f2e0e49"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-photo-recap.png",
+    "bytes": 43154,
+    "sha256": "61313269a11ae2003b9495f889cd1fda13fb193f116b1b95c121a5a8a070abed"
+  },
+  {
+    "path": "exports/template-previews/registration-card.png",
+    "bytes": 57326,
+    "sha256": "e38b49b559a765a5aa359ca5227d70277055d72b7cdb87fca69f98d54dc9f050"
+  },
+  {
+    "path": "exports/template-previews/countdown-portrait.png",
+    "bytes": 64587,
+    "sha256": "cae8c1ec3af45c591980ee0cb093fc07908c78b3648791a8fcca601d4597f4e5"
+  },
+  {
+    "path": "exports/template-previews/founder-story.png",
+    "bytes": 78887,
+    "sha256": "5e4f99427159f4f2d86db056df5239dc724e3591b39d5703d12a2cc11c5971b4"
+  },
+  {
+    "path": "exports/template-previews/notice-venue-change.png",
+    "bytes": 74131,
+    "sha256": "96f5aa6af40c4400cfbdf325c839f074a4b676c87e10728abd266b13e2a8f823"
+  },
+  {
+    "path": "exports/template-previews/chart-progress-ring.png",
+    "bytes": 44702,
+    "sha256": "26868bdd07386adeb33d37e3cb9fd5b7b254b26b4211ebd4b9e08c0c8a252437"
+  },
+  {
+    "path": "exports/template-previews/modern-square.png",
+    "bytes": 73933,
+    "sha256": "5cc9297fde0e25c2f9e29dad2878e836d0cab3ba32a6876d38fe9c07bedff90c"
+  },
+  {
+    "path": "exports/template-previews/comparison-landscape.png",
+    "bytes": 67132,
+    "sha256": "f3f59998ea7cf33e14faf579d5ad857e24488132a717ad68a8078437b61c5ec1"
+  },
+  {
+    "path": "exports/template-previews/chart-progress-bar.png",
+    "bytes": 44804,
+    "sha256": "3bc52b6772a9015f7bf518ee2fe3b90bd66136380045e07ee89537d1200722a3"
+  },
+  {
+    "path": "exports/template-previews/donation-portrait.png",
+    "bytes": 80186,
+    "sha256": "10fd9a2d4bf7279af02603c7ee921a6794ba343645dfa83c1a41142e03f49def"
+  },
+  {
+    "path": "exports/template-previews/new-player-square.png",
+    "bytes": 83727,
+    "sha256": "4e0fcdf46c5366e12965b3352217c6e359b3381ffb846e6943638145d36df209"
+  },
+  {
+    "path": "exports/template-previews/transparency-square.png",
+    "bytes": 82095,
+    "sha256": "0d9ad0f7f59b13a643c5221fd13214908ab9ec3657424b151ebd299899a5e9e2"
+  },
+  {
+    "path": "exports/template-previews/new-player-guide.png",
+    "bytes": 63285,
+    "sha256": "450f665176d29c1c3236cf2a762504fbb6c9a0763d87e3ebd02998ab5a9ebf55"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-sponsor-spotlight.png",
+    "bytes": 44193,
+    "sha256": "91d7067f6ebbb8e38ad4d554bf0d1172db821adcd71e3fe789443b58ca4df7ec"
+  },
+  {
+    "path": "exports/template-previews/volunteer-landscape.png",
+    "bytes": 68192,
+    "sha256": "d7cd8e5b8774d2cdcf7472a250139ea2e306d58626780a8f33d33475882fb511"
+  },
+  {
+    "path": "exports/template-previews/countdown-3-days.png",
+    "bytes": 64723,
+    "sha256": "b2ab3eb1589d767eb711ad64eeba7dad02cfbc2ed8fe3c110a62d959ea622611"
+  },
+  {
+    "path": "exports/template-previews/carousel-first-event-01.png",
+    "bytes": 57040,
+    "sha256": "e41ffc9e6d1ec11b8879405ad699829c6e6b2a60393b3e3c7034c35caf25f869"
+  },
+  {
+    "path": "exports/template-previews/thumbnail-save-date.png",
+    "bytes": 47807,
+    "sha256": "cf09fa2fcc4d35d33b4a23b8c6caaec3e6b146505c9c31ce5148daffa9df7b83"
+  },
+  {
+    "path": "exports/template-previews/impact-landscape.png",
+    "bytes": 67782,
+    "sha256": "21599d7fc6b9421741318599cb0e473512f90252106a2b459d26b40858820c83"
+  },
+  {
+    "path": "exports/template-previews/myth-fact-square.png",
+    "bytes": 86840,
+    "sha256": "2d06592ce507f0e4dd39473456eea0c3c48b5b769e820de8cee6ef7d40e826c3"
+  },
+  {
+    "path": "exports/template-previews/countdown-30-days.png",
+    "bytes": 66786,
+    "sha256": "abe0ae0226c2c986a55f15861eb91254ef8ead7586621f11041c4fe3539a2403"
+  },
+  {
+    "path": "exports/template-previews/faq-story.png",
+    "bytes": 80074,
+    "sha256": "d6a4939a1827d084f4bc4b0b01d2f7627e4fe0b2ab2fa6e860cea34d26e111d4"
+  },
+  {
+    "path": "exports/template-previews/banner-facebook-event.png",
+    "bytes": 43867,
+    "sha256": "a054dda47e2aa22f8716bd07b3873f7c95c044339c9ecce23492e79a48f600ef"
+  },
+  {
+    "path": "templates/charts/chart-100-percent-stacked-bar.svg",
+    "bytes": 596026,
+    "sha256": "c829972ce14b7ff2af65d7d34d265254bc89752a65bb773f86e2da1cb8ff3bb9"
+  },
+  {
+    "path": "templates/charts/chart-scatter.svg",
+    "bytes": 595338,
+    "sha256": "55784d8e1b095593d0fd8ed37bec67f47f31517b6e38e6a5ff5f49fe406264f3"
+  },
+  {
+    "path": "templates/charts/chart-line.svg",
+    "bytes": 595304,
+    "sha256": "50d0349f9bbefddae34a1e777ef5f6872b99aaab1898ed6677660e52e84bb341"
+  },
+  {
+    "path": "templates/charts/chart-horizontal-bar.svg",
+    "bytes": 595723,
+    "sha256": "bb03a5acc5b12cbd69eadb8b7413f405b293103d1f431009283f2d4bcd6ccf3f"
+  },
+  {
+    "path": "templates/charts/chart-grouped-bar.svg",
+    "bytes": 595990,
+    "sha256": "0b0b6257f1d2735721b1ffba6d890ff464e2f9169d02c9617f632fc385ca08ec"
+  },
+  {
+    "path": "templates/charts/chart-multi-series-line.svg",
+    "bytes": 595465,
+    "sha256": "ba81b3d159aa105b311e51b094dcd79adc691728ed827ec7efe467310a60d4cb"
+  },
+  {
+    "path": "templates/charts/chart-bubble.svg",
+    "bytes": 595340,
+    "sha256": "33668376d2eef7f00bd25bfe4f90a3a25b8d975129c8e8beb61b109ceb39653a"
+  },
+  {
+    "path": "templates/charts/chart-gauge.svg",
+    "bytes": 594675,
+    "sha256": "3491212ec9942ff63c39882b81fddf4f4f2f89cdd14ca525d30558b3a4f90a43"
+  },
+  {
+    "path": "templates/charts/chart-timeline.svg",
+    "bytes": 595699,
+    "sha256": "d0f8e4d6c70af568ecb4af23665fb356c995de29da49f364caa7de7572d27684"
+  },
+  {
+    "path": "templates/charts/chart-funnel.svg",
+    "bytes": 595059,
+    "sha256": "647d2727a9687087c2cc13dad7c3ce58a0a31c19846195fb4ebc0336cab99f41"
+  },
+  {
+    "path": "templates/charts/chart-donut.svg",
+    "bytes": 594675,
+    "sha256": "aad93344db95a7f09edebca58a98a3a6d56a3bc5908febc0c3f7f76e4e128ada"
+  },
+  {
+    "path": "templates/charts/chart-progress-bar.svg",
+    "bytes": 594661,
+    "sha256": "80d17bda1965287480dcefd5feeb6bd37c7f0c51627dc50844c213e23f1460b1"
+  },
+  {
+    "path": "templates/charts/chart-progress-ring.svg",
+    "bytes": 594699,
+    "sha256": "3749a9b78b3989dc01db6f3de59f1e8dc247c48702aba9d337aafc1d0faba07f"
+  },
+  {
+    "path": "templates/charts/chart-vertical-bar.svg",
+    "bytes": 595717,
+    "sha256": "f8e06df46a2de47c7b797f8f73ab2e7dec58f0b91128c5274075c4199eab4e49"
+  },
+  {
+    "path": "templates/charts/chart-pie.svg",
+    "bytes": 594645,
+    "sha256": "32f3dc05d0f2d22cf4a602bfcbcfb203b762c34e4bd30c66fadeab40ccce4a8d"
+  },
+  {
+    "path": "templates/charts/chart-comparison-matrix.svg",
+    "bytes": 597164,
+    "sha256": "ceddea7470de71407699f09771605deb4601443c692d87694a76def2be62826d"
+  },
+  {
+    "path": "templates/charts/chart-ranking.svg",
+    "bytes": 595702,
+    "sha256": "6066be1bd677ae29a871803c06ce5967889daa76d28417e8f91e30345eac1c0f"
+  },
+  {
+    "path": "templates/charts/chart-waterfall.svg",
+    "bytes": 595708,
+    "sha256": "396c85ef711eadd37df0c44f62cf2c9d8f994290e622cf7754942ad810c44d51"
+  },
+  {
+    "path": "templates/charts/chart-stacked-bar.svg",
+    "bytes": 595990,
+    "sha256": "e85d2b3e8c13a1c62262885290bc183998a07e23e7ec97bd86754513e131058c"
+  },
+  {
+    "path": "templates/charts/chart-area.svg",
+    "bytes": 595384,
+    "sha256": "5d366e26ecd30f003180fd9086f8a46d2558beed6afdfc0ddd1c7469020fa443"
+  },
+  {
+    "path": "templates/charts/data-schema.json",
+    "bytes": 454,
+    "sha256": "2bf9b273cdd3b092dfa76ce9db57c43deddffd57a60c252f1da8846ad2097f64"
+  },
+  {
+    "path": "templates/charts/chart-heat-map.svg",
+    "bytes": 600901,
+    "sha256": "43dbc8bd1662a0478afea9164fcb7c21af12d2b49b91118b9f91e96bebccfbbc"
+  },
+  {
+    "path": "templates/charts/chart-sparkline.svg",
+    "bytes": 595319,
+    "sha256": "8935b40f3ad992b896c2f24dbcdcc091fc5c04955a108eae16b4c08494eb32cc"
+  },
+  {
+    "path": "templates/print/sponsor-tiers.svg",
+    "bytes": 702953,
+    "sha256": "f1da4ca5cb847fb3ec0c9d15d5d3bcc276251d4552e99d7bed294e340b5a7c96"
+  },
+  {
+    "path": "templates/print/overview.svg",
+    "bytes": 703013,
+    "sha256": "165ac34f757360831244efafb016ce9b7d46c63a193da3c5a578cfe5d250ddd5"
+  },
+  {
+    "path": "templates/print/event-poster.svg",
+    "bytes": 702955,
+    "sha256": "83741b50ac1efbf48c7f03a4b0e97ca575b4ea7ccf0ffd0bd55be37a45369e96"
+  },
+  {
+    "path": "templates/print/sponsor-cover.svg",
+    "bytes": 702975,
+    "sha256": "b0dc7cf52e694d83a94523dc4f522c8c8c75fa4d11b370ea981994568cfc8b39"
+  },
+  {
+    "path": "templates/print/resource-guide.svg",
+    "bytes": 703017,
+    "sha256": "2eb06334685a493f008a86c98def350ad5d8390863baf59ea3079e67176d7a4a"
+  },
+  {
+    "path": "templates/print/results.svg",
+    "bytes": 702933,
+    "sha256": "989b4426486adc70a622e345a1c3843a843f1356833ea08199e8e3e29f2b528e"
+  },
+  {
+    "path": "templates/print/event-schedule.svg",
+    "bytes": 702978,
+    "sha256": "46737ebc91e6b8928ae66f2ed2d0242e6d683a1693d2b92990c7774dd49deefd"
+  },
+  {
+    "path": "templates/print/volunteer.svg",
+    "bytes": 703009,
+    "sha256": "3db65eaed8296136652a789f391be4f032116c4669c92b6efee28f54ee7854dc"
+  },
+  {
+    "path": "templates/print/beneficiary.svg",
+    "bytes": 702946,
+    "sha256": "566157dd1e4c163ac09f724d27198e6eaf9725dd2a1c8f0017d7a9acba89f206"
+  },
+  {
+    "path": "templates/print/merchandise.svg",
+    "bytes": 702931,
+    "sha256": "7812ff5f88a3c976114c49056de0f168a631e797152c6730b45f6a76766d9b4d"
+  },
+  {
+    "path": "templates/print/donation-thanks.svg",
+    "bytes": 703014,
+    "sha256": "31697e972de9ce253c112b45d28b45db2688decd06459f4da3a572e9632bd86e"
+  },
+  {
+    "path": "templates/print/donation-appeal.svg",
+    "bytes": 702990,
+    "sha256": "18a18d72378de67a3ea1bf722fdccf05561453e067ee1f74b169ad08b0cbb3d0"
+  },
+  {
+    "path": "templates/print/impact-cover.svg",
+    "bytes": 703032,
+    "sha256": "0426672e968e6ec12349403208f4ef27f40a329a908ce5d827eb24f13ec6ef52"
+  },
+  {
+    "path": "templates/print/contact-card.svg",
+    "bytes": 701527,
+    "sha256": "35f821f359068030ef009d48169fc7bdf422084765e09a14fbf5b4565f8f1755"
+  },
+  {
+    "path": "templates/print/new-player-guide.svg",
+    "bytes": 702965,
+    "sha256": "f64fd1314fcf0600c5cf018cf89930780deb0b1581970aab108c3137ea7b3ab8"
+  },
+  {
+    "path": "templates/print/registration-card.svg",
+    "bytes": 702918,
+    "sha256": "4ef764f0a410989f9917d6718f7e828360a855655b30526f15d3c6e4ab57c87d"
+  },
+  {
+    "path": "templates/print/venue-directions.svg",
+    "bytes": 702933,
+    "sha256": "f44beaad247bb065ff4fd45cfaaabfbb56bc78539601882f52ef7fb52a674a63"
+  },
+  {
+    "path": "templates/print/format-explainer.svg",
+    "bytes": 702943,
+    "sha256": "1032d26a1de58fb7f9bb308969d08b5cd26e04c7c6acf4d8e28c73d13f1fe0ad"
+  },
+  {
+    "path": "templates/print/sponsor-thanks.svg",
+    "bytes": 702916,
+    "sha256": "57671480026e85eaa1522bc7558cb9c8e1cc7d7e38ab0f7497166f2faa2a9252"
+  },
+  {
+    "path": "templates/print/letterhead.svg",
+    "bytes": 702889,
+    "sha256": "aba619567102e39bd0335ba4af3f3fd59b2f9c514feebb1ffe8cd5ca4d17d9c9"
+  },
+  {
+    "path": "templates/print/impact-statistics.svg",
+    "bytes": 703013,
+    "sha256": "edf51a632e2bcffc55e38fa82b2f7c2a336bace14be5a18ee64b57d7344e3097"
+  },
+  {
+    "path": "templates/slides/slide-photo.svg",
+    "bytes": 702701,
+    "sha256": "7750847d24868714754d196e6e896a591cfd9cea755e6769e59395ce5cb6c49e"
+  },
+  {
+    "path": "templates/slides/slide-quote.svg",
+    "bytes": 702444,
+    "sha256": "abc3fd2ec387494ad5c59b474125438f26dd0cf224f90d46d973b70061ce8647"
+  },
+  {
+    "path": "templates/slides/slide-data.svg",
+    "bytes": 702462,
+    "sha256": "b716f8951e4151b45691673be5b95b20a286f6369c82be2ff99baed74a68914f"
+  },
+  {
+    "path": "templates/slides/slide-closing.svg",
+    "bytes": 702439,
+    "sha256": "5b57ed383f7a195a64683f77fc72043fce128c6281bb71dda2524ceb38ff903d"
+  },
+  {
+    "path": "templates/slides/slide-title.svg",
+    "bytes": 702458,
+    "sha256": "d44a1d60f33b22a8fca4546fd0fc84574de4184855422710662a1a097c865ac8"
+  },
+  {
+    "path": "templates/slides/slide-content.svg",
+    "bytes": 702463,
+    "sha256": "adde177ee46e6fa7bebff7bce5f821be381b873d1d3c2810f2a42a570eb9cd08"
+  },
+  {
+    "path": "templates/social/beneficiary-landscape.svg",
+    "bytes": 702965,
+    "sha256": "41e261660a8a61a988af2f385e97c532189558bb1e15f904a1f0f3b2efdd9093"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-02.svg",
+    "bytes": 702642,
+    "sha256": "1823ae2544c402d2b132ce8f116848c2f6e0c2a3ac159c6f64e8710a8f9db6c3"
+  },
+  {
+    "path": "templates/social/founder-portrait.svg",
+    "bytes": 702489,
+    "sha256": "32045fcd3cc181b658026ea66864d8925b7ce09e7065de71123c74a43710b231"
+  },
+  {
+    "path": "templates/social/community-square.svg",
+    "bytes": 702450,
+    "sha256": "34d72216275aee1f3cff6d767568ff45f0896d2d6f85ebb2442c7e27869b8997"
+  },
+  {
+    "path": "templates/social/results-square.svg",
+    "bytes": 704116,
+    "sha256": "558af317b66021dac5081ffedcf377d34581f839a3f7968b4765de6126858c0f"
+  },
+  {
+    "path": "templates/social/countdown-landscape.svg",
+    "bytes": 702837,
+    "sha256": "c0037dc2279342708ce8758e58d6857fbaaf2a744edf89ff402c8ccff1c9f1c4"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-03.svg",
+    "bytes": 702692,
+    "sha256": "0d89d3379484a2a8ef95ea932a3c67914c762ebafbcb4a46043a4b412e8b3af0"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-01.svg",
+    "bytes": 702599,
+    "sha256": "a2e9c6f8834b5472869b108a8c188be2a1de37ed43bc814ef3ca7bf72af46992"
+  },
+  {
+    "path": "templates/social/infographic-comparison.svg",
+    "bytes": 703274,
+    "sha256": "aedd3c0452fecb8549bd729836b2c9524fb119edfeaddecd6779e6e801503e21"
+  },
+  {
+    "path": "templates/social/community-portrait.svg",
+    "bytes": 702457,
+    "sha256": "0d91a5d2146aebf0b0641aab9862b1e28ffbd9c75656eea061dab61eeed0c660"
+  },
+  {
+    "path": "templates/social/sponsor-spotlight-story.svg",
+    "bytes": 702923,
+    "sha256": "53751fd7b7524a2e51048c7dfa9ffea6a7f9a348d332eb91a3c3f574957c9f83"
+  },
+  {
+    "path": "templates/social/competition-square.svg",
+    "bytes": 702417,
+    "sha256": "8f7dbc58072f5be1006cc8fd357ec5f76af225b7a87e504dccfa088cb60313fb"
+  },
+  {
+    "path": "templates/social/new-player-landscape.svg",
+    "bytes": 703180,
+    "sha256": "3ae5eebdd7a666cf2a362b3fd13ba518fdfef13f3c39a7f9c117a1d43c972a73"
+  },
+  {
+    "path": "templates/social/notice-weather-notice.svg",
+    "bytes": 703062,
+    "sha256": "93d938a62c346b11e365cb6be93f3401393806790a04a6afebe7777afc19bd97"
+  },
+  {
+    "path": "templates/social/modern-portrait.svg",
+    "bytes": 703012,
+    "sha256": "1935fd64aa6ba5302b6c03f4a6ef26068b2c01e4a958701105b750f4ebcf8616"
+  },
+  {
+    "path": "templates/social/competition-portrait.svg",
+    "bytes": 702424,
+    "sha256": "7c1f04f469b4cafa02a09f23976e36472983031f8c93a3887dc7807b04b818ed"
+  },
+  {
+    "path": "templates/social/founder-landscape.svg",
+    "bytes": 702497,
+    "sha256": "545fdf6a74b3f50626c180c34f56266f6a771f8794e466f8f394994d2052d52f"
+  },
+  {
+    "path": "templates/social/banner-facebook-cover.svg",
+    "bytes": 701966,
+    "sha256": "39bf030aeba7559d103eb5dc819d11eb3ad261a145266431e6e12c6b2cd152c0"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-04.svg",
+    "bytes": 702680,
+    "sha256": "6e4f804b6b389540158222854e85f035b344d3604d0eaa8d3afbfd4ec96b8d0e"
+  },
+  {
+    "path": "templates/social/education-portrait.svg",
+    "bytes": 703290,
+    "sha256": "381787f5adb7980b9d047246fdd30f064818b082c66742c9b8354c9e22255498"
+  },
+  {
+    "path": "templates/social/impact-story.svg",
+    "bytes": 704083,
+    "sha256": "5b43edfe7112f30eb468417d192dff570578f1375b4eb286ee45369573f0e82a"
+  },
+  {
+    "path": "templates/social/new-player-story.svg",
+    "bytes": 703149,
+    "sha256": "6047cd664731e9082aaef57661a2b5d9a50d5c13eba77b56db26c6ed243b4146"
+  },
+  {
+    "path": "templates/social/mission-landscape.svg",
+    "bytes": 702551,
+    "sha256": "6e7788eb69ee2f5581a2a79ac43ca2697b841b1c020b499130ec7dffc0fe0edf"
+  },
+  {
+    "path": "templates/social/quote-portrait.svg",
+    "bytes": 703062,
+    "sha256": "a246ff4bb57593b38be37c138e1786869c08837ff0d694d3c80527877b4d6277"
+  },
+  {
+    "path": "templates/social/myth-fact-landscape.svg",
+    "bytes": 703155,
+    "sha256": "11f2d79f66a3d51b10bbdb40816f81976d393f638f6c5b06ce54563daa2764f3"
+  },
+  {
+    "path": "templates/social/photo-recap-landscape.svg",
+    "bytes": 702913,
+    "sha256": "ff5558ea382f19e61cdbee20ba07f93dfbe8f13758785b338e5cf9297dd8e093"
+  },
+  {
+    "path": "templates/social/thumbnail-beneficiary.svg",
+    "bytes": 702689,
+    "sha256": "8df366b508f1773db861d341fc1b242c4ff71a117af59cf2c146cb5234aee829"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-05.svg",
+    "bytes": 702681,
+    "sha256": "bf6d0b2d173ca886621f7ce3324e0b1bc25b8c4ab5e5fbb71bafe2ff068cb403"
+  },
+  {
+    "path": "templates/social/save-date-story.svg",
+    "bytes": 703052,
+    "sha256": "176b473d5da2c8775874192beda76daca77ea036e6ea9bf1cb818f816edbda8e"
+  },
+  {
+    "path": "templates/social/merchandise-landscape.svg",
+    "bytes": 702956,
+    "sha256": "8da8f08089215ff82396b94abb9d5152bdabd6b9f22f19dd6c2fca8dde891968"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-07.svg",
+    "bytes": 702639,
+    "sha256": "54191f26c92954a59bb7b47b26d3348fcd977e9d3ee21b2b975fca5e418c6846"
+  },
+  {
+    "path": "templates/social/results-story.svg",
+    "bytes": 704200,
+    "sha256": "6673e68820ffcc02c4c5f02334d6f8bbd77a3f891a498c7a51029ffb37dd70d0"
+  },
+  {
+    "path": "templates/social/save-date-landscape.svg",
+    "bytes": 703085,
+    "sha256": "020fcc215255b1beae8e017d5ebeb74a6ab91bc994d6f6d4c54e57d06e039740"
+  },
+  {
+    "path": "templates/social/countdown-tomorrow.svg",
+    "bytes": 702786,
+    "sha256": "f17d7a817fe38d20d8ee2cb6a8b57ca844630b4a5a5089b5e6dd1b7451bc7252"
+  },
+  {
+    "path": "templates/social/countdown-today.svg",
+    "bytes": 702783,
+    "sha256": "334a5815b3fd2679812e3e836932bc77992fb6ec2800b1446e10997d18564ec7"
+  },
+  {
+    "path": "templates/social/impact-square.svg",
+    "bytes": 704078,
+    "sha256": "0af76340910252bb815ade777679a7e39dae21aa7547de904b96e1916f0e54df"
+  },
+  {
+    "path": "templates/social/education-square.svg",
+    "bytes": 703283,
+    "sha256": "93bd4cd2b1cae5be1e60cc141ae6d86f2d443b153d7c0856c42a009dfc920f36"
+  },
+  {
+    "path": "templates/social/event-update-square.svg",
+    "bytes": 702995,
+    "sha256": "966f0752ed23c9e8b3439644d4a700ed6aa5d23b622fb0568fdc10f600b965e9"
+  },
+  {
+    "path": "templates/social/save-date-square.svg",
+    "bytes": 703048,
+    "sha256": "7ead3a5cf3bf97b3a9467da39d5d071d3cfa299b39ab4de9bc5ecb5011dde131"
+  },
+  {
+    "path": "templates/social/quote-story.svg",
+    "bytes": 703059,
+    "sha256": "a1aa47c3ea5b47e23cd1fa7fc40e0edc568e21b629771281e7f80026c4485e54"
+  },
+  {
+    "path": "templates/social/carousel-mission-path-06.svg",
+    "bytes": 702679,
+    "sha256": "8053bf8a2b918db5390b05789d205aafec5e2a2b910fbbb45d0eebdd727b877e"
+  },
+  {
+    "path": "templates/social/case-study-story.svg",
+    "bytes": 703072,
+    "sha256": "b833f91997c0a4a77760a073d450b85f4ac8b84b9b1ab0f855b3fd688d83a5a7"
+  },
+  {
+    "path": "templates/social/quote-square.svg",
+    "bytes": 703055,
+    "sha256": "782658ca8acf700d7b0750af2991336b0c7e5e0f88777f44101010f95cb7345d"
+  },
+  {
+    "path": "templates/social/donation-square.svg",
+    "bytes": 703102,
+    "sha256": "0b30c4c0568236c1131a7a93df1d28c79219419cc276dca7461435368c6ec2e3"
+  },
+  {
+    "path": "templates/social/mission-portrait.svg",
+    "bytes": 702512,
+    "sha256": "3c4222e71522e31fd0017cf7a2cf7723a31892594501c05daec607feacc0b5d4"
+  },
+  {
+    "path": "templates/social/education-landscape.svg",
+    "bytes": 703290,
+    "sha256": "3889225be520ea8f7a9e836ce50bd7977edf47b0c45c53c1a400c535006b119c"
+  },
+  {
+    "path": "templates/social/quote-landscape.svg",
+    "bytes": 703061,
+    "sha256": "2a733afe1a12366abbae5e9a41767a37f6c7a27e0941b62378d8d6f0637a8402"
+  },
+  {
+    "path": "templates/social/resources-story.svg",
+    "bytes": 703151,
+    "sha256": "9ffa36ef9c569f0598bdc31344a08b8533ea8f159016c66ca818c93a86bcb7e1"
+  },
+  {
+    "path": "templates/social/results-portrait.svg",
+    "bytes": 704123,
+    "sha256": "861074f10b43d1b8ef114616a344b378c0cc80d8685b397a438672bffbe35dec"
+  },
+  {
+    "path": "templates/social/problem-solution-story.svg",
+    "bytes": 703086,
+    "sha256": "42557c7cb046d53c922824ae9c422d21a802752ba8a64f4e96c1a4f368cca915"
+  },
+  {
+    "path": "templates/social/transparency-landscape.svg",
+    "bytes": 704132,
+    "sha256": "9d7da4d1dc38089511b419f5a7dd46c085e743d14748b6310dae4956f2c9cadd"
+  },
+  {
+    "path": "templates/social/transparency-story.svg",
+    "bytes": 704134,
+    "sha256": "a220ad3064571288856c29941001ec4fa5b083d6cb487bf13f179e24fdde144c"
+  },
+  {
+    "path": "templates/social/weather-story.svg",
+    "bytes": 703062,
+    "sha256": "0cc22f1cc1db2d4a7469a68b0a17a3060a85e007915d7621250c6897607c971d"
+  },
+  {
+    "path": "templates/social/competition-story.svg",
+    "bytes": 702421,
+    "sha256": "393679759cf1a76c8d116af3f7e4809904935bb47ac1495922f0918b2d8c05ac"
+  },
+  {
+    "path": "templates/social/countdown-7-days.svg",
+    "bytes": 702790,
+    "sha256": "cefbc8cd181b75954b68d8b991518abf3fc2b9cbfdfeab44e1ebb38a7a910398"
+  },
+  {
+    "path": "templates/social/mission-story.svg",
+    "bytes": 702509,
+    "sha256": "f6153f254e87ea5b801e27b35b380a17ad72cb907b0d966fed281aeb22219896"
+  },
+  {
+    "path": "templates/social/volunteer-square.svg",
+    "bytes": 703133,
+    "sha256": "486148b4df5cdb90fbabdb0cc6b2d36af532f12efdc7555f1bba3518bf6b6af2"
+  },
+  {
+    "path": "templates/social/infographic-impact.svg",
+    "bytes": 704077,
+    "sha256": "61e7d4b94606d82613a762f6136b939de19efbdc92a8b30657e135d68ae25516"
+  },
+  {
+    "path": "templates/social/sponsor-portrait.svg",
+    "bytes": 702977,
+    "sha256": "578f047257cdd57a8f61fb40dc4fe4d6f6ed1fcc29bd8308ee989a20db1d92b3"
+  },
+  {
+    "path": "templates/social/volunteer-story.svg",
+    "bytes": 703137,
+    "sha256": "aa10b091cbd8fae7c870f003cbcdedae1f5d66a197746c273291c042af412454"
+  },
+  {
+    "path": "templates/social/impact-portrait.svg",
+    "bytes": 704085,
+    "sha256": "d121b753222019e9b0f33b6778066e07837b4273fcb59bde85455f2cdcf2bd1b"
+  },
+  {
+    "path": "templates/social/save-date-portrait.svg",
+    "bytes": 703055,
+    "sha256": "76b1610aae89e2f91aa09cbcb1bc9231ef88df3d89bfe47ab4ff3b7d86bd7774"
+  },
+  {
+    "path": "templates/social/sponsor-story.svg",
+    "bytes": 702974,
+    "sha256": "9f471765aee112c371e515466a6544acc52e889a767ff59121b7830300e9cc5a"
+  },
+  {
+    "path": "templates/social/event-update-story.svg",
+    "bytes": 703010,
+    "sha256": "c6c3ab08e3e7e3ef18d63c9ccf03d979d5841ff256b943092cefd0fe819e6930"
+  },
+  {
+    "path": "templates/social/notice-sold-out.svg",
+    "bytes": 703013,
+    "sha256": "5018bea4484ded3035687a0a35468b41f33cd1f513f50203f792987fe92eb439"
+  },
+  {
+    "path": "templates/social/email-header.svg",
+    "bytes": 702431,
+    "sha256": "36ebeb6ab9d74722ae7f585ec28f472f1afeaaff8b1f0c708cdb02a0d62d061f"
+  },
+  {
+    "path": "templates/social/event-update-portrait.svg",
+    "bytes": 703002,
+    "sha256": "7260cb12e29adff703f2b559d7190efb2488b0247cb705f1e19cd8d0482f9306"
+  },
+  {
+    "path": "templates/social/beneficiary-square.svg",
+    "bytes": 702935,
+    "sha256": "3f061919a2cd5cbd565edab2d8a15d5cafd6450b40baa37aef33671e530be43b"
+  },
+  {
+    "path": "templates/social/banner-youtube-banner.svg",
+    "bytes": 701732,
+    "sha256": "3cc24ed5f6fb2adc91e555c187c421f05f804e84a33c536ffa68d06cc78b9740"
+  },
+  {
+    "path": "templates/social/case-study-landscape.svg",
+    "bytes": 703074,
+    "sha256": "1a0bea68a3e0127f3a1b46f3da58a479aff833f65a0e1912bf0e87725c1ff4ea"
+  },
+  {
+    "path": "templates/social/team-sealed-story.svg",
+    "bytes": 703060,
+    "sha256": "582bac5ea354c7e67a153e35793f9467739f54643e4c89e7a79a37e935f0dd82"
+  },
+  {
+    "path": "templates/social/donation-story.svg",
+    "bytes": 703106,
+    "sha256": "1f1e5dff45ebd00899243b4be9bbd7645e8bd61a61e86e66ac73041e6489c00b"
+  },
+  {
+    "path": "templates/social/problem-solution-portrait.svg",
+    "bytes": 703089,
+    "sha256": "60f0dda4c459c6b8c6bdc4069f5595bb7759ef7541a67536eac65c4ab9a10090"
+  },
+  {
+    "path": "templates/social/sponsor-spotlight-portrait.svg",
+    "bytes": 702893,
+    "sha256": "0007da0230f070b05525fb50cefa5b5a3d37f9fd33adc1791847b47b193c466e"
+  },
+  {
+    "path": "templates/social/infographic-new-player.svg",
+    "bytes": 703144,
+    "sha256": "3d74ca71ca5f5c4e0ff16a8a0ccd166d4bdf18f13a8dc53a063906c968868f3b"
+  },
+  {
+    "path": "templates/social/founder-square.svg",
+    "bytes": 702482,
+    "sha256": "72c758f710290eeb200c82785406997d50fcf3c4e056fdffaa4b0dddbad62b09"
+  },
+  {
+    "path": "templates/social/announcement-story.svg",
+    "bytes": 702822,
+    "sha256": "64316d3f69e6981ab7f9e45571c9cdf4f141be306353834c36842dad327cbef0"
+  },
+  {
+    "path": "templates/social/merchandise-square.svg",
+    "bytes": 702957,
+    "sha256": "6d96d2ad07c9fe56dcdfb0a192e8184a6d5b3f20c708b575f3131e82ec65550b"
+  },
+  {
+    "path": "templates/social/thumbnail-event-update.svg",
+    "bytes": 702672,
+    "sha256": "bc096f1f4e43564c12c1002cadb955db40e0a6b76948d8e988f001b62877a212"
+  },
+  {
+    "path": "templates/social/myth-fact-square.svg",
+    "bytes": 703090,
+    "sha256": "a29b0f5f5956dc9ec60962a06fbb1ac4c38889b61cadac7ad7b8ab0f01e97ec0"
+  },
+  {
+    "path": "templates/social/thumbnail-save-date.svg",
+    "bytes": 702725,
+    "sha256": "2e5f7a8edf0d5d71c1d66a60e0fda8a6fe068444b795bf2bc300618a998f8685"
+  },
+  {
+    "path": "templates/social/impact-landscape.svg",
+    "bytes": 704113,
+    "sha256": "4b13962cc6653678cbba21b8d85285f6a8221ce4f1bb009335ccb796430d86b7"
+  },
+  {
+    "path": "templates/social/banner-facebook-event.svg",
+    "bytes": 701730,
+    "sha256": "23f72f43d68527fa2f9b8f9975cbe2bfbe4bf3e4d147d289cf767900cecfe8e5"
+  },
+  {
+    "path": "templates/social/countdown-30-days.svg",
+    "bytes": 702823,
+    "sha256": "e03b2fd2a6e970e4876e670e6090acd2df50764ac59d275c87bf929de3fefb6c"
+  },
+  {
+    "path": "templates/social/faq-story.svg",
+    "bytes": 703040,
+    "sha256": "c4b614d1cd54d6fa32e9216d376e754c06fa22f5f5cbcff80e9df25463478492"
+  },
+  {
+    "path": "templates/social/carousel-first-event-01.svg",
+    "bytes": 702603,
+    "sha256": "846030cdda09d90ba7b58b7a62aaa2b4e7e3fdd1a797e2eb199620e9172e69b4"
+  },
+  {
+    "path": "templates/social/countdown-3-days.svg",
+    "bytes": 702790,
+    "sha256": "d165567d3a438259620d8489cc36d3334e4ed63587ab97d6ddcb12a60bdc806e"
+  },
+  {
+    "path": "templates/social/thumbnail-sponsor-spotlight.svg",
+    "bytes": 702727,
+    "sha256": "42e0a9666521caf74f40de79535299c1773473f3820ba6c10dddd70e9285d80b"
+  },
+  {
+    "path": "templates/social/volunteer-landscape.svg",
+    "bytes": 703138,
+    "sha256": "4a47f468d91dbbbb41ac8575eb4d05ff6d985ae70dc0b238887ac5111c4d0959"
+  },
+  {
+    "path": "templates/social/transparency-square.svg",
+    "bytes": 704097,
+    "sha256": "6e9e4c629850f755cb7479899085c36129e84ee7dbf6999fe890391f9b0f57bc"
+  },
+  {
+    "path": "templates/social/donation-portrait.svg",
+    "bytes": 703109,
+    "sha256": "0f3e1cbcac08a4946e33576ca91f9aacc43932d2170bbbee8f5a401eb593054c"
+  },
+  {
+    "path": "templates/social/new-player-square.svg",
+    "bytes": 703145,
+    "sha256": "cbeb27aa13d79df2329ff5873bb04462f29125ceea096798183910968499c95b"
+  },
+  {
+    "path": "templates/social/notice-venue-change.svg",
+    "bytes": 703060,
+    "sha256": "c59464cc0c12c3c8cccdbd199b46a44e07d4b61ea2bef985cde2f02ade3ca44c"
+  },
+  {
+    "path": "templates/social/founder-story.svg",
+    "bytes": 702486,
+    "sha256": "be0dbb3399355e40f16c803097e6c9cbe63516699fe14daf44dd6043abf1d07a"
+  },
+  {
+    "path": "templates/social/modern-square.svg",
+    "bytes": 703005,
+    "sha256": "6665322eaa408174a3ca2d31564f87df4553c176199ff28d3582d24109e32162"
+  },
+  {
+    "path": "templates/social/comparison-landscape.svg",
+    "bytes": 703315,
+    "sha256": "698dd62f5f93c4178e830692a0b2cf3ec9a2901dd1c95d544b49b56d2236d720"
+  },
+  {
+    "path": "templates/social/thumbnail-photo-recap.svg",
+    "bytes": 702668,
+    "sha256": "1ec234545cf24a79170d92b511946562deba0a64fb1533889406e263fae6b491"
+  },
+  {
+    "path": "templates/social/banner-ultrawide.svg",
+    "bytes": 701769,
+    "sha256": "17b5a13b048f0be47f4f711d118e6fa4878e38c80e801ef8722ed8a24806c972"
+  },
+  {
+    "path": "templates/social/carousel-first-event-02.svg",
+    "bytes": 702678,
+    "sha256": "c75f7fdd362bf3f44e45c141a54272ccbf931c37c40c0e704542a25ac7b17483"
+  },
+  {
+    "path": "templates/social/countdown-portrait.svg",
+    "bytes": 702797,
+    "sha256": "267fa261812a21b6cb72b794fd2a6474475e2709ecb61520a4d79844bbe1bf5a"
+  },
+  {
+    "path": "templates/social/beneficiary-portrait.svg",
+    "bytes": 702942,
+    "sha256": "35c7a17f85760c54da0efa1abca88a69e18bdbf180925cb4ca244a0a7da69a48"
+  },
+  {
+    "path": "templates/social/comparison-portrait.svg",
+    "bytes": 703282,
+    "sha256": "6b6cacba3e30256758ef26908ce128daf448340aefae48f27fcf8f6edbcedfee"
+  },
+  {
+    "path": "templates/social/problem-solution-square.svg",
+    "bytes": 703082,
+    "sha256": "00a453b58969ab315a2e4ed43f926fc80a16fa37785e4f6a989ea5c13d1baa3c"
+  },
+  {
+    "path": "templates/social/carousel-first-event-03.svg",
+    "bytes": 702637,
+    "sha256": "d6c19f7d1dfdc99fc76daa4bf309bfe33df530c5d72d97dfa4ab7a46cf37f917"
+  },
+  {
+    "path": "templates/social/infographic-education.svg",
+    "bytes": 703282,
+    "sha256": "8662d54f05781363f1861f81b5a9fc154245fe578d3d46e708ec179cc77ba556"
+  },
+  {
+    "path": "templates/social/donation-landscape.svg",
+    "bytes": 703092,
+    "sha256": "5a987b1e9f93ab437901e6ae0f469ceed5b0074a4c2746196c7477e50b9e4fbc"
+  },
+  {
+    "path": "templates/social/sponsor-spotlight-square.svg",
+    "bytes": 702886,
+    "sha256": "2b44fc86e3105486bfb2a93c509c08b7b76a51bd7d7532c95a0c242283b18ce6"
+  },
+  {
+    "path": "templates/social/thumbnail-founder.svg",
+    "bytes": 702733,
+    "sha256": "3999d37bd3c740bb088924ca401540b689a6418d8ce050cf5c7ecde2d0887841"
+  },
+  {
+    "path": "templates/social/weather-portrait.svg",
+    "bytes": 703022,
+    "sha256": "4022abdc18b688c55d2f667e8ef4493b5d1fe92d26becff777e7954538a61f5d"
+  },
+  {
+    "path": "templates/social/myth-fact-story.svg",
+    "bytes": 703125,
+    "sha256": "53f4fd93e5d47feb77a9b85e04519e9ef94211e920b567718959b7c1107a1827"
+  },
+  {
+    "path": "templates/social/notice-schedule-change.svg",
+    "bytes": 703063,
+    "sha256": "5f7b9950b347d652781523edfd382ba1f7e4029674d1bf88853be8e799db24b4"
+  },
+  {
+    "path": "templates/social/carousel-first-event-07.svg",
+    "bytes": 702634,
+    "sha256": "3ddeb1a0d6c7731cc6eedf7cd9106749db09ebd55bef69f45a4cf9b0599eff23"
+  },
+  {
+    "path": "templates/social/notice-registration-closing.svg",
+    "bytes": 703068,
+    "sha256": "edc7393a1cb69e6a6de3597394c9a03c79f9dc79be8d0194039101243c081a1a"
+  },
+  {
+    "path": "templates/social/comparison-square.svg",
+    "bytes": 703275,
+    "sha256": "5d926032269abf4260510685f3e051432e5a1e6430e689f5721866f78f65e167"
+  },
+  {
+    "path": "templates/social/new-player-portrait.svg",
+    "bytes": 703152,
+    "sha256": "ba932ec4d24094ddf8fc6ba0135a79d0df9a972710f02ac44cc73bf33db631f9"
+  },
+  {
+    "path": "templates/social/carousel-first-event-06.svg",
+    "bytes": 702684,
+    "sha256": "643fa5407c547323e22da62f7fa9c9381099b395a1a1973b80c7863194bf9376"
+  },
+  {
+    "path": "templates/social/resources-landscape.svg",
+    "bytes": 703151,
+    "sha256": "590c677dd5a87dbe9fe66f9f9e5ee1c5326137444d47153c0ad9f962fb8298b2"
+  },
+  {
+    "path": "templates/social/faq-square.svg",
+    "bytes": 703036,
+    "sha256": "0de2e3aeeb951d1e281ceb395dfb26edffd93e2652731eed9a1691f7f0622645"
+  },
+  {
+    "path": "templates/social/case-study-portrait.svg",
+    "bytes": 703075,
+    "sha256": "760f3b3b9e9271ed1c18220de8986d0010b45d5748c2e0478779a2c4350404f6"
+  },
+  {
+    "path": "templates/social/banner-linkedin-cover.svg",
+    "bytes": 701739,
+    "sha256": "79d7784b122d96bb34d2693dc9ac774815e94d18eb62a742f99295203b2911f0"
+  },
+  {
+    "path": "templates/social/results-landscape.svg",
+    "bytes": 704160,
+    "sha256": "358c965ac7da37725eb13027548dab242ed829ad9c96c6169496b87b9577446f"
+  },
+  {
+    "path": "templates/social/modern-story.svg",
+    "bytes": 703052,
+    "sha256": "5279b411c646b5385d4ecbf9392303210584229725dba69bb87c9c2826555b1b"
+  },
+  {
+    "path": "templates/social/case-study-square.svg",
+    "bytes": 703068,
+    "sha256": "2f78e341cd9c2136f0e3f8e58b2defdf45ebc1d55c5ab36b6fcf92b635367d0b"
+  },
+  {
+    "path": "templates/social/faq-portrait.svg",
+    "bytes": 703043,
+    "sha256": "fc55787b2c857fb9730018e006fa45e850def1397c4cedece6e99d5b82b7c2e1"
+  },
+  {
+    "path": "templates/social/team-sealed-portrait.svg",
+    "bytes": 703063,
+    "sha256": "e05378ab6a601c822a79f8d2e31e2f07f35e293c3a07713b1947e0d65002bdee"
+  },
+  {
+    "path": "templates/social/carousel-first-event-04.svg",
+    "bytes": 702629,
+    "sha256": "8d326f1fd8c0c1bb06ba195568244b653911787623ccc74dd12a86cc35ed30f9"
+  },
+  {
+    "path": "templates/social/thumbnail-faq.svg",
+    "bytes": 702709,
+    "sha256": "45ed92b4b5b11aaa3b88dc4b5cc1501114374eb2c0bf3fc7a81d8525cfe77519"
+  },
+  {
+    "path": "templates/social/photo-recap-story.svg",
+    "bytes": 702887,
+    "sha256": "8c97d82b409d0aeab14740ff809b4d61a2b7018cfadb09e51ad0d9d318bd3214"
+  },
+  {
+    "path": "templates/social/problem-solution-landscape.svg",
+    "bytes": 703118,
+    "sha256": "46b8e13417b4bb2781106f9cb044ecf5aac8d8110cdf25c6fd800f54edfd3aea"
+  },
+  {
+    "path": "templates/social/carousel-first-event-05.svg",
+    "bytes": 702675,
+    "sha256": "e66516547c0d95f9549e4e71f06f624b2e033f2b01f285c05756949cd8b9b54e"
+  },
+  {
+    "path": "templates/social/banner-facebook-group.svg",
+    "bytes": 701737,
+    "sha256": "7b3de332d0c22cd07556ca06aaf7f08c919e2b031d1f1133b7097bbdeaf31477"
+  },
+  {
+    "path": "templates/social/myth-fact-portrait.svg",
+    "bytes": 703097,
+    "sha256": "37295ed69558acda272369e5de11d6ff69749135fb92150b59fd717c9ba9a2a1"
+  },
+  {
+    "path": "templates/social/merchandise-story.svg",
+    "bytes": 702962,
+    "sha256": "711f4e6659f1d3217bd773dcedb943c057a889e630b753239d7bf69026e4c413"
+  },
+  {
+    "path": "templates/social/thumbnail-new-player.svg",
+    "bytes": 702736,
+    "sha256": "611225a1429f5cab55000ab84096b8bab0f7d0199a86aa1f14ff556045adc7c3"
+  },
+  {
+    "path": "templates/social/event-update-landscape.svg",
+    "bytes": 703000,
+    "sha256": "47b8b6e09d18781c16d9e0b7a32c1cadb9f94ce6296594a893c5638c0c3be8ed"
+  },
+  {
+    "path": "templates/social/beneficiary-story.svg",
+    "bytes": 702971,
+    "sha256": "5dda1b9cddb905720ee9d9337c89421f2e6a7408ec736c8d412f41bf0fbf1aa3"
+  },
+  {
+    "path": "templates/social/community-landscape.svg",
+    "bytes": 702496,
+    "sha256": "90a2cf736fbbece9d7c6a498cf52610d87017b15f331922722d78c594373e364"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-07.svg",
+    "bytes": 702591,
+    "sha256": "9bf2469761c1db40950d194be9837619d85119d1823f6f616abe603d3ad75a26"
+  },
+  {
+    "path": "templates/social/competition-landscape.svg",
+    "bytes": 702462,
+    "sha256": "2d7efa46a13727e8272e280c2ea52a3368fbc60decd6cc641c0e279a039c9718"
+  },
+  {
+    "path": "templates/social/weather-landscape.svg",
+    "bytes": 703064,
+    "sha256": "05c7849282c09b768f776b2d110097e9d8c2e5d329cb89fe276625df53f8ad29"
+  },
+  {
+    "path": "templates/social/team-sealed-square.svg",
+    "bytes": 703056,
+    "sha256": "1b36c380563d26c4b181c5cf9e228dc51949a211334a11cad9fb615b0ad65164"
+  },
+  {
+    "path": "templates/social/resources-portrait.svg",
+    "bytes": 703154,
+    "sha256": "c50ac70f3fe258a8ce626efa1d7c7f353abac32a19beb24fc3acd61f5ca4e602"
+  },
+  {
+    "path": "templates/social/banner-linkedin-cover-legacy.svg",
+    "bytes": 701765,
+    "sha256": "0305e57c5fba04dda0f061009a7efee018f354b9911d1629f09aebb856407c08"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-06.svg",
+    "bytes": 702628,
+    "sha256": "8c6e270b2e83f3b141bc2efac0e1599bfc80b6a6029cb7f8c15363f824524744"
+  },
+  {
+    "path": "templates/social/countdown-square.svg",
+    "bytes": 702790,
+    "sha256": "1031e85d862869d9c895fbfa6b5a49958e0ff88af4493dd02225ea346b7695b4"
+  },
+  {
+    "path": "templates/social/transparency-portrait.svg",
+    "bytes": 704104,
+    "sha256": "80eef9882a6c15f63f72eedb785891f68b4e671b519264b01d30bb571935b6ee"
+  },
+  {
+    "path": "templates/social/weather-square.svg",
+    "bytes": 703015,
+    "sha256": "6b8d8d137ae42f78af9c7719bfb80fffdbe32e64fa95889405d780e9312bd5c5"
+  },
+  {
+    "path": "templates/social/volunteer-portrait.svg",
+    "bytes": 703140,
+    "sha256": "8f3e12c3be8829f25e8708b4aa2ab55e99253f1e2b7cfbad1a3ac32fd44ad119"
+  },
+  {
+    "path": "templates/social/sponsor-spotlight-landscape.svg",
+    "bytes": 702928,
+    "sha256": "7eef66a223b7c7cb12b4a2b0628a4eb2087ce10e1f1582b459344b8cc4c31007"
+  },
+  {
+    "path": "templates/social/announcement-landscape.svg",
+    "bytes": 702833,
+    "sha256": "21aee1c8ab4564bd44bda7df856915b1e65089278daa73e3b887bf3fd6d75a5d"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-04.svg",
+    "bytes": 702582,
+    "sha256": "79e4f618cbe49aacc7a13fec4d08f7abb089087258066198ca148b7f8070fc1a"
+  },
+  {
+    "path": "templates/social/faq-landscape.svg",
+    "bytes": 703040,
+    "sha256": "8f1f33201a3c863906c0dc9683b846198976c8c2e3d3159c73629f103bb2890d"
+  },
+  {
+    "path": "templates/social/countdown-story.svg",
+    "bytes": 702826,
+    "sha256": "0c52c3d70f4451e7083f1ff56f93b94c75dce0272704d7b4d3f13fd0639e8bef"
+  },
+  {
+    "path": "templates/social/education-story.svg",
+    "bytes": 703287,
+    "sha256": "c8cfdafc8fb0b1308f61ee27c4ef7f2994745b1b188688e3ae20bb710cfd2475"
+  },
+  {
+    "path": "templates/social/countdown-14-days.svg",
+    "bytes": 702823,
+    "sha256": "ea91c5d1720c6730b409658774109fd3ce18a03ebb9c5530ed8d363295f6834b"
+  },
+  {
+    "path": "templates/social/notice-cancellation.svg",
+    "bytes": 703060,
+    "sha256": "6d4b565d3a0f2bc6ec5f1fd84d0aceb0be90b44af0553669987e05b828da73c1"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-05.svg",
+    "bytes": 702585,
+    "sha256": "8789b55dec574673290e54484aaacce5095d35cd3070c562f337e03135e85950"
+  },
+  {
+    "path": "templates/social/resources-square.svg",
+    "bytes": 703147,
+    "sha256": "b4d66b7284a6057beede60608cbbd8053bc43e3711a527188b8ed7915b5078cf"
+  },
+  {
+    "path": "templates/social/merchandise-portrait.svg",
+    "bytes": 702964,
+    "sha256": "161df85ff0a6963be96e78901003023300e1905861a443c56d9c27ec3e2230bb"
+  },
+  {
+    "path": "templates/social/team-sealed-landscape.svg",
+    "bytes": 703046,
+    "sha256": "4d80835053b7481481707eddd31694e63a165437db9d8ac5c7d029fb5a57f14f"
+  },
+  {
+    "path": "templates/social/banner-wide-banner.svg",
+    "bytes": 701733,
+    "sha256": "7be3be0c80eba2fc3275d4f51dc41f7a2e2b435f776233f6a942f2e6d837b1e5"
+  },
+  {
+    "path": "templates/social/photo-recap-portrait.svg",
+    "bytes": 702890,
+    "sha256": "11f71d0b405f9a7784f55d4ce16a7ce843d4dc6bb637055fc8b468a4f734c930"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-01.svg",
+    "bytes": 702554,
+    "sha256": "63af6abb6573b581f81d6e0c89ee57cb593ab052265fcfec767330db096e6285"
+  },
+  {
+    "path": "templates/social/modern-landscape.svg",
+    "bytes": 703039,
+    "sha256": "9f463a0204d395ec87dcc408e9c66043e08485c5231eb2e3083498d8f843f172"
+  },
+  {
+    "path": "templates/social/announcement-square.svg",
+    "bytes": 702818,
+    "sha256": "f5ed2ac41c995ff50ebd2cbd63fd55f5cf939d39c5ca46c4b4079a546f5f6b07"
+  },
+  {
+    "path": "templates/social/sponsor-square.svg",
+    "bytes": 702970,
+    "sha256": "5449c4f0f20a58fa77a4bb3db133dca017ad6f2701eb4220a9eaebdefdd10c7d"
+  },
+  {
+    "path": "templates/social/photo-recap-square.svg",
+    "bytes": 702883,
+    "sha256": "7d7ef9a21613d380c76fab504c6aba58d99a4db9e2ef5e3afa630819abe6d376"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-02.svg",
+    "bytes": 702585,
+    "sha256": "755784a8854a391c7c2f30ba6039cd00911bc03229937a57c27abc18500f02f4"
+  },
+  {
+    "path": "templates/social/community-story.svg",
+    "bytes": 702485,
+    "sha256": "805dade983d0474b62ba7962f6d71bf1c6b10626c7bd777aa74d2cf3055b5ec5"
+  },
+  {
+    "path": "templates/social/sponsor-landscape.svg",
+    "bytes": 703017,
+    "sha256": "d1680b3ab4d9c965295c866934f2e6239e38f6655abf815698c5b90130a46844"
+  },
+  {
+    "path": "templates/social/comparison-story.svg",
+    "bytes": 703279,
+    "sha256": "6a0745dc39e7b0a3f383cc860eb76a104b84ed437247ed9607ea3c904cdffe5f"
+  },
+  {
+    "path": "templates/social/avatar-primary.svg",
+    "bytes": 700967,
+    "sha256": "512aad7d22b41a21315f80100be2fb77168629bbb69c3e194f74d91b8f5bad38"
+  },
+  {
+    "path": "templates/social/announcement-portrait.svg",
+    "bytes": 702825,
+    "sha256": "d2fbce7078bfff6219f5e3ab6cfa51f278822675ed478fdc227030e00cc22074"
+  },
+  {
+    "path": "templates/social/carousel-five-ways-03.svg",
+    "bytes": 702580,
+    "sha256": "3a8acf432aad014affb8898542a9b36ead447d66b22c2759ad12654bebeaf517"
+  },
+  {
+    "path": "templates/social/mission-square.svg",
+    "bytes": 702505,
+    "sha256": "53fe17e7058493bde06527f16c6a10c16f322897deaa602ca7dae5f390f18e3f"
+  },
+  {
+    "path": "assets/references/02-RED-WHITE-AND-CLIX-SOCIAL-MEDIA-TEMPLATE-SYSTEM-PROMPT.md",
+    "bytes": 18304,
+    "sha256": "7c744accc851a6f6efe4493949c2d8ffd3d40c2d148f729d844308d2060a7a60"
+  },
+  {
+    "path": "assets/references/01-RED-WHITE-AND-CLIX-MASTER-BRAND-DESIGN-KIT-PROMPT.md",
+    "bytes": 18461,
+    "sha256": "9e93dea76e4ce922108c79a0899958173430b07e4a23ded32685dea8b61f325a"
+  },
+  {
+    "path": "assets/photography/fb-c12443d33e60.jpg",
+    "bytes": 422125,
+    "sha256": "c12443d33e6080b3efde2273539ee69fa542479a1cee08ee456cdb54376639dc"
+  },
+  {
+    "path": "assets/photography/ca2ca5fd1c-468925429_122093576912670491_5510481902800203825_n.jpg",
+    "bytes": 248556,
+    "sha256": "40d0527a9aef5aeab926187b91756172ae410528e0d72fc46452012b2ce3183c"
+  },
+  {
+    "path": "assets/photography/fb-b4908707794c.jpg",
+    "bytes": 399004,
+    "sha256": "b4908707794c522c7f3f30809fbf43bd9cdcea4970455e3eb0e1f10eb29c8c40"
+  },
+  {
+    "path": "assets/photography/fb-7b11d485923b.jpg",
+    "bytes": 457057,
+    "sha256": "7b11d485923b5fa6ee625eed6d8d19b21401132ea790be3780e1c0d340f7b5b0"
+  },
+  {
+    "path": "assets/photography/fee9c779ec-583998379_10163114450577777_7194513534033732520_n.jpg",
+    "bytes": 246896,
+    "sha256": "1c90ebdb56b41680e844729ee4ab57408194226dc1553108133d92b55bcc9e26"
+  },
+  {
+    "path": "assets/photography/a8cfceb759-468911105_122093576852670491_1670028129509773655_n.jpg",
+    "bytes": 305262,
+    "sha256": "5c0a673b997fd0e66a6974433375905b9aeeb0ae7741cd89e27a93304f8c6f00"
+  },
+  {
+    "path": "assets/photography/4db036cc56-641787246_10163536545762777_7497734339808198344_n.jpg",
+    "bytes": 299390,
+    "sha256": "f74a23383e56f090f9d545c75d1e856d3648e3d7e2616908a9cb18f0ad0ed45e"
+  },
+  {
+    "path": "assets/photography/fb-b1e412d378a4.jpg",
+    "bytes": 490125,
+    "sha256": "b1e412d378a43289db46ab4da4f48924c51d15437576aa3b8f30c180d452e937"
+  },
+  {
+    "path": "assets/photography/969c3e53cc-584884838_10163114448417777_3164964626269248842_n.jpg",
+    "bytes": 381946,
+    "sha256": "d967cf2c99d2c48bf382547f66b0195e407e8a31463affc1bf251c7bfbddc26a"
+  },
+  {
+    "path": "assets/photography/8c329931bd-468855564_122093574842670491_2059027916067847397_n.jpg",
+    "bytes": 77566,
+    "sha256": "206f1b607a744d0584586c844e5073fbae49e491a1d0691444f306347d0d09c4"
+  },
+  {
+    "path": "assets/photography/c99766f040-584453380_10163114446977777_705223962497076497_n.jpg",
+    "bytes": 372612,
+    "sha256": "64d14c4826c7eca7ac42acaf8da4cfcde2fe53b11f360415cc9a67bae93cf9e8"
+  },
+  {
+    "path": "assets/photography/MANIFEST.json",
+    "bytes": 12401,
+    "sha256": "797237ab0d5f4b5eb8b224610a14ef9a19d0e47abfebaa86301f413b983a1203"
+  },
+  {
+    "path": "assets/photography/58c57894d7-642777907_10163536545132777_3072104533179775209_n.jpg",
+    "bytes": 327232,
+    "sha256": "b1136eed6d93068327c2599db7b3260aaa8e7c4c1d2cdfc60d1c356236acf1c8"
+  },
+  {
+    "path": "assets/photography/fb-a773fb13f49d.jpg",
+    "bytes": 150545,
+    "sha256": "a773fb13f49d4f853776fccc219820837b39a2965ec782a222d40b4f98b541de"
+  },
+  {
+    "path": "assets/photography/c27d0eafa5-468918403_122093576930670491_653504547022934084_n.jpg",
+    "bytes": 132064,
+    "sha256": "4809d715356b6f5d7208e0f313aafd642dc545cdf1409dce95a816ea69cbf04f"
+  },
+  {
+    "path": "assets/logos/red-white-and-clix-logo.png",
+    "bytes": 80840,
+    "sha256": "557461a64772a363bd1118d474bd61be42cee8b7aef4eb9afcde5a2f6c7e1c95"
+  },
+  {
+    "path": "assets/icons/arrow.svg",
+    "bytes": 217,
+    "sha256": "5d8607bf4e41dc849b38559b51b5ca19a41a2bdf39047a2932f1aec31e0e2a95"
+  },
+  {
+    "path": "assets/icons/game.svg",
+    "bytes": 323,
+    "sha256": "cb7a0e3a0b18400800bea929adfffaae44fae42760b8e9e41e21e2dd048a66aa"
+  },
+  {
+    "path": "assets/icons/mail.svg",
+    "bytes": 256,
+    "sha256": "73c136741a8239eb530f984da59d08a19f659362ebb8990023a0ad27bf33d503"
+  },
+  {
+    "path": "assets/icons/download.svg",
+    "bytes": 233,
+    "sha256": "e15f992b36822d00ba2c5a2c3f6a3947aa76a80039488febf4ef76e85b1adcc2"
+  },
+  {
+    "path": "assets/icons/pin.svg",
+    "bytes": 271,
+    "sha256": "646c0a7a8666bc68b3c05b34950a733fb66759449322e5e14fff625182c2166b"
+  },
+  {
+    "path": "assets/icons/external.svg",
+    "bytes": 235,
+    "sha256": "931cd6cd1685de1c445f963c9f1969dac38d9688657c0ef5b152bb579df62a32"
+  },
+  {
+    "path": "assets/icons/document.svg",
+    "bytes": 242,
+    "sha256": "d55b34e590dd703239c152ec13dc302427df3777efce3dc5b82ec1431006f9f7"
+  },
+  {
+    "path": "assets/icons/check.svg",
+    "bytes": 210,
+    "sha256": "687176787b2c56530d55127df74af60f1a06086ab592b16b4a27d3b969800a10"
+  },
+  {
+    "path": "assets/icons/info.svg",
+    "bytes": 243,
+    "sha256": "8474e2f7d8b73bfca54984c00bd8cb603ac9dd56e32dc456678ca91fecb48e39"
+  },
+  {
+    "path": "assets/icons/close.svg",
+    "bytes": 216,
+    "sha256": "f392488288f2adb0720b0e1d22bc558d76be78b4eb483f76a0a82b6e6dcc249d"
+  },
+  {
+    "path": "assets/icons/people.svg",
+    "bytes": 290,
+    "sha256": "c789e38116312c7e5aeb6e0fc09210ce19bff7b0fd2a709c168487d4d9f015c4"
+  },
+  {
+    "path": "assets/icons/clock.svg",
+    "bytes": 238,
+    "sha256": "b423441c8e3eacea8e4623ece04e99fc40f7f231a8955788436ddb49b533b8cb"
+  },
+  {
+    "path": "assets/icons/phone.svg",
+    "bytes": 277,
+    "sha256": "e6e7007a909bc4a0f2ca734c4a3cef0552ecece64ddee30c4765b16604ec03d5"
+  },
+  {
+    "path": "assets/icons/calendar.svg",
+    "bytes": 269,
+    "sha256": "cea5e2f5cdddd32b9550be6db878d6d121f8475874ddad4a84a04408c94e8fff"
+  },
+  {
+    "path": "assets/icons/menu.svg",
+    "bytes": 218,
+    "sha256": "52ad89e4e95e707e765726e2f14907aeffb041d49f0b414882e0fdc11fbfa6dd"
+  },
+  {
+    "path": "assets/icons/heart.svg",
+    "bytes": 256,
+    "sha256": "19b98a2d2f339bc5d4cc783ccae8ebd0c2c7163a354d8c5e3c2736abbd30ecbf"
+  },
+  {
+    "path": "assets/fonts/SpaceGrotesk-500.ttf",
+    "bytes": 88312,
+    "sha256": "7fb95fdfdcf59d974737153e93c1a3842d7bbc511c47eb676fac358b459f4ebb"
+  },
+  {
+    "path": "assets/fonts/SpaceGrotesk-OFL.txt",
+    "bytes": 4495,
+    "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+  },
+  {
+    "path": "assets/fonts/SpaceGrotesk-700.ttf",
+    "bytes": 88228,
+    "sha256": "31ed212beb76557aa205a9877dab0be858f3eb2f2da105e78b423e788b960913"
+  },
+  {
+    "path": "assets/fonts/ArchivoBlack-Regular.ttf",
+    "bytes": 90988,
+    "sha256": "dd9a89a019b4849f66ab75455fe7bdf931311042cbb0f0f97acc061539703180"
+  },
+  {
+    "path": "assets/fonts/SpaceGrotesk-600.ttf",
+    "bytes": 88220,
+    "sha256": "7972519e41969395302e5c9875177fe5c624c8170fc4336a7a3055284a539a53"
+  },
+  {
+    "path": "assets/fonts/SpaceGrotesk-400.ttf",
+    "bytes": 88320,
+    "sha256": "420250593a90d8f5e3776d9dabcfbd8f8684295b44b66f13bb141c2aa1ae8614"
+  },
+  {
+    "path": "assets/fonts/SpaceGrotesk.ttf",
+    "bytes": 136676,
+    "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+  },
+  {
+    "path": "assets/fonts/ArchivoBlack-OFL.txt",
+    "bytes": 4492,
+    "sha256": "3173acd82f8c6159b5b1037b539fcbd4edff68e65c2ea8b9412b5a5ca97b08ff"
+  }
+]

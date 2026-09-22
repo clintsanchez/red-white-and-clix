@@ -1,0 +1,31 @@
+{
+  "note": "Working editorial shortlist, 14 images; no rights clearance or personal identification inferred. FB overlays are baked into source images. Copies of original downloads, not edits.",
+  "selected": [
+    {
+      "file": "fb-b1e412d378a4.jpg",
+      "source_page": "https://www.facebook.com/photo/?fbid=122174434442670491&set=pb.61570114731358.-2207520000",
+      "source_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/782169152_122174434448670491_7828748919784176814_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VL7l3VnlvKUQ7kNvwEIQVN1&_nc_oc=AdpyD2rf44qr633IyCfU95tDwnmlxUVt3sPIY9F_gyufqqKhNQTmXFsTyNQ9gsjZGevOM7RPR8QWk4Y0NDnGK4_4&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=UmAU_mkjGLhkYs8V3G1LMQ&_nc_ss=7f20f&oh=00_AQIxKI_unDGb_3fM3_KFBVsZg3DJPeolyyc4Nle_pmTAGg&oe=6AB6EEAB",
+      "alt_text": "May be an image of text",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 490125,
+      "sha256": "b1e412d378a43289db46ab4da4f48924c51d15437576aa3b8f30c180d452e937",
+      "provenance": "FACEBOOK-PUBLIC-DERIVED",
+      "rights": "Client page source; confirm reuse permissions for people and third-party artwork.",
+      "category": "tabletop match photograph with text overlay"
+    },
+    {
+      "file": "fb-a773fb13f49d.jpg",
+      "source_page": "https://www.facebook.com/profile.php?id=61570114731358&sk=about",
+      "source_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t15.5256-10/783616815_2295380474588548_8802314333549837219_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=ppz70bG0X9kQ7kNvwGMeqty&_nc_oc=Ado7ok-_rhD8ppM-4Urksmc3elj6cxrkPdFrbuAVpjEzLJO9_V3lT8vX392GNemBH-_rWtG1aC4wxCp_SkKxgTyb&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=OYL3Vaa0D_8xMeFcTC5K_g&_nc_ss=7f20f&oh=00_AQJY_MfLSzTsD6pvLMSX10of5QlMKgKw2FG4tZqeSmV1Sw&oe=6AB6FB85",
+      "alt_text": "",
+      "width": 960,
+      "height": 720,
+      "bytes": 150545,
+      "sha256": "a773fb13f49d4f853776fccc219820837b39a2965ec782a222d40b4f98b541de",
+      "provenance": "FACEBOOK-PUBLIC-DERIVED",
+      "rights": "Client page source; confirm reuse permissions for people and third-party artwork.",
+      "category": "event room photograph"
+    }
+  ]
+}

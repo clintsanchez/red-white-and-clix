@@ -1,0 +1,21 @@
+{
+  "referencePages": 77,
+  "pdfBookmarks": 77,
+  "components": 45,
+  "templates": 224,
+  "tokens": 74,
+  "checks": {
+    "pdfTextOnEveryPage": true,
+    "embeddedBrandFonts": true,
+    "referencePageOverflow": 0,
+    "templateTextOverlapOrClipping": 0,
+    "browserErrors": 0,
+    "offlineSVGExport": "passed",
+    "offlinePNGExport": "passed"
+  },
+  "limitations": [
+    "Working creative extension; operational confirmation fields remain.",
+    "Charts are editable schematic masters, not data-driven reports.",
+    "Current raster logo preserved; vector and simplified icon remain specified production gaps."
+  ]
+}

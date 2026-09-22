@@ -1,0 +1,17 @@
+:root {
+  --rwc-space-1: 4px;
+  --rwc-space-2: 8px;
+  --rwc-space-3: 12px;
+  --rwc-space-4: 16px;
+  --rwc-space-6: 24px;
+  --rwc-space-8: 32px;
+  --rwc-space-12: 48px;
+  --rwc-space-16: 64px;
+  --rwc-space-24: 96px;
+  --rwc-content-width: 1200px;
+  --rwc-reading-width: 70ch;
+  --rwc-gutter: 32px;
+  --rwc-gutter-mobile: 16px;
+  --rwc-section: 64px;
+  --rwc-target: 44px;
+}

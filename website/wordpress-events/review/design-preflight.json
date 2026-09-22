@@ -1,0 +1,51 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"data\":{\"ok\":true,\"active\":false,\"authority\":\"design\",\"authoritative\":true,\"builder\":null,\"slug\":\"\",\"violations\":[{\"rule\":\"ai-purple\",\"severity\":\"warn\",\"message\":\"Purple\\/violet detected. Discouraged as a default accent. Use a non-purple high-contrast accent unless the brand is purple.\",\"evidence\":\"#9b51e0\"}],\"checked\":[\"em-dash\",\"ai-purple\",\"inter-font\",\"warm-craft-palette\",\"filler-copy\",\"generic-names\",\"font-off-palette\",\"color-off-palette\",\"design-dont\"],\"not_checked\":[\"hero-in-viewport\",\"centered-mega-hero\",\"three-equal-cards\",\"eyebrow-overuse\",\"zigzag-cap\",\"section-layout-repetition\"]}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "data": {
+        "ok": true,
+        "active": false,
+        "authority": "design",
+        "authoritative": true,
+        "builder": null,
+        "slug": "",
+        "violations": [
+          {
+            "rule": "ai-purple",
+            "severity": "warn",
+            "message": "Purple/violet detected. Discouraged as a default accent. Use a non-purple high-contrast accent unless the brand is purple.",
+            "evidence": "#9b51e0"
+          }
+        ],
+        "checked": [
+          "em-dash",
+          "ai-purple",
+          "inter-font",
+          "warm-craft-palette",
+          "filler-copy",
+          "generic-names",
+          "font-off-palette",
+          "color-off-palette",
+          "design-dont"
+        ],
+        "not_checked": [
+          "hero-in-viewport",
+          "centered-mega-hero",
+          "three-equal-cards",
+          "eyebrow-overuse",
+          "zigzag-cap",
+          "section-layout-repetition"
+        ]
+      }
+    },
+    "isError": false
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

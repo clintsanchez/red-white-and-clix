@@ -1,6 +1,6 @@
 # Content engine handoff contract
 
-Onboarding foundation only; recurring publishing is not configured.
+Foundation and design production are complete; website planning is prepared. Recurring publishing is not configured.
 
 | Field | Value |
 |---|---|
@@ -18,3 +18,5 @@ Onboarding foundation only; recurring publishing is not configured.
 | Constraints | No politics/divisive content; no unsupported impact, clinical or endorsement claims |
 | Registration conversion | HCUnits event registration; paid-total tracking still to confirm |
 | Analytics / permissions | TBD; not tested or configured |
+
+Design sources: `design-system/`; separate working vector extensions: `brand/vector-logo-kit/`. Read `08-Website-Planning/03-MEASUREMENT-AND-ACCESS.md` before equating registration-link clicks with paid outcomes. No platform migration is assumed.

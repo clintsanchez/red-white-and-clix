@@ -12,8 +12,7 @@ client: "Red White and Clix"
 ## Personality / Tone Selections
 The client selected: **Professional, Inspirational / Motivational, Empathetic / Warm**
 
-*(Translate each into practice — e.g. "Witty / Playful" = light humor in social,
-never in legal/safety copy. The Content team should expand with examples.)*
+Professional means clear logistics and accurate information. Motivating means inviting participation through shared purpose. Warm means speaking to players, veterans and families as peers.
 
 ## Brand Colors (as described — sample exact hex from the logo)
 - **Primary:** Red
@@ -35,11 +34,12 @@ Social media posts, Short-form video (Reels, TikTok, Shorts), Long-form video (Y
 - Websites admired: https://www.stackup.org
 https://www.operationgratitude.com
 https://www.woundedwarriorproject.org
-- Brands admired: _not captured_
+- Brands admired: To be determined
 
 ## Writing Samples
-*Content team: generate 2-3 sample sentences in this voice once colors/fonts are
-confirmed, so downstream agents can reference a consistent tone.*
+- There’s a seat at the table for you. Check the format, review the event details and join the community.
+- Bring your best team—and your best sportsmanship.
+- See what your participation supports in the confirmed event report.
 
 
 ## Research reconciliation — September 21, 2026
@@ -52,3 +52,6 @@ The survey timestamp is 2026-09-16T01:39:42Z, equivalent to September 15 at 8:39
 - Logo colors sampled: #FF0000, #FFFFFF, #0072FF, #000000. Existing site fonts: Archivo Black and Space Grotesk.
 - Social discovery and access limitations: `06-Reports/social-and-directory-inventory.md`.
 - Follow-up questions: `CLIENT-FOLLOWUP.md`. Do not repeat the onboarding survey.
+
+## Design deliverables
+The 77-page design system, 45 components, 224 templates and 74 tokens are delivered. A separate nine-variant vector logo kit is also delivered. The supplied logo remains the reference; alternate lockups and the proposed campaign line remain working options.
