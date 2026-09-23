@@ -9,9 +9,16 @@ first-boot seed step so a fresh Railway volume comes up with the site in it.
 
 ## How deploys work
 
-The service is connected to GitHub: pushes to `instatic-site-build` build and
-deploy automatically. `railway.json` at the repository root points Railway at
-`deploy/railway/Dockerfile`, and the build context is the repository root.
+Both services are connected to GitHub: pushes to `instatic-site-build` build
+and deploy automatically. Each service's Dockerfile path is set on the service
+itself (`serviceInstanceUpdate { dockerfilePath }`) rather than in a
+`railway.json` — config-as-code is deprecated, and the API refuses to set
+`railwayConfigFile`. The build context is the repository root for both.
+
+| Service | Dockerfile | Role |
+| --- | --- | --- |
+| `site` | `deploy/railway/edge/Dockerfile` | Caddy; holds the public domain, gates the admin |
+| `cms` | `deploy/railway/Dockerfile` | Instatic; private network only |
 
 **The image is stateless.** All content — pages, plugins, media, the SEO
 records — lives on the Railway volume at `/vol`, because `DATABASE_URL` and
