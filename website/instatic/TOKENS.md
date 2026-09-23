@@ -830,3 +830,53 @@ verified by watching tags stay stale until `site_publish` ran. The plugin
 therefore clears its record cache on `publish.before` so a save-then-publish
 cannot bake stale data, and the panel says "Publish the site to apply it".
 
+
+## Scroll animations were dead, and GSAP now owns them — September 23, 2026
+
+Three `@keyframes` blocks the stylesheet depends on **were never emitted**:
+
+| referenced via `animation-name` | defined? |
+| --- | --- |
+| `rwc-reveal` | NO |
+| `rwc-media-pan` | NO |
+| `rwc-row-in` | NO |
+| `rwc-marquee`, `rwc-rise`, `rwc-figure-in`, `rwc-badge-spin`, `rwc-badge-nudge` | yes |
+
+Every scroll reveal on the site was therefore inert, in every browser, since
+it was built — an element with `animation-name: rwc-reveal` and no such
+keyframes simply does not animate. Nothing errors and nothing looks broken,
+which is why it survived several visual passes. Same silent-drop class of bug
+as the pseudo-rule losses recorded above: diff `@keyframes` DEFINED against
+`animation-name` REFERENCED after any `site_apply_css` run.
+
+    grep -oE '@keyframes [a-z-]+' style.css | sed 's/@keyframes //' | sort -u
+    grep -oE 'animation-name: [a-z-]+' style.css | sed 's/animation-name: //' | sort -u
+
+Rather than re-emit the keyframes, scroll motion moved to **GSAP 3.13 +
+ScrollTrigger** in the `src/scripts/motion.js` code asset. `animation-timeline:
+view()` would only have worked in Chromium — Firefox still does not support it,
+so the CSS route could never have covered every visitor. The three dead
+keyframes are deliberately left undefined so nothing animates twice.
+
+GSAP is **self-hosted at `/uploads/vendor/gsap/`** (repo copy in
+`website/vendor/gsap/`) because the page CSP is `script-src 'self'`; a CDN tag
+is blocked. The script injects the two files itself, so no page HTML or plugin
+asset change was needed.
+
+Three deliberate constraints:
+
+- **Elements already on screen at load are never animated.** The script runs
+  after paint, so a `from` tween on visible content would flash — and fading in
+  something the visitor is already reading is the stock-template tell.
+- **Reveals are grouped by parent** so siblings stagger together on one
+  trigger instead of firing individually.
+- **Reduced motion returns before GSAP is fetched** — verified: zero network
+  requests for gsap, all 18 targets visible on `/support`.
+
+A `from` tween sets `opacity: 0` on creation, so a throw after that point would
+leave content permanently invisible. Tween creation is wrapped in try/catch
+that kills the tweens and clears props — content visible beats content animated.
+
+Verified: reveals fire and settle at opacity 1 on `/mission` (8 elements) and
+`/resources` (8), card art covers its frame at `scale(1.12)` with no edge
+exposed, the 54-state map still works, and no console or CSP errors anywhere.
