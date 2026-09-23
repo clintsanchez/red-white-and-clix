@@ -11,6 +11,8 @@ Reused the existing Meta Box Options page (29), Global Settings field group (25,
 | --- | --- | --- |
 | Company Name | `s` (existing) | Red White and Clix; footer copyright |
 | Logo | `logo` (existing) | Attachment 1491; both header/footer logos |
+| Logo White | `logo_white` (existing) | Attachment 1506; single-color white variant for dark backgrounds |
+| Address | `address` (existing) | Labeled mailing address: 6148 Shale Crescent Dr, West Lafayette, IN 47906-8949 |
 | Founder / Contact | `ceo` (existing key, relabeled) | Wesley Robertson |
 | Email | `email` (existing) | Footer display and mailto link |
 | Phone Number | `phone_address` (existing) | Footer display and tel link |
@@ -20,7 +22,7 @@ Reused the existing Meta Box Options page (29), Global Settings field group (25,
 | Facebook URL | `facebook_url` | Confirmed Facebook profile; available for future bindings |
 | Newsletter Introduction | `newsletter_intro` | Footer newsletter paragraph |
 
-Values come from `00-Client-Brief.md` and the approved header/footer copy. Existing license, white-logo, address, GBP-address, and map fields were retained without inventing values. The home base is stored separately from a street address.
+Values come from `00-Client-Brief.md` and the approved header/footer copy. The white logo and confirmed mailing address were populated during the follow-up options pass. The mailing address is labeled explicitly and is separate from the event venue. GBP Address is populated from the user-supplied Google Business Profile screenshot. License and map fields remain blank because confirmed values are unavailable. The public footer still uses the home-base field.
 
 ## Elementor bindings
 
@@ -36,3 +38,11 @@ Browser checks at 1440 and 390 px: HTTP 200, correct actual logo, no horizontal 
 
 Before-change backup:
 `/Users/clintsanchez/Local Sites/red-white-and-clicks/conf/backups/global-options-20260922-205824.json`
+
+## Options completion check
+
+Follow-up pass on September 22, 2026: verified 12 populated fields, including imported white logo attachment 1506 and the mailing address from `06-Reports/records-check.md`. Preserved all previously populated values. No template or navigation changes. Backup: `/Users/clintsanchez/Local Sites/red-white-and-clicks/conf/backups/options-population-20260922-235606.json`.
+
+## Google Business Profile screenshot supplied by client
+
+The screenshot confirms the business name Red White and Clix, category Non-profit organization, location Tippecanoe County, Indiana, address 6148 Shale Crescent Dr, West Lafayette, IN 47906, and phone (574) 265-9585. Populated existing `gbp_address` with the displayed address; kept the separately labeled mailing address and phone unchanged. The screenshot shows “Open 24 hours” without the expanded weekly schedule, so no seven-day hours were inferred. Reviews says “Be the first to review”; no rating or positive review count was added. No profile/map URL is visible, so the map field remains empty.

@@ -64,3 +64,13 @@ Existing Elementor Header 1304 / Footer 1273 now use supplied RWC logo attachmen
 ## Global options wiring — September 22, 2026
 
 Header/footer now derive logo and business details from the existing Options → Global Settings Meta Box group (25), option array `options`, rather than static widget values. Existing field IDs retained; `ceo` relabeled Founder / Contact. Five missing fields added. Native Meta Box Elementor tags supply logos, footer paragraphs, copyright company name, contact text and mailto/tel links. Footer navigation unchanged. No new runtime plugin. Nine in-memory substitution checks plus desktop/mobile browser checks passed. See `08-Website-Planning/10-GLOBAL-OPTIONS.md` for keys, backup and scope.
+
+## Contact page and WS Form
+
+Contact page 1217 now has RWC copy and dynamic Meta Box business details, correct address map, and WS Form 4. Form actions save inquiries, notify the Options email, and show an on-page confirmation. Reply-To fixed to visitor email field 30; honeypot enabled. User authorized WS Form API Allow Updates. No external test email sent. See `08-Website-Planning/11-CONTACT-PAGE.md`.
+
+## Agency confirmation-page standard
+
+All agency forms use dedicated confirmation pages, per user instruction. Do not replace redirects with inline-only messages. Created shared Elementor Single Confirmation 1510 for the existing confirmation CPT, Meta Box Confirmation Content group 1508, and contact confirmation 1509 (`/confirmation/contact/`). WS Form 4 published redirect restored. Based on Divine Cleaning and Tiger Town patterns, styled with current RWC components. See `08-Website-Planning/12-CONFIRMATION-PAGES.md`.
+
+Confirmation template 1510 now uses the agency 66/33 content/sidebar pattern: dynamic confirmation text on the left; Call us, Email us and Visit Facebook buttons on the right, sourced from global Options. Stacks on mobile. Export refreshed.

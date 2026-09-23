@@ -15,7 +15,8 @@ Checked September 21, 2026.
 | Indiana corporate standing | Not retrieved | Open |
 | Founder service and biography | Official About page | Self-published; preserve attribution |
 | Candid profile contents | Security challenge | Not verified; supplied URL alone is not evidence of a Candid seal |
-| GBP rating / reviews / address | Google challenge | Not verified |
+| GBP address / phone | User-supplied GBP screenshot | 6148 Shale Crescent Dr, West Lafayette, IN 47906; (574) 265-9585 |
+| GBP reviews / hours | User-supplied GBP screenshot | “Be the first to review”; “Open 24 hours” displayed, full weekly schedule not shown |
 | Donation totals / veteran outcomes | Not documented in intake or independently verified | Do not invent |
 
 Primary evidence: [IRS Indiana CSV](https://www.irs.gov/pub/irs-soi/eo_in.csv), [dataset landing page](https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf), [code definitions](https://www.irs.gov/pub/irs-soi/eo-info.pdf). Matching row is saved in `99-Reference/irs-bmf-match.json`.

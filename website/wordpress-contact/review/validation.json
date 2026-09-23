@@ -1,0 +1,7 @@
+{
+  "empty_is_invalid": true,
+  "invalid_email_rejected": true,
+  "required_fields_valid": true,
+  "button": "Send message",
+  "submitted": false
+}

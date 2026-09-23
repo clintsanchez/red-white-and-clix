@@ -1,0 +1,124 @@
+[
+  {
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "h1": [
+      "Contact Us"
+    ],
+    "text": "CONTACT\nCONTACT US\nHOME\nCONTACT US\nCONTACT\nGET IN TOUCH\nHave a question about an event, getting involved, or supporting our mission? We would love to hear from you.\nRed White and Clix brings people together through tabletop gaming to raise awareness and support for veterans. Join a community built on fun, connection, and a shared mission.\nCONTACT DETAILS\n\nMailing address:\n6148 Shale Crescent Dr\nWest Lafayette, IN 47906-8949\n\nredwhiteandclix@gmail.com\n(574) 265-9585\nFOLLOW US\nFacebook-f\nSEND US A MESSAGE\nUse the form below for general inquiries. Fields marked with an asterisk are required.\nSection\nFirst Name *\nLast Name\nEmail *\nPhone\nMessage *\nI consent to Red White and Clix storing my submitted information so they can respond to my inquiry *\nSend message\nf963f0915618a3eacb125325a84d7717",
+    "forms": 1,
+    "fields": [
+      {
+        "id": "wsf-1-field-28",
+        "type": "text",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-29",
+        "type": "text",
+        "required": false,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-30",
+        "type": "email",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-31",
+        "type": "tel",
+        "required": false,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-32",
+        "type": "textarea",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-33-row-1",
+        "type": "checkbox",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-34",
+        "type": "submit",
+        "required": null,
+        "text": "Send message"
+      },
+      {
+        "id": "field_f963f0915618a3eacb125325a84d7717",
+        "type": "text",
+        "required": false,
+        "text": null
+      }
+    ],
+    "map": "https://maps.google.com/maps?q=6148%20Shale%20Crescent%20Dr%2C%20West%20Lafayette%2C%20IN%2047906&t=m&z=10&output=embed&iwloc=near"
+  },
+  {
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "h1": [
+      "Contact Us"
+    ],
+    "text": "CONTACT\nCONTACT US\nHOME\nCONTACT US\nCONTACT\nGET IN TOUCH\nHave a question about an event, getting involved, or supporting our mission? We would love to hear from you.\nRed White and Clix brings people together through tabletop gaming to raise awareness and support for veterans. Join a community built on fun, connection, and a shared mission.\nCONTACT DETAILS\n\nMailing address:\n6148 Shale Crescent Dr\nWest Lafayette, IN 47906-8949\n\nredwhiteandclix@gmail.com\n(574) 265-9585\nFOLLOW US\nFacebook-f\nSEND US A MESSAGE\nUse the form below for general inquiries. Fields marked with an asterisk are required.\nSection\nFirst Name *\nLast Name\nEmail *\nPhone\nMessage *\nI consent to Red White and Clix storing my submitted information so they can respond to my inquiry *\nSend message\nf963f0915618a3eacb125325a84d7717",
+    "forms": 1,
+    "fields": [
+      {
+        "id": "wsf-1-field-28",
+        "type": "text",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-29",
+        "type": "text",
+        "required": false,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-30",
+        "type": "email",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-31",
+        "type": "tel",
+        "required": false,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-32",
+        "type": "textarea",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-33-row-1",
+        "type": "checkbox",
+        "required": true,
+        "text": null
+      },
+      {
+        "id": "wsf-1-field-34",
+        "type": "submit",
+        "required": null,
+        "text": "Send message"
+      },
+      {
+        "id": "field_f963f0915618a3eacb125325a84d7717",
+        "type": "text",
+        "required": false,
+        "text": null
+      }
+    ],
+    "map": "https://maps.google.com/maps?q=6148%20Shale%20Crescent%20Dr%2C%20West%20Lafayette%2C%20IN%2047906&t=m&z=10&output=embed&iwloc=near"
+  }
+]

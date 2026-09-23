@@ -1,0 +1,98 @@
+[
+  {
+    "columns": [
+      {
+        "x": 120,
+        "y": 616.96875,
+        "w": 799.984375,
+        "h": 494.90625
+      },
+      {
+        "x": 919.984375,
+        "y": 616.96875,
+        "w": 400,
+        "h": 494.90625
+      }
+    ],
+    "overflow": 0,
+    "width": 1440,
+    "links": [
+      {
+        "label": "CALL US",
+        "url": "tel:(574)%20265-9585"
+      },
+      {
+        "label": "EMAIL US",
+        "url": "mailto:redwhiteandclix@gmail.com"
+      },
+      {
+        "label": "VISIT FACEBOOK",
+        "url": "https://www.facebook.com/profile.php?id=61570114731358"
+      }
+    ]
+  },
+  {
+    "columns": [
+      {
+        "x": 32,
+        "y": 457.015625,
+        "w": 469.328125,
+        "h": 498.046875
+      },
+      {
+        "x": 501.328125,
+        "y": 457.015625,
+        "w": 234.65625,
+        "h": 498.046875
+      }
+    ],
+    "overflow": 0,
+    "width": 768,
+    "links": [
+      {
+        "label": "CALL US",
+        "url": "tel:(574)%20265-9585"
+      },
+      {
+        "label": "EMAIL US",
+        "url": "mailto:redwhiteandclix@gmail.com"
+      },
+      {
+        "label": "VISIT FACEBOOK",
+        "url": "https://www.facebook.com/profile.php?id=61570114731358"
+      }
+    ]
+  },
+  {
+    "columns": [
+      {
+        "x": 16,
+        "y": 393.0625,
+        "w": 358,
+        "h": 588.34375
+      },
+      {
+        "x": 16,
+        "y": 981.40625,
+        "w": 358,
+        "h": 289.75
+      }
+    ],
+    "overflow": 0,
+    "width": 390,
+    "links": [
+      {
+        "label": "CALL US",
+        "url": "tel:(574)%20265-9585"
+      },
+      {
+        "label": "EMAIL US",
+        "url": "mailto:redwhiteandclix@gmail.com"
+      },
+      {
+        "label": "VISIT FACEBOOK",
+        "url": "https://www.facebook.com/profile.php?id=61570114731358"
+      }
+    ]
+  }
+]
