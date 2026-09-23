@@ -1,0 +1,4 @@
+# Railway falls back to .gitignore when this file is absent, which would strip
+# seed/ (deliberately untracked — the snapshot carries admin user rows) out of
+# the build context and produce an empty site. Listing nothing here keeps the
+# whole directory.
