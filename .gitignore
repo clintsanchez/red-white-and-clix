@@ -11,3 +11,9 @@ build/*.html
 # Local browser logs and oversized duplicate bundle
 .playwright-mcp/
 deliverables/Red White and Clix Complete Design Kit.zip
+
+# Local DB snapshots — contain admin user rows; never commit
+backups/
+
+# Plugin build artifacts; source lives in plugins/<name>/
+*.plugin.zip

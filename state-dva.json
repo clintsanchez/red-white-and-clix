@@ -1,0 +1,282 @@
+{
+  "total": 55,
+  "withUrl": 55,
+  "withPhone": 0,
+  "rows": [
+    {
+      "name": "Alabama Department of Veterans Affairs",
+      "url": "https://va.alabama.gov/",
+      "phone": null
+    },
+    {
+      "name": "Alaska Office of Veterans Affairs",
+      "url": "https://veterans.alaska.gov/home/",
+      "phone": null
+    },
+    {
+      "name": "Arizona Department of Veterans Services",
+      "url": "https://dvs.az.gov/",
+      "phone": null
+    },
+    {
+      "name": "Arkansas Department of Veterans Affairs",
+      "url": "https://www.veterans.arkansas.gov/",
+      "phone": null
+    },
+    {
+      "name": "California Department of Veterans Affairs (CalVet)",
+      "url": "https://www.calvet.ca.gov/",
+      "phone": null
+    },
+    {
+      "name": "Colorado Department of Military and Veterans Affairs",
+      "url": "https://vets.colorado.gov/",
+      "phone": null
+    },
+    {
+      "name": "Connecticut State Department of Veterans Affairs",
+      "url": "https://portal.ct.gov/dva",
+      "phone": null
+    },
+    {
+      "name": "Delaware Office of Veterans Services",
+      "url": "https://vets.delaware.gov/",
+      "phone": null
+    },
+    {
+      "name": "Florida Department of Veterans Affairs",
+      "url": "https://www.floridavets.org/",
+      "phone": null
+    },
+    {
+      "name": "Georgia Department of Veterans Affairs",
+      "url": "https://veterans.georgia.gov/",
+      "phone": null
+    },
+    {
+      "name": "Guam Office of Veterans Affairs",
+      "url": "https://gvao.guam.gov/",
+      "phone": null
+    },
+    {
+      "name": "Hawai’i Office of Veterans’ Services",
+      "url": "https://dod.hawaii.gov/ovs/",
+      "phone": null
+    },
+    {
+      "name": "Idaho Division of Veterans Services",
+      "url": "https://veterans.idaho.gov/",
+      "phone": null
+    },
+    {
+      "name": "Illinois Department of Veterans Affairs",
+      "url": "https://veterans.illinois.gov/",
+      "phone": null
+    },
+    {
+      "name": "Indiana Department of Veterans Affairs",
+      "url": "https://www.in.gov/dva/",
+      "phone": null
+    },
+    {
+      "name": "Iowa Department of Veterans Affairs",
+      "url": "https://dva.iowa.gov/",
+      "phone": null
+    },
+    {
+      "name": "Kansas Commission on Veterans Affairs Office",
+      "url": "https://kcva.ks.gov/",
+      "phone": null
+    },
+    {
+      "name": "Kentucky Department of Veterans Affairs",
+      "url": "https://veterans.ky.gov/Pages/index.aspx",
+      "phone": null
+    },
+    {
+      "name": "Louisiana Department of Veterans Affairs",
+      "url": "https://www.vetaffairs.la.gov/",
+      "phone": null
+    },
+    {
+      "name": "Maine Bureau of Veterans’ Services",
+      "url": "https://www.maine.gov/veterans/",
+      "phone": null
+    },
+    {
+      "name": "Maryland Department of Veterans Affairs",
+      "url": "https://veterans.maryland.gov/",
+      "phone": null
+    },
+    {
+      "name": "Massachusetts Executive Office of Veterans Services",
+      "url": "https://www.mass.gov/orgs/executive-office-of-veterans-services",
+      "phone": null
+    },
+    {
+      "name": "Mayor’s Office of Veterans Affairs",
+      "url": "https://communityaffairs.dc.gov/mova",
+      "phone": null
+    },
+    {
+      "name": "Michigan Veterans Affairs Agency",
+      "url": "https://www.michigan.gov/mvaa",
+      "phone": null
+    },
+    {
+      "name": "Minnesota Department of Veterans Affairs",
+      "url": "https://mn.gov/mdva/",
+      "phone": null
+    },
+    {
+      "name": "Mississippi Department of Veterans Affairs",
+      "url": "https://www.msva.ms.gov/",
+      "phone": null
+    },
+    {
+      "name": "Missouri Veterans Commission",
+      "url": "https://mvc.dps.mo.gov/",
+      "phone": null
+    },
+    {
+      "name": "Montana Veterans Affairs Division",
+      "url": "https://dma.mt.gov/mvad/",
+      "phone": null
+    },
+    {
+      "name": "Nebraska Department of Veterans’ Affairs",
+      "url": "https://veterans.nebraska.gov/",
+      "phone": null
+    },
+    {
+      "name": "Nevada Department of Veterans Services",
+      "url": "https://veterans.nv.gov/",
+      "phone": null
+    },
+    {
+      "name": "New Hampshire Department of Military Affairs and Veterans Services",
+      "url": "https://www.dmavs.nh.gov/",
+      "phone": null
+    },
+    {
+      "name": "New Jersey Department of Military and Veterans Affairs",
+      "url": "https://www.nj.gov/military/",
+      "phone": null
+    },
+    {
+      "name": "New Mexico Department of Veterans Services",
+      "url": "https://www.nmdvs.org/",
+      "phone": null
+    },
+    {
+      "name": "New York State Department of Veterans’ Services",
+      "url": "https://veterans.ny.gov/",
+      "phone": null
+    },
+    {
+      "name": "North Carolina Department of Military and Veterans Affairs",
+      "url": "https://www.milvets.nc.gov/",
+      "phone": null
+    },
+    {
+      "name": "North Dakota Department of Veterans Affairs",
+      "url": "https://www.veterans.nd.gov/",
+      "phone": null
+    },
+    {
+      "name": "Ohio Department of Veterans Services",
+      "url": "https://dvs.ohio.gov/",
+      "phone": null
+    },
+    {
+      "name": "Oklahoma Department of Veterans Affairs",
+      "url": "https://oklahoma.gov/veterans.html",
+      "phone": null
+    },
+    {
+      "name": "Oregon Department of Veterans Affairs",
+      "url": "https://www.oregon.gov/ODVA/Pages/default.aspx",
+      "phone": null
+    },
+    {
+      "name": "Pennsylvania Department of Military and Veterans Affairs",
+      "url": "https://www.dmva.pa.gov/Pages/default.aspx",
+      "phone": null
+    },
+    {
+      "name": "Puerto Rico Office of the Veterans Advocate",
+      "url": "https://www.opv.pr.gov/",
+      "phone": null
+    },
+    {
+      "name": "Rhode Island Office of Veterans Services",
+      "url": "https://vets.ri.gov/",
+      "phone": null
+    },
+    {
+      "name": "South Carolina Department of Veterans’ Affairs",
+      "url": "https://scdva.sc.gov/",
+      "phone": null
+    },
+    {
+      "name": "South Dakota Department of Veterans Affairs",
+      "url": "https://vetaffairs.sd.gov/default.aspx",
+      "phone": null
+    },
+    {
+      "name": "Tennessee Department of Veterans Services",
+      "url": "https://www.tn.gov/veteran.html",
+      "phone": null
+    },
+    {
+      "name": "Texas Veterans Commission",
+      "url": "https://www.tvc.texas.gov/",
+      "phone": null
+    },
+    {
+      "name": "Utah Department of Veterans and Military Affairs",
+      "url": "https://veterans.utah.gov/",
+      "phone": null
+    },
+    {
+      "name": "Vermont Office of Veterans Affairs",
+      "url": "https://veterans.vermont.gov/",
+      "phone": null
+    },
+    {
+      "name": "Virgin Islands Office of Veterans Affairs – St Thomas",
+      "url": "https://veterans.vi.gov/",
+      "phone": null
+    },
+    {
+      "name": "Virgin Islands Office of Veterans Affairs – St. Croix",
+      "url": "https://veterans.vi.gov/",
+      "phone": null
+    },
+    {
+      "name": "Virginia Department of Veterans Services",
+      "url": "https://www.dvs.virginia.gov/",
+      "phone": null
+    },
+    {
+      "name": "Washington Department of Veterans Affairs",
+      "url": "https://www.dva.wa.gov/",
+      "phone": null
+    },
+    {
+      "name": "West Virginia Department of Veterans Assistance",
+      "url": "https://veterans.wv.gov/",
+      "phone": null
+    },
+    {
+      "name": "Wisconsin Department of Veterans Affairs",
+      "url": "https://dva.wi.gov/Pages/Home.aspx",
+      "phone": null
+    },
+    {
+      "name": "Wyoming Veterans Commission",
+      "url": "https://www.wyomilitary.wyo.gov/resources/veteran/veterans-commission/",
+      "phone": null
+    }
+  ]
+}

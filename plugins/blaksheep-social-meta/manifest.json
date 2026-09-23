@@ -1,0 +1,29 @@
+{
+  "id": "blaksheep.social-meta",
+  "name": "Social sharing meta",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "description": "Adds the Open Graph and Twitter card tags Instatic 0.0.20 does not emit. Site-wide values only: the manifest is static and cannot vary per page.",
+  "permissions": ["frontend.assets"],
+  "grantedPermissions": ["frontend.assets"],
+  "resources": [],
+  "adminPages": [],
+  "author": { "name": "BlakSheep Creative" },
+  "license": "MIT",
+  "frontend": {
+    "assets": [
+      { "kind": "meta", "attrs": { "property": "og:type", "content": "website" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:site_name", "content": "Red, White, and Clix" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:locale", "content": "en_US" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:image", "content": "https://www.redwhiteandclix.org/uploads/rwc/og-default.png" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:image:secure_url", "content": "https://www.redwhiteandclix.org/uploads/rwc/og-default.png" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:image:type", "content": "image/png" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:image:width", "content": "1200" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:image:height", "content": "630" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "property": "og:image:alt", "content": "Red, White, and Clix. Play Together. Stand With Veterans. November 7 to 8, 2026." }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "name": "twitter:card", "content": "summary_large_image" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "name": "twitter:image", "content": "https://www.redwhiteandclix.org/uploads/rwc/og-default.png" }, "placement": "head-end" },
+      { "kind": "meta", "attrs": { "name": "twitter:image:alt", "content": "Red, White, and Clix. Play Together. Stand With Veterans. November 7 to 8, 2026." }, "placement": "head-end" }
+    ]
+  }
+}
