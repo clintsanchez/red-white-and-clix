@@ -7,16 +7,21 @@ first-boot seed step so a fresh Railway volume comes up with the site in it.
 - Volume `cms-volume` mounted at `/vol`
 - URL: https://cms-production-8370.up.railway.app
 
-## Why a custom Dockerfile
+## How deploys work
 
-Railway volumes start empty and there is no upload path for one. The image
-copies a database snapshot and the uploads directory to `/seed`, and
-`entrypoint-seed.sh` moves them into `/vol` **only when the volume has no
-database yet**. A redeploy therefore never overwrites content edited in the
+The service is connected to GitHub: pushes to `instatic-site-build` build and
+deploy automatically. `railway.json` at the repository root points Railway at
+`deploy/railway/Dockerfile`, and the build context is the repository root.
+
+**The image is stateless.** All content — pages, plugins, media, the SEO
+records — lives on the Railway volume at `/vol`, because `DATABASE_URL` and
+`UPLOADS_DIR` point there. `entrypoint-railway.sh` only touches the volume
+when it is empty, so a redeploy never overwrites anything edited in the
 deployed admin.
 
-`DATABASE_URL` and `UPLOADS_DIR` both point into `/vol`, so all state lives on
-the volume rather than the container filesystem.
+This is why GitHub builds carry no database snapshot: the snapshot holds admin
+user rows and **this repository is public**, so it is deliberately untracked.
+A normal deploy does not need it — the volume already has the data.
 
 ## Rebuilding the seed
 
@@ -33,15 +38,24 @@ docker cp <container>:/app/uploads      deploy/railway/seed/uploads
 
 ## Deploying
 
-`railway up` honours the repository `.gitignore`, which excludes `seed/` — so
-deploying from this directory silently ships an empty build context and the
-build fails on `COPY seed/uploads`. Deploy from a copy **outside the repo**:
+Normally: `git push`. Railway builds the branch it is connected to.
+
+### Bootstrapping an empty volume
+
+Only needed for a brand new environment, or after losing a volume. The boot
+log shouts when it happens — an empty volume with no seed starts a blank site,
+which otherwise looks like a fresh install rather than data loss.
+
+Build a context **outside the repository** (`railway up` honours the repo
+`.gitignore`, which excludes `seed/`, so deploying from inside it would ship no
+snapshot) and add a `COPY seed /seed` line for that one build:
 
 ```bash
 CTX=/private/tmp/rwc-railway-ctx
-rm -rf "$CTX" && mkdir -p "$CTX"
-cp Dockerfile entrypoint-seed.sh "$CTX"/
-cp -a seed "$CTX/seed"
+rm -rf "$CTX" && mkdir -p "$CTX/deploy/railway"
+cp deploy/railway/entrypoint-railway.sh "$CTX/deploy/railway/"
+cp -a deploy/railway/seed "$CTX/seed"
+sed 's|^USER root$|USER root\nCOPY seed /seed|' deploy/railway/Dockerfile > "$CTX/Dockerfile"
 cd "$CTX"
 railway link --project 315ba717-17bd-4396-8121-7e3ed1bd8fd2 --service cms --environment production
 railway up --detach
@@ -52,8 +66,8 @@ railway up --detach
 Railway mounts the volume **root-owned**, while the image's app user is `bun`
 (uid 1000). A container that starts as `bun` cannot even `mkdir /vol/data` —
 the first deploy died in a restart loop on `Permission denied`. So the image
-keeps `USER root` and `entrypoint-seed.sh` chowns `/vol` before dropping back
-to `bun` with `setpriv` to exec the server. Instatic itself never runs as root.
+keeps `USER root` and `entrypoint-railway.sh` chowns `/vol` before dropping
+back to `bun` with `setpriv` to exec the server. Instatic never runs as root.
 
 ## Variables
 

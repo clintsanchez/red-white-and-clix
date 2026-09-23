@@ -1,22 +1,23 @@
 # Instatic for Railway.
 #
-# The upstream image is used as-is; this only adds a first-boot seed step so a
-# fresh Railway volume comes up with the site already in it. DATABASE_URL and
-# UPLOADS_DIR are pointed into the volume at /vol by the service variables, so
-# a redeploy never loses content.
+# Build context is the REPOSITORY ROOT so this works for GitHub-triggered
+# builds (see railway.json at the root, which points Railway at this file).
+# The image is stateless: all content lives on the Railway volume at /vol,
+# and `entrypoint-railway.sh` only bootstraps that volume when it is empty.
+#
+# A local bootstrap deploy can additionally drop a snapshot at /seed — see
+# deploy/railway/README.md. GitHub builds never carry one, because the
+# snapshot contains admin user rows and this repository is public.
 FROM ghcr.io/corebunch/instatic:latest
 
 USER root
-COPY seed/cms.db /seed/cms.db
-COPY seed/uploads /seed/uploads
-COPY entrypoint-seed.sh /usr/local/bin/entrypoint-seed.sh
-RUN chmod +x /usr/local/bin/entrypoint-seed.sh \
- && chown -R bun:bun /seed
+COPY deploy/railway/entrypoint-railway.sh /usr/local/bin/entrypoint-railway.sh
+RUN chmod +x /usr/local/bin/entrypoint-railway.sh
 
-# Stays root on purpose: Railway mounts the volume root-owned, so the seed step
-# has to chown it before the app can write. entrypoint-seed.sh drops back to
-# `bun` via setpriv before exec'ing the server, so Instatic never runs as root.
+# Stays root on purpose: Railway mounts the volume root-owned, so the boot
+# step has to chown it. entrypoint-railway.sh drops back to `bun` via setpriv
+# before exec'ing the server, so Instatic never runs as root.
 USER root
 
-ENTRYPOINT ["/usr/local/bin/entrypoint-seed.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypoint-railway.sh"]
 CMD ["bun", "run", "server/index.ts"]
