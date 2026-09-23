@@ -1,0 +1,26 @@
+{
+	# Railway terminates TLS at its edge and routes plain HTTP to the container.
+	admin off
+	auto_https off
+	persist_config off
+}
+
+:{$PORT:8080} {
+	# Only the admin surfaces are gated. Everything else — pages, CSS, the
+	# runtime scripts under /_instatic/assets and /_instatic/css, the loop
+	# endpoint, form posts, uploaded media — has to stay public or the site
+	# breaks for ordinary visitors.
+	@private path /admin /admin/* /_instatic/mcp /_instatic/mcp/*
+
+	basic_auth @private {
+		{$BASIC_AUTH_USER} {$BASIC_AUTH_HASH}
+	}
+
+	reverse_proxy {$UPSTREAM} {
+		# Instatic builds absolute URLs and checks request origin, so it needs
+		# to see the public scheme rather than the plain HTTP hop from Railway.
+		header_up X-Forwarded-Proto https
+	}
+
+	encode gzip
+}
