@@ -47,6 +47,14 @@ railway link --project 315ba717-17bd-4396-8121-7e3ed1bd8fd2 --service cms --envi
 railway up --detach
 ```
 
+## Volume ownership
+
+Railway mounts the volume **root-owned**, while the image's app user is `bun`
+(uid 1000). A container that starts as `bun` cannot even `mkdir /vol/data` —
+the first deploy died in a restart loop on `Permission denied`. So the image
+keeps `USER root` and `entrypoint-seed.sh` chowns `/vol` before dropping back
+to `bun` with `setpriv` to exec the server. Instatic itself never runs as root.
+
 ## Variables
 
 | Variable | Value | Why |

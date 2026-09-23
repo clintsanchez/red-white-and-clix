@@ -12,7 +12,11 @@ COPY seed/uploads /seed/uploads
 COPY entrypoint-seed.sh /usr/local/bin/entrypoint-seed.sh
 RUN chmod +x /usr/local/bin/entrypoint-seed.sh \
  && chown -R bun:bun /seed
-USER bun
+
+# Stays root on purpose: Railway mounts the volume root-owned, so the seed step
+# has to chown it before the app can write. entrypoint-seed.sh drops back to
+# `bun` via setpriv before exec'ing the server, so Instatic never runs as root.
+USER root
 
 ENTRYPOINT ["/usr/local/bin/entrypoint-seed.sh"]
 CMD ["bun", "run", "server/index.ts"]

@@ -5,26 +5,35 @@
 #
 # Seeding is one-shot and guarded: a redeploy must never overwrite content the
 # client has edited in the deployed admin.
+#
+# This runs as ROOT because Railway mounts the volume root-owned while the
+# image's app user is `bun` (uid 1000) — without a chown the very first mkdir
+# fails with EACCES. Privileges are dropped again before the app starts, so
+# the server itself never runs as root.
 set -e
 
-DATA_DIR=/vol/data
-UPLOADS_DIR_TARGET=/vol/uploads
+VOL=/vol
+APP_USER=bun
 
-mkdir -p "$DATA_DIR" "$UPLOADS_DIR_TARGET"
+mkdir -p "$VOL/data" "$VOL/uploads"
 
-if [ ! -f "$DATA_DIR/cms.db" ]; then
+if [ ! -f "$VOL/data/cms.db" ]; then
   echo "[seed] no database in volume — copying snapshot"
-  cp /seed/cms.db "$DATA_DIR/cms.db"
+  cp /seed/cms.db "$VOL/data/cms.db"
 else
   echo "[seed] database already present — leaving it alone"
 fi
 
-if [ ! -f "$UPLOADS_DIR_TARGET/.seeded" ]; then
+if [ ! -f "$VOL/uploads/.seeded" ]; then
   echo "[seed] copying uploads"
-  cp -a /seed/uploads/. "$UPLOADS_DIR_TARGET"/
-  touch "$UPLOADS_DIR_TARGET/.seeded"
+  cp -a /seed/uploads/. "$VOL/uploads"/
+  touch "$VOL/uploads/.seeded"
 else
   echo "[seed] uploads already present — leaving them alone"
 fi
 
-exec /usr/local/bin/docker-entrypoint.sh "$@"
+chown -R "$APP_USER:$APP_USER" "$VOL"
+
+echo "[seed] dropping to $APP_USER and starting Instatic"
+exec setpriv --reuid="$APP_USER" --regid="$APP_USER" --init-groups \
+  /usr/local/bin/docker-entrypoint.sh "$@"
