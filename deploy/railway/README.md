@@ -5,7 +5,8 @@ first-boot seed step so a fresh Railway volume comes up with the site in it.
 
 - Project: `red-white-and-clix` / service `cms` / environment `production`
 - Volume `cms-volume` mounted at `/vol`
-- URL: https://cms-production-8370.up.railway.app
+- Public URL: https://site-production-0334.up.railway.app (the `site` edge)
+- The `cms` service has NO public domain — private network only
 
 ## How deploys work
 
@@ -87,10 +88,22 @@ back to `bun` with `setpriv` to exec the server. Instatic never runs as root.
 | `PUBLIC_ORIGIN` | the Railway URL | Origin checks reject requests otherwise |
 | `INSTATIC_SECRET_KEY` | copied from local | Reused so the seeded database's sessions and any encrypted plugin settings stay valid. Rotate it and those are invalidated. |
 
-## Before this is anything but staging
+## The admin gate
 
-- The admin at `/admin` is publicly reachable. It is protected only by the
-  account password carried over in the snapshot.
+Railway has no native access control (its WAF is only "under attack" mode), so
+`/admin*` and `/_instatic/mcp*` sit behind HTTP basic auth at the `site` edge.
+Everything a visitor needs — pages, `/_instatic/assets` and `/_instatic/css`,
+the loop endpoint, form posts, uploaded media — stays public.
+
+The CMS has no public domain at all; the edge reaches it at
+`cms.railway.internal:3001`. Credentials are in the gitignored
+`CREDENTIALS.local.md`; the bcrypt hash lives in the `BASIC_AUTH_HASH`
+variable on the `site` service and never in this public repository.
+
+Instatic's own login also locks out after 5 failed attempts, doubling from 15
+minutes up to 24 hours.
+
+## Before this is anything but staging
 - The policy pages have not had legal review (RWC-26, P0).
 - Four SAMPLE event records are still present (RWC-16).
 - The donation, volunteer and registration forms are not wired to anything
