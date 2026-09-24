@@ -21,6 +21,7 @@ Nothing here confirms who is a current sponsor. See
 | Texas Roadhouse | 840 x 484 **clipart-aggregator PNG** | `texas-roadhouse.png` 613 x 330 | official, transparent, full colour |
 | GAMA | small raster | `gama.png` 459 x 157 | official |
 | Spotlight Strategies | 627 x 143 **screenshot of their website** | `spotlight-strategies.png` 600 x 109 | official file, transparent, no page background |
+| 4imprint | 1216 x 288 raster | `4imprint.svg` | vector — extracted from their sprite, see below |
 
 ## Keep what the live site already has
 
@@ -37,6 +38,7 @@ would make the wall *worse*:
 | Red Raven Games | 1196 x 1104 | 512 x 512 | keep current |
 | BCW Supplies | 1696 x 576 | `bcw-supplies.png` 227 x 76 | keep current |
 | Wyrd Games | 474 x 474 | `wyrd-games.webp` 183 x 105 | keep current — Squarespace caps the header logo at source size |
+| Mission Breakout | 2420 x 2420 | their site's `mission_breakout_sub_logo.png` 213 x 39 | keep current |
 
 Their provenance is still unverified — they are simply good enough that a
 smaller official file is not an improvement.
@@ -58,6 +60,19 @@ company's. `gamehead.png` (1200 x 1200, official) is here, but **which name to
 display is Wesley's call** — whether the sponsor is GameHead the company or
 GamerMats the product line.
 
+## 4imprint: extracted from an SVG sprite
+
+4imprint does not ship a standalone logo file. Their header references
+`/icons/iconLibrary.svg#svgLogo-4imprint` — one `<symbol>` inside an 80KB
+sprite. `4imprint.svg` here is that symbol lifted into a standalone file with
+the symbol's own `viewBox` (0 0 140 53).
+
+Verified before use: it references no `url(#…)`, `xlink:href` or `<use>` left
+behind in the sprite, carries only the two brand fills (#02458b, #221f20), and
+renders correctly in a browser. An extracted symbol that silently loses a
+clipPath is the usual failure here, so it was rendered and looked at rather
+than assumed.
+
 ## No logo file exists to take
 
 | Sponsor | What their site actually has |
@@ -73,9 +88,16 @@ screenshots of their websites, so anything they send will be an improvement.
 
 ## Still to source
 
-4imprint (its logo is an SVG sprite reference, `iconLibrary.svg#svgLogo-4imprint`,
-which needs the symbol extracting), Pressed in Pink, Mission Breakout, Blue Moon
-Comics, Calvary Church, Paladin Games, Farmers Market.
+| Sponsor | Status |
+| --- | --- |
+| Blue Moon Comics | **`bluemooncomics.net` does not resolve.** The shop trades as *BlueMoon Comics Strikes Back* (2405 S Earl Ave, Lafayette) and appears to run on Facebook only — so the wall's AI-generated logo is also under a name the business does not use in full. Ask the shop. |
+| Pressed in Pink | Not findable by search. Ask Wesley. |
+| Paladin Games | Not findable by search. Ask Wesley. |
+| Farmers Market | Too generic to identify safely. Ask Wesley which market. |
+| Calvary Church | The file on the live site already looks like the genuine mark. |
+| Squarespace | Their website platform, not a sponsor — and moot once the site moves off it. |
 
-Squarespace is on the wall but is their website platform rather than a sponsor,
-and becomes moot when the site moves off it.
+The long tail here is small local businesses with little or no web presence.
+Chasing them by search risks attaching the **wrong** company's logo to a
+sponsor, which is worse than a soft JPEG. The right move is a list from Wesley
+with each sponsor's correct name, URL and logo file.

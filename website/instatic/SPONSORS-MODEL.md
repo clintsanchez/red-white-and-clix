@@ -40,7 +40,7 @@ assume either behaviour — read the schema back after creating a select.
 
 ## Current rows
 
-Ten, each with an official logo sourced from the brand's own site:
+Eleven, each with an official logo sourced from the brand's own site:
 
 | Name | Tier | Logo |
 | --- | --- | --- |
@@ -54,8 +54,9 @@ Ten, each with an official logo sourced from the brand's own site:
 | Texas Roadhouse | community_partner | PNG |
 | Printing Partners | community_partner | SVG |
 | Spotlight Strategies | community_partner | PNG |
+| 4imprint | community_partner | SVG |
 
-Ten rows. All media assets verified serving 200 with the right content type.
+Eleven rows. All media assets verified serving 200 with the right content type.
 
 **These rows are not a claim about who sponsors the event.** The names come
 from the wall on the live Squarespace site. Wesley still has to confirm which
