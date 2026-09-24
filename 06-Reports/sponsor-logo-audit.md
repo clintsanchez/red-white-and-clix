@@ -94,3 +94,21 @@ Two questions for Wesley, both of which outrank the image quality work:
 
 The AI-generated Blue Moon Comics logo should come down regardless of the
 answers.
+
+## Follow-up, same day: GamerMats has been renamed
+
+`gamermats.com` now **redirects to `gamehead.com`** ("GameHead.com - GameHead |
+GamerMats"). So the wall's entry for it is wrong twice over: the logo shown is
+AI-generated, and the name it was generated for is no longer the company's.
+
+Which name to display is Wesley's to confirm — GameHead the company, or
+GamerMats the product line.
+
+## Four sponsors have no logo file to take
+
+Smith IPM and Polished Perfection use a text wordmark in their site header with
+no logo image at all; DeFouw Automotive and Mayday Games do not expose one as a
+plain image. Smith IPM and Polished Perfection are the two currently
+represented here by screenshots of their websites, so asking each business for
+their logo is the only real fix — and anything they send will be better than
+what is on the wall now.
