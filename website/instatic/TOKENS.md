@@ -880,3 +880,70 @@ that kills the tweens and clears props — content visible beats content animate
 Verified: reveals fire and settle at opacity 1 on `/mission` (8 elements) and
 `/resources` (8), card art covers its frame at `scale(1.12)` with no edge
 exposed, the 54-state map still works, and no console or CSP errors anywhere.
+
+## Sponsor marquee — September 23, 2026
+
+A `<instatic-loop>` over the `sponsors` data table, rendered twice side by side
+in one flex track. Animating the track by exactly half its width loops
+seamlessly, because the second copy starts where the first one did.
+
+### Four things that bit, in order
+
+**1. A loop renders its own wrapper `<div>`.** The track's flex children were
+therefore the two loop wrappers, not the tiles, so every logo stacked
+vertically in two columns. Fixed with `.rwc-marq-track > div { display:
+contents; }` — verified emitted, since descendant rules have been silently
+dropped here before.
+
+**2. A section with no background is WHITE, not dark.** `body` is transparent
+and each section paints its own ground (`.rwc-two` uses `var(--rwc-ink)`).
+A new section inherits nothing, so white heading text landed on white and
+vanished. Always set the background explicitly.
+
+**3. `alt` does not come from the node.** `base.image` reads alt from the MEDIA
+LIBRARY asset's `altText` — a loop hands the publisher a resolved path, not an
+asset id, so every logo published with `alt=""` and `site_update_node_props`
+could not fix it. The sponsor name rides in `data-name` and the script applies
+it. Setting `altText` per asset is still worth doing for images used directly.
+
+**4. Official logos are often the REVERSED variant.** VFW's header file is pure
+white (mean luminance 255) and Board & Dice's SVG uses a `fill="url(#pattern…)"`
+that does not resolve standalone — both published as blank white tiles. Caught
+by compositing each logo onto white in a canvas and counting non-white pixels,
+not by eye. Replaced with VFW's colour Cross of Malta and Board & Dice's
+`company_logo_black.png`. **Run that check on any new sponsor logo.**
+
+### Motion
+
+GSAP, not CSS `@keyframes` — those get dropped silently here, and a marquee
+that stops animating reads as a broken page. Pauses on hover, on focus-within
+and when the tab is hidden. Under reduced motion GSAP is never fetched, the
+duplicate half is removed (it is redundant without movement) and the strip
+becomes a normal horizontal scroller.
+
+### Tiles are white on purpose
+
+Rendered the whole logo set on the dark page and on white tiles before
+choosing. On dark, Valvoline's navy wordmark, Wyrd's black type and PIP's
+"Print" all but disappear. White tiles are what makes a mixed-brand wall
+legible; it is not a stylistic preference.
+
+## Working without the MCP client
+
+If the `instatic` MCP server was down when the session started, the tools stay
+unavailable for the whole session even after the container comes back. The
+server itself is fine — speak JSON-RPC to it over HTTP instead of losing the
+tooling:
+
+    TOKEN=$(claude mcp get instatic | grep -oE 'imcp_pat_[A-Za-z0-9]+')
+    POST http://localhost:3022/_instatic/mcp
+      Authorization: Bearer $TOKEN
+      Accept: application/json, text/event-stream
+      {"jsonrpc":"2.0","id":1,"method":"tools/call",
+       "params":{"name":"site_publish","arguments":{}}}
+
+Responses come back as SSE (`data: {...}`). `claude mcp get` is project-scoped,
+so run it from the repo. A helper lives at `website/sponsors/mcp-http.py`.
+Argument names differ from the tool docs in places — `site_open_document` takes
+`document`, `site_update_node_props` takes `patch`, `site_apply_css` takes
+`operation: merge|replace|delete|remove-properties`.
