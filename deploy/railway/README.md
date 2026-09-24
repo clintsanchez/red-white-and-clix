@@ -58,7 +58,22 @@ redeploy never touches it. Pushing new content is therefore deliberate:
 3. Run a local build carrying the snapshot (below).
 
 The volume records the version it was last seeded at, so the replace happens
-exactly once — a later redeploy with the same value is a no-op. **A push
+exactly once — a later redeploy with the same value is a no-op.
+
+**Do not `git push` in the middle of a content push.** Both services deploy
+from GitHub, so a push starts a build of the *stateless* image that races the
+one carrying the snapshot, and whichever finishes last is the one running. Let
+any in-flight deploy reach SUCCESS first:
+
+```bash
+until ! railway deployment list | sed -n '2p' | grep -qE 'BUILDING|DEPLOYING|QUEUED'; do sleep 15; done
+```
+
+**The content-push Dockerfile has to live at `deploy/railway/Dockerfile`
+inside the context**, because that is the path set on the service
+(`serviceInstanceUpdate { dockerfilePath }`). A Dockerfile at the context root
+fails the build with `couldn't locate the dockerfile at path
+deploy/railway/Dockerfile`. **A push
 REPLACES the database**, so anything edited in the deployed admin since the
 last push is lost. That is the trade for having it be a single explicit act.
 
