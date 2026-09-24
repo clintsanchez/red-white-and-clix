@@ -2,7 +2,7 @@
 
 The survey is received and onboarding is complete. Do not send another intake survey. These are the remaining decisions for the website/research phase.
 
-**Contact status, 2026-09-23:** Wesley emailed asking about timing and sent a content packet plus 102 photos. One reply has been SENT, covering the photo problem in item 9. A second reply covering items 1, 3, 7, 8 and the staging preview link is DRAFTED AND UNSENT in the same Gmail thread — review before sending, it contains the wording on the AI-generated sponsor logos.
+**Contact status, 2026-09-24:** Wesley emailed asking about timing and sent a content packet plus 102 photos. BOTH replies have now been SENT — the main one covering items 1, 3, 7, 8 and the staging preview link, and a follow-up covering the photo problem in item 9. **Wesley has replied:** the preview "looks great", he is holding "a few thoughts" until he answers, and he said he would send everything asked for within the hour. Check the thread for his answers before re-asking anything below.
 
 1. Confirm November 7–8, 2026 check-in/start times, $40 Modern and $240 Team Sealed fees, whether $240 is per team, refund policy, and the one registration/payment route to promote. Current Squarespace prices conflict.
 2. Provide traffic baseline and actual registration totals. Does “80 registrations” mean unique people, tournament entries or paid tickets?
