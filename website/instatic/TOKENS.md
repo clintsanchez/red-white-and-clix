@@ -900,6 +900,13 @@ and each section paints its own ground (`.rwc-two` uses `var(--rwc-ink)`).
 A new section inherits nothing, so white heading text landed on white and
 vanished. Always set the background explicitly.
 
+**2b. A section that paints a background must ALSO be full-bleed.** Putting
+`max-width` on the section itself means the background stops at that width and
+the white page shows either side — invisible at 1200px, obvious on a wide
+monitor. `.rwc-hero` and `.rwc-two` are both `max-width: none`; the section
+spans the viewport and the CONTENT inside it carries the max-width. Check any
+new section at 2560px, not just at laptop width.
+
 **3. `alt` does not come from the node.** `base.image` reads alt from the MEDIA
 LIBRARY asset's `altText` — a loop hands the publisher a resolved path, not an
 asset id, so every logo published with `alt=""` and `site_update_node_props`
