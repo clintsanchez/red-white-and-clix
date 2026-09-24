@@ -48,6 +48,20 @@ docker cp <container>:/app/uploads      deploy/railway/seed/uploads
 
 Normally: `git push`. Railway builds the branch it is connected to.
 
+### Pushing content to the deployed site
+
+The volume is the deployed site's only copy of its content, so a normal
+redeploy never touches it. Pushing new content is therefore deliberate:
+
+1. Rebuild `seed/` from the local container (below).
+2. Bump `SEED_VERSION` on the `cms` service to a new value.
+3. Run a local build carrying the snapshot (below).
+
+The volume records the version it was last seeded at, so the replace happens
+exactly once — a later redeploy with the same value is a no-op. **A push
+REPLACES the database**, so anything edited in the deployed admin since the
+last push is lost. That is the trade for having it be a single explicit act.
+
 ### Bootstrapping an empty volume
 
 Only needed for a brand new environment, or after losing a volume. The boot
@@ -63,8 +77,10 @@ CTX=/private/tmp/rwc-railway-ctx
 rm -rf "$CTX" && mkdir -p "$CTX/deploy/railway"
 cp deploy/railway/entrypoint-railway.sh "$CTX/deploy/railway/"
 cp -a deploy/railway/seed "$CTX/seed"
-sed 's|^USER root$|USER root\nCOPY seed /seed|' deploy/railway/Dockerfile > "$CTX/Dockerfile"
 cd "$CTX"
+# Write a Dockerfile that adds `COPY seed /seed` to the repo one. Do NOT
+# generate it with sed on `USER root` — the file has two such lines and you
+# get the COPY twice.
 railway link --project 315ba717-17bd-4396-8121-7e3ed1bd8fd2 --service cms --environment production
 railway up --detach
 ```
