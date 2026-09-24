@@ -24,4 +24,6 @@ Client onboarded September 21, 2026 from Wesley Robertson's completed GHL survey
 
 ## Next work
 
-Onboarding is complete. Resolve `CLIENT-FOLLOWUP.md` and plan the website/registration work. Trello: https://trello.com/b/qwUSKYIS/red-white-and-clix. No client messages sent, no website deployment, no social profile edits and no purchases made during onboarding.
+Onboarding is complete. Resolve `CLIENT-FOLLOWUP.md` and plan the website/registration work. Trello: https://trello.com/b/qwUSKYIS/red-white-and-clix. No social profile edits and no purchases made.
+
+Status as of 2026-09-23: the site is built on Instatic and deployed to Railway **staging only** (`https://site-production-0334.up.railway.app`, `/admin` behind basic auth). No DNS has been changed and Squarespace is still the live site. One client email HAS now been sent (a Facebook photo-export request); a second, larger reply is drafted and unsent in the same thread.
