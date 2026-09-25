@@ -6,11 +6,17 @@
 }
 
 :{$PORT:8080} {
-	# Only the admin surfaces are gated. Everything else — pages, CSS, the
-	# runtime scripts under /_instatic/assets and /_instatic/css, the loop
-	# endpoint, form posts, uploaded media — has to stay public or the site
-	# breaks for ordinary visitors.
-	@private path /admin /admin/* /_instatic/mcp /_instatic/mcp/*
+	# Only the admin UI is gated. Everything else — pages, CSS, the runtime
+	# scripts under /_instatic/assets and /_instatic/css, the loop endpoint,
+	# form posts, uploaded media — has to stay public or the site breaks for
+	# ordinary visitors.
+	#
+	# /_instatic/mcp is deliberately NOT gated here. It authenticates with its
+	# own personal access token, which is what that endpoint is for; basic auth
+	# on top was belt-and-braces. Keeping it here made the endpoint unusable,
+	# because the edge wants `Authorization: Basic` and the MCP wants
+	# `Authorization: Bearer` and a request carries only one of those.
+	@private path /admin /admin/*
 
 	basic_auth @private {
 		{$BASIC_AUTH_USER} {$BASIC_AUTH_HASH}
