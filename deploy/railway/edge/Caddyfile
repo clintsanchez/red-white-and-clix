@@ -6,21 +6,21 @@
 }
 
 :{$PORT:8080} {
-	# Only the admin UI is gated. Everything else — pages, CSS, the runtime
-	# scripts under /_instatic/assets and /_instatic/css, the loop endpoint,
-	# form posts, uploaded media — has to stay public or the site breaks for
-	# ordinary visitors.
+	# NOTHING is gated at the edge as of 2026-09-25.
 	#
-	# /_instatic/mcp is deliberately NOT gated here. It authenticates with its
-	# own personal access token, which is what that endpoint is for; basic auth
-	# on top was belt-and-braces. Keeping it here made the endpoint unusable,
-	# because the edge wants `Authorization: Basic` and the MCP wants
-	# `Authorization: Bearer` and a request carries only one of those.
-	@private path /admin /admin/*
-
-	basic_auth @private {
-		{$BASIC_AUTH_USER} {$BASIC_AUTH_HASH}
-	}
+	# Basic auth here could not coexist with the work: Instatic's write tools
+	# drive through a signed-in browser workspace whose socket only lives while
+	# the tab has focus, and the edge challenge blocked holding that session
+	# from an automated browser. The gate was costing more than it protected on
+	# a pre-launch site.
+	#
+	# What still protects /admin: Instatic's own login, which locks an account
+	# out after 5 failed attempts with the window doubling up to 24 hours. The
+	# staging URL is unlisted and carries canonical tags pointing at the real
+	# domain, so it should not be indexed.
+	#
+	# AT LAUNCH: do not simply re-add this. Stop exposing staging publicly once
+	# the site is on redwhiteandclix.org. See LAUNCH-DOMAIN-SWITCH.md.
 
 	reverse_proxy {$UPSTREAM} {
 		# Instatic builds absolute URLs and checks request origin, so it needs
