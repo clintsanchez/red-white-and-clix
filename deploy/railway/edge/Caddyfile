@@ -48,6 +48,16 @@ Sitemap: https://www.redwhiteandclix.org/sitemap.xml
 "
 		}
 
+		# The store moved to shop.redwhiteandclix.org when that subdomain
+		# became the Squarespace site's primary domain. Product URLs under
+		# /shop/p/ on this host 404, and they are linked from the /shop page
+		# AND indexed from the Squarespace era. Redirect rather than only
+		# fixing the on-page links, so old inbound links survive too.
+		#
+		# /shop itself is a real Instatic page and must NOT be caught here.
+		@storeproduct path /shop/p/*
+		redir @storeproduct https://shop.redwhiteandclix.org{uri} permanent
+
 		# Static file baked into the image; see srv/sitemap.xml for why it is
 		# not generated.
 		@sitemap path /sitemap.xml

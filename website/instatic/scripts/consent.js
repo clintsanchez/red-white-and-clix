@@ -16,14 +16,16 @@
   // with JS disabled cannot run Google Analytics either, so for them there is
   // nothing to consent to and no banner is the correct outcome.
   //
-  // GA_MEASUREMENT_ID is deliberately empty. Until a real property exists the
-  // banner records a choice and loads nothing, which keeps the build order the
-  // policies promise: banner and policy pages first, tracking afterwards.
-  // Setting the ID is NOT sufficient on its own — the published pages carry
-  // `script-src 'self'`, which blocks googletagmanager outright. See
-  // website/legal/IMPLEMENTATION.md.
+  // Live property, set 2026-09-26. The banner is the only thing that starts
+  // it: nothing loads until the visitor accepts, which is what the Privacy
+  // Policy and Cookie Policy both promise in writing.
+  //
+  // This only works because the published CSP was loosened to allow
+  // googletagmanager and google-analytics. If a future publish reverts the
+  // meta tag to `script-src 'self'`, GA silently collects nothing and the
+  // failure looks exactly like "no traffic". See website/legal/IMPLEMENTATION.md.
 
-  var GA_MEASUREMENT_ID = '';
+  var GA_MEASUREMENT_ID = 'G-GTE1H95NCS';
   var STORAGE_KEY = 'rwc-consent';
   var COOKIE_MAX_AGE = 33696000; // 13 months, matching the Cookie Policy table
 
@@ -55,7 +57,13 @@
       anonymize_ip: true,
       allow_google_signals: false,
       allow_ad_personalization_signals: false,
-      cookie_expires: COOKIE_MAX_AGE
+      cookie_expires: COOKIE_MAX_AGE,
+      // The store is a separate host (Squarespace), so without this every
+      // journey to the shop is logged as an outbound exit and a fresh
+      // referral session, and no purchase is ever attributed to the campaign
+      // that earned it. Both hosts must also be listed as one property's
+      // domains in the GA4 admin — this flag alone is not enough.
+      linker: { domains: ['redwhiteandclix.org', 'shop.redwhiteandclix.org'] }
     });
   }
 
