@@ -82,6 +82,32 @@ marks. See `06-Reports/sponsor-logo-audit.md`.
 - Trademark heads-up: the "Red. White. And Clix." stripe wordmark (2025 Variant and Red. White. And Clix. tees) closely follows the G.I. Joe logo layout. Worth a conscious decision, same as the Spider-Man logo.
 - Should Shop go in the top menu?
 
+## Built 2026-09-26 (draft on staging, awaiting Clint's Publish)
+
+- **Mission page** — his official Vision and Mission statements verbatim, a "What the money has
+  done" section covering both prior years, and an "On the record" credibility block
+  (501(c)(3), EIN, SAM.gov, veteran-led, Senator Banks recognition).
+- **Founder's Story** at `/founder`, linked from the footer. Service history, PTSD and MS (he
+  cleared both), the losses to suicide, and why a gaming event. The Veterans Crisis Line sits
+  **inline** in the page, not three clicks away. Board members deliberately omitted.
+- **Event record rewritten** — see the regression note below.
+- **BlakSheep Creative** added as a sponsor with its real logo, and the sitewide footer credit
+  changed from "Website by" to **"Presented by"**, which is his wording.
+- **501(c)(3) + EIN 41-4723161** on /donate and /support, with a tax-deductibility line.
+
+### REGRESSION FOUND 2026-09-26
+
+The event record had **reverted to its pre-correction text**. The "$10 donation" wording Wesley
+asked us to drop was back, the Super 8 October 2 deadline was gone, and the 10:00 PM end times
+and raffle pricing had never made it. All of it was verified live on 2026-09-25 and was not
+there a day later. Cause not established — suspect the published row snapshot was regenerated
+from an older version during a later site publish. **Re-verify the event page after every
+publish** until the cause is known.
+
+The rewrite is saved at `website/instatic/event-november-2026-body.md` so it can be restored
+verbatim if it happens again. It now also carries the Fellowship award, the judges (Matt Leiner
+head judge, Elijah on Battle Royales), the HCUnits circuit link and pay-at-the-door.
+
 ## Still to build from his 2026-09-25 emails
 
 Answered by him, not yet on the site:
