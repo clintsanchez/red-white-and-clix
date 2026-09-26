@@ -55,8 +55,9 @@ sites. What we get is a count of visits and a list of which pages people read.
 Google. The site works exactly the same — nothing is withheld, nothing nags you,
 and we do not ask again on every page.
 
-To change your answer later, clear this site's cookies in your browser and the
-banner will ask again. Every major browser lets you block or delete cookies from
+To change your answer later, use the "Cookie settings" link in the footer of any
+page. It brings this choice straight back up, and you can switch either way as
+often as you like. Every major browser also lets you block or delete cookies from
 its Privacy settings, and most offer a "block third-party cookies" switch that
 this site will never trip, because it does not use any.
 

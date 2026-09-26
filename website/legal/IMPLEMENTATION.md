@@ -4,25 +4,42 @@ The rewritten Privacy and Cookie policies make specific, checkable promises.
 Publishing them before these are implemented would make the pages false, which
 is worse than the accurate "no cookies" pages they replace.
 
-## 1. Consent banner — blocks everything else
+## 1. Consent banner — BUILT 2026-09-25 and behaviour-tested
 
-- [ ] Banner appears on first visit, on every page.
-- [ ] **GA4 does not load until Accept is clicked.** Not "loads and waits" —
-      the tag must not be on the page at all. A banner that appears after the
-      tracker has already fired is decorative, and the Cookie Policy explicitly
-      promises it is not.
-- [ ] **Decline sets no cookies and sends no request to Google.**
-- [ ] Accept and Decline are equally prominent. No pre-ticked boxes, no
-      dark-pattern "Accept" in colour against a grey "Decline".
-- [ ] The choice is stored in **localStorage**, not a cookie. The Cookie Policy
-      says so explicitly, and storing "no" in a cookie would be self-defeating.
-- [ ] Clearing site data makes the banner ask again.
-- [ ] Banner is keyboard operable, has a visible focus outline, and is
-      announced to screen readers — the Accessibility statement commits to
-      WCAG 2.2 AA and this is a new blocking control on every page.
-- [ ] Banner does not cover the page content permanently or trap focus.
+`src/scripts/consent.js` (source of truth: `website/instatic/scripts/consent.js`),
+all-pages runtime, body-end. Every item below was verified by driving the real
+script and the real published CSS in a browser, not by reading the code:
 
-## 2. Content Security Policy
+- [x] Banner appears on first visit, on every page.
+- [x] **GA4 does not load until Accept is clicked** — verified no
+      `googletagmanager` script and no `dataLayer` exist before the click.
+- [x] **Decline sets no cookies and sends no request to Google** — verified
+      `document.cookie` empty and no GA script after declining.
+- [x] Accept and Decline are equally prominent — same class, same computed
+      background and colour, both 44px tall and 120px wide. Decline is first in
+      the DOM, so it is first in the tab order.
+- [x] The choice is stored in **localStorage** (`rwc-consent`), not a cookie.
+- [x] Reopening works — a "Cookie settings" button in the footer clears the
+      stored answer and brings the banner back, then focuses its first button.
+- [x] Keyboard operable with a visible focus outline; banner is the first child
+      of `<body>` so it is reachable without tabbing the whole page. Focus moves
+      to `<main>` on dismissal rather than being dropped on `<body>`.
+- [x] Non-modal, bottom-anchored, does not trap focus.
+- [x] GA loader verified with a stub ID: emits `js` + `config` with
+      `allow_google_signals: false`, `allow_ad_personalization_signals: false`,
+      `cookie_expires: 33696000` (13 months) and `anonymize_ip: true`.
+
+**`GA_MEASUREMENT_ID` is still empty**, so Accept currently records the choice
+and loads nothing. That is deliberate — it keeps the build order the policies
+promise. Setting it is step 3 below, and is NOT sufficient on its own without
+step 2.
+
+## 2. Content Security Policy — still open, and it is a plugin job
+
+There is **no CSP site setting**. `/admin/api/cms/site` has no such field; the
+publisher hardcodes the meta tag. Changing it means a `publish.html` filter,
+the same hook `plugins/blaksheep-seo` already uses to rewrite published HTML.
+Do not bolt it onto the SEO plugin — it needs its own small plugin.
 
 Current meta CSP is `default-src 'self'; script-src 'self'` — **this blocks GA4
 outright.** It must be loosened, minimally:
