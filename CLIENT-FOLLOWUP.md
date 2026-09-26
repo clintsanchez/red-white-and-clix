@@ -93,9 +93,11 @@ Answered by him, not yet on the site:
 
 Needs a decision from Clint, not from Wesley:
 
-- **Traffic tracking** (he asked for it) directly contradicts the published privacy policy,
-  which states the site runs no analytics. Pick one: add a cookieless analytics tool and
-  rewrite the policy, or tell him no.
+- ~~**Traffic tracking** contradicts the privacy policy~~ DECIDED 2026-09-25: **Google
+  Analytics 4**, with the contact form posting to **GoHighLevel**. Both legal pages have
+  been rewritten to match (`website/legal/`) and applied to staging in draft. They are NOT
+  publishable yet: GA4 needs a real consent banner, a CSP change and specific property
+  settings first. Full gate list in `website/legal/IMPLEMENTATION.md` — 24 checkboxes.
 - **The AI-generated homepage hero figure.** He raised it himself: "a lot of people have
   major misgivings about AI generated images... maybe something less obviously AI, or
   simply a picture of a soldier or even myself standing on the HeroClix dial." Any
