@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static sitemap for the Instatic site, served by the Caddy edge.
+
+  Deliberately static: Instatic publishes plain HTML and exposes no sitemap
+  endpoint, and the page set is fixed for the November 2026 event. If a page
+  is added or a slug changes, edit this file — nothing regenerates it.
+
+  No <lastmod>: the publish dates are not reliably recorded per page, and a
+  wrong lastmod is worse than none. No <priority>/<changefreq>: Google
+  ignores both.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.redwhiteandclix.org/</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/events</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/events/november-2026</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/register</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/prizes</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/mission</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/founder</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/support</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/donate</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/shop</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/resources</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/sitemap</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/accessibility</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/privacy-policy</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/cookie-policy</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/terms-and-conditions</loc></url>
+  <url><loc>https://www.redwhiteandclix.org/disclaimer</loc></url>
+</urlset>

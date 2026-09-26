@@ -10,5 +10,8 @@ FROM caddy:2-alpine
 
 COPY deploy/railway/edge/Caddyfile /etc/caddy/Caddyfile
 
+# robots.txt is generated inline in the Caddyfile; sitemap.xml is a real file.
+COPY deploy/railway/edge/srv/ /srv/
+
 EXPOSE 8080
 CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]

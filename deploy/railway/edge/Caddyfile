@@ -22,10 +22,47 @@
 	# AT LAUNCH: do not simply re-add this. Stop exposing staging publicly once
 	# the site is on redwhiteandclix.org. See LAUNCH-DOMAIN-SWITCH.md.
 
-	reverse_proxy {$UPSTREAM} {
-		# Instatic builds absolute URLs and checks request origin, so it needs
-		# to see the public scheme rather than the plain HTTP hop from Railway.
-		header_up X-Forwarded-Proto https
+	# Everything below runs in written order. Instatic serves neither
+	# robots.txt nor sitemap.xml (both 404), so the edge supplies them.
+	route {
+		# Staging must never be indexed. It is publicly reachable and serves
+		# the same content as production, so without this it competes with
+		# the real domain. Host-specific, so production is unaffected.
+		@staging_robots {
+			host site-production-0334.up.railway.app
+			path /robots.txt
+		}
+		respond @staging_robots 200 {
+			body "User-agent: *
+Disallow: /
+"
+		}
+
+		@robots path /robots.txt
+		respond @robots 200 {
+			body "User-agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://www.redwhiteandclix.org/sitemap.xml
+"
+		}
+
+		# Static file baked into the image; see srv/sitemap.xml for why it is
+		# not generated.
+		@sitemap path /sitemap.xml
+		handle @sitemap {
+			root * /srv
+			header Content-Type "application/xml; charset=utf-8"
+			file_server
+		}
+
+		reverse_proxy {$UPSTREAM} {
+			# Instatic builds absolute URLs and checks request origin, so it
+			# needs to see the public scheme rather than the plain HTTP hop
+			# from Railway.
+			header_up X-Forwarded-Proto https
+		}
 	}
 
 	encode gzip
