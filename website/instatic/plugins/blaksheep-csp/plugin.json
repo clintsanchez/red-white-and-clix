@@ -20,10 +20,20 @@
   "settings": [
     {
       "id": "allowAnalytics",
-      "type": "boolean",
+      "type": "select",
       "label": "Allow Google Analytics sources",
-      "description": "Adds googletagmanager to script-src and the google-analytics endpoints to connect-src. Turn this OFF and republish to put the site back to a self-only policy.",
-      "default": true
+      "description": "On adds googletagmanager to script-src and the google-analytics endpoints to connect-src. Switch to Off and republish to restore a self-only policy.",
+      "options": [
+        {
+          "label": "On",
+          "value": "on"
+        },
+        {
+          "label": "Off",
+          "value": "off"
+        }
+      ],
+      "default": "on"
     }
   ]
 }
