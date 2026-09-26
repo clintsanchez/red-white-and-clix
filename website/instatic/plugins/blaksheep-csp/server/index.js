@@ -39,7 +39,11 @@ function addSources(policy, directive, sources, fallbackFrom) {
 export default {
   async activate(api) {
     api.cms.hooks.filter("publish.html", async (html) => {
-      if (api.cms.settings.get("allowAnalytics") === false) return html;
+      // Settings can come back as a real boolean or as a string depending on
+      // how the admin form serialises them, so test for every "off" spelling
+      // rather than trusting one. Defaulting to on matches the manifest.
+      const allow = api.cms.settings.get("allowAnalytics");
+      if (allow === false || allow === "false" || allow === "off" || allow === 0) return html;
 
       const re = /(<meta[^>]*http-equiv=["']Content-Security-Policy["'][^>]*content=["'])([^"']*)(["'][^>]*>)/i;
       const m = html.match(re);
