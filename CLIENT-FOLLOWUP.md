@@ -6,7 +6,14 @@ The survey is received and onboarding is complete. Do not send another intake su
 
 1. Confirm November 7–8, 2026 check-in/start times, $40 Modern and $240 Team Sealed fees, whether $240 is per team, refund policy, and the one registration/payment route to promote. Current Squarespace prices conflict.
 2. Provide traffic baseline and actual registration totals. Does “80 registrations” mean unique people, tournament entries or paid tickets?
-3. **THE LAST BIG ONE.** Confirm **what proportion of proceeds is donated**, fundraising totals that can be
+3. ~~Proportion of proceeds donated~~ ANSWERED 2026-09-26, and it changed the picture.
+   **$15,000 gross, $4,000 to charity** after event costs. He is keeping the *current*
+   event's share deliberately vague ("a portion of") until he understands operating costs
+   — legitimate for year one — but his Founder Story text says "raised over $15,000 **for
+   veteran-focused charities**", which is misleading and **must not be published as
+   written**. He asked for wording help and proposed "$15,000 raised, $4,000 donated".
+   Agreed; draft wording is in `99-Reference/client-supplied-mission-and-founder-2026-09-26.md`.
+   Original question was: confirm **what proportion of proceeds is donated**, fundraising totals that can be
    substantiated, and who issues receipts. The beneficiary itself is settled: the
    **Mary T. Klinker Veteran Resource Center** (Lafayette, IN; 501(c)(3), EIN 35-2377612;
    mtkvets.org). A homepage section for it was added 2026-09-25 and deliberately states

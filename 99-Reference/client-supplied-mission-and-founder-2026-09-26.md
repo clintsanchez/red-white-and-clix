@@ -11,14 +11,14 @@ way `CLAUDE.md` requires.
 |---|---|
 | EIN 41-4723161 | **VERIFIED** — matches the IRS Indiana EO BMF row for RED WHITE AND CLIX INC (501(c)(3), unconditional exemption, ruling 202603, contributions deductible). See `06-Reports/organization-research.md`. |
 | IRS-recognized 501(c)(3) | **VERIFIED**, same source. |
-| "Inaugural event raised over $15,000" | **UNVERIFIED.** Asked him 2026-09-26 whether he can substantiate it. Do not publish a dollar figure until he confirms. |
-| Recognized by U.S. Senator Jim Banks | **UNVERIFIED.** Scan requested. Present as recognition, never as endorsement. |
+| "Inaugural event raised over $15,000 **for veteran-focused charities**" | **ANSWERED 2026-09-26, AND THE SENTENCE AS WRITTEN IS MISLEADING. DO NOT PUBLISH IT.** He grossed **$15,000**; after event costs, **$4,000 reached charity**. His own words: "I grossed $15,000. After all the bills were paid, $4,000 went to charity." The phrase *"raised over $15,000 for veteran-focused charities"* reads as $15,000 going to charities. It did not. Both figures are verifiable and he is comfortable publishing both. See the note below. |
+| Recognized by U.S. Senator Jim Banks | Letter supplied 2026-09-26 as "Senator Banks Letter.png", attached to the *Media Inclusion* thread. **Gmail MCP cannot download attachments — save it by hand.** Present as recognition, never endorsement. |
 | Featured on WLFI | Segment aired, but the WLFI article is now a **404** and is not in the Internet Archive. Only Wesley's own recordings survive — and WLFI owns that broadcast. |
 | Featured in Lafayette Journal & Courier | Paywalled. Cite headline + date + link only; he must not republish the copied text. |
 | SAM.gov registered | Not independently checked. |
-| Board of Directors, six named people | Consent to publish **not confirmed**. Asked 2026-09-26. |
+| Board of Directors, six named people | **DO NOT PUBLISH.** 2026-09-26: "Leave the board members off for now." He is restructuring after November. His reasons were candid and are not for publication anywhere. |
 | Service history: Combat Engineer, Indiana ARNG 1999–2006, Mosul 2004, FOB Marez, EOD support | Client-supplied, not independently verified. |
-| PTSD and Primary Progressive MS | His own disclosure. Explicit confirmation requested before publishing. |
+| PTSD and Primary Progressive MS | **CLEARED 2026-09-26** — "my medical diagnosis is public domain." Safe to publish. |
 
 Note the March 2026 IRS ruling date does **not** establish the founding or
 operating date — `CLAUDE.md` keeps those distinct, and the founder story implies
@@ -192,6 +192,46 @@ veterans face after service are met with compassion, innovation, and sustained
 public support.
 
 ---
+
+## THE $15,000 SENTENCE — read before building the Founder page
+
+The Founder Story text below contains:
+
+> The inaugural event raised over $15,000 for veteran-focused charities
+
+**Do not publish that sentence.** On 2026-09-26 Wesley clarified the actual
+split: **$15,000 gross, $4,000 to charity** once event costs were paid. He
+raised the discrepancy himself and asked how to word it, suggesting "some
+hybrid of $15,000 raised, $4,000 donated."
+
+He is right, and the hybrid is the version to use. Three reasons this matters
+more than it looks:
+
+1. The homepage already promises **"we account for where that support goes."**
+   A vague or inflated total directly contradicts a commitment we have
+   published.
+2. A **USA Today** feature lands in November. National press is the worst
+   possible moment to have an overstated fundraising number on the site.
+3. **$4,000 of $15,000 in a first year is not embarrassing.** Event-based
+   nonprofits carry real venue, prize and catering costs, and this was his
+   first year operating as an organization rather than paying out of pocket.
+   Stated plainly it reads as honest. Stated as "$15,000 for charities" it
+   reads as inflated the moment anyone checks.
+
+Suggested wording, pending his sign-off:
+
+> Our first event raised $15,000. After event costs, $4,000 went directly to
+> veteran-focused charities — and cutting that gap is exactly why we chase
+> sponsorship so hard.
+
+That last clause is his own reasoning and it turns the number into the argument
+for sponsoring.
+
+**Percentage for the current event stays deliberately vague** at his request —
+"we are raising funds to support" or "a portion of" — because he does not yet
+have a firm grip on operating costs. That is a legitimate position for a
+first-year organization, and it is consistent as long as we do not pair it with
+an inflated historical total.
 
 ## Editorial note for whoever builds these pages
 
