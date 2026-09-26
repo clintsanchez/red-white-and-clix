@@ -1,0 +1,180 @@
+/* ===========================================================================
+   Red, White, and Clix — Squarespace store, matched to the main site
+   Paste into: Squarespace → Design → Custom CSS
+   ---------------------------------------------------------------------------
+   Scope: the Squarespace site becomes the STORE ONLY, served from
+   shop.redwhiteandclix.org. The main site is the Instatic build on the apex.
+
+   Good news going in: the store already uses both RWC faces — Archivo Black
+   for headings, Space Grotesk for body — so none of this touches typography
+   beyond weight and spacing. What is off is colour (everything is pure black
+   on #f5f5f5) and the buttons, which are unstyled squares.
+
+   NOT styleable from here: Squarespace's hosted checkout. That takes a logo
+   and colours from Commerce → Checkout settings, not CSS. Everything up to
+   the checkout hand-off is covered below.
+   ========================================================================= */
+
+:root {
+  --rwc-ink:      #111827;
+  --rwc-surface:  #F5F7FA;
+  --rwc-white:    #FFFFFF;
+  --rwc-action:   #B91C1C;  /* accessible red for UI */
+  --rwc-logo-red: #FF0000;  /* logo red, accents only */
+  --rwc-link:     #0050B3;
+  --rwc-border:   #D0D5DB;
+}
+
+/* --- ground ------------------------------------------------------------- */
+
+body,
+#siteWrapper,
+.tweak-blog-alternating-side-by-side {
+  background-color: var(--rwc-surface);
+  color: var(--rwc-ink);
+}
+
+h1, h2, h3, h4,
+.ProductItem-details-title,
+.ProductItem-product-price {
+  color: var(--rwc-ink);
+}
+
+/* Squarespace paints body copy pure black; ours is ink. */
+p, li, .sqs-block-content, .ProductItem-details-excerpt {
+  color: var(--rwc-ink);
+}
+
+/* --- header ------------------------------------------------------------- */
+
+.header.theme-col--primary,
+.header-inner {
+  background-color: var(--rwc-ink);
+}
+
+.header a,
+.header .header-nav-item a,
+.header .header-title-text a {
+  color: var(--rwc-white);
+}
+
+.header .header-nav-item a:hover,
+.header .header-nav-item a:focus-visible {
+  color: var(--rwc-white);
+  border-bottom: 2px solid var(--rwc-logo-red);
+}
+
+.header a:focus-visible {
+  outline: 3px solid var(--rwc-white);
+  outline-offset: 3px;
+}
+
+/* --- product grid ------------------------------------------------------- */
+
+.product-list-section .grid-item,
+.products .grid-item {
+  background: var(--rwc-white);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.grid-title,
+.grid-meta-wrapper .grid-title {
+  color: var(--rwc-ink);
+  font-weight: 700;
+}
+
+.grid-prices,
+.product-price {
+  color: var(--rwc-ink);
+}
+
+/* --- buttons: the biggest visual gap ------------------------------------ */
+
+.sqs-add-to-cart-button,
+.sqs-block-button-element,
+.sqs-button-element--primary,
+.ProductItem-details .sqs-add-to-cart-button {
+  background-color: var(--rwc-action) !important;
+  color: var(--rwc-white) !important;
+  border: 2px solid var(--rwc-action) !important;
+  border-radius: 10px !important;
+  min-height: 44px;
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.sqs-add-to-cart-button:hover,
+.sqs-block-button-element:hover,
+.sqs-button-element--primary:hover {
+  background-color: #9c1717 !important;
+  border-color: #9c1717 !important;
+}
+
+.sqs-add-to-cart-button:focus-visible,
+.sqs-block-button-element:focus-visible {
+  outline: 3px solid var(--rwc-ink);
+  outline-offset: 3px;
+}
+
+/* --- product detail ----------------------------------------------------- */
+
+.ProductItem-details-title { letter-spacing: -0.025em; line-height: 1.1; }
+.ProductItem-product-price { letter-spacing: -0.02em; }
+
+.ProductItem-details .product-variants select,
+.variant-select-wrapper select {
+  border: 1px solid var(--rwc-border);
+  border-radius: 10px;
+  min-height: 44px;
+  color: var(--rwc-ink);
+  background: var(--rwc-white);
+}
+
+.ProductItem-gallery-slides img,
+.ProductItem-gallery-carousel img {
+  border-radius: 14px;
+}
+
+/* --- links -------------------------------------------------------------- */
+
+.sqs-block-content a:not(.sqs-block-button-element) {
+  color: var(--rwc-link);
+  text-decoration: none;
+  border-bottom: 2px solid var(--rwc-logo-red);
+}
+
+/* --- footer ------------------------------------------------------------- */
+
+footer.sections,
+footer .page-section {
+  background-color: var(--rwc-ink);
+}
+
+footer,
+footer p,
+footer a,
+footer .sqs-block-content {
+  color: var(--rwc-white);
+}
+
+footer a { border-bottom: 2px solid var(--rwc-logo-red); text-decoration: none; }
+
+/* --- cart --------------------------------------------------------------- */
+
+.cart-container,
+.cart-row,
+.sqs-cart-container {
+  color: var(--rwc-ink);
+}
+
+/* --- motion ------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
