@@ -45,6 +45,17 @@ p, li, .sqs-block-content, .ProductItem-details-excerpt {
   color: var(--rwc-ink);
 }
 
+/* 7.1 product classes. These are NOT the .ProductItem-* names from 7.0 —
+   verified against the live DOM: h1.product-title and .product-price /
+   .product-price-value. Squarespace's own rules win on specificity here, so
+   these need !important. */
+h1.product-title,
+.product-title,
+.product-price,
+.product-price-value {
+  color: var(--rwc-ink) !important;
+}
+
 /* --- header ------------------------------------------------------------- */
 
 .header.theme-col--primary,
@@ -52,10 +63,30 @@ p, li, .sqs-block-content, .ProductItem-details-excerpt {
   background-color: var(--rwc-ink);
 }
 
+/* Everything in the header sits on ink now, so every text colour in there has
+   to be inverted. The folder buttons are the trap: they are <button> elements
+   painted pure black by Squarespace, so leaving them alone puts black text on
+   a near-black bar — invisible. Caught in preview, not in production. */
 .header a,
 .header .header-nav-item a,
-.header .header-title-text a {
-  color: var(--rwc-white);
+.header .header-title-text a,
+.header .header-nav-folder-title,
+.header .header-nav-folder-title-text,
+.header .header-nav-folder-item a,
+.header .header-menu-nav-item a,
+.header .header-burger-btn,
+.header .icon--stroke svg {
+  color: var(--rwc-white) !important;
+}
+
+.header .header-burger-btn svg,
+.header .icon svg {
+  stroke: var(--rwc-white);
+}
+
+/* Folder dropdowns render on their own panel, not on the ink bar. */
+.header-nav-folder-content {
+  background-color: var(--rwc-ink);
 }
 
 .header .header-nav-item a:hover,

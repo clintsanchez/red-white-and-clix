@@ -110,6 +110,35 @@ URL Mappings regardless.
   (see `CLIENT-FOLLOWUP.md`); the body is committed at
   `website/instatic/event-november-2026-body.md` for restoring verbatim.
 
+## Squarespace store restyle — DONE 2026-09-26 (live)
+
+Custom CSS saved and serving from Squarespace's `custom.css`. Source of truth:
+`website/squarespace-custom.css`. Verified on the public product page, not just
+in preview: ink header, surface body, ink title/price, action-red ADD TO CART at
+10px radius, ink footer, nav contrast 17.74:1.
+
+Two things preview caught that guessing would not have:
+
+- `.header-nav-folder-title` is a `<button>` Squarespace paints pure black.
+  Putting an ink background behind it made the "Veteran Resources" nav item
+  **invisible**. Any future header work has to invert that class too.
+- The product classes are 7.1, not 7.0: **`h1.product-title` and
+  `.product-price`**, not `.ProductItem-*`. Squarespace's own rules outrank
+  them, so they need `!important`.
+
+Still to do on the store, none of it blocking: repoint the store nav back at the
+main site (config, not CSS), and rename the 21 Printful catalogue product names
+("Unisex t-shirt", "White glossy mug") which is a bigger UX win than the CSS was.
+
+### Address: decided, leave it
+
+The footer block was edited to read "West Lafayette, Indiana" instead of the
+street address. The full street address plus `mapLat`/`mapLng` remains in
+**Settings → Business Information**, which Squarespace emits into three JSON-LD
+blocks per page. **Clint's call 2026-09-26: that is canonical, leave it.** Do
+not re-litigate. If it ever does change, a PO box or the Armory address is the
+usual answer for a nonprofit, not blank.
+
 ## Sequencing note (2026-09-26)
 
 The step order above flips nameservers *last*, which means the apex, www, shop
