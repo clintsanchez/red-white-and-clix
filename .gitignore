@@ -22,3 +22,4 @@ backups/
 # docker cp commands; never commit it.
 deploy/railway/seed/
 deploy/railway/backups/uploads/
+99-Reference/senator-banks-letter-ORIGINAL-unredacted.png
