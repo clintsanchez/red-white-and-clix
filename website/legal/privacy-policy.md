@@ -130,6 +130,21 @@ additional statutory rights, including the right to complain to your regulator.
 We will honour those requests regardless of where you live, because drawing a
 line by geography would be a strange way to treat people who support veterans.
 
+## Photographs of people
+
+We take photographs at our events and some of them appear on this site. They
+show real people at a real gathering, which is the point of them — but nobody
+should have to argue to get their own face off a website.
+
+If you are in a picture here and would rather not be, email
+**redwhiteandclix@gmail.com** and tell us roughly where you are in it. We will
+take it down or crop you out. We will not ask you why, and we will not ask you
+to prove it is you.
+
+The one figure on our home page that is not a photograph is digitally created
+and depicts nobody. Our [Website Disclaimer](/disclaimer) says which image that
+is.
+
 ## Children
 
 This site is not directed at children under 13 and we do not knowingly collect
