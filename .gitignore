@@ -21,3 +21,4 @@ backups/
 # Deploy seed snapshot: contains admin user rows. Rebuild with the documented
 # docker cp commands; never commit it.
 deploy/railway/seed/
+deploy/railway/backups/uploads/
