@@ -93,9 +93,32 @@ redir @oldProduct https://shop.redwhiteandclix.org{uri} 301
 Not verified: whether Squarespace auto-redirects a changed product slug. Add
 URL Mappings regardless.
 
-## Other launch blockers (not DNS)
+## Other launch blockers (not DNS) — reassessed 2026-09-26
 
-- Legal pages: no attorney review (Clint to decide).
-- Contact form: not wired to anything.
+- ~~Contact form: not wired~~ **NOT A BLOCKER. There is no contact form anywhere
+  on the new site** — verified across every page. Contact is the email and phone
+  links. The Privacy Policy now says so explicitly.
+- ~~Legal pages: no attorney review~~ Clint's call, taken: ship. The pages now
+  describe the site accurately for a launch with **no analytics, no cookies and
+  no form**; the consent banner is built but dormant until a GA4 ID is set.
 - Robots/canonical: staging canonicals already point at the real domain; re-check
   after the switch that nothing still references the Railway URL.
+- **Assets that exist only on Squarespace.** The WLFI interview video was one of
+  these and would have died with the switch — it is now saved to
+  `99-Reference/media/`. Sweep for anything else before the store is touched.
+- **Re-verify the event page after every publish.** It silently reverted once
+  (see `CLIENT-FOLLOWUP.md`); the body is committed at
+  `website/instatic/event-november-2026-body.md` for restoring verbatim.
+
+## Sequencing note (2026-09-26)
+
+The step order above flips nameservers *last*, which means the apex, www, shop
+and the Railway certificates all change in one moment. Safer alternative:
+
+1. Build the Cloudflare zone with records **identical to today's**, verify them.
+2. Flip nameservers early. Nothing visible changes — Squarespace still serves.
+3. Then add `shop.`, then Railway's records, testing each before the apex moves.
+4. Repoint apex + www last, as a single small change you can revert.
+
+Same destination, but each step is independently verifiable and reversible
+instead of one simultaneous cut-over.
