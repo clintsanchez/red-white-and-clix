@@ -6,7 +6,7 @@ The survey is received and onboarding is complete. Do not send another intake su
 
 1. Confirm November 7–8, 2026 check-in/start times, $40 Modern and $240 Team Sealed fees, whether $240 is per team, refund policy, and the one registration/payment route to promote. Current Squarespace prices conflict.
 2. Provide traffic baseline and actual registration totals. Does “80 registrations” mean unique people, tournament entries or paid tickets?
-3. Confirm **what proportion of proceeds is donated**, fundraising totals that can be
+3. **THE LAST BIG ONE.** Confirm **what proportion of proceeds is donated**, fundraising totals that can be
    substantiated, and who issues receipts. The beneficiary itself is settled: the
    **Mary T. Klinker Veteran Resource Center** (Lafayette, IN; 501(c)(3), EIN 35-2377612;
    mtkvets.org). A homepage section for it was added 2026-09-25 and deliberately states
@@ -88,8 +88,13 @@ Answered by him, not yet on the site:
   awarded to one player over the weekend. Major Smith is OK to be named.
 - **Judges:** Matt Leiner is head judge for the weekend and owns scoring and pairings;
   Elijah runs both Battle Royales and their prizing.
-- **Founder's Story** and **Mission and Overview** PDFs are attached to his email. Gmail
-  tools here cannot download attachments — pull them manually.
+- ~~**Founder's Story** and **Mission and Overview** PDFs~~ RECEIVED 2026-09-26 — he pasted
+  the full text into the email after the Gmail tools could not fetch attachments. Saved
+  verbatim with a claim-by-claim verification table at
+  `99-Reference/client-supplied-mission-and-founder-2026-09-26.md`. **EIN 41-4723161 matches
+  the IRS BMF record.** Four things asked before these become pages: explicit OK to publish
+  his PTSD and MS diagnoses, consent from the six named board members, a fix for the two
+  "Treasurer" titles, and whether the **$15,000 inaugural total** can be substantiated.
 
 Needs a decision from Clint, not from Wesley:
 
@@ -106,9 +111,7 @@ Needs a decision from Clint, not from Wesley:
   is a manipulated photograph of a real person. Instead of hiding it, the Disclaimer now
   names that exact image. See `website/legal/imagery-disclosure.md`.
 
-- **Photo consent — now the live exposure, and asked at last.** The two homepage card
-  images are REAL photographs with ~35 identifiable faces between them, on staging now.
-  This was always the bigger risk than the AI hero. Asked in the 2026-09-25 draft: was
-  there a photo notice at the event, is he confident everyone is fine with it, or do we
-  swap to non-identifiable shots? A no-questions-asked removal route is now in the Privacy
-  Policy, but that is the backstop, not the plan.
+- ~~**Photo consent**~~ ANSWERED 2026-09-26: the photos are fine. Many were posed, they
+  have been on his social accounts and the current website for two years with no
+  complaint, and he will announce the photographer at the November event so people can
+  opt out. Reasonable basis, accepted. The Privacy Policy removal route stands as backstop.
