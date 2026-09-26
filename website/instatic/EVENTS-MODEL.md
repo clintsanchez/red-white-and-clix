@@ -209,3 +209,22 @@ changes.
 
 Until then the sidebar shows the "Open in maps" link, which needs no key and
 loads no third party. Records without coordinates use that link regardless.
+
+## HCUnits is the registration system (decided 2026-09-25)
+
+Tournament registration lives on HCUnits (hcunits.net), the HeroClix community
+site, under Wesley's circuit `red_white_and_clix_2026`:
+
+- RWC 300 Modern: https://hcunits.net/events/9151/
+- Team Sealed: https://hcunits.net/events/9152/
+- Battle Royales and Learn to Play are NOT on HCUnits: pay at the door.
+
+The Register page and the event record link to each event directly (not the
+circuit overview). There is no integration beyond links, deliberately:
+HCUnits has no API (`/api/` 404s and is disallowed in robots.txt), no embed or
+iCal feed, and our CSP blocks iframes. Do not scrape registrant data onto the
+site; it breaks whenever HCUnits changes its markup.
+
+Registration counts against the 80-registration goal: `python3 tools/hcunits_count.py`
+reads the public pages and appends counts (never names) to
+`06-Reports/hcunits-registrations.csv`. Baseline 2026-09-25: 8 players.

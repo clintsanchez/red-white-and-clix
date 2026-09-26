@@ -26,4 +26,15 @@ Client onboarded September 21, 2026 from Wesley Robertson's completed GHL survey
 
 Onboarding is complete. Resolve `CLIENT-FOLLOWUP.md` and plan the website/registration work. Trello: https://trello.com/b/qwUSKYIS/red-white-and-clix. No social profile edits and no purchases made.
 
-Status as of 2026-09-23: the site is built on Instatic and deployed to Railway **staging only** (`https://site-production-0334.up.railway.app`, `/admin` behind basic auth). No DNS has been changed and Squarespace is still the live site. Two client emails have now been sent and Wesley has replied approving the preview and promising the outstanding answers; read the Gmail thread before re-asking anything in `CLIENT-FOLLOWUP.md`.
+Status as of 2026-09-25: the site is built on Instatic and deployed to Railway **staging only** (`https://site-production-0334.up.railway.app`, `/admin` behind basic auth). Squarespace is still the live site; no DNS changed. Live on staging and verified: 40 sponsors, the November 2026 event page and listing, Register (links to HCUnits events 9151/9152), Donate (PayPal/Venmo), Support Us (volunteer section removed), /prizes, /shop (Shop in the menu). Edit through the Instatic admin API, not a seed push; see `deploy/railway/README.md` and Claude memory `rwc-instatic-railway-admin-api`. Clint clicks Publish.
+
+2026-09-25 (later): Wesley's five replies are actioned on staging, all in DRAFT awaiting
+Clint's Publish — sponsor corrections (Board & Dice only, Allplay added, "Pressed in Pink by
+Zoe Lewellen", Blue Moon Comics + Kylee Rogers + Rebecca Gibson + Jaime Williams as Archivo
+Black wordmark SVGs, Arni's confirmed), a homepage Mary T. Klinker beneficiary section that
+states no allocation percentage, BCW quantity 6, and the stale "With thanks to" line removed.
+Sponsor DATA is published; the static pages are not. Sponsor row edits go through
+`PATCH /admin/api/cms/data/rows/:id` and media through `POST /admin/api/cms/media` in an
+authenticated browser — the Data workspace is not exposed to the MCP content tools.
+
+Open: one consolidated email to Wesley is drafted in Gmail and NOT sent (questions in `CLIENT-FOLLOWUP.md`); Squarespace store moves to `shop.redwhiteandclix.org` and DNS moves to Cloudflare at launch (`LAUNCH-DOMAIN-SWITCH.md`, held until Clint says); legal pages and the contact form still block launch.
