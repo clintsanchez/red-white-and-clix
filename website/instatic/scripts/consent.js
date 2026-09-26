@@ -127,6 +127,13 @@
   }
 
   function init() {
+    // No analytics configured means nothing to consent to, so no banner. A
+    // consent prompt for tracking that does not exist is noise, and it would
+    // make the Cookie Policy wrong in the other direction. Setting
+    // GA_MEASUREMENT_ID switches the banner on by itself — but update the
+    // Privacy and Cookie pages in the same change, because they are written to
+    // describe whichever state this constant puts the site in.
+    if (!GA_MEASUREMENT_ID) return;
     var choice = read();
     if (choice === 'granted') { loadAnalytics(); return; }
     if (choice === 'denied') return;
@@ -137,6 +144,13 @@
   // change their mind, so there has to be a way that is not "clear your
   // browser storage".
   function wireReopen() {
+    // Hide the footer "Cookie settings" control while there is nothing to set.
+    if (!GA_MEASUREMENT_ID) {
+      document.querySelectorAll('[data-rwc-consent-reopen]').forEach(function (el) {
+        el.hidden = true;
+      });
+      return;
+    }
     document.querySelectorAll('[data-rwc-consent-reopen]').forEach(function (el) {
       el.addEventListener('click', function (ev) {
         ev.preventDefault();

@@ -1,5 +1,18 @@
 # What must be true before the rewritten policies can be published
 
+> **STATUS 2026-09-26 — LAUNCH POSTURE CHANGED.** Clint is shipping the site
+> before GA4 and before any contact form. So the policies were rewritten *again*
+> to describe the site as it actually is at launch: **no cookies, no analytics,
+> no form, nothing third-party.** The consent banner is built and tested but
+> **dormant** — `consent.js` returns early while `GA_MEASUREMENT_ID` is empty, so
+> no banner renders and the footer "Cookie settings" control is hidden.
+>
+> That makes section 1 below satisfied-but-inactive. **Setting the measurement
+> ID switches the banner on by itself**, which is exactly when the rest of this
+> list becomes due again — sections 2, 3 and 4 are still outstanding, and the
+> Privacy and Cookie pages must be switched back to the analytics wording in the
+> same change. Both pages currently end with a sentence promising that.
+
 The rewritten Privacy and Cookie policies make specific, checkable promises.
 Publishing them before these are implemented would make the pages false, which
 is worse than the accurate "no cookies" pages they replace.
