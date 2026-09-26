@@ -98,8 +98,17 @@ Needs a decision from Clint, not from Wesley:
   been rewritten to match (`website/legal/`) and applied to staging in draft. They are NOT
   publishable yet: GA4 needs a real consent banner, a CSP change and specific property
   settings first. Full gate list in `website/legal/IMPLEMENTATION.md` — 24 checkboxes.
-- **The AI-generated homepage hero figure.** He raised it himself: "a lot of people have
-  major misgivings about AI generated images... maybe something less obviously AI, or
-  simply a picture of a soldier or even myself standing on the HeroClix dial." Any
-  photographic replacement runs into the same consent and resolution problems as the 102
-  event photos. See `no-ai-upscaling-of-real-people` in Claude memory.
+- ~~**The AI-generated homepage hero figure**~~ DECIDED 2026-09-25: **it stays.** The case
+  made to Wesley is his own Blue Moon argument turned around — photographing a real
+  HeroClix figure would put WizKids' sculpt and a Marvel/DC character on the homepage,
+  which is the infringement he just caught. The generated figure is original and depicts
+  nobody. Both of his alternatives are worse: a soldier or himself composited onto a dial
+  is a manipulated photograph of a real person. Instead of hiding it, the Disclaimer now
+  names that exact image. See `website/legal/imagery-disclosure.md`.
+
+- **Photo consent — now the live exposure, and asked at last.** The two homepage card
+  images are REAL photographs with ~35 identifiable faces between them, on staging now.
+  This was always the bigger risk than the AI hero. Asked in the 2026-09-25 draft: was
+  there a photo notice at the event, is he confident everyone is fine with it, or do we
+  swap to non-identifiable shots? A no-questions-asked removal route is now in the Privacy
+  Policy, but that is the backstop, not the plan.
