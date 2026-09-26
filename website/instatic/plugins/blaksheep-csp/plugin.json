@@ -4,8 +4,11 @@
   "version": "1.0.0",
   "apiVersion": 1,
   "description": "Rewrites the Content-Security-Policy meta tag in published pages so consent-gated Google Analytics can load. Separate from the SEO plugin on purpose.",
+  "author": "BlakSheep Creative",
   "permissions": ["cms.hooks"],
-  "entrypoints": { "server": "server/index.js" },
+  "entrypoints": { "server": "server/index.js", "editor": "editor/index.js" },
+  "resources": [],
+  "adminPages": [],
   "settings": [
     {
       "id": "allowAnalytics",
