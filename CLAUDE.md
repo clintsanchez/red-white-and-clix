@@ -38,3 +38,9 @@ Sponsor DATA is published; the static pages are not. Sponsor row edits go throug
 authenticated browser — the Data workspace is not exposed to the MCP content tools.
 
 Open: one consolidated email to Wesley is drafted in Gmail and NOT sent (questions in `CLIENT-FOLLOWUP.md`); Squarespace store moves to `shop.redwhiteandclix.org` and DNS moves to Cloudflare at launch (`LAUNCH-DOMAIN-SWITCH.md`, held until Clint says); legal pages and the contact form still block launch.
+
+2026-09-27: GHL sub-account live (22 workflows), site-native forms post to GHL via the
+Railway `forms` service, and each lands on a noindex `/thank-you/<kind>` page counted as
+the GA4 key event `form_submitted`. Parked items are in `CLIENT-FOLLOWUP.md` → Backlog
+and the Trello list "Backlog — waiting on feedback". Account inventory (no secrets) is
+the Trello card "Accounts & access — RWC"; the secrets stay in `CREDENTIALS.local.md`.
