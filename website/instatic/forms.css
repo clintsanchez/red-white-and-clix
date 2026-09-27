@@ -1,0 +1,36 @@
+/* Website form styles, applied in Instatic with site_apply_css merge.
+   Class names are namespaced rwc-agree*, NOT rwc-consent*: that prefix belongs to the
+   cookie banner (consent.js) and a merge silently rewrote its rules on 2026-09-27. */
+.rwc-fsec { background-color: var(--rwc-ink); padding: var(--space-3xl) var(--space-l); font-family: var(--font-rwc-font-body); }
+.rwc-fsec-inner { max-width: 44rem; margin: 0 auto; }
+.rwc-fsec-eyebrow { font-size: var(--text-xs); letter-spacing: 0.18em; font-weight: 700; color: var(--rwc-white); opacity: 0.66; margin: 0 0 var(--space-2xs); }
+.rwc-fsec-title { font-family: var(--font-rwc-font-heading); font-size: clamp(28px, 3.4vw, 46px); line-height: 1.1; letter-spacing: -0.03em; color: var(--rwc-white); margin: 0 0 var(--space-s); }
+.rwc-fsec-lede { font-size: var(--text-s); line-height: 1.65; color: var(--rwc-white); margin: 0 0 var(--space-xl); max-width: 40rem; }
+.rwc-form { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-m); position: relative; }
+.rwc-field { display: flex; flex-direction: column; gap: var(--space-3xs); min-width: 0; }
+.rwc-field-full { display: flex; flex-direction: column; gap: var(--space-3xs); grid-column: 1 / -1; min-width: 0; }
+.rwc-label { font-size: var(--text-xs); font-weight: 700; color: var(--rwc-white); letter-spacing: 0.02em; }
+.rwc-input { font: inherit; font-size: var(--text-s); color: var(--rwc-ink); background-color: var(--rwc-white); border: 1px solid var(--rwc-border); border-radius: 10px; padding: 12px 14px; min-height: 48px; width: 100%; box-sizing: border-box; }
+.rwc-select { font: inherit; font-size: var(--text-s); color: var(--rwc-ink); background-color: var(--rwc-white); border: 1px solid var(--rwc-border); border-radius: 10px; padding: 12px 14px; min-height: 48px; width: 100%; box-sizing: border-box; }
+.rwc-textarea { font: inherit; font-size: var(--text-s); color: var(--rwc-ink); background-color: var(--rwc-white); border: 1px solid var(--rwc-border); border-radius: 10px; padding: 12px 14px; min-height: 140px; width: 100%; box-sizing: border-box; resize: vertical; }
+.rwc-checks { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-m); grid-column: 1 / -1; }
+.rwc-checks-title { font-size: var(--text-xs); font-weight: 700; color: var(--rwc-white); letter-spacing: 0.02em; margin: 0; width: 100%; }
+.rwc-check { display: flex; align-items: center; gap: var(--space-2xs); color: var(--rwc-white); font-size: var(--text-s); min-height: 44px; cursor: pointer; }
+.rwc-check-box { width: 20px; height: 20px; accent-color: var(--rwc-action); flex: 0 0 auto; margin: 0; }
+.rwc-agree { display: flex; align-items: flex-start; gap: var(--space-2xs); grid-column: 1 / -1; color: var(--rwc-white); font-size: var(--text-xs); line-height: 1.55; opacity: 0.9; cursor: pointer; }
+.rwc-agree-link { color: var(--rwc-white); text-decoration-line: underline; }
+.rwc-submit { grid-column: 1 / -1; justify-self: start; font: inherit; font-size: var(--text-s); font-weight: 700; color: var(--rwc-white); background-color: var(--rwc-action); border: 0; border-radius: 999px; padding: 14px 28px; min-height: 48px; cursor: pointer; }
+.rwc-submit:hover, .rwc-submit:focus-visible { background-color: var(--rwc-action-d-1); }
+.rwc-form-status { display: none; grid-column: 1 / -1; font-size: var(--text-s); line-height: 1.55; margin: 0; }
+.rwc-form-alt { font-size: var(--text-xs); color: var(--rwc-white); opacity: 0.75; margin: var(--space-m) 0 0; }
+.rwc-form-alt-link { color: var(--rwc-white); text-decoration-line: underline; }
+.rwc-news { margin: var(--space-m) 0 0; display: grid; grid-template-columns: 1fr auto; gap: var(--space-2xs); max-width: 26rem; position: relative; }
+.rwc-news-input { font: inherit; font-size: var(--text-xs); color: var(--rwc-ink); background-color: var(--rwc-white); border: 1px solid var(--rwc-border); border-radius: 999px; padding: 10px 16px; min-height: 44px; min-width: 0; box-sizing: border-box; }
+.rwc-news-submit { font: inherit; font-size: var(--text-xs); font-weight: 700; color: var(--rwc-white); background-color: var(--rwc-action); border: 0; border-radius: 999px; padding: 10px 18px; min-height: 44px; cursor: pointer; }
+.rwc-news-consent { grid-column: 1 / -1; display: flex; align-items: flex-start; gap: var(--space-2xs); color: var(--rwc-white); font-size: 12px; line-height: 1.5; opacity: 0.8; cursor: pointer; }
+.rwc-news-status { display: none; grid-column: 1 / -1; font-size: var(--text-xs); margin: 0; }
+@media (max-width: 767px) {
+  .rwc-fsec { padding: var(--space-2xl) var(--space-m); }
+  .rwc-form { grid-template-columns: 1fr; }
+}
+.rwc-news-label { grid-column: 1 / -1; font-size: var(--text-xs); letter-spacing: 0.18em; font-weight: 700; color: var(--rwc-white); opacity: 0.66; margin: 0; }
