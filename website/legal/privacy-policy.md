@@ -103,7 +103,7 @@ under their privacy policy, not ours:
 |---|---|---|
 | Registering for an event | HCUnits (hcunits.net) | You create or use an account with them |
 | Donating | PayPal and Venmo | They take the payment and see the card details; we never do |
-| Buying merchandise | Printify | A separate store with its own account, checkout and cookies |
+| Buying merchandise | Squarespace | A separate store with its own account, checkout and cookies |
 | Our Facebook page | Meta | Standard Facebook tracking applies once you are on their site |
 | Government and veterans services | The VA and others | We link out so you can reach them directly |
 

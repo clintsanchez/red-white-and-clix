@@ -73,7 +73,7 @@ what they do:
 
 - **HCUnits** — event registration
 - **PayPal** and **Venmo** — donations
-- **Printify** — the merchandise store
+- **Squarespace** — the merchandise store
 - **Facebook** — our page
 - **The VA** and other veterans organizations — the services we link to
 

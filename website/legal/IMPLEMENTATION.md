@@ -139,3 +139,25 @@ Wesley has no attorney. These pages are written to be accurate and readable, not
 to be legal advice, and the Terms are flagged in their own text as the page that
 most needs counsel. The honest position to give him: accurate self-description is a
 good foundation, and it is not a substitute for review.
+
+## 5. Policy wording — DONE 2026-09-27
+
+Both pages were rewritten in the CMS the same day analytics went live, which
+is the order they promise. Verified by fetching the published pages and
+grepping for every stale phrase: "does not run analytics", "sets no cookies at
+all", "not yet published", "no analytics are running", "before it goes live,
+not after" — all gone from both.
+
+Also corrected a mistake that predates analytics: both pages named **Printify**
+as the merchandise store. The live store is Squarespace at
+`shop.redwhiteandclix.org`. Printify is a second, smaller storefront that
+`/shop` still links to, and that duplication is unresolved — see the QC notes.
+
+**Deliberately not stated: a data-retention period.** The property is on
+Google's defaults and nobody has confirmed the number, so the policy describes
+the mechanism instead of asserting a figure. If a number is wanted, read it off
+the GA4 property first and then add it here — an unverified retention claim is
+exactly the kind of thing these pages exist to avoid.
+
+Still true and still outstanding: neither page has been reviewed by a lawyer,
+and both still carry the "Draft for review" notice saying so.
