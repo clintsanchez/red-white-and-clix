@@ -70,6 +70,7 @@
   function dismiss(banner, value) {
     write(value);
     if (value === 'granted') loadAnalytics();
+    releaseSpace(banner);
     banner.parentNode && banner.parentNode.removeChild(banner);
     // Hand focus somewhere sensible rather than dropping it on <body>, which
     // sends a screen reader back to the top with no explanation.
@@ -132,6 +133,38 @@
     // First child of <body> so keyboard users reach it without tabbing the
     // whole page, even though it is painted at the bottom.
     document.body.insertBefore(banner, document.body.firstChild);
+    reserveSpace(banner);
+  }
+
+  // The banner is position:fixed at the bottom, and the hero is min-height
+  // 100vh with the Register button near its foot — so the banner lands on top
+  // of the primary call to action. Publish the banner's height as a custom
+  // property and let the hero subtract it.
+  //
+  // Done with a variable rather than a second class because a descendant
+  // override like `.rwc-consent-open .rwc-hero` would lose to the reusable
+  // `.rwc-hero` class no matter its specificity, and a class that is not bound
+  // to a node does not survive publishing.
+  function reserveSpace(banner) {
+    function apply() {
+      var h = banner.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--rwc-consent-h', Math.round(h) + 'px');
+    }
+    apply();
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(apply);
+      ro.observe(banner);
+      banner.__rwcRo = ro;
+    } else {
+      window.addEventListener('resize', apply);
+      banner.__rwcResize = apply;
+    }
+  }
+
+  function releaseSpace(banner) {
+    if (banner && banner.__rwcRo) banner.__rwcRo.disconnect();
+    if (banner && banner.__rwcResize) window.removeEventListener('resize', banner.__rwcResize);
+    document.documentElement.style.removeProperty('--rwc-consent-h');
   }
 
   function init() {
