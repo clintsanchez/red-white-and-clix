@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Red, White, and Clix — store styled to match www.redwhiteandclix.org
+   Paste into: Squarespace → Website → Pages → Website Tools → Custom CSS
+   (replaces the older website/squarespace-custom.css)
+
+   Built for the Basic plan: Squarespace's own header and footer are kept and
+   restyled, because Code Injection is not available. Values are taken from
+   the live site's published stylesheet so the two match exactly.
+   ========================================================================== */
+
+:root{
+  --rwc-black:#000; --rwc-ink:#0b0f19; --rwc-white:#fff;
+  --rwc-action:#b91c1c; --rwc-action-d:#9c1717;
+  --rwc-white-20:rgba(255,255,255,.2); --rwc-black-50:rgba(0,0,0,.5);
+  --rwc-surface:#f5f7fa; --rwc-border:#d0d5db; --rwc-muted:#5b6474;
+  --rwc-body:"Space Grotesk",Arial,sans-serif;
+  --rwc-head:"Archivo Black",Arial,sans-serif;
+}
+
+/* ---- Page ground --------------------------------------------------------- */
+body, #siteWrapper { background:var(--rwc-white); color:var(--rwc-ink); font-family:var(--rwc-body); }
+h1,h2,h3 { font-family:var(--rwc-head); color:var(--rwc-ink); letter-spacing:-.025em; }
+
+/* ---- Header: black band, 64px logo, pill nav, red Donate ---------------- */
+.header, .header .header-announcement-bar-wrapper, .header-inner{
+  background:var(--rwc-black) !important;
+}
+/* Logo 64px + padding + Squarespace's own internal spacing = 107px, the height
+   of the www header (measured: 21.7px padding gave 122px, so 14px). border-box so the
+   padding does not push the full-width bar past the viewport. */
+.header .header-inner{ padding:14px 32.6px !important; box-sizing:border-box !important; max-width:100% !important; }
+.header .header-title-logo img{ max-height:64px !important; width:64px !important; height:64px !important; object-fit:contain; }
+
+/* The nav sits in a translucent pill, like www. */
+.header .header-nav{ flex:0 0 auto; }
+.header .header-nav-list{
+  background:var(--rwc-black-50); border:1px solid var(--rwc-white-20);
+  border-radius:999px; padding:6.5px 6.5px 6.5px 14.6px; gap:0; align-items:center;
+}
+.header .header-nav-item{ margin:0 !important; padding:0 !important; }
+.header .header-nav-item > a,
+.header .header-nav-folder-title{
+  color:var(--rwc-white) !important; font-family:var(--rwc-body) !important;
+  font-size:15.17px !important; font-weight:400 !important; letter-spacing:normal !important;
+  text-transform:none !important; padding:6.5px 14.6px !important; border-radius:999px;
+  background:none !important; border:0 !important;
+}
+.header .header-nav-item > a:hover,
+.header .header-nav-item > a:focus-visible{ background:rgba(255,255,255,.12) !important; }
+.header .header-nav-item--active > a{ background:none !important; text-decoration:none !important; }
+.header .header-nav-item > a:after{ display:none !important; }   /* Squarespace underline */
+
+/* Squarespace's header "Button" element becomes the red Donate pill. */
+.header .header-actions-action--cta a,
+.header .header-actions-action--cta .btn,
+.header-menu-cta a, .header-menu-cta .btn{
+  background:var(--rwc-action) !important; color:var(--rwc-white) !important;
+  border:0 !important; border-radius:999px !important; padding:6.5px 14.6px !important;
+  font-family:var(--rwc-body) !important; font-weight:700 !important; font-size:15.17px !important;
+  letter-spacing:normal !important; text-transform:none !important; min-height:0 !important;
+}
+.header .header-actions-action--cta a:hover{ background:var(--rwc-action-d) !important; }
+
+/* Cart and burger icons in white. */
+.header .header-actions-action--cart a,
+.header .icon--cart, .header .cart-quantity, .header .header-burger-btn{ color:var(--rwc-white) !important; }
+.header svg{ stroke:var(--rwc-white) !important; }
+.header .icon--cart svg, .header .icon-cart svg{ fill:none; }
+.header .burger-inner > div{ background-color:var(--rwc-white) !important; }
+
+/* Mobile menu overlay in the same black. */
+.header-menu, .header-menu-bg{ background:var(--rwc-black) !important; }
+.header-menu-nav-item a, .header-menu-nav-folder-content a{
+  color:var(--rwc-white) !important; font-family:var(--rwc-body) !important;
+}
+
+/* ---- Buttons ------------------------------------------------------------- */
+.sqs-add-to-cart-button, .sqs-block-button-element, .sqs-button-element--primary,
+.product-item .sqs-add-to-cart-button, .cart-checkout-button, .sqs-editable-button{
+  background:var(--rwc-action) !important; color:var(--rwc-white) !important;
+  border:0 !important; border-radius:999px !important; min-height:44px;
+  font-family:var(--rwc-body) !important; font-weight:700 !important;
+  letter-spacing:.01em !important; text-transform:none !important;
+}
+.sqs-add-to-cart-button:hover, .sqs-block-button-element:hover,
+.sqs-button-element--primary:hover, .cart-checkout-button:hover{ background:var(--rwc-action-d) !important; }
+.sqs-add-to-cart-button:focus-visible, .sqs-block-button-element:focus-visible{ outline:3px solid var(--rwc-ink); outline-offset:3px; }
+
+/* ---- Product grid and product page -------------------------------------- */
+.products-flex-container .grid-item, .product-list-item{ background:var(--rwc-white); }
+.grid-item .grid-image-wrapper, .product-list-item-image{ border-radius:14px; overflow:hidden; }
+.grid-title, .product-list-item-title{ font-family:var(--rwc-head) !important; color:var(--rwc-ink) !important; letter-spacing:-.01em; }
+.grid-prices, .product-price, .product-price-value, .product-list-item-price{ color:var(--rwc-ink) !important; font-family:var(--rwc-body) !important; font-weight:700; }
+h1.product-title{ font-family:var(--rwc-head) !important; color:var(--rwc-ink) !important; letter-spacing:-.025em; line-height:1.1; }
+.product-description, .product-description p{ color:var(--rwc-ink); font-family:var(--rwc-body); line-height:1.6; }
+.product-gallery-slides img, .ProductItem-gallery-slides img{ border-radius:14px; }
+.variant-select-wrapper select, .product-variants select, .quantity-input input{
+  border:1px solid var(--rwc-border) !important; border-radius:10px !important;
+  min-height:44px; font-family:var(--rwc-body) !important; color:var(--rwc-ink) !important; background:var(--rwc-white) !important;
+}
+
+/* ---- Links inside content ------------------------------------------------ */
+.sqs-block-content a:not(.sqs-block-button-element):not(.btn){
+  color:var(--rwc-ink); text-decoration:none; border-bottom:2px solid var(--rwc-action);
+}
+
+/* ---- Footer: black, like www --------------------------------------------- */
+footer.sections, #footer-sections, footer .page-section, footer .section-background{
+  background:var(--rwc-black) !important;
+}
+footer, footer p, footer h1, footer h2, footer h3, footer h4,
+footer .sqs-block-content, footer a{ color:var(--rwc-white) !important; font-family:var(--rwc-body); }
+footer h1, footer h2, footer h3, footer h4{ font-family:var(--rwc-head) !important; }
+footer a{ border-bottom:0 !important; text-decoration:none !important; opacity:.85; }
+footer a:hover, footer a:focus-visible{ opacity:1; text-decoration:underline !important; }
+
+/* The "Made with Squarespace" badge — nothing on www carries a platform mark. */
+footer a[href*="squarespace.com"], .sqs-made-with-squarespace,
+[data-block-type] a[href*="squarespace.com/?channel"]{ display:none !important; }
+
+/* ---- Cookie banner: match the site's own consent bar -------------------- */
+.sqs-cookie-banner-v2, .sqs-cookie-banner{
+  background:var(--rwc-ink) !important; color:var(--rwc-white) !important;
+  border-top:3px solid #ff0000 !important; font-family:var(--rwc-body) !important;
+}
+.sqs-cookie-banner-v2 p, .sqs-cookie-banner-v2 a{ color:var(--rwc-white) !important; }
+.sqs-cookie-banner-v2 button, .sqs-cookie-banner-v2-accept, .sqs-cookie-banner-v2-decline{
+  background:var(--rwc-white) !important; color:var(--rwc-ink) !important;
+  border:0 !important; border-radius:10px !important; min-height:44px;
+  font-family:var(--rwc-body) !important; font-weight:700 !important; text-transform:none !important;
+}
+
+/* ---- Motion --------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{ animation-duration:.01ms !important; transition-duration:.01ms !important; }
+}
