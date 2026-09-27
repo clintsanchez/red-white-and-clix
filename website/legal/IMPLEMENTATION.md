@@ -114,14 +114,30 @@ and checked on screen; the rename is also confirmed through the Data API.
       agency's `gtempaccount.com` identity, a Google temporary account — a
       single point of failure for the nonprofit's own data.
 
-**Correction to earlier notes:** the Squarespace store at
-`shop.redwhiteandclix.org` carries **no Google tag at all**. Store visits and
-purchases are therefore not measured, whatever the domain settings say — the
-linker in `consent.js` cannot credit a sale nothing is recording. And because
-`www.` and `shop.` share a registrable domain, GA4 would share its cookie across
-them without cross-domain linking anyway. Measuring the store means adding the
-tag in Squarespace, which would also need the store to gate it on consent to
-keep the Cookie Policy true. Not done; a decision for later.
+**Store measurement — added 2026-09-27.** The Squarespace store at
+`shop.redwhiteandclix.org` had no Google tag. It now carries `G-GTE1H95NCS`
+through Squarespace's built-in integration (Developer Tools → External API
+Keys), with the cookie banner on and non-essential cookies set to
+*Restricted*. Verified from outside with cookies cleared:
+
+- **Before any choice:** no `_ga` cookies are set. Squarespace still loads the
+  tag and sends one cookieless ping with consent state `gcs=G1-0` (analytics
+  storage denied). That is Google Consent Mode and cannot be switched off from
+  Squarespace's settings.
+- **After Accept all:** `_ga` and `_ga_GTE1H95NCS` are set on
+  `.redwhiteandclix.org` and pings carry `gcs=G1-1` (granted).
+- **Cookie lifetime: 400 days** (Chrome's cap on GA's two-year default). The
+  main site sets 390 days. Both round to the "13 months" the Cookie Policy
+  states.
+
+The two sites keep separate consent: a choice made on `www` does not carry to
+`shop.`, so a visitor who accepted on one is asked again on the other.
+
+**Policy note, not yet actioned:** the published pages describe the store only
+as a separate Squarespace site with its own cookies. They do not mention that
+it now reports to the same Analytics property, or the cookieless ping it sends
+before a choice. The pages were reviewed, so wording changes are held for
+Clint's decision.
 
 ## 4. Contact form → GoHighLevel
 
