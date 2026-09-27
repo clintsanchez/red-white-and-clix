@@ -90,25 +90,36 @@ Three things cost real time here, recorded so they are not rediscovered:
   unsandboxed JavaScript in the admin window and is not worth taking for a
   server-only plugin.
 
-## 3. GA4 property settings — OVERDUE, analytics is already collecting
+## 3. GA4 property settings — DONE 2026-09-27
 
-Each of these is asserted in the Privacy Policy, which is published and live.
-Until they are set, the policy is making claims the property does not honour:
+Property `556079419`, stream "RWC Website", `G-GTE1H95NCS`. Set in the GA admin
+and checked on screen; the rename is also confirmed through the Data API.
 
-- [ ] **Data retention: 14 months** (default is 2 months — must be changed).
-- [ ] **Google Signals: OFF.**
-- [ ] **Advertising personalisation: OFF.**
-- [ ] **Cookie expiry: 13 months** (`cookie_expires: 33696000`). GA4 default is
-      2 years; the Cookie Policy table says 13 months.
-- [ ] No User-ID and no Measurement Protocol uploads.
-- [ ] No Google Ads link.
-- [ ] Confirm the property is on the nonprofit's own Google account, not an
-      agency account, so the data is theirs.
-- [ ] **Cross-domain measurement**: register both `redwhiteandclix.org` and
-      `shop.redwhiteandclix.org` on the property. `consent.js` sets the linker,
-      but the flag alone does nothing — without the property-side setting every
-      trip to the store is logged as an exit plus a new referral session, and
-      no purchase is ever credited to the campaign that earned it.
+- [x] **Google Signals: OFF** — was already off.
+- [x] **Ads personalisation: disallowed in 0 of 307 regions.** Was *allowed in
+      all 307*. The tag already sent `allow_ad_personalization_signals: false`,
+      but the Privacy Policy says personalisation is disabled, so the property
+      now matches the words.
+- [x] **User-provided data collection: OFF** — was already off.
+- [x] **Event data retention: 14 months** — was the 2-month default. User data
+      was already 14.
+- [x] **No Google Ads links.**
+- [x] **Domains: `Ends with redwhiteandclix.org`.** Google had suggested an
+      *exact* match on the bare domain, which matches neither `www.` nor
+      `shop.` — the hosts actually in use.
+- [x] Renamed from "Red White and Clix Email" to "Red White and Clix — Website".
+- [x] Time zone `America/New_York`, currency USD — correct as created.
+- [ ] **Add Wesley as an administrator.** The property was created on
+      2026-09-26 by the agency; the data should be the nonprofit's.
+
+**Correction to earlier notes:** the Squarespace store at
+`shop.redwhiteandclix.org` carries **no Google tag at all**. Store visits and
+purchases are therefore not measured, whatever the domain settings say — the
+linker in `consent.js` cannot credit a sale nothing is recording. And because
+`www.` and `shop.` share a registrable domain, GA4 would share its cookie across
+them without cross-domain linking anyway. Measuring the store means adding the
+tag in Squarespace, which would also need the store to gate it on consent to
+keep the Cookie Policy true. Not done; a decision for later.
 
 ## 4. Contact form → GoHighLevel
 
