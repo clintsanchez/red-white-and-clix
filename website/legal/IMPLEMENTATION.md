@@ -1,17 +1,17 @@
 # What must be true before the rewritten policies can be published
 
-> **STATUS 2026-09-26 — LAUNCH POSTURE CHANGED.** Clint is shipping the site
-> before GA4 and before any contact form. So the policies were rewritten *again*
-> to describe the site as it actually is at launch: **no cookies, no analytics,
-> no form, nothing third-party.** The consent banner is built and tested but
-> **dormant** — `consent.js` returns early while `GA_MEASUREMENT_ID` is empty, so
-> no banner renders and the footer "Cookie settings" control is hidden.
+> **STATUS 2026-09-27 — ANALYTICS IS LIVE.** GA4 `G-GTE1H95NCS` is firing on
+> `www.redwhiteandclix.org`, behind the consent banner, confirmed in Google
+> Analytics Realtime and verified independently in a browser: before Accept
+> there is no `googletagmanager` request, no `dataLayer` and no beacon; after
+> Accept the tag loads and one collect beacon is sent. The choice persists as
+> `rwc-consent: granted`.
 >
-> That makes section 1 below satisfied-but-inactive. **Setting the measurement
-> ID switches the banner on by itself**, which is exactly when the rest of this
-> list becomes due again — sections 2, 3 and 4 are still outstanding, and the
-> Privacy and Cookie pages must be switched back to the analytics wording in the
-> same change. Both pages currently end with a sentence promising that.
+> Sections 1 and 2 are done. **Sections 3 and 4 are now overdue, not pending** —
+> the Privacy and Cookie pages still say the site runs no analytics, and that
+> is false as of today. Both pages promise in writing that they would be
+> updated *before* tracking went live, not after. Fixing that wording is the
+> next thing that happens on this file.
 
 The rewritten Privacy and Cookie policies make specific, checkable promises.
 Publishing them before these are implemented would make the pages false, which
@@ -42,33 +42,58 @@ script and the real published CSS in a browser, not by reading the code:
       `allow_google_signals: false`, `allow_ad_personalization_signals: false`,
       `cookie_expires: 33696000` (13 months) and `anonymize_ip: true`.
 
-**`GA_MEASUREMENT_ID` is still empty**, so Accept currently records the choice
-and loads nothing. That is deliberate — it keeps the build order the policies
-promise. Setting it is step 3 below, and is NOT sufficient on its own without
-step 2.
+**`GA_MEASUREMENT_ID` is set to `G-GTE1H95NCS`** as of 2026-09-27, and a
+cross-domain linker covers `redwhiteandclix.org` and `shop.redwhiteandclix.org`.
+The linker flag alone is not enough: both hosts must also be registered on the
+GA4 property, or every journey to the store is logged as a referral and no
+purchase is credited to what earned it. See section 3.
 
-## 2. Content Security Policy — still open, and it is a plugin job
+## 2. Content Security Policy — DONE 2026-09-27, via `blaksheep.csp` v1.0.2
 
 There is **no CSP site setting**. `/admin/api/cms/site` has no such field; the
 publisher hardcodes the meta tag. Changing it means a `publish.html` filter,
 the same hook `plugins/blaksheep-seo` already uses to rewrite published HTML.
 Do not bolt it onto the SEO plugin — it needs its own small plugin.
 
-Current meta CSP is `default-src 'self'; script-src 'self'` — **this blocks GA4
-outright.** It must be loosened, minimally:
+Built as `website/instatic/plugins/blaksheep-csp` and installed as
+`blaksheep.csp` v1.0.2, permissions `["cms.hooks"]` only. The published policy
+is now:
 
 ```
-script-src 'self' https://www.googletagmanager.com;
-connect-src 'self' https://www.google-analytics.com https://*.analytics.google.com https://*.google-analytics.com;
-img-src 'self' data: https:;
+script-src  'self' https://www.googletagmanager.com
+connect-src 'self' https://www.google-analytics.com https://*.analytics.google.com
+                   https://*.google-analytics.com https://*.googletagmanager.com
 ```
 
-Loosen no further than needed. Do **not** add `'unsafe-inline'` to `script-src`
-to make a GTM snippet work — use an external file or a nonce.
+Nothing else widened, and `'unsafe-inline'` is never added — `consent.js` is an
+external file and needs none.
 
-## 3. GA4 property settings
+**An `allowAnalytics` setting turns the whole rewrite off**; switch it to Off
+and republish to restore the self-only policy. That is the rollback, and it has
+already been used in anger.
 
-Each of these is asserted in the Privacy Policy and must match:
+Three things cost real time here, recorded so they are not rediscovered:
+
+- **v1.0.0 broke the live site.** The regex was `content=["']([^"']*)["']`, and
+  a CSP value contains `'self'`, so it captured only `default-src ` and emitted
+  a policy with an empty `default-src` and `script-src` twice. Browsers honour
+  the *first* occurrence of a directive, so the site's own JavaScript was
+  blocked for every visitor until the kill switch was flipped. The filter now
+  refuses to emit anything containing a duplicate or empty directive.
+- **v1.0.1 installed clean and did nothing.** It reported active with no error
+  across two publishes. The cause was a named export alongside the default;
+  Instatic decides whether a module is a plugin by sniffing the default export,
+  so `activate()` never ran. Export a default and nothing else.
+- **The manifest is `plugin.json`,** `author` is `{name, url}` not a string,
+  setting `type` is a closed union that excludes `boolean`, and declaring an
+  `entrypoints.editor` demands the `editor.code` permission — which grants
+  unsandboxed JavaScript in the admin window and is not worth taking for a
+  server-only plugin.
+
+## 3. GA4 property settings — OVERDUE, analytics is already collecting
+
+Each of these is asserted in the Privacy Policy, which is published and live.
+Until they are set, the policy is making claims the property does not honour:
 
 - [ ] **Data retention: 14 months** (default is 2 months — must be changed).
 - [ ] **Google Signals: OFF.**
@@ -79,6 +104,11 @@ Each of these is asserted in the Privacy Policy and must match:
 - [ ] No Google Ads link.
 - [ ] Confirm the property is on the nonprofit's own Google account, not an
       agency account, so the data is theirs.
+- [ ] **Cross-domain measurement**: register both `redwhiteandclix.org` and
+      `shop.redwhiteandclix.org` on the property. `consent.js` sets the linker,
+      but the flag alone does nothing — without the property-side setting every
+      trip to the store is logged as an exit plus a new referral session, and
+      no purchase is ever credited to the campaign that earned it.
 
 ## 4. Contact form → GoHighLevel
 
