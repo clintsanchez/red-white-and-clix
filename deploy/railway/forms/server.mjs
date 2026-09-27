@@ -213,7 +213,10 @@ export const server = http.createServer(async (req, res) => {
 
   const v = validate(kind, body);
   if (!v.ok) return html ? back(false) : send(res, 422, v.error ? { error: v.error } : { errors: v.errors });
-  if (!PIT || !LOC) return send(res, 503, { error: "Form service is not configured yet." });
+  if (!PIT || !LOC) {
+    console.error(JSON.stringify({ kind, result: "not-configured" }));
+    return html ? back(false) : send(res, 503, { error: "We could not send that just now. Please email redwhiteandclix@gmail.com or call (574) 265-9585." });
+  }
 
   try {
     await submit(kind, body);
