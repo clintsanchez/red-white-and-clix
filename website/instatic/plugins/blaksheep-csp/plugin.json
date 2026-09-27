@@ -12,8 +12,7 @@
     "cms.hooks"
   ],
   "entrypoints": {
-    "server": "server/index.js",
-    "editor": "editor/index.js"
+    "server": "server/index.js"
   },
   "resources": [],
   "adminPages": [],
