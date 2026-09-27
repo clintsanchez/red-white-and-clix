@@ -72,8 +72,31 @@ Sitemap: https://www.redwhiteandclix.org/sitemap.xml
 			# needs to see the public scheme rather than the plain HTTP hop
 			# from Railway.
 			header_up X-Forwarded-Proto https
+
+			# Instatic answers an unknown path with 21 bytes of JSON:
+			# {"error":"Not found"}. A visitor who mistypes a URL, or follows
+			# one of the old Squarespace links, gets raw JSON with no way back
+			# to the site. Swap the body for a real page and keep the 404.
+			# Hand upstream 404s to Caddy's own error handling rather than
+			# rendering the page here. Serving the file inside handle_response
+			# answers 200, which turns the error page into a soft 404 that
+			# Google indexes; going through handle_errors keeps the 404.
+			@notfound status 404
+			handle_response @notfound {
+				error 404
+			}
 		}
 	}
 
 	encode gzip
+
+	# Instatic answers an unknown path with 21 bytes of JSON:
+	# {"error":"Not found"}. A visitor who mistypes a URL, or follows one of
+	# the old Squarespace links, would get raw JSON and no way back.
+	handle_errors {
+		root * /srv
+		rewrite * /404.html
+		header Content-Type "text/html; charset=utf-8"
+		file_server
+	}
 }
