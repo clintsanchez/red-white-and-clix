@@ -114,6 +114,52 @@ footer h1, footer h2, footer h3, footer h4{ font-family:var(--rwc-head) !importa
 footer a{ border-bottom:0 !important; text-decoration:none !important; opacity:.85; }
 footer a:hover, footer a:focus-visible{ opacity:1; text-decoration:underline !important; }
 
+/* Footer columns laid out like www. The ids are the footer's own text blocks
+   (brand / Explore heading / Explore links / Get in touch / legal bar). */
+footer .fe-block h4{
+  font-family:var(--rwc-body) !important; font-size:15px !important; font-weight:700 !important;
+  letter-spacing:.2em !important; text-transform:none !important; line-height:1.4 !important;
+  color:rgba(255,255,255,.6) !important; margin:0 0 14px !important; text-align:left !important;
+}
+footer .fe-block-d4fb9e2cfae4e566a72d h4{
+  font-family:var(--rwc-head) !important; font-size:24px !important; font-weight:400 !important;
+  letter-spacing:0 !important; color:var(--rwc-white) !important;
+}
+footer .fe-block-d4fb9e2cfae4e566a72d strong{ letter-spacing:.2em; }
+footer .fe-block p{ font-size:15px !important; line-height:1.6 !important; text-align:left !important; }
+footer .fe-block-yui_3_17_2_1_1774134569731_12694 p{ line-height:2.3 !important; }
+footer .fe-block h4 span{ color:inherit !important; }
+footer a[href$="/register"]{
+  display:inline-block; background:var(--rwc-action); border-radius:999px;
+  padding:10px 16px; font-weight:700; opacity:1;
+}
+footer a[href$="/register"]:hover{ background:var(--rwc-action-d); text-decoration:none !important; }
+footer .fe-block-e29d4be433605929639d{ border-top:1px solid rgba(255,255,255,.15); padding-top:24px; }
+footer .fe-block-e29d4be433605929639d p{ color:rgba(255,255,255,.8) !important; }
+
+/* Footer grid: Squarespace's 24-column cells replaced with www's three columns
+   and a full-width bar, so the layout does not depend on where blocks sit in the editor.
+   Longhands only: Squarespace compiles this as LESS, which turns 1/1/4/2 into division. */
+footer .fluid-engine{
+  display:grid !important; grid-template-columns:42fr 31fr 27fr !important;
+  grid-template-rows:auto auto 1fr auto !important; gap:0 !important;
+  max-width:1200px; margin:0 auto; padding:64px 24px 48px; box-sizing:border-box;
+}
+footer .fe-block-d4fb9e2cfae4e566a72d{ grid-row-start:1 !important; grid-column-start:1 !important; grid-row-end:4 !important; grid-column-end:2 !important; }
+footer .fe-block-a80a0e21adcc0c589db3{ grid-row-start:1 !important; grid-column-start:2 !important; grid-row-end:2 !important; grid-column-end:3 !important; }
+footer .fe-block-yui_3_17_2_1_1774134569731_12694{ grid-row-start:2 !important; grid-column-start:2 !important; grid-row-end:4 !important; grid-column-end:3 !important; }
+footer .fe-block-318502a272bd9e050172{ grid-row-start:1 !important; grid-column-start:3 !important; grid-row-end:4 !important; grid-column-end:4 !important; }
+footer .fe-block-e29d4be433605929639d{ grid-row-start:4 !important; grid-column-start:1 !important; grid-row-end:5 !important; grid-column-end:4 !important; margin-top:48px; }
+footer .fluid-engine .fe-block{ height:auto !important; }
+@media (max-width:767px){
+  footer .fluid-engine{ display:flex !important; flex-direction:column; padding:48px 24px 40px; }
+  footer .fe-block-d4fb9e2cfae4e566a72d{ order:1; }
+  footer .fe-block-a80a0e21adcc0c589db3{ order:2; margin-top:40px; }
+  footer .fe-block-yui_3_17_2_1_1774134569731_12694{ order:3; }
+  footer .fe-block-318502a272bd9e050172{ order:4; margin-top:40px; }
+  footer .fe-block-e29d4be433605929639d{ order:5; margin-top:40px; }
+}
+
 /* The "Made with Squarespace" badge — nothing on www carries a platform mark. */
 footer a[href*="squarespace.com"], .sqs-made-with-squarespace,
 [data-block-type] a[href*="squarespace.com/?channel"]{ display:none !important; }

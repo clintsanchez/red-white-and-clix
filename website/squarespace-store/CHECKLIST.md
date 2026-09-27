@@ -1,9 +1,13 @@
 # Make the store match www — Squarespace steps (Basic plan)
 
 Everything below is done in the store's Squarespace admin
-(`arugula-lily-jaaz.squarespace.com/config`). The automated session was
-stopped by a permission check before these could be applied, so they are
-listed in order for a person to do.
+(`arugula-lily-jaaz.squarespace.com/config`).
+
+**Status 2026-09-27:** steps 1–7 are applied and verified on the live store.
+One item is left for a person: the old **Veteran Resources folder**, which
+holds "List of Resources" → `/home#veteraninformation`, is still in Main
+Navigation. It shows as a second "Veteran Resources" in the nav. Drag it to
+Not Linked or delete it. The automated session could not do either.
 
 ## 1. Custom CSS
 Website → Pages → Website Tools → **Custom CSS**. Replace the contents with
@@ -75,6 +79,13 @@ Edit the footer section so its text matches www. Three columns plus a bar:
 
 Remove the old "Founded by disabled Army National Guard veteran…" block.
 Colours and fonts come from the CSS; only the words and links need changing.
+
+Applied: the five existing text blocks were rewritten in place (brand,
+Explore heading, Explore links, Get in touch, legal bar). `custom-css.css`
+positions them by block id in www's three-column grid, so moving the blocks
+in the editor does not change the live layout. If a block is deleted and
+re-added, its id changes and the footer rules in `custom-css.css` need the
+new id.
 
 ## What cannot match on Basic
 - **Mobile menu**: Squarespace's own overlay, restyled black, not the www burger.
