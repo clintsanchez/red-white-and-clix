@@ -64,7 +64,7 @@ function isSane(parts) {
   return true;
 }
 
-export function rewritePolicy(policy) {
+function rewritePolicy(policy) {
   const parts = parse(policy);
   if (!isSane(parts)) return null;
   addSources(parts, "script-src", SCRIPT_SRC);
