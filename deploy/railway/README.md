@@ -142,3 +142,25 @@ minutes up to 24 hours.
 - Canonical tags point at `https://www.redwhiteandclix.org`, so search engines
   should prefer the real site over this copy — but that is a hint, not a block.
   Add robots rules (RWC-27) before sharing the URL widely.
+
+## PUBLIC_ORIGIN — changed 2026-09-27
+
+`cms` now carries `PUBLIC_ORIGIN=https://www.redwhiteandclix.org`. It was
+still the staging URL after the domain cutover, which made Instatic reject
+anything posted from the real domain with **"Forbidden: invalid origin"** —
+admin login on `www`, and any future contact form.
+
+**The check flips both ways.** Admin writes are now accepted only from
+`www.redwhiteandclix.org`. The staging URL still serves and still reads, but
+saving there fails with the same error. All admin work belongs on `www` now;
+that is the point.
+
+Two things that wasted time and are worth knowing:
+
+- Setting the variable triggers a rebuild, and the **old container keeps
+  serving until it finishes**. Testing the origin immediately after the CLI
+  returns shows the old behaviour and looks like the change failed. Watch
+  `railway deployment list --service cms` for SUCCESS before testing.
+- Distinguish the two failures by status: **403 `invalid origin`** means the
+  host check rejected it; **401** means it reached authentication and the
+  credentials were wrong. Going from 403 to 401 is the fix working.
