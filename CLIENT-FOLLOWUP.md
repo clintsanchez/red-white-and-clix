@@ -148,3 +148,24 @@ Needs a decision from Clint, not from Wesley:
   have been on his social accounts and the current website for two years with no
   complaint, and he will announce the photographer at the November event so people can
   opt out. Reasonable basis, accepted. The Privacy Policy removal route stands as backstop.
+
+## Backlog — parked 2026-09-27, waiting on more feedback
+
+Forms, GHL and the confirmation pages are live. Nothing below is started; pick them up
+when Wesley or Clint gives the word.
+
+- **Nominate form.** Server route exists (`deploy/railway/forms/server.mjs`, kind
+  `nominate`) but no form is on the site. Needs Wesley to say what a nomination leads to
+  (who can be nominated, for what, who reviews it) before any copy is written.
+- **End-to-end tests of Contact, Sponsor and Volunteer.** Only Newsletter has been tested
+  live. Each of the others emails Wesley an alert, so warn him first or get Clint's OK.
+- **Wesley's GHL login.** His temporary password is in
+  `GHL-Toolkit/audit/rwc_new_users_2026-09-27.txt`. It has not been sent to him.
+- **DMARC to quarantine.** `_dmarc` is `p=none` (see `deploy/dns/ghl-sending-domain.md`).
+  Tighten once GHL sending has run clean for a few weeks. Squarespace DNS changes need the
+  SMS code to Wesley's phone.
+- **SMS alerts.** Alerts are email-only for now. Adding SMS needs an LC phone number and
+  A2P 10DLC registration in the RWC sub-account.
+- **GA4 `form_submitted` key event.** Created 2026-09-27 (page_view where URL contains
+  `/thank-you/`). Check it records after the first real submission. It only counts
+  visitors who accept cookies, so it undercounts against GHL.
