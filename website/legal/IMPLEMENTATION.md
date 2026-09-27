@@ -133,11 +133,11 @@ Keys), with the cookie banner on and non-essential cookies set to
 The two sites keep separate consent: a choice made on `www` does not carry to
 `shop.`, so a visitor who accepted on one is asked again on the other.
 
-**Policy note, not yet actioned:** the published pages describe the store only
-as a separate Squarespace site with its own cookies. They do not mention that
-it now reports to the same Analytics property, or the cookieless ping it sends
-before a choice. The pages were reviewed, so wording changes are held for
-Clint's decision.
+**Policies updated the same day.** The Privacy Policy's analytics paragraph and
+its merchandise row now say the store reports to the same Analytics account
+behind its own banner. The Cookie Policy gained a paragraph saying the store's
+banner is separate, that Squarespace sends a basic not-consented signal before
+a choice, and that accepting there sets the same two cookies.
 
 ## 4. Contact form → GoHighLevel
 
