@@ -154,7 +154,8 @@ Needs a decision from Clint, not from Wesley:
 Forms, GHL and the confirmation pages are live. Nothing below is started; pick them up
 when Wesley or Clint gives the word.
 
-- **Nominate form.** Server route exists (`deploy/railway/forms/server.mjs`, kind
+- **Nominate form — PINNED by Wesley 2026-09-27.** He has ideas but wants to think and
+  talk to the board first. Do not chase. Server route exists (`deploy/railway/forms/server.mjs`, kind
   `nominate`) but no form is on the site. Needs Wesley to say what a nomination leads to
   (who can be nominated, for what, who reviews it) before any copy is written.
 - **End-to-end tests of Contact, Sponsor and Volunteer.** Only Newsletter has been tested
@@ -169,3 +170,11 @@ when Wesley or Clint gives the word.
 - **GA4 `form_submitted` key event.** Created 2026-09-27 (page_view where URL contains
   `/thank-you/`). Check it records after the first real submission. It only counts
   visitors who accept cookies, so it undercounts against GHL.
+
+**Wesley's reply 2026-09-27 (RWC Brainstorm thread):** passwords were one temporary
+password on purpose; second Gmail was a failed Microsoft attempt; still a Google for
+Nonprofits admin (confirmed); CRM walkthrough whenever Clint is ready. **New, unanswered:**
+(a) does brand identity (fonts, colours, recognisable look) count as marketing and can
+Clint help; (b) his view of the logo and the "official OG logo + allowed variants" policy,
+including a G.I. Joe variant the board likes. G.I. Joe is a Hasbro trademark: advise
+before any variant is used publicly.
