@@ -10,6 +10,13 @@
 // Scope is deliberately narrow. Only script-src and connect-src change, and
 // only by the exact hosts GA needs. 'unsafe-inline' is never added: consent.js
 // is an external file and needs no inline execution.
+//
+// THE TRAP, learned the hard way: the policy value contains single quotes
+// ('self'), so a content=["']([^"']*)["'] pattern captures only "default-src "
+// and mangles everything after it. A mangled policy is worse than no plugin —
+// a duplicated directive means the browser honours the FIRST one, so a broken
+// script-src silently blocks the site's own JavaScript. Match the double-quoted
+// attribute only, and verify the result before returning it.
 
 const SCRIPT_SRC = ["https://www.googletagmanager.com"];
 const CONNECT_SRC = [
@@ -19,44 +26,70 @@ const CONNECT_SRC = [
   "https://*.googletagmanager.com"
 ];
 
-function addSources(policy, directive, sources, fallbackFrom) {
-  const parts = policy.split(";").map((p) => p.trim()).filter(Boolean);
-  const idx = parts.findIndex((p) => p.split(/\s+/)[0].toLowerCase() === directive);
-  if (idx === -1) {
-    // The directive is absent, so it currently inherits default-src. Spell it
-    // out rather than loosening default-src, which would widen everything.
-    const base = parts.find((p) => p.split(/\s+/)[0].toLowerCase() === fallbackFrom);
-    const inherited = base ? base.split(/\s+/).slice(1).join(" ") : "'self'";
-    parts.push(`${directive} ${inherited} ${sources.join(" ")}`.trim());
-    return parts.join("; ") + ";";
+const CSP_META = /(<meta[^>]*http-equiv="Content-Security-Policy"[^>]*content=")([^"]*)("[^>]*>)/i;
+
+function parse(policy) {
+  return policy.split(";").map((p) => p.trim()).filter(Boolean).map((p) => {
+    const bits = p.split(/\s+/);
+    return { name: bits[0].toLowerCase(), sources: bits.slice(1) };
+  });
+}
+
+function serialise(parts) {
+  return parts.map((p) => [p.name].concat(p.sources).join(" ")).join("; ") + ";";
+}
+
+function addSources(parts, name, sources) {
+  const found = parts.find((p) => p.name === name);
+  if (found) {
+    sources.forEach((s) => { if (!found.sources.includes(s)) found.sources.push(s); });
+    return parts;
   }
-  const existing = parts[idx].split(/\s+/).slice(1);
-  const merged = existing.concat(sources.filter((s) => !existing.includes(s)));
-  parts[idx] = `${directive} ${merged.join(" ")}`;
-  return parts.join("; ") + ";";
+  // Absent, so it currently inherits default-src. Spell it out rather than
+  // widening default-src, which would loosen every other fetch type too.
+  const base = parts.find((p) => p.name === "default-src");
+  const inherited = base && base.sources.length ? base.sources.slice() : ["'self'"];
+  parts.push({ name, sources: inherited.concat(sources) });
+  return parts;
+}
+
+// Refuse to emit anything that is not obviously safe. Any of these means the
+// parse went wrong, and the original policy is always the safer answer.
+function isSane(parts) {
+  if (!parts.length) return false;
+  const names = parts.map((p) => p.name);
+  if (new Set(names).size !== names.length) return false;      // duplicate directive
+  if (parts.some((p) => p.sources.length === 0)) return false;  // empty directive
+  if (!names.includes("default-src")) return false;
+  return true;
+}
+
+export function rewritePolicy(policy) {
+  const parts = parse(policy);
+  if (!isSane(parts)) return null;
+  addSources(parts, "script-src", SCRIPT_SRC);
+  addSources(parts, "connect-src", CONNECT_SRC);
+  if (!isSane(parts)) return null;
+  return serialise(parts);
 }
 
 export default {
   async activate(api) {
     api.cms.hooks.filter("publish.html", async (html) => {
-      // Settings can come back as a real boolean or as a string depending on
-      // how the admin form serialises them, so test for every "off" spelling
-      // rather than trusting one. Defaulting to on matches the manifest.
       const allow = api.cms.settings.get("allowAnalytics");
       if (allow === false || allow === "false" || allow === "off" || allow === 0) return html;
 
-      const re = /(<meta[^>]*http-equiv=["']Content-Security-Policy["'][^>]*content=["'])([^"']*)(["'][^>]*>)/i;
-      const m = html.match(re);
+      const m = html.match(CSP_META);
       if (!m) {
-        // No meta to rewrite. Do not invent one: a CSP this plugin authored
-        // from nothing could break a page it knows nothing about.
         api.plugin.log("[blaksheep.csp] no CSP meta tag found; left untouched");
         return html;
       }
-      let policy = m[2];
-      policy = addSources(policy, "script-src", SCRIPT_SRC, "default-src");
-      policy = addSources(policy, "connect-src", CONNECT_SRC, "default-src");
-      return html.replace(re, `$1${policy}$3`);
+      const next = rewritePolicy(m[2]);
+      if (!next) {
+        api.plugin.log("[blaksheep.csp] policy failed sanity check; left untouched:", m[2]);
+        return html;
+      }
+      return html.replace(CSP_META, `$1${next}$3`);
     });
     api.plugin.log("[blaksheep.csp] publish.html filter registered");
   }
