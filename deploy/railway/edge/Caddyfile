@@ -58,6 +58,19 @@ Sitemap: https://www.redwhiteandclix.org/sitemap.xml
 		@storeproduct path /shop/p/*
 		redir @storeproduct https://shop.redwhiteandclix.org{uri} permanent
 
+		# Website forms -> the `forms` service (deploy/railway/forms), which
+		# upserts the contact into GoHighLevel. Private network only; the GHL
+		# key lives on that service, never in this public repository.
+		@forms path /api/forms/*
+		handle @forms {
+			reverse_proxy {$FORMS_UPSTREAM:forms.railway.internal:8080} {
+				# {remote_host} is Railway's proxy, not the visitor, so forward the
+				# client address Railway supplies; the service rate-limits on it.
+				header_up X-Real-IP {http.request.header.X-Real-IP}
+				header_up X-Forwarded-For {http.request.header.X-Forwarded-For}
+			}
+		}
+
 		# Static file baked into the image; see srv/sitemap.xml for why it is
 		# not generated.
 		@sitemap path /sitemap.xml

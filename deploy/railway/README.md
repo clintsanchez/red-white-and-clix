@@ -20,6 +20,7 @@ itself (`serviceInstanceUpdate { dockerfilePath }`) rather than in a
 | --- | --- | --- |
 | `site` | `deploy/railway/edge/Dockerfile` | Caddy; holds the public domain, gates the admin |
 | `cms` | `deploy/railway/Dockerfile` | Instatic; private network only |
+| `forms` | `deploy/railway/forms/Dockerfile` | Website form endpoint → GoHighLevel; private network only, reached by the edge at `/api/forms/*` |
 
 **The image is stateless.** All content — pages, plugins, media, the SEO
 records — lives on the Railway volume at `/vol`, because `DATABASE_URL` and
@@ -164,3 +165,25 @@ Two things that wasted time and are worth knowing:
 - Distinguish the two failures by status: **403 `invalid origin`** means the
   host check rejected it; **401** means it reached authentication and the
   credentials were wrong. Going from 403 to 401 is the fix working.
+
+## Website forms (`forms` service)
+
+The site's own forms POST to `/api/forms/<kind>` (contact, sponsor,
+newsletter, volunteer, nominate). The edge proxies that path to
+`forms.railway.internal:8080` (override with `FORMS_UPSTREAM` on `site`).
+`deploy/railway/forms/server.mjs` validates, drops spam (honeypot + a 3-second
+minimum fill time + 6 submissions per IP per 10 minutes), normalises phone
+numbers to E.164, upserts the contact into the RWC GoHighLevel sub-account and
+removes-then-adds a `web-form-<kind>` tag. That tag triggers the matching
+"Form - ..." workflow in GHL, so website and native GHL submissions run the
+same automation.
+
+| Variable (on `forms`) | Value |
+| --- | --- |
+| `GHL_PIT` | RWC Private Integration token — Railway only, never in git |
+| `GHL_LOCATION_ID` | `yNbQAVmIAdetff2yf45O` |
+| `PORT` | `8080` |
+| `ALLOWED_ORIGINS` | optional; defaults to the two redwhiteandclix.org origins |
+
+Without `GHL_PIT` the service answers 503 and the site shows its fallback
+message. Test locally with `node deploy/railway/forms/test.mjs` (mock GHL).
