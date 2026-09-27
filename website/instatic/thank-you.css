@@ -9,3 +9,4 @@
 .rwc-ty-btn:hover, .rwc-ty-btn:focus-visible { background-color: var(--rwc-action-d-1); }
 .rwc-ty-link { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 4px; color: var(--rwc-white); font-weight: 700; font-size: var(--text-s); text-decoration-line: none; border-bottom: 2px solid var(--rwc-logo-red); }
 @media (max-width: 767px) { .rwc-ty { padding: var(--space-2xl) var(--space-m); min-height: 50vh; } }
+.rwc-ty-inline { color: var(--rwc-white); font-weight: 700; text-decoration-line: underline; text-decoration-color: var(--rwc-logo-red); text-underline-offset: 3px; }
