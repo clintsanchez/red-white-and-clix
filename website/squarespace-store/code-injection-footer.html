@@ -1,0 +1,106 @@
+<!-- Red, White, and Clix — store chrome. Squarespace → Settings → Developer Tools → Code Injection → FOOTER.
+     Header and footer markup copied from www.redwhiteandclix.org; every link returns to the main site. -->
+<template id="rwc-store-chrome">
+<header class="rwc-head" id="rwc-store-head">
+  <a class="rwc-brand" href="https://www.redwhiteandclix.org/" aria-label="Red, White, and Clix — home"><img class="rwc-brand-mark" src="https://www.redwhiteandclix.org/uploads/n_7xRxaoT7-1YEhiK12oD-rwc-logo-w64.webp" srcset="https://www.redwhiteandclix.org/uploads/n_7xRxaoT7-1YEhiK12oD-rwc-logo-w64.webp 64w, https://www.redwhiteandclix.org/uploads/n_7xRxaoT7-1YEhiK12oD-rwc-logo-w192.webp 192w" sizes="64px" width="64" height="64" alt="Red, White, and Clix — home"></a>
+  <div class="rwc-head-right">
+    <button class="rwc-burger" aria-controls="rwc-primary-nav" aria-expanded="false" data-rwc-burger="1" type="button"><span class="rwc-burger-label">Menu</span></button>
+    <nav class="rwc-nav" aria-label="Primary" id="rwc-primary-nav">
+      <a class="rwc-nav-link" href="https://www.redwhiteandclix.org/events">Events</a>
+      <a class="rwc-nav-link" href="https://www.redwhiteandclix.org/mission">Our Mission</a>
+      <a class="rwc-nav-link" href="https://www.redwhiteandclix.org/resources">Veteran Resources</a>
+      <a class="rwc-nav-link" href="/shop" aria-current="page">Shop</a>
+      <a class="rwc-nav-link" href="https://www.redwhiteandclix.org/support">Support Us</a>
+      <a class="rwc-nav-donate" href="https://www.redwhiteandclix.org/donate">Donate</a>
+    </nav>
+    <a class="rwc-cart" href="/cart" aria-label="Cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="rwc-cart-count" data-rwc-cart-count></span></a>
+  </div>
+</header>
+<footer class="rwc-foot" id="rwc-store-foot"><div class="rwc-foot-inner"><div class="rwc-foot-brand"><p class="rwc-foot-name">Red, White, and Clix</p><p class="rwc-foot-line">A veteran-founded tabletop event community.</p><p class="rwc-foot-tag">One Community. One Mission.</p></div><div class="rwc-foot-col"><p class="rwc-foot-head">Explore</p><a class="rwc-foot-link" href="https://www.redwhiteandclix.org/events">Events</a><a class="rwc-foot-link" href="https://www.redwhiteandclix.org/mission">Our Mission</a><a class="rwc-foot-link" href="https://www.redwhiteandclix.org/founder">Founder’s Story</a><a class="rwc-foot-link" href="https://www.redwhiteandclix.org/resources">Veteran Resources</a><a class="rwc-foot-link" href="/shop">Shop</a><a class="rwc-foot-link" href="https://www.redwhiteandclix.org/support">Support Us</a></div><div class="rwc-foot-col"><p class="rwc-foot-head">Get in touch</p><a class="rwc-foot-link" href="mailto:redwhiteandclix@gmail.com">redwhiteandclix@gmail.com</a><a class="rwc-foot-link" href="tel:+15742659585">(574) 265-9585</a><a class="rwc-foot-cta" href="https://www.redwhiteandclix.org/register">Register for Nov 7–8</a></div></div><p class="rwc-foot-legal">Red, White, and Clix is a veteran-founded nonprofit. Events raise awareness and support for veteran-focused causes.</p><div class="rwc-foot-bar"><p class="rwc-foot-copy">© <span data-rwc-year>2026</span> Red, White, and Clix</p><nav class="rwc-foot-policies" aria-label="Policies"><a class="rwc-foot-policy" href="https://www.redwhiteandclix.org/privacy-policy">Privacy</a><a class="rwc-foot-policy" href="https://www.redwhiteandclix.org/terms-and-conditions">Terms</a><a class="rwc-foot-policy" href="https://www.redwhiteandclix.org/accessibility">Accessibility</a><a class="rwc-foot-policy" href="https://www.redwhiteandclix.org/cookie-policy">Cookies</a><a class="rwc-foot-policy" href="https://www.redwhiteandclix.org/disclaimer">Disclaimer</a><a class="rwc-foot-policy" href="https://www.redwhiteandclix.org/sitemap">Sitemap</a></nav><p class="rwc-foot-credit"><span class="rwc-foot-credit-label">Presented by</span><a class="rwc-foot-credit-link" href="https://blaksheepcreative.com/services/web-design-development/nonprofit-ngo/" target="_blank" rel="noopener noreferrer"><img class="rwc-foot-credit-logo" src="https://www.redwhiteandclix.org/uploads/rwc/blaksheep-creative-white-horizontal-logo.webp" alt="BlakSheep Creative" loading="lazy" decoding="async"></a></p></div></footer>
+</template>
+<script>
+(function(){
+  "use strict";
+  // Place the live site's header first in <body> and its footer last.
+  function mount(){
+    var tpl=document.getElementById("rwc-store-chrome");
+    if(!tpl || document.getElementById("rwc-store-head")) return;
+    var frag=tpl.content.cloneNode(true);
+    var head=frag.getElementById ? frag.getElementById("rwc-store-head") : frag.querySelector("#rwc-store-head");
+    var foot=frag.querySelector("#rwc-store-foot");
+    document.body.insertBefore(head, document.body.firstChild);
+    document.body.appendChild(foot);
+    var y=document.querySelector("#rwc-store-foot [data-rwc-year]"); if(y) y.textContent=new Date().getFullYear();
+    syncCart();
+  }
+  // Mirror Squarespace's own cart count into our cart link.
+  function syncCart(){
+    var el=document.querySelector("[data-rwc-cart-count]"); if(!el) return;
+    var n=0;
+    try{
+      var src=document.querySelector(".sqs-cart-quantity, .cart-quantity, .icon-cart-quantity");
+      if(src) n=parseInt(src.textContent,10)||0;
+    }catch(e){}
+    el.textContent=n>0?String(n):"";
+  }
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",mount); else mount();
+  document.addEventListener("click",function(){ setTimeout(syncCart,800); });
+})();
+</script>
+<script>
+// src/scripts/mobile-nav.js
+(function() {
+  "use strict";
+  var MOBILE = "(max-width: 900px)";
+  function init() {
+    var burger = document.querySelector("[data-rwc-burger]");
+    if (!burger) return;
+    var navId = burger.getAttribute("aria-controls");
+    var nav = navId ? document.getElementById(navId) : null;
+    if (!nav) return;
+    var mq = window.matchMedia(MOBILE);
+    function isOpen() {
+      return burger.getAttribute("aria-expanded") === "true";
+    }
+    function setOpen(open) {
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      nav.style.display = open ? "flex" : "";
+    }
+    function close() {
+      if (isOpen()) setOpen(false);
+    }
+    burger.addEventListener("click", function() {
+      setOpen(!isOpen());
+    });
+    document.addEventListener("keydown", function(event) {
+      if (event.key !== "Escape" && event.key !== "Esc") return;
+      if (!isOpen()) return;
+      close();
+      burger.focus();
+    });
+    document.addEventListener("click", function(event) {
+      if (!isOpen()) return;
+      if (burger.contains(event.target) || nav.contains(event.target)) return;
+      close();
+    });
+    nav.addEventListener("click", function(event) {
+      if (event.target.closest("a")) close();
+    });
+    function syncToBreakpoint() {
+      if (!mq.matches) setOpen(false);
+    }
+    if (typeof mq.addEventListener === "function") {
+      mq.addEventListener("change", syncToBreakpoint);
+    } else if (typeof mq.addListener === "function") {
+      mq.addListener(syncToBreakpoint);
+    }
+    syncToBreakpoint();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+
+</script>
