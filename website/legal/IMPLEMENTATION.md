@@ -109,8 +109,10 @@ and checked on screen; the rename is also confirmed through the Data API.
       `shop.` — the hosts actually in use.
 - [x] Renamed from "Red White and Clix Email" to "Red White and Clix — Website".
 - [x] Time zone `America/New_York`, currency USD — correct as created.
-- [ ] **Add Wesley as an administrator.** The property was created on
-      2026-09-26 by the agency; the data should be the nonprofit's.
+- [x] **Wesley added as account Administrator** (`redwhiteandclix@gmail.com`)
+      on 2026-09-27, notified by email. Before this the only user was the
+      agency's `gtempaccount.com` identity, a Google temporary account — a
+      single point of failure for the nonprofit's own data.
 
 **Correction to earlier notes:** the Squarespace store at
 `shop.redwhiteandclix.org` carries **no Google tag at all**. Store visits and
