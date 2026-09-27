@@ -21,7 +21,13 @@ function status(form, text, ok) {
   el.style.display = text ? "block" : "none";
 }
 
+// Each form lands on its own confirmation page (noindex,nofollow), which is
+// what GA4 counts as the conversion. The inline message is only a fallback.
+const THANKS = { contact: "/thank-you/contact", sponsor: "/thank-you/sponsor", volunteer: "/thank-you/volunteer", newsletter: "/thank-you/newsletter" };
+
 function sent(form) {
+  const next = THANKS[form.dataset.rwcForm];
+  if (next && !location.pathname.startsWith("/thank-you/")) { location.assign(next); return; }
   const msg = form.dataset.success || "Thanks. We got it.";
   [...form.children].forEach((c) => { if (!c.classList.contains("rwc-form-status")) c.style.display = "none"; });
   status(form, msg, true);
@@ -68,7 +74,7 @@ function init(form) {
   t.value = String(Date.now());
 
   const qs = new URLSearchParams(location.search);
-  if (location.hash === `#${kind}` && qs.get("form") === "sent") sent(form);
+  if (location.hash === `#${kind}` && qs.get("form") === "sent") sent(form);   // legacy no-JS return
   if (location.hash === `#${kind}` && qs.get("form") === "error") status(form, "That didn't go through. Please check the form and try again.", false);
   const level = qs.get("level");
   if (level && kind === "sponsor") {

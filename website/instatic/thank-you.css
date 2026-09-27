@@ -1,0 +1,11 @@
+/* Thank-you pages (rwc-ty-*), applied with site_apply_css merge. */
+.rwc-ty { background-color: var(--rwc-ink); padding: var(--space-3xl) var(--space-l); font-family: var(--font-rwc-font-body); min-height: 60vh; display: flex; align-items: center; }
+.rwc-ty-inner { max-width: 44rem; margin: 0 auto; width: 100%; }
+.rwc-ty-eyebrow { font-size: var(--text-xs); letter-spacing: 0.18em; font-weight: 700; color: var(--rwc-white); opacity: 0.66; margin: 0 0 var(--space-2xs); }
+.rwc-ty-title { font-family: var(--font-rwc-font-heading); font-size: clamp(32px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.03em; color: var(--rwc-white); margin: 0 0 var(--space-m); }
+.rwc-ty-text { font-size: var(--text-m); line-height: 1.6; color: var(--rwc-white); margin: 0 0 var(--space-m); max-width: 38rem; }
+.rwc-ty-actions { display: flex; flex-wrap: wrap; gap: var(--space-s); margin: var(--space-l) 0 0; }
+.rwc-ty-btn { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 24px; border-radius: 999px; background-color: var(--rwc-action); color: var(--rwc-white); font-weight: 700; font-size: var(--text-s); text-decoration-line: none; }
+.rwc-ty-btn:hover, .rwc-ty-btn:focus-visible { background-color: var(--rwc-action-d-1); }
+.rwc-ty-link { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 4px; color: var(--rwc-white); font-weight: 700; font-size: var(--text-s); text-decoration-line: none; border-bottom: 2px solid var(--rwc-logo-red); }
+@media (max-width: 767px) { .rwc-ty { padding: var(--space-2xl) var(--space-m); min-height: 50vh; } }

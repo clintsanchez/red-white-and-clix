@@ -197,7 +197,11 @@ export const server = http.createServer(async (req, res) => {
   catch { return send(res, 400, { error: "bad request" }); }
 
   const html = !(req.headers["content-type"] || "").includes("application/json");
+  const THANKS = { contact: "/thank-you/contact", sponsor: "/thank-you/sponsor", volunteer: "/thank-you/volunteer", newsletter: "/thank-you/newsletter" };
   const back = (ok) => {
+    if (ok && THANKS[kind]) {
+      res.writeHead(303, { Location: new URL(THANKS[kind], ORIGINS[0]).toString(), "Cache-Control": "no-store" }); return res.end();
+    }
     const ref = req.headers.referer && ORIGINS.some((o) => req.headers.referer.startsWith(o)) ? new URL(req.headers.referer) : new URL(ORIGINS[0]);
     ref.searchParams.set("form", ok ? "sent" : "error"); ref.hash = kind;
     res.writeHead(303, { Location: ref.toString(), "Cache-Control": "no-store" }); res.end();

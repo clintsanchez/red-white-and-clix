@@ -35,7 +35,7 @@ r = await post("contact", { first_name: "x" }, { Origin: "https://evil.example" 
 calls.length = 0; r = await post("volunteer", { first_name: "V", email: "v@x.com", phone: "5742659585", consent: "on", interests: ["Events", "Hacking"], t: old }); assert.equal(r.status, 200);
 const vf = calls.find((c) => c.p === "/contacts/upsert").b.customFields.find((c) => c.id === "F2"); assert.deepEqual(vf.field_value, ["Events"], "unknown picklist values kept out of the picklist field");
 r = await fetch("http://127.0.0.1:18080/api/forms/newsletter", { method: "POST", headers: { "X-Forwarded-For": "10.1.1.1", "Content-Type": "application/x-www-form-urlencoded", Origin: "https://www.redwhiteandclix.org", Referer: "https://www.redwhiteandclix.org/events" }, body: "email=n%40x.com&consent=on&t=" + old, redirect: "manual" });
-assert.equal(r.status, 303); assert.match(r.headers.get("location"), /\/events\?form=sent#newsletter$/);
+assert.equal(r.status, 303); assert.equal(r.headers.get("location"), "https://www.redwhiteandclix.org/thank-you/newsletter");
 r = await post("nope", {}); assert.equal(r.status, 422);
 let n = 0; for (let i = 0; i < 8; i++) { const x = await post("newsletter", { email: "r@x.com", consent: "on", t: old }, { "X-Forwarded-For": "9.9.9.9" }); if (x.status === 429) n++; } assert.ok(n >= 1, "rate limit");
 calls.length = 0; r = await post("sponsor", { first_name: "S", email: "s@x.com", organization: "Acme", sponsor_level: "Event Sponsor", notes: "Call me", consent: "on", t: old }); assert.equal(r.status, 200);

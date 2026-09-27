@@ -58,6 +58,12 @@ Sitemap: https://www.redwhiteandclix.org/sitemap.xml
 		@storeproduct path /shop/p/*
 		redir @storeproduct https://shop.redwhiteandclix.org{uri} permanent
 
+		# Form confirmation pages exist only to confirm a submission (and to be
+		# GA4's conversion page views). Keep them out of search at the header
+		# level too, so they stay hidden even if the page's meta tag is lost.
+		@thanks path /thank-you /thank-you/*
+		header @thanks X-Robots-Tag "noindex, nofollow"
+
 		# Website forms -> the `forms` service (deploy/railway/forms), which
 		# upserts the contact into GoHighLevel. Private network only; the GHL
 		# key lives on that service, never in this public repository.
