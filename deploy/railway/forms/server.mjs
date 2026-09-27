@@ -30,15 +30,15 @@ const FORMS = {
   },
   sponsor: {
     tag: "web-form-sponsor", required: ["first_name", "email", "organization"],
-    custom: { sponsor_level: { key: "sponsor_level" }, notes: { key: "notes" } },
+    custom: { sponsor_level: { key: "sponsor_level", label: "Sponsorship level" }, notes: { key: "notes" } },
   },
   newsletter: { tag: "web-form-newsletter", required: ["email"], custom: {} },
   volunteer: {
     tag: "web-form-volunteer", required: ["first_name", "email", "phone"],
     custom: {
-      interests: { key: "volunteer_interests", multi: true },
-      availability: { key: "volunteer_availability", multi: true },
-      under_18: { key: "guardian_required" },
+      interests: { key: "volunteer_interests", multi: true, label: "Would like to help with" },
+      availability: { key: "volunteer_availability", multi: true, label: "Availability" },
+      under_18: { key: "guardian_required", label: "Under 18" },
       emergency_contact: { key: "emergency_contact" },
     },
   },
@@ -109,20 +109,32 @@ export async function submit(kind, body) {
   const spec = FORMS[kind];
   const fmap = await fields();
   const customFields = [];
+  // A choice the site offers but the GHL picklist does not know yet is kept
+  // as a line in Notes rather than dropped, so nothing the visitor chose is lost.
+  const unmatched = [];
   for (const [input, def] of Object.entries(spec.custom)) {
     let v = body[input];
     if (v == null || v === "") continue;
     const f = fmap[def.key];
     if (!f) throw new Error(`custom field missing in GHL: ${def.key}`);
+    const allowed = f.picklistOptions ? new Set(f.picklistOptions) : null;
     if (def.multi) {
-      const allowed = new Set(f.picklistOptions || []);
-      v = (Array.isArray(v) ? v : [v]).map((x) => clip(x, 200)).filter((x) => allowed.has(x));
+      const all = (Array.isArray(v) ? v : [v]).map((x) => clip(x, 200)).filter(Boolean);
+      v = allowed ? all.filter((x) => allowed.has(x)) : all;
+      const extra = allowed ? all.filter((x) => !allowed.has(x)) : [];
+      if (extra.length) unmatched.push(`${def.label || def.key}: ${extra.join(", ")}`);
       if (!v.length) continue;
     } else {
       v = clip(v);
-      if (f.picklistOptions && !f.picklistOptions.includes(v)) continue;
+      if (allowed && !allowed.has(v)) { unmatched.push(`${def.label || def.key}: ${v}`); continue; }
     }
     customFields.push({ id: f.id, field_value: v });
+  }
+  if (unmatched.length && fmap.notes) {
+    const i = customFields.findIndex((c) => c.id === fmap.notes.id);
+    const prefix = unmatched.join(" | ");
+    if (i >= 0) customFields[i].field_value = clip(`${prefix} | ${customFields[i].field_value}`);
+    else customFields.push({ id: fmap.notes.id, field_value: clip(prefix) });
   }
   const contact = {
     locationId: LOC,

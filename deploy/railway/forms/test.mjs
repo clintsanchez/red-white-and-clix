@@ -33,9 +33,13 @@ calls.length = 0; r = await post("contact", { first_name: "Bot", email: "b@x.com
 r = await post("contact", { first_name: "Fast", email: "f@x.com", message: "x", consent: "on", t: Date.now() }); assert.equal(r.status, 200); assert.equal(calls.length, 0, "too-fast must not reach GHL");
 r = await post("contact", { first_name: "x" }, { Origin: "https://evil.example" }); assert.equal(r.status, 403);
 calls.length = 0; r = await post("volunteer", { first_name: "V", email: "v@x.com", phone: "5742659585", consent: "on", interests: ["Events", "Hacking"], t: old }); assert.equal(r.status, 200);
-const vf = calls.find((c) => c.p === "/contacts/upsert").b.customFields.find((c) => c.id === "F2"); assert.deepEqual(vf.field_value, ["Events"], "unknown picklist values dropped");
+const vf = calls.find((c) => c.p === "/contacts/upsert").b.customFields.find((c) => c.id === "F2"); assert.deepEqual(vf.field_value, ["Events"], "unknown picklist values kept out of the picklist field");
 r = await fetch("http://127.0.0.1:18080/api/forms/newsletter", { method: "POST", headers: { "X-Forwarded-For": "10.1.1.1", "Content-Type": "application/x-www-form-urlencoded", Origin: "https://www.redwhiteandclix.org", Referer: "https://www.redwhiteandclix.org/events" }, body: "email=n%40x.com&consent=on&t=" + old, redirect: "manual" });
 assert.equal(r.status, 303); assert.match(r.headers.get("location"), /\/events\?form=sent#newsletter$/);
 r = await post("nope", {}); assert.equal(r.status, 422);
 let n = 0; for (let i = 0; i < 8; i++) { const x = await post("newsletter", { email: "r@x.com", consent: "on", t: old }, { "X-Forwarded-For": "9.9.9.9" }); if (x.status === 429) n++; } assert.ok(n >= 1, "rate limit");
+calls.length = 0; r = await post("sponsor", { first_name: "S", email: "s@x.com", organization: "Acme", sponsor_level: "Event Sponsor", notes: "Call me", consent: "on", t: old }); assert.equal(r.status, 200);
+const sp = calls.find((c) => c.p === "/contacts/upsert").b; assert.equal(sp.companyName, "Acme"); assert.equal(sp.customFields.find((c) => c.id === "F4").field_value, "Sponsorship level: Event Sponsor | Call me");
+calls.length = 0; r = await post("volunteer", { first_name: "V2", email: "v2@x.com", phone: "5742659585", consent: "on", interests: ["Events", "Judging"], t: old }); assert.equal(r.status, 200);
+const vv = calls.find((c) => c.p === "/contacts/upsert").b.customFields; assert.deepEqual(vv.find((c) => c.id === "F2").field_value, ["Events"]); assert.equal(vv.find((c) => c.id === "F4").field_value, "Would like to help with: Judging");
 console.log("all tests passed"); server.close(); mock.close();
