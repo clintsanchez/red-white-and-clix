@@ -93,16 +93,32 @@ function stripCanonical(html: string): string {
 }
 
 /** Read the rendered <title> so og:title can mirror it on entry routes. */
+/**
+ * Values read back out of the document are already HTML-escaped, and every
+ * consumer below runs them through escapeAttr again. Without decoding first, a
+ * title containing "&" ships as "&amp;amp;" and every social card renders the
+ * literal text "&amp;". Decode &amp; last, or "&amp;lt;" collapses to "<".
+ */
+function decodeEntities(value: string): string {
+  return value
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#0?39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, '&')
+}
+
 function existingTitle(html: string): string {
   const match = html.match(/<title>([\s\S]*?)<\/title>/i)
-  return match ? match[1].trim() : ''
+  return match ? decodeEntities(match[1].trim()) : ''
 }
 
 function existingDescription(html: string): string {
   const match = html.match(
     /<meta[^>]*\bname=["']description["'][^>]*\bcontent=["']([^"']*)["'][^>]*>/i,
   )
-  return match ? match[1].trim() : ''
+  return match ? decodeEntities(match[1].trim()) : ''
 }
 
 function applyTitleSuffix(title: string, suffix: string): string {

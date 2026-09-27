@@ -24,7 +24,7 @@ import { definePlugin, permissions } from '@core/plugin-sdk'
 export default definePlugin({
   id: 'blaksheep.seo',
   name: 'BlakSheep SEO',
-  version: '1.1.1',
+  version: '1.1.2',
   description:
     'Per-page meta title, description, canonical URL and social tags, edited from a panel in the site editor.',
   author: {
