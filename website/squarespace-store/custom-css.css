@@ -50,6 +50,30 @@ h1,h2,h3 { font-family:var(--rwc-head); color:var(--rwc-ink); letter-spacing:-.0
 .header .header-nav-item--active > a{ background:none !important; text-decoration:none !important; }
 .header .header-nav-item > a:after{ display:none !important; }   /* Squarespace underline */
 
+/* Squarespace paints its own white layer behind the header; make it black. */
+.header .header-background-solid{ background:var(--rwc-black) !important; }
+/* www right-aligns the nav pill against Donate. Squarespace centres the nav
+   with auto margins, and its 67% title basis stops the nav shrinking, which
+   pushed seven links under Donate at 1024px. */
+.header-display-desktop .header-title-nav-wrapper{ flex:1 1 auto !important; min-width:0; }
+.header-display-desktop .header-nav{ margin-left:auto !important; margin-right:0 !important; }
+.header-display-desktop .header-actions{ flex:0 0 auto !important; padding-left:10px !important; }
+/* Tighten the links as the window narrows; Squarespace's own mobile menu
+   takes over below 768px. Checked with no overlap at 800-1440px. */
+@media (max-width:1200px){
+  .header .header-nav-item > a{ font-size:14px !important; padding:6px 10px !important; }
+}
+@media (max-width:1060px){
+  .header .header-nav-item > a{ font-size:13px !important; padding:6px 7px !important; }
+  .header .header-nav-list{ padding-left:8px !important; }
+  .header .header-inner{ padding-left:20px !important; padding-right:20px !important; }
+}
+@media (max-width:900px){
+  .header .header-nav-item > a{ font-size:12px !important; padding:5px 5px !important; }
+  .header .header-title-logo img{ max-height:48px !important; }
+  .header .header-inner{ padding-left:14px !important; padding-right:14px !important; }
+}
+
 /* Squarespace's header "Button" element becomes the red Donate pill. */
 .header .header-actions-action--cta a,
 .header .header-actions-action--cta .btn,

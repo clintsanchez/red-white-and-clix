@@ -4,10 +4,10 @@ Everything below is done in the store's Squarespace admin
 (`arugula-lily-jaaz.squarespace.com/config`).
 
 **Status 2026-09-27:** steps 1–7 are applied and verified on the live store.
-One item is left for a person: the old **Veteran Resources folder**, which
-holds "List of Resources" → `/home#veteraninformation`, is still in Main
-Navigation. It shows as a second "Veteran Resources" in the nav. Drag it to
-Not Linked or delete it. The automated session could not do either.
+The old Veteran Resources folder is in Not Linked. Main Navigation mirrors
+www: Events · Prizes · Our Mission · Founder's Story · Veteran Resources ·
+Shop · Support Us. Every link opens in the same tab. When www's nav changes,
+change this list too.
 
 ## 1. Custom CSS
 Website → Pages → Website Tools → **Custom CSS**. Replace the contents with
@@ -29,7 +29,9 @@ order them:
 | Title | URL |
 |---|---|
 | Events | https://www.redwhiteandclix.org/events |
+| Prizes | https://www.redwhiteandclix.org/prizes |
 | Our Mission | https://www.redwhiteandclix.org/mission |
+| Founder’s Story | https://www.redwhiteandclix.org/founder |
 | Veteran Resources | https://www.redwhiteandclix.org/resources |
 | Shop | (the existing Shop page) |
 | Support Us | https://www.redwhiteandclix.org/support |
