@@ -178,3 +178,9 @@ Nonprofits admin (confirmed); CRM walkthrough whenever Clint is ready. **New, un
 Clint help; (b) his view of the logo and the "official OG logo + allowed variants" policy,
 including a G.I. Joe variant the board likes. G.I. Joe is a Hasbro trademark: advise
 before any variant is used publicly.
+
+**Checked 2026-09-28:** nothing new from Wesley by email or iMessage since his 2026-09-27
+22:41 reply, and no change requests outstanding. **Owed by Clint:** a proper answer on
+branding and the logo/variants question (raise the G.I. Joe / Hasbro trademark point
+there; `brand/guidelines.md` covers most of it), and scheduling the CRM walkthrough.
+**Owed by Wesley:** the full-size Humvee photo (only the Facebook thumbnail is on the site).
