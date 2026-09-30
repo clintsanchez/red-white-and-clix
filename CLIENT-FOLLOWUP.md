@@ -192,3 +192,7 @@ mockup (missing from the email; wanted as a spinning coin). Also open from that 
 the CRM walkthrough (he's laid up 09-29 to ~10-01 and offered those days), a traffic
 report (texted 09-28), and social profiles beyond Facebook (Clint said yes). Embleholics
 is not yet in the sponsors data table.
+
+**2026-09-30:** emailed Wesley (Challenge Coin thread) that the prize tiers and the coin
+section are live, asked him to resend the coin mockup, and offered the CRM walkthrough
+while he recovers. Waiting on his reply.
