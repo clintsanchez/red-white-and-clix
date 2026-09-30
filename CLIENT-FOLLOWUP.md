@@ -184,3 +184,11 @@ before any variant is used publicly.
 branding and the logo/variants question (raise the G.I. Joe / Hasbro trademark point
 there; `brand/guidelines.md` covers most of it), and scheduling the CRM walkthrough.
 **Owed by Wesley:** the full-size Humvee photo (only the Facebook thumbnail is on the site).
+
+**2026-09-29 — actioned Wesley's 09-28 "Challenge Coin" email:** tournament prize tiers
+(300 Modern, Team Sealed) and an Embleholics 50-challenge-coin feature are live on
+/prizes, and the event page links to them. **Still needed from Wesley:** the coin
+mockup (missing from the email; wanted as a spinning coin). Also open from that thread:
+the CRM walkthrough (he's laid up 09-29 to ~10-01 and offered those days), a traffic
+report (texted 09-28), and social profiles beyond Facebook (Clint said yes). Embleholics
+is not yet in the sponsors data table.
